@@ -16,4 +16,4 @@ simpleAnalisys.columns = ["party_id", "count"]
 simpleAnalisys = simpleAnalisys.assign(pos=lambda _: _.index + 1, mrkt_shr=lambda _: _["count"] / total_rows)
 simpleAnalisys = simpleAnalisys.assign(mrkt_shr_acc=simpleAnalisys["mrkt_shr"].cumsum())
 simpleAnalisys.insert(0, "idx", simpleAnalisys.pop("pos"))
-simpleAnalisys.to_csv(analysisOutPath, sep=";", index=None, mode="w")
+simpleAnalisys.to_csv(analysisOutPath, sep=",", index=None, mode="w")
