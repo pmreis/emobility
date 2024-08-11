@@ -1,11 +1,13 @@
 import pandas as pd
+import os.path as osp
 
-BASE_DATA_SOURCE_PATH = "data/sources"
-BASE_DATA_OUTPUT_PATH = "data/outputs"
+BASE_DATA_SOURCE_PATH = "./../data/sources"
+BASE_DATA_OUTPUT_PATH = "./../data/outputs"
 
-mobieJsonData = f"{BASE_DATA_SOURCE_PATH}/mobie_locations.json"
+mobieInPath = osp.normpath(f"{BASE_DATA_SOURCE_PATH}/mobie_locations.json")
+analysisOutPath = osp.normpath(f"{BASE_DATA_OUTPUT_PATH}/simpleAnalysis.csv")
 
-df = pd.read_json(mobieJsonData)
+df = pd.read_json(mobieInPath)
 dfnorm = pd.json_normalize(df["data"])
 total_rows = dfnorm.shape[0]
 
@@ -14,4 +16,4 @@ simpleAnalisys.columns = ["party_id", "count"]
 simpleAnalisys = simpleAnalisys.assign(pos=lambda _: _.index + 1, mrkt_shr=lambda _: _["count"] / total_rows)
 simpleAnalisys = simpleAnalisys.assign(mrkt_shr_acc=simpleAnalisys["mrkt_shr"].cumsum())
 simpleAnalisys.insert(0, "idx", simpleAnalisys.pop("pos"))
-simpleAnalisys.to_csv(f"{BASE_DATA_OUTPUT_PATH}/simpleAnalysis.csv", sep=";", index=None, mode="w")
+simpleAnalisys.to_csv(analysisOutPath, sep=";", index=None, mode="w")
