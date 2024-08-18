@@ -85,3 +85,17 @@ NOTE: Mobi.e's reach and responsabilities extend beyond a NAP
 
 - Info: https://mobie.pt/en/mobienetwork/finding-charging-points
 - Docs: https://www.mobie.pt/en/mobility/technical-rules-procedures
+
+
+## Possible barriers for eMobility in Portugal
+
+### Autoridade da Concorrência (AdC)
+
+The Portuguese Competition Authority – Autoridade da Concorrência (AdC) carried out an analysis of the competition conditions in the electric vehicle recharging sector, which resulted in the identification of barriers that could jeopardise the development and expansion of an electric vehicle recharging network with adequate, efficient, and competitive coverage.
+
+ ![AdC](legal/AdC_Barriers_Recommendations.jpg)
+
+**Sources**:
+- One Pager EN: https://www.concorrencia.pt/en/articles/adc-detects-barriers-expansion-electric-vehicle-recharging-network-and-issues
+- One Pager PT: https://www.concorrencia.pt/pt/artigos/adc-deteta-barreiras-expansao-da-rede-de-mobilidade-eletrica-e-emite-recomendacoes-ao
+- Complete report on study (Portuguese Only): [AdC Report](legal/Adc_Report.pdf)
