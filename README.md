@@ -51,7 +51,7 @@ More info:
 
 ## The Fit for 55 package
 
-The Fit for 55 package is a central part of the European Green Deal. It consists of a set of legislative proposals designed to ensure that the European Union (EU) meets its target of reducing greenhouse gas emissions by 55% by 2030 (compared to 1990 levels), which is a crucial milestone towards achieving the broader goal of climate neutrality by 2050 as outlined in the European Green Deal.
+The **Fit for 55 package** is a central part of the **European Green Deal**. It consists of a set of legislative proposals designed to ensure that the European Union (EU) meets its target of reducing greenhouse gas emissions by 55% by 2030 (compared to 1990 levels), which is a crucial milestone towards achieving the broader goal of climate neutrality by 2050 as outlined in the European Green Deal.
 
  ![fit-4-55](legal/fit-for-55-actions.png)
 
@@ -59,7 +59,7 @@ More info: https://www.consilium.europa.eu/en/policies/green-deal/fit-for-55/
 
 ## AFIR - Alternative Fuels Infrastructure Regulation
 
-The Alternative Fuels Infrastructure Regulation (AFIR) is a key legislative proposal within the Fit for 55 package, which itself is part of the broader European Green Deal. AFIR aims to establish a comprehensive and cohesive infrastructure across the European Union for alternative fuels, such as electricity, hydrogen, and biofuels, to support the decarbonization of the transport sector.
+The **Alternative Fuels Infrastructure Regulation (AFIR)** is a key legislative proposal within the **Fit for 55 package**, which itself is part of the broader **European Green Deal**. AFIR aims to establish a comprehensive and cohesive infrastructure across the European Union for alternative fuels, such as electricity, hydrogen, and biofuels, to support the decarbonization of the transport sector.
 
 - Info EN: https://eur-lex.europa.eu/EN/legal-content/summary/deployment-of-alternative-fuels-infrastructure.html
 - Info PT: https://eur-lex.europa.eu/PT/legal-content/summary/deployment-of-alternative-fuels-infrastructure.html
@@ -70,7 +70,7 @@ The Alternative Fuels Infrastructure Regulation (AFIR) is a key legislative prop
 ## Portuguese Law
 
 - DL 39/2010: https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2010-171436738
-- Regulation: [RME](legal/RME%20Consolidado%202021.pdf)
+- Regulation (Portuguese Only): [RME](legal/RME%20Consolidado%202021.pdf)
 
 ## National Access Points (NAP)
 
