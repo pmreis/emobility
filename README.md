@@ -99,3 +99,10 @@ The Portuguese Competition Authority – Autoridade da Concorrência (AdC) carri
 - Main Page EN: https://www.concorrencia.pt/en/articles/adc-detects-barriers-expansion-electric-vehicle-recharging-network-and-issues
 - Main Page PT: https://www.concorrencia.pt/pt/artigos/adc-deteta-barreiras-expansao-da-rede-de-mobilidade-eletrica-e-emite-recomendacoes-ao
 - Complete report on study (Portuguese Only): [AdC Report](legal/Adc_Report.pdf)
+
+### AVERE
+
+AVERE has taken note of the preliminary report of the Estudo concorrência e mobilidade elétrica em Portugal and wish to express our agreement with the intention of the recommendations made to the Portuguese government to make fundamental changes to the Portuguese recharging network, to improve the current system in benefit of BEV users.
+
+- Blog Page: https://www.avere.org/blogpages/policy-details/2024/03/05/AVEREs-Reaction-Letter-to-the-Report-on-Recharging-Network-Published-by-the-Portuguese-Competition-Authority
+- Reaction Letter: [AVERE's Reaction Letter](legal/AVERE_Reaction_Letter_AdC.pdf)
