@@ -96,6 +96,6 @@ The Portuguese Competition Authority – Autoridade da Concorrência (AdC) carri
  ![AdC](legal/AdC_Barriers_Recommendations.jpg)
 
 **Sources**:
-- One Pager EN: https://www.concorrencia.pt/en/articles/adc-detects-barriers-expansion-electric-vehicle-recharging-network-and-issues
-- One Pager PT: https://www.concorrencia.pt/pt/artigos/adc-deteta-barreiras-expansao-da-rede-de-mobilidade-eletrica-e-emite-recomendacoes-ao
+- Main Page EN: https://www.concorrencia.pt/en/articles/adc-detects-barriers-expansion-electric-vehicle-recharging-network-and-issues
+- Main Page PT: https://www.concorrencia.pt/pt/artigos/adc-deteta-barreiras-expansao-da-rede-de-mobilidade-eletrica-e-emite-recomendacoes-ao
 - Complete report on study (Portuguese Only): [AdC Report](legal/Adc_Report.pdf)
