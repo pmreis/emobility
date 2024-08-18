@@ -45,7 +45,7 @@ More info:
 
 The Fit for 55 package is a central part of the European Green Deal. It consists of a set of legislative proposals designed to ensure that the European Union (EU) meets its target of reducing greenhouse gas emissions by 55% by 2030 (compared to 1990 levels), which is a crucial milestone towards achieving the broader goal of climate neutrality by 2050 as outlined in the European Green Deal.
 
- ![fit-4-55](legal\fit-for-55-actions.png)
+ ![fit-4-55](legal/fit-for-55-actions.png)
 
 More info: https://www.consilium.europa.eu/en/policies/green-deal/fit-for-55/
 
