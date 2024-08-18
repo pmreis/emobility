@@ -6,7 +6,15 @@ Here you can find references to legal frameworks, existing APIs, documentation a
 
 The goal is to track the evolution of sustainable mobility milestones on each European country and also find inconsistencies and blockers.
 
+**Structure**
+
+- ./data  - contains data sources and analysis outputs
+- ./docs  - contains technical documents (mainly in PDF)
+- ./legal - contains legal documents (mainly in PDF)
+- ./src   - contains source code
+
 > NOTE: Work in Progress. Join the cause!
+
 
 ## The European Green Deal
 
@@ -62,7 +70,7 @@ The Alternative Fuels Infrastructure Regulation (AFIR) is a key legislative prop
 ## Portuguese Law
 
 - DL 39/2010: https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2010-171436738
-- Regulation: [RME](docs/RME%20Consolidado%202021.pdf)
+- Regulation: [RME](legal/RME%20Consolidado%202021.pdf)
 
 ## National Access Points (NAP)
 
