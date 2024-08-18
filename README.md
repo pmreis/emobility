@@ -15,7 +15,6 @@ The goal is to track the evolution of sustainable mobility milestones on each Eu
 
 > NOTE: Work in Progress. Join the cause!
 
-
 ## The European Green Deal
 
 The European Green Deal is a set of policy initiatives launched by the European Union (EU) aimed at making Europe the first climate-neutral continent by 2050. This means reducing greenhouse gas emissions to a level where they are balanced by removal or offsetting, effectively eliminating the net contribution to global warming.
@@ -61,15 +60,16 @@ More info: https://www.consilium.europa.eu/en/policies/green-deal/fit-for-55/
 
 The **Alternative Fuels Infrastructure Regulation (AFIR)** is a key legislative proposal within the **Fit for 55 package**, which itself is part of the broader **European Green Deal**. AFIR aims to establish a comprehensive and cohesive infrastructure across the European Union for alternative fuels, such as electricity, hydrogen, and biofuels, to support the decarbonization of the transport sector.
 
-- Info EN: https://eur-lex.europa.eu/EN/legal-content/summary/deployment-of-alternative-fuels-infrastructure.html
-- Info PT: https://eur-lex.europa.eu/PT/legal-content/summary/deployment-of-alternative-fuels-infrastructure.html
-- Proposal: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021PC0559
-- Regulation: https://eur-lex.europa.eu/eli/reg/2023/1804/oj
-- Q&A: https://transport.ec.europa.eu/transport-themes/clean-transport/alternative-fuels-sustainable-mobility-europe/alternative-fuels-infrastructure/questions-and-answers-regulation-deployment-alternative-fuels-infrastructure-eu-20231804_en
+- [Summary Info EN](https://eur-lex.europa.eu/EN/legal-content/summary/deployment-of-alternative-fuels-infrastructure.html)
+- [Summary Info PT](https://eur-lex.europa.eu/PT/legal-content/summary/deployment-of-alternative-fuels-infrastructure.html)
+- [Proposal](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021PC0559)
+- [Regulation](https://eur-lex.europa.eu/eli/reg/2023/1804/oj)
+- [Q&A](https://transport.ec.europa.eu/transport-themes/clean-transport/alternative-fuels-sustainable-mobility-europe/alternative-fuels-infrastructure/questions-and-answers-regulation-deployment-alternative-fuels-infrastructure-eu-20231804_en)
 
 ## Portuguese Law
 
-- DL 39/2010: https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2010-171436738
+- [DL 39/2010 @ Journal of the Republic](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2010-171436738)
+- [DL 39/2010 as PDF](legal/DL_39_2010.pdf)
 - Regulation (Portuguese Only): [RME](legal/RME%20Consolidado%202021.pdf)
 
 ## National Access Points (NAP)
@@ -96,8 +96,8 @@ The Portuguese Competition Authority – Autoridade da Concorrência (AdC) carri
  ![AdC](legal/AdC_Barriers_Recommendations.jpg)
 
 **Sources**:
-- Main Page EN: https://www.concorrencia.pt/en/articles/adc-detects-barriers-expansion-electric-vehicle-recharging-network-and-issues
-- Main Page PT: https://www.concorrencia.pt/pt/artigos/adc-deteta-barreiras-expansao-da-rede-de-mobilidade-eletrica-e-emite-recomendacoes-ao
+- [Main Page EN](https://www.concorrencia.pt/en/articles/adc-detects-barriers-expansion-electric-vehicle-recharging-network-and-issues)
+- [Main Page PT](https://www.concorrencia.pt/pt/artigos/adc-deteta-barreiras-expansao-da-rede-de-mobilidade-eletrica-e-emite-recomendacoes-ao)
 - Complete report on study (Portuguese Only): [AdC Report](legal/Adc_Report.pdf)
 - One Pager PT: [AdC One Pager PT](legal/AdC_One_Pager_PT.pdf)
 - One Pager EN: [AdC One Pager EN](legal/AdC_One_Pager_EN.pdf)
@@ -106,5 +106,5 @@ The Portuguese Competition Authority – Autoridade da Concorrência (AdC) carri
 
 AVERE has taken note of the preliminary report of the Estudo concorrência e mobilidade elétrica em Portugal and wish to express our agreement with the intention of the recommendations made to the Portuguese government to make fundamental changes to the Portuguese recharging network, to improve the current system in benefit of BEV users.
 
-- Blog Page: https://www.avere.org/blogpages/policy-details/2024/03/05/AVEREs-Reaction-Letter-to-the-Report-on-Recharging-Network-Published-by-the-Portuguese-Competition-Authority
+- [Blog Page](https://www.avere.org/blogpages/policy-details/2024/03/05/AVEREs-Reaction-Letter-to-the-Report-on-Recharging-Network-Published-by-the-Portuguese-Competition-Authority)
 - Reaction Letter: [AVERE's Reaction Letter](legal/AVERE_Reaction_Letter_AdC.pdf)
