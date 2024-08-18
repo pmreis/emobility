@@ -4,7 +4,7 @@ A repository containing a wide range of information related with electric mobili
 
 Here you can find references to legal frameworks, existing APIs, documentation and data.
 
-The goal is to track the evolution of sustainable mobility goals on each European country and also find inconsistencies and blockers.
+The goal is to track the evolution of sustainable mobility milestones on each European country and also find inconsistencies and blockers.
 
 > NOTE: Work in Progress. Join the cause!
 
