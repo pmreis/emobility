@@ -71,6 +71,7 @@ The **Alternative Fuels Infrastructure Regulation (AFIR)** is a key legislative 
 - [DL 39/2010 @ Journal of the Republic](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2010-171436738)
 - [DL 39/2010 as PDF](legal/DL_39_2010.pdf)
 - Regulation (Portuguese Only): [RME](legal/RME%20Consolidado.pdf)
+- RME Changes between 2021 and 2023: [RME Diff](legal/RME_Diff_2021_2023.pdf)
 
 ## National Access Points (NAP)
 
