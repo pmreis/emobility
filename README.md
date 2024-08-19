@@ -63,7 +63,7 @@ The **Alternative Fuels Infrastructure Regulation (AFIR)** is a key legislative 
 - [Summary Info EN](https://eur-lex.europa.eu/EN/legal-content/summary/deployment-of-alternative-fuels-infrastructure.html)
 - [Summary Info PT](https://eur-lex.europa.eu/PT/legal-content/summary/deployment-of-alternative-fuels-infrastructure.html)
 - [Proposal](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021PC0559)
-- [Regulation](https://eur-lex.europa.eu/eli/reg/2023/1804/oj)
+- [Regulation](http://data.europa.eu/eli/reg/2023/1804/oj)
 - [Q&A](https://transport.ec.europa.eu/transport-themes/clean-transport/alternative-fuels-sustainable-mobility-europe/alternative-fuels-infrastructure/questions-and-answers-regulation-deployment-alternative-fuels-infrastructure-eu-20231804_en)
 
 ## Portuguese Law
