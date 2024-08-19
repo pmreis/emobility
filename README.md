@@ -60,8 +60,8 @@ More info: https://www.consilium.europa.eu/en/policies/green-deal/fit-for-55/
 
 The **Alternative Fuels Infrastructure Regulation (AFIR)** is a key legislative proposal within the **Fit for 55 package**, which itself is part of the broader **European Green Deal**. AFIR aims to establish a comprehensive and cohesive infrastructure across the European Union for alternative fuels, such as electricity, hydrogen, and biofuels, to support the decarbonization of the transport sector.
 
-- [Summary Info EN](https://eur-lex.europa.eu/EN/legal-content/summary/deployment-of-alternative-fuels-infrastructure.html)
-- [Summary Info PT](https://eur-lex.europa.eu/PT/legal-content/summary/deployment-of-alternative-fuels-infrastructure.html)
+- [Summary Info EN](http://eur-lex.europa.eu/EN/legal-content/summary/deployment-of-alternative-fuels-infrastructure.html)
+- [Summary Info PT](http://eur-lex.europa.eu/PT/legal-content/summary/deployment-of-alternative-fuels-infrastructure.html)
 - [Proposal](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021PC0559)
 - [Regulation](http://data.europa.eu/eli/reg/2023/1804/oj)
 - [Q&A](https://transport.ec.europa.eu/transport-themes/clean-transport/alternative-fuels-sustainable-mobility-europe/alternative-fuels-infrastructure/questions-and-answers-regulation-deployment-alternative-fuels-infrastructure-eu-20231804_en)
