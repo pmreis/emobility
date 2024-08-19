@@ -16,7 +16,7 @@ The goal is to track the evolution of sustainable mobility milestones on each Eu
 ## Table of contents
 1. [The European Green Deal](#the-european-green-deal)
 2. [The Fit for 55 package](#the-fit-for-55-package)
-3. [AFIR](#afir)
+3. [AFIR - Alternative Fuels Infrastructure Regulation](#afir---alternative-fuels-infrastructure-regulation)
 
 > NOTE: Work in Progress. Join the cause!
 
