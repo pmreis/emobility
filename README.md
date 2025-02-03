@@ -92,8 +92,17 @@ The **Alternative Fuels Infrastructure Regulation (AFIR)** is a key legislative 
 
 ### Portugal -Mobi.e
 
-NOTE: Mobi.e's reach and responsabilities extend beyond a NAP
+#### NOTES:
+1. Mobi.e's reach and responsibilities extend beyond a NAP.
+2. Mobi.e is a monopoly established by law, as recognized by the national energy regulator ERSE. 
 
+ | ![mobie=monopoly](legal/ERSE_Mobie_Monopoly.png) |
+ |:--:|
+ | *image source: https://www.erse.pt/en/eletric-mobility/functioning/* |
+
+ The monopoly status of Mobi.e can also be verified in the official report on page 180 of the PDF.
+- [ERSE Annual Report 2020, copy](legal/ERSE_relatorio_ce_2020_pt.pdf)
+- [ERSE Annual Report 2020, online](https://www.erse.pt/media/3cdpftgs/relat%C3%B3rio_ce-2020_pt.pdf)
 - Info: https://mobie.pt/en/mobienetwork/finding-charging-points
 - Docs: https://www.mobie.pt/en/mobility/technical-rules-procedures
 
@@ -112,6 +121,40 @@ The Portuguese Competition Authority – Autoridade da Concorrência (AdC) carri
 - Complete report on study (Portuguese Only): [AdC Report](legal/Adc_Report.pdf)
 - One Pager PT: [AdC One Pager PT, v2](legal/AdC_One_Pager_PT.pdf)
 - One Pager EN: [AdC One Pager EN, v1](legal/AdC_One_Pager_EN.pdf)
+
+
+
+| Num |         Entity        | Stance   |   PDF    |
+|-----|-----------------------|----------|----------|
+|  1  | Amme                  |          |          |
+|  2  | ANMP                  |          |          |
+|  3  | Apocme                |          |          |
+|  4  | Apren                 |          |          |
+|  5  | ASFAC                 |          |          |
+|  6  | Avere                 |          |          |
+|  7  | CM Odivelas           |          |          |
+|  8  | DECO                  |          |          |
+|  9  | DGC                   |          |          |
+|  10 | EDP                   |          |          |
+|  11 | Elergone energia      |          |          |
+|  12 | Emel                  |          |          |
+|  13 | Endesa                |          |          |
+|  14 | ENSE                  |          |          |
+|  15 | E-Redes               |          |          |
+|  16 | Evio                  |          |          |
+|  17 | Galp                  |          |          |
+|  18 | Helexia               |          |          |
+|  19 | Iberdrola- BP Pulse   |          |          |
+|  20 | Iberdrola             |          |          |
+|  21 | IMT                   |          |          |
+|  22 | miio                  |          |          |
+|  23 | Mobi.E                |          |          |
+|  24 | Renewing              |          |          |
+|  25 | Tesla                 |          |          |
+|  26 | UVE                   |          |          |
+|  27 | ERSE                  |          |          |
+
+
 
 ### AVERE
 
