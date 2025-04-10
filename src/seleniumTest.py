@@ -21,8 +21,7 @@ options = [
     "--ignore-certificate-errors",
     "--disable-extensions",
     "--no-sandbox",
-    "--disable-dev-shm-usage",
-    "--lang=pt-PT"
+    "--disable-dev-shm-usage"
 ]
 for option in options:
     chrome_options.add_argument(option)
@@ -38,7 +37,7 @@ driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
 })
 
 try:
-    driver.get("https://mobie.pt/redemobie/encontrar-posto")
+    driver.get("https://mobie.pt/en/mobienetwork/finding-charging-points")
     print("Wait a few seconds for page to fully load")
     time.sleep(10)
 
