@@ -25,12 +25,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
-    #- name: Remove Chrome
-    #  run: sudo apt purge google-chrome-stable
-    #- name: Remove default Chromium
-    #  run: sudo apt purge chromium-browser
-    #- name: Install a new Chromium
-    #  run: sudo apt install -y chromium-browser
+    - name: Remove Chrome
+      run: sudo apt purge google-chrome-stable
+    - name: Remove default Chromium
+      run: sudo apt purge chromium-browser
+    - name: Install a new Chromium
+      run: sudo apt install -y chromium-browser
     - name: Install all necessary packages
       run: pip install requests beautifulsoup4 pandas webdriver-manager selenium blinker==1.7.0
 
