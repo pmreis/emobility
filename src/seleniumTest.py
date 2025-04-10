@@ -3,6 +3,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.chrome import ChromeType
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from seleniumwire import webdriver
 import time
 import json
 
