@@ -37,10 +37,6 @@ jobs:
     - name: Run selenium driver
       run: |
         python ./src/seleniumTest.py
-         
-    - name: Fetch latest data
-      run: |
-        curl https://www.mapareve.es/api/public/v1/locations/3b992d0e-9b07-47a0-a4cd-8a75b547d777 > ./data/sources/sample.json
 
     - name: Commit and push if it changed
       run: |
