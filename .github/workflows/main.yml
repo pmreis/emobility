@@ -32,7 +32,7 @@ jobs:
     - name: Install a new Chromium
       run: sudo apt install -y chromium-browser
     - name: Install all necessary packages
-      run: pip install requests beautifulsoup4 pandas webdriver-manager selenium      
+      run: pip install requests beautifulsoup4 pandas webdriver-manager selenium blinker
 
     - name: Run simple analysis
       run: |
