@@ -32,7 +32,7 @@ try:
 
     for request in driver.requests:
         if "mobierest/locations" in request.url and request.response:
-            data = request.response.body.decode("utf-8")
+            data = request.response.body
             print("locations size is " + str(len(data)))
             json_data = json.loads(data)
 
