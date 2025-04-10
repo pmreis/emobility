@@ -27,4 +27,4 @@ jobs:
 
     - name: Run simple scrape test
       run: |
-        python ./src/src/scrape.py
+        python ./src/scrape.py
