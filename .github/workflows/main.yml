@@ -14,6 +14,16 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v4
+    - name: setup python
+      uses: actions/setup-python@v5
+      with:
+         python-version: 3.8 #install the python needed    
+         cache: 'pip' # caching pip dependencies
+
+    - name: Run selenium driver
+      run: |
+        python ./src/seleniumTest.py
+         
     - name: Fetch latest data
       run: |
         curl https://www.mapareve.es/api/public/v1/locations/3b992d0e-9b07-47a0-a4cd-8a75b547d777 > ./data/sources/sample.json
