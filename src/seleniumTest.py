@@ -4,6 +4,8 @@ from webdriver_manager.chrome import ChromeType
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from seleniumwire import webdriver
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.by import By
 import time
 import json
 import sys
@@ -35,6 +37,10 @@ driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
         });
     """
 })
+
+element = driver.find_element(By.ID, "searchBox")
+actions = ActionChains(driver)
+actions.move_to_element(element).click().perform()
 
 try:
     driver.get("https://mobie.pt/redemobie/encontrar-posto")
