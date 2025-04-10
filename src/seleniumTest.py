@@ -37,7 +37,8 @@ driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
 })
 
 try:
-    driver.get("https://mobie.pt/en/mobienetwork/finding-charging-points")
+    response = driver.get("https://mobie.pt/en/mobienetwork/finding-charging-points")
+    print("Status:", response.status)
     print("Wait a few seconds for page to fully load")
     time.sleep(10)
 
