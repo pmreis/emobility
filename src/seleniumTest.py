@@ -8,13 +8,11 @@ import time
 import json
 import sys
 
-chrome_service = webdriver.Chrome(ChromeDriverManager().install())
-
 chrome_options = Options()
 options = [
     "--headless=new",
     "--disable-blink-features=AutomationControlled",
-    #"--disable-gpu",
+    "--disable-gpu",
     "--window-size=1920,1080",
     "--ignore-certificate-errors",
     "--disable-extensions",
@@ -26,7 +24,7 @@ options = [
 for option in options:
     chrome_options.add_argument(option)
 
-driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
+driver = webdriver.Chrome(options=chrome_options)
 
 driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
     "source": """
