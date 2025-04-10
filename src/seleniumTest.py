@@ -27,8 +27,8 @@ driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
 try:
     driver.get("https://mobie.pt/redemobie/encontrar-posto")
-    print("Wait 5 seconds for page to fully load")
-    time.sleep(5)
+    print("Wait a few seconds for page to fully load")
+    time.sleep(10)
 
     for request in driver.requests:
         if "mobierest/locations" in request.url and request.response:
