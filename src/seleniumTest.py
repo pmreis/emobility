@@ -24,7 +24,7 @@ options = [
 for option in options:
     chrome_options.add_argument(option)
 
-driver = webdriver.Chrome(options=chrome_options)
+driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
 
 driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
     "source": """
