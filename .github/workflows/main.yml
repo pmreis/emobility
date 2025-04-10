@@ -34,10 +34,6 @@ jobs:
     - name: Install all necessary packages
       run: pip install requests beautifulsoup4 pandas webdriver-manager selenium blinker==1.7.0
 
-    - name: Run simple analysis
-      run: |
-        python ./src/mobieSimpleAnalysis.py        
-
     - name: Run selenium driver
       run: |
         python ./src/seleniumTest.py

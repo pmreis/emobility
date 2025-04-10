@@ -31,10 +31,15 @@ try:
 
     for request in driver.requests:
         if "mobierest/locations" in request.url and request.response:
-            file = open("./data/outputs/mobie_locations.json", "w", encoding="utf-8")
+            print("URL:", request.url)
+            print("Status:", request.response.status_code)
+            print("Headers:", request.response.headers)
+            print("Body:", request.response.body.decode('utf-8'))
+
+            #file = open("./data/outputs/mobie_locations.json", "w", encoding="utf-8")
             #json.dump(json_data, file, ensure_ascii=False, indent=4)
-            file.write(request.response.text)
-            file.close()
+            #file.write(request.response.text)
+            #file.close()
             break
 
 finally:
