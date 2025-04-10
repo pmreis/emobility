@@ -34,7 +34,7 @@ try:
             print("request url is " + request.url)
             data = request.response.body
             time.sleep(10)
-            print("locations size is " + len(data))
+            print("locations size is " + str(len(data)))
             json_data = json.loads(data)
 
             with open("./data/outputs/mobie_locations.json", "w", encoding="utf-8") as f:
