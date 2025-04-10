@@ -18,12 +18,22 @@ options = [
     "--ignore-certificate-errors",
     "--disable-extensions",
     "--no-sandbox",
-    "--disable-dev-shm-usage"
+    "--disable-dev-shm-usage",
+    "--lang=pt-PT",
+    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
 ]
 for option in options:
     chrome_options.add_argument(option)
 
 driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
+
+driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+    "source": """
+        Object.defineProperty(navigator, 'webdriver', {
+            get: () => undefined
+        });
+    """
+})
 
 try:
     driver.get("https://mobie.pt/redemobie/encontrar-posto")
@@ -32,11 +42,16 @@ try:
 
     for request in driver.requests:
         if "mobierest/locations" in request.url and request.response:
+            status = request.response.status_code
             print("URL:", request.url)
-            print("Status:", request.response.status_code)
+            print("Status:", status)
             print("Headers:", request.response.headers)
             print("Body:", request.response.body.decode('utf-8'))
 
+            if status == 400:
+                driver.quit()
+                sys.exit(1)
+                
             #file = open("./data/outputs/mobie_locations.json", "w", encoding="utf-8")
             #json.dump(json_data, file, ensure_ascii=False, indent=4)
             #file.write(request.response.text)
