@@ -36,7 +36,7 @@ try:
             print("locations size is " + str(len(data)))
             json_data = json.loads(data)
 
-            with open("./../data/outputs/mobie_locations.json", "w", encoding="utf-8") as f:
+            with open("./data/outputs/mobie_locations.json", "w", encoding="utf-8") as f:
                 json.dump(json_data, f, ensure_ascii=False, indent=4)
             break
 
