@@ -46,6 +46,8 @@ try:
     element = driver.find_element(By.ID, "searchBox")
     actions.move_to_element(element).click().perform()
 
+    print("Total requests: " + str(len(driver.requests)))
+
     for request in driver.requests:
         if "mobierest/locations" in request.url and request.response:
             status = request.response.status_code
