@@ -38,14 +38,16 @@ driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
     """
 })
 
-element = driver.find_element(By.ID, "searchBox")
-actions = ActionChains(driver)
-actions.move_to_element(element).click().perform()
-
 try:
     driver.get("https://mobie.pt/redemobie/encontrar-posto")
     print("Wait a few seconds for page to fully load")
     time.sleep(10)
+
+    actions = ActionChains(driver)
+    element = driver.find_element(By.CLASS_NAME, "section-subheader-bold")
+    actions.move_to_element(element).click().perform()
+    element = driver.find_element(By.ID, "searchBox")
+    actions.move_to_element(element).click().perform()
 
     for request in driver.requests:
         if "mobierest/locations" in request.url and request.response:
