@@ -45,6 +45,7 @@ try:
         if "mobierest/locations" in request.url and request.response:
             status = request.response.status_code
             print("URL:", request.url)
+            print("Request method:", request.method)
             print("Status:", status)
             print("Headers:", request.response.headers)
             print("Body:", request.response.body.decode('utf-8'))
