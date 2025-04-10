@@ -25,6 +25,15 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run simple scrape test
+    - name: Run simple analysis
       run: |
         python ./src/mobieSimpleAnalysis.py
+
+    - name: Commit and push if it changed
+      run: |
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Simple analysis: ${timestamp}" || exit 0
+        git push
