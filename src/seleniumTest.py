@@ -37,8 +37,7 @@ driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
 })
 
 try:
-    response = driver.get("https://mobie.pt/en/mobienetwork/finding-charging-points")
-    print("Status:", response.status)
+    driver.get("https://mobie.pt/en/mobienetwork/finding-charging-points")
 
     actions = ActionChains(driver)
     element = driver.find_element(By.CLASS_NAME, "section-subheader-bold")
