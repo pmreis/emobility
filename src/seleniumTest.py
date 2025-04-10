@@ -6,6 +6,7 @@ from selenium.webdriver.chrome.service import Service
 from seleniumwire import webdriver
 import time
 import json
+import sys
 
 chrome_service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install())
 
@@ -13,7 +14,7 @@ chrome_options = Options()
 options = [
     "--headless=new",
     "--disable-blink-features=AutomationControlled",
-    "--disable-gpu",
+    #"--disable-gpu",
     "--window-size=1920,1080",
     "--ignore-certificate-errors",
     "--disable-extensions",
@@ -51,10 +52,9 @@ try:
             if status == 400:
                 driver.quit()
                 sys.exit(1)
-                
+
             #file = open("./data/outputs/mobie_locations.json", "w", encoding="utf-8")
-            #json.dump(json_data, file, ensure_ascii=False, indent=4)
-            #file.write(request.response.text)
+            #file.write(request.response.body.decode('utf-8'))
             #file.close()
             break
 
