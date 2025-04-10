@@ -31,7 +31,7 @@ jobs:
 
     - name: Fetch data via curl
       run: |
-        curl -k https://mobieportaldev.northeurope.cloudapp.azure.com/documents/42032/106470/Tarifas > ./data/sources/mobie_tariffs.csv
+        curl -k https://mobie.pt/documents/42032/106470/8602.csv/d8679fe8-51c0-00ce-97b7-37f8a930c861?t=1711969200415 > ./data/sources/mobie_tariffs.csv
 
     - name: Commit and push if it changed
       run: |
