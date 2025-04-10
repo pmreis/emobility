@@ -31,7 +31,7 @@ jobs:
 
     - name: Fetch data via curl
       run: |
-        curl https://www.mapareve.es/api/public/v1/locations/3b992d0e-9b07-47a0-a4cd-8a75b547d777 > ./data/sources/sample.json
+        curl -k https://mobieportaldev.northeurope.cloudapp.azure.com/documents/42032/106470/Tarifas > ./data/sources/mobie_tariffs.csv
 
     - name: Commit and push if it changed
       run: |
