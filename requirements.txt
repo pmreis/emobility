@@ -1,1 +1,6 @@
-
+pandas
+requests
+beautifulsoup4
+webdriver-manager
+selenium
+selenium-wire
