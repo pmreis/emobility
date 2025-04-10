@@ -34,6 +34,7 @@ try:
             file = open("./data/outputs/mobie_locations.json", "w", encoding="utf-8")
             #json.dump(json_data, file, ensure_ascii=False, indent=4)
             file.write(request.response.content)
+            file.close()
             break
 
 finally:
