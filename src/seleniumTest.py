@@ -56,9 +56,9 @@ try:
                 driver.quit()
                 sys.exit(1)
 
-            #file = open("./data/outputs/mobie_locations.json", "w", encoding="utf-8")
-            #file.write(request.response.body.decode('utf-8'))
-            #file.close()
+            file = open("./data/outputs/mobie_locations.json", "w", encoding="utf-8")
+            file.write(request.response.body.decode('utf-8'))
+            file.close()
             break
 
 finally:
