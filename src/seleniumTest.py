@@ -24,7 +24,6 @@ for option in options:
 
 driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
-
 try:
     driver.get("https://mobie.pt/redemobie/encontrar-posto")
     print("Wait a few seconds for page to fully load")
@@ -32,8 +31,10 @@ try:
 
     for request in driver.requests:
         if "mobierest/locations" in request.url and request.response:
+            print("request url is " + request.url)
             data = request.response.body
-            print("locations size is " + str(len(data)))
+            time.sleep(10)
+            print("locations size is " + len(data))
             json_data = json.loads(data)
 
             with open("./data/outputs/mobie_locations.json", "w", encoding="utf-8") as f:
