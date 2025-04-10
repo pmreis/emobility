@@ -38,6 +38,7 @@ driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
 
 try:
     driver.get("https://mobie.pt/en/mobienetwork/finding-charging-points")
+    driver.implicitly_wait(15)
 
     actions = ActionChains(driver)
     element = driver.find_element(By.CLASS_NAME, "section-subheader-bold")
