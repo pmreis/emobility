@@ -11,9 +11,10 @@ chrome_service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).in
 
 chrome_options = Options()
 options = [
-    #"--headless",
+    "--headless=new",
+    "--disable-blink-features=AutomationControlled",
     "--disable-gpu",
-    "--window-size=1920,1200",
+    "--window-size=1920,1080",
     "--ignore-certificate-errors",
     "--disable-extensions",
     "--no-sandbox",
