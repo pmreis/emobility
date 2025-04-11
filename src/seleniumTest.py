@@ -38,14 +38,14 @@ driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
 
 try:
     driver.get("https://mobie.pt/en/mobienetwork/finding-charging-points")
+
+    driver.implicitly_wait(5)
     
     actions = ActionChains(driver)
     element = driver.find_element(By.CLASS_NAME, "section-subheader-bold")
     actions.move_to_element(element).click().perform()
     element = driver.find_element(By.ID, "searchBox")
     actions.move_to_element(element).click().perform()
-
-    driver.implicitly_wait(30)
 
     print("Total requests: " + str(len(driver.requests)))
 
