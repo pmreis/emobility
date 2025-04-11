@@ -37,7 +37,7 @@ driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
 })
 
 try:
-    driver.get("https://mobie.pt/en/mobienetwork/finding-charging-points")
+    driver.get("https://mobie.pt/redemobie/encontrar-posto")
 
     driver.implicitly_wait(5)
     
