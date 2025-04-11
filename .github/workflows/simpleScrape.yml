@@ -31,7 +31,7 @@ jobs:
 
     - name: Fetch data via curl
       run: |
-        curl -k https://mobie.pt/documents/42032/106470/8602.csv > ./data/sources/mobie_tariffs.csv
+        curl -k -f https://mobie.pt/documents/42032/106470/8602.csv -o ./data/sources/mobie_tariffs.csv
 
     - name: Commit and push if it changed
       run: |
