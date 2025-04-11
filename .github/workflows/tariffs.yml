@@ -1,4 +1,4 @@
-name: Simple scrape
+name: Tariffs
 
 on:
   push:
