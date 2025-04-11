@@ -83,5 +83,7 @@ try:
 
             break
 
+    print("No request for locations found!")
+
 finally:
     driver.quit()
