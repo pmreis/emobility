@@ -28,13 +28,13 @@ for option in options:
 
 driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
-driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
-    "source": """
-        Object.defineProperty(navigator, 'webdriver', {
-            get: () => undefined
-        });
-    """
-})
+#driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+#    "source": """
+#        Object.defineProperty(navigator, 'webdriver', {
+#            get: () => undefined
+#        });
+#    """
+#})
 
 try:
     driver.get("https://mobie.pt/redemobie/encontrar-posto")
@@ -63,6 +63,9 @@ try:
             file = open("./data/outputs/mobie_locations.json", "w", encoding="utf-8")
             file.write(request.response.body.decode('utf-8'))
             file.close()
+
+            print("Saved new locations")
+
             break
 
 finally:
