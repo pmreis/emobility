@@ -39,13 +39,13 @@ driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 try:
     driver.get("https://mobie.pt/redemobie/encontrar-posto")
 
-    driver.implicitly_wait(5)
-    
     actions = ActionChains(driver)
     element = driver.find_element(By.CLASS_NAME, "section-subheader-bold")
     actions.move_to_element(element).click().perform()
     element = driver.find_element(By.ID, "searchBox")
     actions.move_to_element(element).click().perform()
+
+    driver.implicitly_wait(10)
 
     print("Total requests: " + str(len(driver.requests)))
 
