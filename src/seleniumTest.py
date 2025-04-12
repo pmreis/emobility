@@ -45,7 +45,7 @@ driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
 })
 
 try:
-    result = driver.get("https://mobie.pt/redemobie/encontrar-posto")
+    driver.get("https://mobie.pt/redemobie/encontrar-posto")
 
     #actions = ActionChains(driver)
     #element = driver.find_element(By.CLASS_NAME, "section-subheader-bold")
