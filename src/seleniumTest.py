@@ -24,7 +24,7 @@ chrome_options = Options()
 options = [
     "--headless=new",
     "--disable-blink-features=AutomationControlled",
-    "--disable-gpu",
+    #"--disable-gpu",
     "--window-size=1920,1080",
     "--ignore-certificate-errors",
     "--disable-extensions",
@@ -60,7 +60,7 @@ try:
     print("Total requests: " + str(len(driver.requests)))
 
     for request in driver.requests:
-        status = request.response.status_code
+        status = getattr(request.response, 'status_code', None)
         print("URL:", request.url)
         print("Request method:", request.method)
         print("Status:", status)
