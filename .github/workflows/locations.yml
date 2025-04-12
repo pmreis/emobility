@@ -31,8 +31,8 @@ jobs:
     #  run: sudo apt purge chromium-browser
     #- name: Install a new Chromium
     #  run: sudo apt install -y chromium-browser
-    #- name: Install all necessary packages
-    #  run: pip install requests beautifulsoup4 pandas webdriver-manager selenium blinker==1.7.0
+    - name: Install all necessary packages
+      run: pip install blinker==1.8.0
 
     - name: Run selenium driver
       run: |
