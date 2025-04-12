@@ -4,7 +4,6 @@ from datetime import datetime as dt
 import csv
 
 
-
 results = []
 
 for year in range(2004, 2026):
