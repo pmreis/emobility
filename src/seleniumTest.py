@@ -65,6 +65,9 @@ try:
         #print("Request method:", request.method)
         #print("Status:", status)
 
+        if request.method == "POST":
+            print("URL:", request.url)
+
         if "mobierest/locations" in request.url:
             if status == 400:
                 break
