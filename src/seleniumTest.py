@@ -60,12 +60,12 @@ try:
     print("Total requests: " + str(len(driver.requests)))
 
     for request in driver.requests:
-        if "mobierest/locations" in request.url:
-            status = request.response.status_code
-            print("URL:", request.url)
-            print("Request method:", request.method)
-            print("Status:", status)
+        status = request.response.status_code
+        print("URL:", request.url)
+        print("Request method:", request.method)
+        print("Status:", status)
 
+        if "mobierest/locations" in request.url:
             if status == 400:
                 break
        
