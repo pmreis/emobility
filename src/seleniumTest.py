@@ -18,7 +18,7 @@ if platform.system() == "Windows":
     wait = 1
 else:
     chrome_service = Service(ChromeDriverManager().install())
-    wait = 15
+    wait = 20
 
 chrome_options = Options()
 options = [
