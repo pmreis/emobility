@@ -8,7 +8,6 @@ from io import BytesIO
 import platform
 import gzip
 import json
-import sys
 #from selenium.webdriver.common.action_chains import ActionChains
 #from selenium.webdriver.common.by import By
 #import time
@@ -16,8 +15,10 @@ import sys
 
 if platform.system() == "Windows":
     chrome_service = Service(executable_path="./chromedriver.exe")
+    wait = 1
 else:
     chrome_service = Service(ChromeDriverManager().install())
+    wait = 10
 
 chrome_options = Options()
 options = [
@@ -53,7 +54,8 @@ try:
     #element = driver.find_element(By.ID, "searchBox")
     #actions.move_to_element(element).click().perform()
 
-    driver.implicitly_wait(1)
+    print(f"implicit wait = {wait}")
+    driver.implicitly_wait(wait)
 
     print("Total requests: " + str(len(driver.requests)))
 
@@ -65,8 +67,7 @@ try:
             print("Status:", status)
 
             if status == 400:
-                driver.quit()
-                sys.exit(1)
+                break
        
             compressed_data = request.response.body
             with gzip.GzipFile(fileobj=BytesIO(compressed_data)) as f:
