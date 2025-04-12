@@ -1,4 +1,4 @@
-from selenium import webdriver
+#from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.chrome import ChromeType
 from selenium.webdriver.chrome.options import Options
@@ -82,8 +82,6 @@ try:
             print("Saved new locations")
 
             break
-
-    print("No request for locations found!")
 
 finally:
     driver.quit()
