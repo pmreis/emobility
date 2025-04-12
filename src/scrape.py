@@ -5,9 +5,7 @@ import csv
 
 
 results = []
-
 for year in range(2004, 2026):
-
     response = requests.get(f"https://www.euro-millions.com/results-history-{year}")
     soup = BeautifulSoup(response.text, 'html.parser')
 
