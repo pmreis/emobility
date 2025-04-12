@@ -17,7 +17,7 @@ import sys
 if platform.system() == "Windows":
     chrome_service = Service(executable_path="./chromedriver.exe")
 else:
-    chrome_service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install())
+    chrome_service = Service(executable_path="/usr/local/share/chromedriver-linux64")
 
 chrome_options = Options()
 options = [
