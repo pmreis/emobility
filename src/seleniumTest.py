@@ -18,7 +18,7 @@ if platform.system() == "Windows":
     wait = 1
 else:
     chrome_service = Service(ChromeDriverManager().install())
-    wait = 20
+    wait = 3
 
 chrome_options = Options()
 options = [
@@ -55,7 +55,7 @@ try:
     #actions.move_to_element(element).click().perform()
 
     #print(f"implicit wait = {wait}")
-    #driver.implicitly_wait(wait)
+    driver.implicitly_wait(wait)
 
     print("Total requests: " + str(len(driver.requests)))
 
@@ -66,7 +66,7 @@ try:
         #print("Status:", status)
 
         if request.method == "POST":
-            print("URL:", request.url)
+            print("URL:", request.url[:30])
 
         if "mobierest/locations" in request.url:
             if status == 400:
