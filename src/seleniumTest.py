@@ -24,7 +24,7 @@ chrome_options = Options()
 options = [
     "--headless=new",
     "--disable-blink-features=AutomationControlled",
-    #"--disable-gpu",
+    "--disable-gpu",
     "--window-size=1920,1080",
     "--ignore-certificate-errors",
     "--disable-extensions",
@@ -54,16 +54,16 @@ try:
     #element = driver.find_element(By.ID, "searchBox")
     #actions.move_to_element(element).click().perform()
 
-    print(f"implicit wait = {wait}")
-    driver.implicitly_wait(wait)
+    #print(f"implicit wait = {wait}")
+    #driver.implicitly_wait(wait)
 
     print("Total requests: " + str(len(driver.requests)))
 
     for request in driver.requests:
         status = getattr(request.response, 'status_code', None)
-        print("URL:", request.url)
-        print("Request method:", request.method)
-        print("Status:", status)
+        #print("URL:", request.url)
+        #print("Request method:", request.method)
+        #print("Status:", status)
 
         if "mobierest/locations" in request.url:
             if status == 400:
