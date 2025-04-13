@@ -7,8 +7,8 @@ from io import BytesIO
 import platform
 import gzip
 import json
-#from selenium.webdriver.common.action_chains import ActionChains
-#from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.by import By
 import time
 
 
@@ -47,17 +47,16 @@ driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
 try:
     driver.get("https://mobie.pt/redemobie/encontrar-posto")
 
-    #actions = ActionChains(driver)
-    #element = driver.find_element(By.CLASS_NAME, "section-subheader-bold")
-    #actions.move_to_element(element).click().perform()
-    #element = driver.find_element(By.ID, "searchBox")
-    #actions.move_to_element(element).click().perform()
-
     print(f"implicit wait = {wait}")
     driver.implicitly_wait(wait)
 
-    time.sleep(0.95)
+    actions = ActionChains(driver)
+    element = driver.find_element(By.CLASS_NAME, "section-subheader-bold")
+    actions.move_to_element(element).click().perform()
+    element = driver.find_element(By.ID, "searchBox")
+    actions.move_to_element(element).click().perform()
 
+    time.sleep(0.95)
     print("Total requests: " + str(len(driver.requests)))
 
     for request in driver.requests:
