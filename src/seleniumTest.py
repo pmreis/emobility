@@ -56,7 +56,7 @@ try:
     print(f"implicit wait = {wait}")
     driver.implicitly_wait(wait)
 
-    time.sleep(0.9)
+    time.sleep(0.95)
 
     print("Total requests: " + str(len(driver.requests)))
 
