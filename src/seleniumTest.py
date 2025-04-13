@@ -83,7 +83,6 @@ try:
             file.close()
 
             print("Saved new locations")
-
             break
 
 finally:
