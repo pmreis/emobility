@@ -50,13 +50,13 @@ try:
     print(f"implicit wait = {wait}")
     driver.implicitly_wait(wait)
 
-    actions = ActionChains(driver)
-    element = driver.find_element(By.CLASS_NAME, "section-subheader-bold")
-    actions.move_to_element(element).click().perform()
-    element = driver.find_element(By.ID, "searchBox")
-    actions.move_to_element(element).click().perform()
+    #actions = ActionChains(driver)
+    #element = driver.find_element(By.CLASS_NAME, "section-subheader-bold")
+    #actions.move_to_element(element).click().perform()
+    #element = driver.find_element(By.ID, "searchBox")
+    #actions.move_to_element(element).click().perform()
 
-    time.sleep(0.742)
+    time.sleep(0.75)
     print("Total requests: " + str(len(driver.requests)))
 
     for request in driver.requests:
