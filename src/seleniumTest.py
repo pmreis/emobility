@@ -45,7 +45,7 @@ driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
 })
 
 sleepVals = (x * 0.1 for x in range(0, 50))
-for sleepVal in sleepVals
+for sleepVal in sleepVals:
     try:
         driver.get("https://mobie.pt/redemobie/encontrar-posto")
     
@@ -86,6 +86,7 @@ for sleepVal in sleepVals
                 print("Saved new locations")
                 break
 
-    time.sleep(10)
     finally:
         driver.quit()
+
+    time.sleep(10)
