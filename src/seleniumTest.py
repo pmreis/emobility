@@ -44,45 +44,48 @@ driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
     """
 })
 
-try:
-    driver.get("https://mobie.pt/redemobie/encontrar-posto")
-
-    print(f"implicit wait = {wait}")
-    driver.implicitly_wait(wait)
-
-    #actions = ActionChains(driver)
-    #element = driver.find_element(By.CLASS_NAME, "section-subheader-bold")
-    #actions.move_to_element(element).click().perform()
-    #element = driver.find_element(By.ID, "searchBox")
-    #actions.move_to_element(element).click().perform()
-
-    time.sleep(0.77)
-    print("Total requests: " + str(len(driver.requests)))
-
-    for request in driver.requests:
-        status = getattr(request.response, 'status_code', None)
-        #print("URL:", request.url)
-        #print("Request method:", request.method)
-        #print("Status:", status)
-
-        if status != None and "mobierest/locations" in request.url:
-            if status > 200:
-                print(f"Got a {status} on URL: ", request.url)
+sleepVals = (x * 0.1 for x in range(0, 50))
+for sleepVal in sleepVals
+    try:
+        driver.get("https://mobie.pt/redemobie/encontrar-posto")
+    
+        print(f"implicit wait = {wait}, sleep = {sleepVal}")
+        driver.implicitly_wait(wait)
+    
+        #actions = ActionChains(driver)
+        #element = driver.find_element(By.CLASS_NAME, "section-subheader-bold")
+        #actions.move_to_element(element).click().perform()
+        #element = driver.find_element(By.ID, "searchBox")
+        #actions.move_to_element(element).click().perform()
+    
+        time.sleep(sleepVal)
+        print("Total requests: " + str(len(driver.requests)))
+    
+        for request in driver.requests:
+            status = getattr(request.response, 'status_code', None)
+            #print("URL:", request.url)
+            #print("Request method:", request.method)
+            #print("Status:", status)
+    
+            if status != None and "mobierest/locations" in request.url:
+                if status > 200:
+                    print(f"Got a {status} on URL: ", request.url)
+                    break
+           
+                compressed_data = request.response.body
+                with gzip.GzipFile(fileobj=BytesIO(compressed_data)) as f:
+                    decompressed = f.read()
+    
+                text = decompressed.decode("utf-8")    
+                data = json.loads(text)
+    
+                file = open("./../data/sources/mobie_locations.json", "w", encoding="utf-8")
+                file.write(json.dumps(data, indent=4, ensure_ascii=False))
+                file.close()
+    
+                print("Saved new locations")
                 break
-       
-            compressed_data = request.response.body
-            with gzip.GzipFile(fileobj=BytesIO(compressed_data)) as f:
-                decompressed = f.read()
 
-            text = decompressed.decode("utf-8")    
-            data = json.loads(text)
-
-            file = open("./../data/sources/mobie_locations.json", "w", encoding="utf-8")
-            file.write(json.dumps(data, indent=4, ensure_ascii=False))
-            file.close()
-
-            print("Saved new locations")
-            break
-
-finally:
-    driver.quit()
+    time.sleep(10)
+    finally:
+        driver.quit()
