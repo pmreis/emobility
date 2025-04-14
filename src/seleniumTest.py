@@ -12,40 +12,43 @@ from selenium.webdriver.common.by import By
 import time
 
 
-if platform.system() == "Windows":
-    chrome_service = Service(executable_path="./chromedriver.exe")
-    wait = 1
-else:
-    chrome_service = Service(ChromeDriverManager().install())
-    wait = 5
 
-chrome_options = Options()
-options = [
-    "--headless=new",
-    "--disable-blink-features=AutomationControlled",
-    "--disable-gpu",
-    "--window-size=1920,1080",
-    "--ignore-certificate-errors",
-    "--disable-extensions",
-    "--no-sandbox",
-    "--disable-dev-shm-usage",
-    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7490.85 Safari/537.36"
-]
-for option in options:
-    chrome_options.add_argument(option)
-
-driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
-
-driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
-    "source": """
-        Object.defineProperty(navigator, 'webdriver', {
-            get: () => undefined
-        });
-    """
-})
 
 sleepVals = (x * 0.1 for x in range(0, 50))
 for sleepVal in sleepVals:
+
+    if platform.system() == "Windows":
+        chrome_service = Service(executable_path="./chromedriver.exe")
+        wait = 1
+    else:
+        chrome_service = Service(ChromeDriverManager().install())
+        wait = 5
+
+    chrome_options = Options()
+    options = [
+        "--headless=new",
+        "--disable-blink-features=AutomationControlled",
+        "--disable-gpu",
+        "--window-size=1920,1080",
+        "--ignore-certificate-errors",
+        "--disable-extensions",
+        "--no-sandbox",
+        "--disable-dev-shm-usage",
+        "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7490.85 Safari/537.36"
+    ]
+    for option in options:
+        chrome_options.add_argument(option)
+
+    driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
+
+    driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+        "source": """
+            Object.defineProperty(navigator, 'webdriver', {
+                get: () => undefined
+            });
+        """
+    })
+
     try:
         driver.get("https://mobie.pt/redemobie/encontrar-posto")
     
