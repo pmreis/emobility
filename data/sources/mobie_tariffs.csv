@@ -341,11 +341,11 @@ ABT-00013;ABT-00013-02-01;Rápido;Abrantes;Rua das Escolas 42;GLP;False;MT;ENERG
 ABT-00013;ABT-00013-02-01;Rápido;Abrantes;Rua das Escolas 42;GLP;False;MT;TIME;€ 0 /min;CCS;CABLE;120
 ABT-00013;ABT-00013-02-01;Rápido;Abrantes;Rua das Escolas 42;GLP;False;MT;TIME;€ 0.18 /min após 30 min;CCS;CABLE;120
 ABT-00017;ABT-00017-01-01;Rápido;Abrantes;CEPSA ABRANTES - A23 KM 44 MOURISCAS N/S;CPS;False;MT;FLAT;€ 0.1572 /charge;CCS;CABLE;100
-ABT-00017;ABT-00017-01-01;Rápido;Abrantes;CEPSA ABRANTES - A23 KM 44 MOURISCAS N/S;CPS;False;MT;ENERGY;€ 0.3 /kWh;CCS;CABLE;100
 ABT-00017;ABT-00017-01-01;Rápido;Abrantes;CEPSA ABRANTES - A23 KM 44 MOURISCAS N/S;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;100
+ABT-00017;ABT-00017-01-01;Rápido;Abrantes;CEPSA ABRANTES - A23 KM 44 MOURISCAS N/S;CPS;False;MT;ENERGY;€ 0.3 /kWh;CCS;CABLE;100
 ABT-00017;ABT-00017-02-01;Rápido;Abrantes;CEPSA ABRANTES - A23 KM 44 MOURISCAS N/S;CPS;False;MT;FLAT;€ 0.1572 /charge;CCS;CABLE;100
-ABT-00017;ABT-00017-02-01;Rápido;Abrantes;CEPSA ABRANTES - A23 KM 44 MOURISCAS N/S;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;100
 ABT-00017;ABT-00017-02-01;Rápido;Abrantes;CEPSA ABRANTES - A23 KM 44 MOURISCAS N/S;CPS;False;MT;ENERGY;€ 0.3 /kWh;CCS;CABLE;100
+ABT-00017;ABT-00017-02-01;Rápido;Abrantes;CEPSA ABRANTES - A23 KM 44 MOURISCAS N/S;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;100
 ABT-00018;ABT-00018-01-01;Rápido;Abrantes;CEPSA ABRANTES - A23 KM 44 MOURISCAS S/N;CPS;False;MT;FLAT;€ 0.1572 /charge;CCS;CABLE;100
 ABT-00018;ABT-00018-01-01;Rápido;Abrantes;CEPSA ABRANTES - A23 KM 44 MOURISCAS S/N;CPS;False;MT;ENERGY;€ 0.3 /kWh;CCS;CABLE;100
 ABT-00018;ABT-00018-01-01;Rápido;Abrantes;CEPSA ABRANTES - A23 KM 44 MOURISCAS S/N;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;100
@@ -537,8 +537,8 @@ ACB-00026;ACB-00026-01-01;Semirrápido;Alcobaça;Av. Assoc. Alcobacense de Farmi
 ACB-00026;ACB-00026-02-01;Semirrápido;Alcobaça;Av. Assoc. Alcobacense de Farmingville 6;EDP;False;BTE;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;22
 ACB-00026;ACB-00026-02-01;Semirrápido;Alcobaça;Av. Assoc. Alcobacense de Farmingville 6;EDP;False;BTE;TIME;€ 0.033 /min;MENNEKES;SOCKET;22
 ACB-00027;ACB-00027-01-01;Rápido;Alcobaça;EN 8, Urbanização Nova, Lote 1, fracção 1;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-ACB-00027;ACB-00027-01-01;Rápido;Alcobaça;EN 8, Urbanização Nova, Lote 1, fracção 1;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
 ACB-00027;ACB-00027-01-01;Rápido;Alcobaça;EN 8, Urbanização Nova, Lote 1, fracção 1;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
+ACB-00027;ACB-00027-01-01;Rápido;Alcobaça;EN 8, Urbanização Nova, Lote 1, fracção 1;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
 ACB-00027;ACB-00027-01-01;Rápido;Alcobaça;EN 8, Urbanização Nova, Lote 1, fracção 1;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 ACB-00027;ACB-00027-02-01;Rápido;Alcobaça;EN 8, Urbanização Nova, Lote 1, fracção 1;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
 ACB-00027;ACB-00027-02-01;Rápido;Alcobaça;EN 8, Urbanização Nova, Lote 1, fracção 1;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
@@ -634,16 +634,16 @@ ACH-00018;ACH-00018-03-01;Rápido;Alcochete;McD, Av. Sociedade Imparcial 15 Jane
 ACH-00018;ACH-00018-03-01;Rápido;Alcochete;McD, Av. Sociedade Imparcial 15 Janeiro 1988;EDP;False;MT;ENERGY;€ 0.1 /kWh;MENNEKES;SOCKET;22
 ACH-00018;ACH-00018-03-01;Rápido;Alcochete;McD, Av. Sociedade Imparcial 15 Janeiro 1988;EDP;False;MT;TIME;€ 0.1 /min;MENNEKES;SOCKET;22
 ACH-00019;ACH-00019-01-01;Ultrarrápido;Alcochete;N 119 Sítio Da Quebrada, Ladeira Das Enguias;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-ACH-00019;ACH-00019-01-01;Ultrarrápido;Alcochete;N 119 Sítio Da Quebrada, Ladeira Das Enguias;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 ACH-00019;ACH-00019-01-01;Ultrarrápido;Alcochete;N 119 Sítio Da Quebrada, Ladeira Das Enguias;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+ACH-00019;ACH-00019-01-01;Ultrarrápido;Alcochete;N 119 Sítio Da Quebrada, Ladeira Das Enguias;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 ACH-00019;ACH-00019-01-01;Ultrarrápido;Alcochete;N 119 Sítio Da Quebrada, Ladeira Das Enguias;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 ACH-00019;ACH-00019-02-01;Ultrarrápido;Alcochete;N 119 Sítio Da Quebrada, Ladeira Das Enguias;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
 ACH-00019;ACH-00019-02-01;Ultrarrápido;Alcochete;N 119 Sítio Da Quebrada, Ladeira Das Enguias;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 ACH-00019;ACH-00019-02-01;Ultrarrápido;Alcochete;N 119 Sítio Da Quebrada, Ladeira Das Enguias;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 ACH-00019;ACH-00019-02-01;Ultrarrápido;Alcochete;N 119 Sítio Da Quebrada, Ladeira Das Enguias;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 ACH-00019;ACH-00019-03-01;Ultrarrápido;Alcochete;N 119 Sítio Da Quebrada, Ladeira Das Enguias;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-ACH-00019;ACH-00019-03-01;Ultrarrápido;Alcochete;N 119 Sítio Da Quebrada, Ladeira Das Enguias;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 ACH-00019;ACH-00019-03-01;Ultrarrápido;Alcochete;N 119 Sítio Da Quebrada, Ladeira Das Enguias;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+ACH-00019;ACH-00019-03-01;Ultrarrápido;Alcochete;N 119 Sítio Da Quebrada, Ladeira Das Enguias;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 ACH-00019;ACH-00019-03-01;Ultrarrápido;Alcochete;N 119 Sítio Da Quebrada, Ladeira Das Enguias;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 ACH-00020;ACH-00020-01-01;Semirrápido;Alcochete;Avenida Euro 2004;ATL;False;MT;FLAT;€ 0.2499 /charge;MENNEKES;SOCKET;22
 ACH-00020;ACH-00020-01-01;Semirrápido;Alcochete;Avenida Euro 2004;ATL;False;MT;ENERGY;€ 0.4065 /kWh;MENNEKES;SOCKET;22
@@ -865,12 +865,12 @@ AGD-00017;AGD-00017-01-01;Rápido;Águeda;Rua da Pateira 84;IBD;False;MT;TIME;�
 AGD-00017;AGD-00017-01-02;Rápido;Águeda;Rua da Pateira 84;IBD;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;50
 AGD-00017;AGD-00017-01-02;Rápido;Águeda;Rua da Pateira 84;IBD;False;MT;TIME;€ 0.1 /min;CCS;CABLE;50
 AGD-00018;AGD-00018-01-01;Ultrarrápido;Águeda;Vale do Grou, Aguada de Baixo;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-AGD-00018;AGD-00018-01-01;Ultrarrápido;Águeda;Vale do Grou, Aguada de Baixo;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 AGD-00018;AGD-00018-01-01;Ultrarrápido;Águeda;Vale do Grou, Aguada de Baixo;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+AGD-00018;AGD-00018-01-01;Ultrarrápido;Águeda;Vale do Grou, Aguada de Baixo;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 AGD-00018;AGD-00018-01-01;Ultrarrápido;Águeda;Vale do Grou, Aguada de Baixo;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 AGD-00018;AGD-00018-02-01;Ultrarrápido;Águeda;Vale do Grou, Aguada de Baixo;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-AGD-00018;AGD-00018-02-01;Ultrarrápido;Águeda;Vale do Grou, Aguada de Baixo;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 AGD-00018;AGD-00018-02-01;Ultrarrápido;Águeda;Vale do Grou, Aguada de Baixo;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
+AGD-00018;AGD-00018-02-01;Ultrarrápido;Águeda;Vale do Grou, Aguada de Baixo;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 AGD-00018;AGD-00018-02-01;Ultrarrápido;Águeda;Vale do Grou, Aguada de Baixo;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 AGD-00018;AGD-00018-03-01;Ultrarrápido;Águeda;Vale do Grou, Aguada de Baixo;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 AGD-00018;AGD-00018-03-01;Ultrarrápido;Águeda;Vale do Grou, Aguada de Baixo;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
@@ -1173,12 +1173,12 @@ ALD-00007;ALD-00007-02-01;Rápido;Almeida;Avenida da Fronteira;PRI;False;BTE;FLA
 ALD-00007;ALD-00007-02-01;Rápido;Almeida;Avenida da Fronteira;PRI;False;BTE;ENERGY;€ 0.15 /kWh;CCS;CABLE;90
 ALD-00007;ALD-00007-02-01;Rápido;Almeida;Avenida da Fronteira;PRI;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;90
 ALD-00008;ALD-00008-01-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
-ALD-00008;ALD-00008-01-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 ALD-00008;ALD-00008-01-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+ALD-00008;ALD-00008-01-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 ALD-00008;ALD-00008-01-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 ALD-00008;ALD-00008-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-ALD-00008;ALD-00008-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 ALD-00008;ALD-00008-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
+ALD-00008;ALD-00008-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 ALD-00008;ALD-00008-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 ALD-00008;ALD-00008-03-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
 ALD-00008;ALD-00008-03-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
@@ -1193,28 +1193,28 @@ ALD-00009;ALD-00009-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY
 ALD-00009;ALD-00009-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
 ALD-00009;ALD-00009-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 ALD-00009;ALD-00009-03-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
-ALD-00009;ALD-00009-03-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 ALD-00009;ALD-00009-03-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+ALD-00009;ALD-00009-03-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 ALD-00009;ALD-00009-03-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 ALD-00010;ALD-00010-01-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
-ALD-00010;ALD-00010-01-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 ALD-00010;ALD-00010-01-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
+ALD-00010;ALD-00010-01-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 ALD-00010;ALD-00010-01-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 ALD-00010;ALD-00010-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-ALD-00010;ALD-00010-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 ALD-00010;ALD-00010-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
+ALD-00010;ALD-00010-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 ALD-00010;ALD-00010-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 ALD-00010;ALD-00010-03-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
-ALD-00010;ALD-00010-03-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 ALD-00010;ALD-00010-03-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
+ALD-00010;ALD-00010-03-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 ALD-00010;ALD-00010-03-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 ALD-00011;ALD-00011-01-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
 ALD-00011;ALD-00011-01-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 ALD-00011;ALD-00011-01-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 ALD-00011;ALD-00011-01-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 ALD-00011;ALD-00011-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-ALD-00011;ALD-00011-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 ALD-00011;ALD-00011-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
+ALD-00011;ALD-00011-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 ALD-00011;ALD-00011-02-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 ALD-00011;ALD-00011-03-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
 ALD-00011;ALD-00011-03-01;Ultrarrápido;Almeida;A25, Almeida;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
@@ -2111,8 +2111,8 @@ AMT-00024;AMT-00024-01-01;Rápido;Amarante;Qta de Sanguinhedo 166, Castanheiro R
 AMT-00024;AMT-00024-01-02;Rápido;Amarante;Qta de Sanguinhedo 166, Castanheiro Redondo;IBD;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;50
 AMT-00024;AMT-00024-01-02;Rápido;Amarante;Qta de Sanguinhedo 166, Castanheiro Redondo;IBD;False;MT;TIME;€ 0.1 /min;CCS;CABLE;50
 AMT-00025;AMT-00025-01-01;Rápido;Amarante;Rua da Fontainhas 874, Lomba;MOT;False;BTE;FLAT;€ 0.3 /charge;CCS;CABLE;60
-AMT-00025;AMT-00025-01-01;Rápido;Amarante;Rua da Fontainhas 874, Lomba;MOT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;60
 AMT-00025;AMT-00025-01-01;Rápido;Amarante;Rua da Fontainhas 874, Lomba;MOT;False;BTE;ENERGY;€ 0.53 /kWh;CCS;CABLE;60
+AMT-00025;AMT-00025-01-01;Rápido;Amarante;Rua da Fontainhas 874, Lomba;MOT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;60
 AMT-00025;AMT-00025-01-01;Rápido;Amarante;Rua da Fontainhas 874, Lomba;MOT;False;BTE;TIME;€ 0 /min até 60 min;CCS;CABLE;60
 AMT-00025;AMT-00025-01-01;Rápido;Amarante;Rua da Fontainhas 874, Lomba;MOT;False;BTE;TIME;€ 0 /min até 60 min;CCS;CABLE;60
 AMT-00025;AMT-00025-01-01;Rápido;Amarante;Rua da Fontainhas 874, Lomba;MOT;False;BTE;TIME;€ 0.1 /min após 60 min;CCS;CABLE;60
@@ -3215,8 +3215,8 @@ BGC-00021;BGC-00021-01-01;Ultrarrápido;Bragança;Cruzamento de Donai - Estrada 
 BGC-00021;BGC-00021-01-01;Ultrarrápido;Bragança;Cruzamento de Donai - Estrada de Vinhais;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 BGC-00021;BGC-00021-01-01;Ultrarrápido;Bragança;Cruzamento de Donai - Estrada de Vinhais;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 BGC-00021;BGC-00021-02-01;Ultrarrápido;Bragança;Cruzamento de Donai - Estrada de Vinhais;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-BGC-00021;BGC-00021-02-01;Ultrarrápido;Bragança;Cruzamento de Donai - Estrada de Vinhais;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 BGC-00021;BGC-00021-02-01;Ultrarrápido;Bragança;Cruzamento de Donai - Estrada de Vinhais;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+BGC-00021;BGC-00021-02-01;Ultrarrápido;Bragança;Cruzamento de Donai - Estrada de Vinhais;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 BGC-00021;BGC-00021-02-01;Ultrarrápido;Bragança;Cruzamento de Donai - Estrada de Vinhais;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 BGC-00021;BGC-00021-03-01;Ultrarrápido;Bragança;Cruzamento de Donai - Estrada de Vinhais;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 BGC-00021;BGC-00021-03-01;Ultrarrápido;Bragança;Cruzamento de Donai - Estrada de Vinhais;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
@@ -3326,12 +3326,12 @@ BJA-00029;BJA-00029-01-01;Rápido;Beja;Variante Estrada Nacional;KLS;False;MT;TI
 BJA-00029;BJA-00029-01-02;Rápido;Beja;Variante Estrada Nacional;KLS;False;MT;TIME;€ 0.08 /min;CCS;CABLE;50
 BJA-00029;BJA-00029-02-01;Rápido;Beja;Variante Estrada Nacional;KLS;False;MT;TIME;€ 0.08 /min;MENNEKES;CABLE;43
 BJA-00031;BJA-00031-01-01;Ultrarrápido;Beja;Rua D. Afonso III, nº 43;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-BJA-00031;BJA-00031-01-01;Ultrarrápido;Beja;Rua D. Afonso III, nº 43;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 BJA-00031;BJA-00031-01-01;Ultrarrápido;Beja;Rua D. Afonso III, nº 43;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+BJA-00031;BJA-00031-01-01;Ultrarrápido;Beja;Rua D. Afonso III, nº 43;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 BJA-00031;BJA-00031-01-01;Ultrarrápido;Beja;Rua D. Afonso III, nº 43;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 BJA-00031;BJA-00031-02-01;Ultrarrápido;Beja;Rua D. Afonso III, nº 43;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-BJA-00031;BJA-00031-02-01;Ultrarrápido;Beja;Rua D. Afonso III, nº 43;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 BJA-00031;BJA-00031-02-01;Ultrarrápido;Beja;Rua D. Afonso III, nº 43;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+BJA-00031;BJA-00031-02-01;Ultrarrápido;Beja;Rua D. Afonso III, nº 43;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 BJA-00031;BJA-00031-02-01;Ultrarrápido;Beja;Rua D. Afonso III, nº 43;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 BJA-00031;BJA-00031-03-01;Ultrarrápido;Beja;Rua D. Afonso III, nº 43;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 BJA-00031;BJA-00031-03-01;Ultrarrápido;Beja;Rua D. Afonso III, nº 43;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
@@ -3426,12 +3426,12 @@ BJA-00057;BJA-00057-01-01;Ultrarrápido;Beja;Rua António Sardinha;FCT;False;BTE
 BJA-00057;BJA-00057-01-01;Ultrarrápido;Beja;Rua António Sardinha;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 BJA-00057;BJA-00057-01-01;Ultrarrápido;Beja;Rua António Sardinha;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 BJA-00057;BJA-00057-02-01;Ultrarrápido;Beja;Rua António Sardinha;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-BJA-00057;BJA-00057-02-01;Ultrarrápido;Beja;Rua António Sardinha;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 BJA-00057;BJA-00057-02-01;Ultrarrápido;Beja;Rua António Sardinha;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+BJA-00057;BJA-00057-02-01;Ultrarrápido;Beja;Rua António Sardinha;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 BJA-00057;BJA-00057-02-01;Ultrarrápido;Beja;Rua António Sardinha;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 BJA-00057;BJA-00057-03-01;Ultrarrápido;Beja;Rua António Sardinha;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-BJA-00057;BJA-00057-03-01;Ultrarrápido;Beja;Rua António Sardinha;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 BJA-00057;BJA-00057-03-01;Ultrarrápido;Beja;Rua António Sardinha;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
+BJA-00057;BJA-00057-03-01;Ultrarrápido;Beja;Rua António Sardinha;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 BJA-00057;BJA-00057-03-01;Ultrarrápido;Beja;Rua António Sardinha;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 BJA-00058;BJA-00058-01-01;Semirrápido;Beja;Av. Fialho de Almeida;EDP;False;BTE;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;22
 BJA-00058;BJA-00058-01-01;Semirrápido;Beja;Av. Fialho de Almeida;EDP;False;BTE;TIME;€ 0.033 /min;MENNEKES;SOCKET;22
@@ -3446,8 +3446,8 @@ BJA-00059;BJA-00059-02-01;Ultrarrápido;Beja;Rua Ramalho Ortigão;FCT;False;BTE;
 BJA-00059;BJA-00059-02-01;Ultrarrápido;Beja;Rua Ramalho Ortigão;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 BJA-00059;BJA-00059-02-01;Ultrarrápido;Beja;Rua Ramalho Ortigão;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 BJA-00059;BJA-00059-03-01;Ultrarrápido;Beja;Rua Ramalho Ortigão;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-BJA-00059;BJA-00059-03-01;Ultrarrápido;Beja;Rua Ramalho Ortigão;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 BJA-00059;BJA-00059-03-01;Ultrarrápido;Beja;Rua Ramalho Ortigão;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+BJA-00059;BJA-00059-03-01;Ultrarrápido;Beja;Rua Ramalho Ortigão;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 BJA-00059;BJA-00059-03-01;Ultrarrápido;Beja;Rua Ramalho Ortigão;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 BJA-90001;BJA-90001-01-01;Normal;Beja;Praça da República;GLP;False;BTN;TIME;€ 0.007 /min;MENNEKES;SOCKET;3,7
 BJA-90001;BJA-90001-02-01;Normal;Beja;Praça da República;GLP;False;BTN;TIME;€ 0.007 /min;MENNEKES;SOCKET;3,7
@@ -3525,8 +3525,8 @@ BNV-00013;BNV-00013-01-01;Ultrarrápido;Benavente;Av. Nª Sra. De Guadalupe, nº
 BNV-00013;BNV-00013-01-01;Ultrarrápido;Benavente;Av. Nª Sra. De Guadalupe, nº51 Samora Correia;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 BNV-00013;BNV-00013-01-01;Ultrarrápido;Benavente;Av. Nª Sra. De Guadalupe, nº51 Samora Correia;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 BNV-00013;BNV-00013-02-01;Ultrarrápido;Benavente;Av. Nª Sra. De Guadalupe, nº51 Samora Correia;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-BNV-00013;BNV-00013-02-01;Ultrarrápido;Benavente;Av. Nª Sra. De Guadalupe, nº51 Samora Correia;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 BNV-00013;BNV-00013-02-01;Ultrarrápido;Benavente;Av. Nª Sra. De Guadalupe, nº51 Samora Correia;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
+BNV-00013;BNV-00013-02-01;Ultrarrápido;Benavente;Av. Nª Sra. De Guadalupe, nº51 Samora Correia;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 BNV-00013;BNV-00013-02-01;Ultrarrápido;Benavente;Av. Nª Sra. De Guadalupe, nº51 Samora Correia;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 BNV-00013;BNV-00013-03-01;Ultrarrápido;Benavente;Av. Nª Sra. De Guadalupe, nº51 Samora Correia;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 BNV-00013;BNV-00013-03-01;Ultrarrápido;Benavente;Av. Nª Sra. De Guadalupe, nº51 Samora Correia;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
@@ -4645,34 +4645,34 @@ BRR-00146;BRR-00146-02-01;Semirrápido;Barreiro;Rua dos Resistentes Anti-Facista
 BRR-00146;BRR-00146-02-01;Semirrápido;Barreiro;Rua dos Resistentes Anti-Facistas;IBD;False;MT;TIME;€ 0.03 /min até 120 min;MENNEKES;SOCKET;22
 BRR-00146;BRR-00146-02-01;Semirrápido;Barreiro;Rua dos Resistentes Anti-Facistas;IBD;False;MT;TIME;€ 0.08 /min após 120.01666666667 min;MENNEKES;SOCKET;22
 BRR-00149;BRR-00149-01-01;Ultrarrápido;Barreiro;CEPSA AV. DA ESCOLA DOS FUZILEIROS NAVAIS;CPS;False;MT;FLAT;€ 0.1572 /charge;CCS;CABLE;300
-BRR-00149;BRR-00149-01-01;Ultrarrápido;Barreiro;CEPSA AV. DA ESCOLA DOS FUZILEIROS NAVAIS;CPS;False;MT;ENERGY;€ 0.35 /kWh;CCS;CABLE;300
 BRR-00149;BRR-00149-01-01;Ultrarrápido;Barreiro;CEPSA AV. DA ESCOLA DOS FUZILEIROS NAVAIS;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;300
+BRR-00149;BRR-00149-01-01;Ultrarrápido;Barreiro;CEPSA AV. DA ESCOLA DOS FUZILEIROS NAVAIS;CPS;False;MT;ENERGY;€ 0.35 /kWh;CCS;CABLE;300
 BRR-00149;BRR-00149-02-01;Ultrarrápido;Barreiro;CEPSA AV. DA ESCOLA DOS FUZILEIROS NAVAIS;CPS;False;MT;FLAT;€ 0.1572 /charge;CCS;CABLE;300
 BRR-00149;BRR-00149-02-01;Ultrarrápido;Barreiro;CEPSA AV. DA ESCOLA DOS FUZILEIROS NAVAIS;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;300
 BRR-00149;BRR-00149-02-01;Ultrarrápido;Barreiro;CEPSA AV. DA ESCOLA DOS FUZILEIROS NAVAIS;CPS;False;MT;ENERGY;€ 0.35 /kWh;CCS;CABLE;300
 BRR-00150;BRR-00150-01-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
-BRR-00150;BRR-00150-01-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 BRR-00150;BRR-00150-01-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
+BRR-00150;BRR-00150-01-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 BRR-00150;BRR-00150-01-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 BRR-00150;BRR-00150-02-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-BRR-00150;BRR-00150-02-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 BRR-00150;BRR-00150-02-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
+BRR-00150;BRR-00150-02-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 BRR-00150;BRR-00150-02-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 BRR-00150;BRR-00150-03-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
-BRR-00150;BRR-00150-03-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 BRR-00150;BRR-00150-03-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+BRR-00150;BRR-00150-03-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 BRR-00150;BRR-00150-03-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 BRR-00151;BRR-00151-01-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
-BRR-00151;BRR-00151-01-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 BRR-00151;BRR-00151-01-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
+BRR-00151;BRR-00151-01-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 BRR-00151;BRR-00151-01-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 BRR-00151;BRR-00151-02-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-BRR-00151;BRR-00151-02-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 BRR-00151;BRR-00151-02-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
+BRR-00151;BRR-00151-02-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 BRR-00151;BRR-00151-02-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 BRR-00151;BRR-00151-03-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
-BRR-00151;BRR-00151-03-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 BRR-00151;BRR-00151-03-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+BRR-00151;BRR-00151-03-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 BRR-00151;BRR-00151-03-01;Ultrarrápido;Barreiro;Rua Carlos dos Santos Costa;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 BRR-90002;BRR-90002-01-01;Semirrápido;Barreiro;Avenida de Santa Maria;EDP;False;BTN;TIME;€ 0.021 /min;MENNEKES;SOCKET;22
 BRR-90002;BRR-90002-02-01;Semirrápido;Barreiro;Avenida de Santa Maria;EDP;False;BTN;TIME;€ 0.021 /min;MENNEKES;SOCKET;22
@@ -4736,8 +4736,8 @@ CBA-00002;CBA-00002-01-01;Ultrarrápido;Cuba;EN 258-1, Edifício Intermarché;MO
 CBA-00002;CBA-00002-01-01;Ultrarrápido;Cuba;EN 258-1, Edifício Intermarché;MOT;False;MT;ENERGY;€ 0.08 /kWh;CCS;CABLE;180
 CBA-00002;CBA-00002-01-01;Ultrarrápido;Cuba;EN 258-1, Edifício Intermarché;MOT;False;MT;TIME;€ 0.07 /min;CCS;CABLE;180
 CBA-00002;CBA-00002-02-01;Ultrarrápido;Cuba;EN 258-1, Edifício Intermarché;MOT;False;MT;FLAT;€ 0.261 /charge;CCS;CABLE;180
-CBA-00002;CBA-00002-02-01;Ultrarrápido;Cuba;EN 258-1, Edifício Intermarché;MOT;False;MT;ENERGY;€ 0.48 /kWh;CCS;CABLE;180
 CBA-00002;CBA-00002-02-01;Ultrarrápido;Cuba;EN 258-1, Edifício Intermarché;MOT;False;MT;ENERGY;€ 0.08 /kWh;CCS;CABLE;180
+CBA-00002;CBA-00002-02-01;Ultrarrápido;Cuba;EN 258-1, Edifício Intermarché;MOT;False;MT;ENERGY;€ 0.48 /kWh;CCS;CABLE;180
 CBA-00002;CBA-00002-02-01;Ultrarrápido;Cuba;EN 258-1, Edifício Intermarché;MOT;False;MT;TIME;€ 0.07 /min;CCS;CABLE;180
 CBA-90001;CBA-90001-01-01;Semirrápido;Cuba;Rua do Norte;HRZ;False;BTN;TIME;€ 0.0239 /min;MENNEKES;SOCKET;22
 CBA-90001;CBA-90001-02-01;Semirrápido;Cuba;Rua do Norte;HRZ;False;BTN;TIME;€ 0.0239 /min;MENNEKES;SOCKET;22
@@ -5165,8 +5165,8 @@ CBR-00121;CBR-00121-01-01;Rápido;Coimbra;Avenida Inês de Castro - Santa Clara;
 CBR-00121;CBR-00121-01-01;Rápido;Coimbra;Avenida Inês de Castro - Santa Clara;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
 CBR-00121;CBR-00121-01-01;Rápido;Coimbra;Avenida Inês de Castro - Santa Clara;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 CBR-00121;CBR-00121-02-01;Rápido;Coimbra;Avenida Inês de Castro - Santa Clara;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-CBR-00121;CBR-00121-02-01;Rápido;Coimbra;Avenida Inês de Castro - Santa Clara;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 CBR-00121;CBR-00121-02-01;Rápido;Coimbra;Avenida Inês de Castro - Santa Clara;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+CBR-00121;CBR-00121-02-01;Rápido;Coimbra;Avenida Inês de Castro - Santa Clara;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 CBR-00121;CBR-00121-02-01;Rápido;Coimbra;Avenida Inês de Castro - Santa Clara;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 CBR-00122;CBR-00122-01-01;Semirrápido;Coimbra;Av. José Bonifácio de Andrade e Silva, 1;EDP;False;MT;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;11
 CBR-00122;CBR-00122-01-01;Semirrápido;Coimbra;Av. José Bonifácio de Andrade e Silva, 1;EDP;False;MT;TIME;€ 0.028 /min;MENNEKES;SOCKET;11
@@ -5315,12 +5315,12 @@ CDN-00008;CDN-00008-01-01;Ultrarrápido;Condeixa-a-Nova;N342 5;FCT;False;BTE;ENE
 CDN-00008;CDN-00008-01-01;Ultrarrápido;Condeixa-a-Nova;N342 5;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 CDN-00008;CDN-00008-01-01;Ultrarrápido;Condeixa-a-Nova;N342 5;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 CDN-00008;CDN-00008-02-01;Ultrarrápido;Condeixa-a-Nova;N342 5;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-CDN-00008;CDN-00008-02-01;Ultrarrápido;Condeixa-a-Nova;N342 5;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 CDN-00008;CDN-00008-02-01;Ultrarrápido;Condeixa-a-Nova;N342 5;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
+CDN-00008;CDN-00008-02-01;Ultrarrápido;Condeixa-a-Nova;N342 5;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 CDN-00008;CDN-00008-02-01;Ultrarrápido;Condeixa-a-Nova;N342 5;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 CDN-00008;CDN-00008-03-01;Ultrarrápido;Condeixa-a-Nova;N342 5;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-CDN-00008;CDN-00008-03-01;Ultrarrápido;Condeixa-a-Nova;N342 5;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 CDN-00008;CDN-00008-03-01;Ultrarrápido;Condeixa-a-Nova;N342 5;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
+CDN-00008;CDN-00008-03-01;Ultrarrápido;Condeixa-a-Nova;N342 5;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 CDN-00008;CDN-00008-03-01;Ultrarrápido;Condeixa-a-Nova;N342 5;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 CDN-90001;CDN-90001-01-01;Semirrápido;Condeixa-a-Nova;Urbanização Quinta Nova 14;EDP;False;BTN;TIME;€ 0.021 /min;MENNEKES;SOCKET;22
 CDN-90001;CDN-90001-02-01;Semirrápido;Condeixa-a-Nova;Urbanização Quinta Nova 14;EDP;False;BTN;TIME;€ 0.021 /min;MENNEKES;SOCKET;22
@@ -5629,16 +5629,16 @@ CLD-00033;CLD-00033-02-01;Ultrarrápido;Caldas da Rainha;Avenida Infante Dom Hen
 CLD-00033;CLD-00033-02-01;Ultrarrápido;Caldas da Rainha;Avenida Infante Dom Henrique, nº 9970;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
 CLD-00033;CLD-00033-02-01;Ultrarrápido;Caldas da Rainha;Avenida Infante Dom Henrique, nº 9970;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 CLD-00033;CLD-00033-03-01;Ultrarrápido;Caldas da Rainha;Avenida Infante Dom Henrique, nº 9970;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-CLD-00033;CLD-00033-03-01;Ultrarrápido;Caldas da Rainha;Avenida Infante Dom Henrique, nº 9970;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 CLD-00033;CLD-00033-03-01;Ultrarrápido;Caldas da Rainha;Avenida Infante Dom Henrique, nº 9970;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
+CLD-00033;CLD-00033-03-01;Ultrarrápido;Caldas da Rainha;Avenida Infante Dom Henrique, nº 9970;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 CLD-00033;CLD-00033-03-01;Ultrarrápido;Caldas da Rainha;Avenida Infante Dom Henrique, nº 9970;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 CLD-00034;CLD-00034-01-01;Ultrarrápido;Caldas da Rainha;Rua General Amílcar Mota 43 Edifício BP;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
 CLD-00034;CLD-00034-01-01;Ultrarrápido;Caldas da Rainha;Rua General Amílcar Mota 43 Edifício BP;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 CLD-00034;CLD-00034-01-01;Ultrarrápido;Caldas da Rainha;Rua General Amílcar Mota 43 Edifício BP;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 CLD-00034;CLD-00034-01-01;Ultrarrápido;Caldas da Rainha;Rua General Amílcar Mota 43 Edifício BP;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 CLD-00034;CLD-00034-02-01;Ultrarrápido;Caldas da Rainha;Rua General Amílcar Mota 43 Edifício BP;FCT;False;MT;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-CLD-00034;CLD-00034-02-01;Ultrarrápido;Caldas da Rainha;Rua General Amílcar Mota 43 Edifício BP;FCT;False;MT;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
 CLD-00034;CLD-00034-02-01;Ultrarrápido;Caldas da Rainha;Rua General Amílcar Mota 43 Edifício BP;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+CLD-00034;CLD-00034-02-01;Ultrarrápido;Caldas da Rainha;Rua General Amílcar Mota 43 Edifício BP;FCT;False;MT;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
 CLD-00034;CLD-00034-02-01;Ultrarrápido;Caldas da Rainha;Rua General Amílcar Mota 43 Edifício BP;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 CLD-00034;CLD-00034-03-01;Ultrarrápido;Caldas da Rainha;Rua General Amílcar Mota 43 Edifício BP;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
 CLD-00034;CLD-00034-03-01;Ultrarrápido;Caldas da Rainha;Rua General Amílcar Mota 43 Edifício BP;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
@@ -6588,16 +6588,16 @@ CSC-00184;CSC-00184-01-01;Ultrarrápido;Cascais;Estrada Conceição da Abóboda;
 CSC-00184;CSC-00184-01-01;Ultrarrápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 CSC-00184;CSC-00184-01-01;Ultrarrápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 CSC-00184;CSC-00184-02-01;Ultrarrápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-CSC-00184;CSC-00184-02-01;Ultrarrápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 CSC-00184;CSC-00184-02-01;Ultrarrápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
+CSC-00184;CSC-00184-02-01;Ultrarrápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 CSC-00184;CSC-00184-02-01;Ultrarrápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 CSC-00184;CSC-00184-03-01;Ultrarrápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-CSC-00184;CSC-00184-03-01;Ultrarrápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 CSC-00184;CSC-00184-03-01;Ultrarrápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+CSC-00184;CSC-00184-03-01;Ultrarrápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 CSC-00184;CSC-00184-03-01;Ultrarrápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 CSC-00185;CSC-00185-01-01;Rápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-CSC-00185;CSC-00185-01-01;Rápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 CSC-00185;CSC-00185-01-01;Rápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+CSC-00185;CSC-00185-01-01;Rápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 CSC-00185;CSC-00185-01-01;Rápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 CSC-00185;CSC-00185-02-01;Rápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
 CSC-00185;CSC-00185-02-01;Rápido;Cascais;Estrada Conceição da Abóboda;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
@@ -7012,11 +7012,11 @@ CTB-00040;CTB-00040-02-01;Rápido;Castelo Branco;Rua Camilo Castelo Branco nº18
 CTB-00040;CTB-00040-02-02;Rápido;Castelo Branco;Rua Camilo Castelo Branco nº18;KLS;False;MT;ENERGY;€ 0.4208 /kWh;CHADEMO;CABLE;49
 CTB-00040;CTB-00040-02-02;Rápido;Castelo Branco;Rua Camilo Castelo Branco nº18;KLS;False;MT;TIME;€ 0.08 /min;CHADEMO;CABLE;49
 CTB-00041;CTB-00041-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;FLAT;€ 0.3 /charge;CCS;CABLE;100
-CTB-00041;CTB-00041-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;ENERGY;€ 0.57 /kWh;CCS;CABLE;100
 CTB-00041;CTB-00041-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;ENERGY;€ 0.27 /kWh;CCS;CABLE;100
+CTB-00041;CTB-00041-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;ENERGY;€ 0.57 /kWh;CCS;CABLE;100
 CTB-00041;CTB-00041-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;TIME;€ 0 /min até 45 min;CCS;CABLE;100
-CTB-00041;CTB-00041-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;TIME;€ 0.15 /min após 45 min;CCS;CABLE;100
 CTB-00041;CTB-00041-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;TIME;€ 0.2 /min após 30 min;CCS;CABLE;100
+CTB-00041;CTB-00041-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;TIME;€ 0.15 /min após 45 min;CCS;CABLE;100
 CTB-00041;CTB-00041-02-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;FLAT;€ 0.3 /charge;CCS;CABLE;100
 CTB-00041;CTB-00041-02-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;ENERGY;€ 0.57 /kWh;CCS;CABLE;100
 CTB-00041;CTB-00041-02-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;ENERGY;€ 0.27 /kWh;CCS;CABLE;100
@@ -7024,14 +7024,14 @@ CTB-00041;CTB-00041-02-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;Fa
 CTB-00041;CTB-00041-02-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;TIME;€ 0.2 /min após 30 min;CCS;CABLE;100
 CTB-00041;CTB-00041-02-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;TIME;€ 0.15 /min após 45 min;CCS;CABLE;100
 CTB-00042;CTB-00042-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;FLAT;€ 0.3 /charge;CCS;CABLE;100
-CTB-00042;CTB-00042-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;ENERGY;€ 0.27 /kWh;CCS;CABLE;100
 CTB-00042;CTB-00042-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;ENERGY;€ 0.57 /kWh;CCS;CABLE;100
+CTB-00042;CTB-00042-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;ENERGY;€ 0.27 /kWh;CCS;CABLE;100
 CTB-00042;CTB-00042-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;TIME;€ 0 /min até 45 min;CCS;CABLE;100
-CTB-00042;CTB-00042-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;TIME;€ 0.2 /min após 30 min;CCS;CABLE;100
 CTB-00042;CTB-00042-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;TIME;€ 0.15 /min após 45 min;CCS;CABLE;100
+CTB-00042;CTB-00042-01-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;TIME;€ 0.2 /min após 30 min;CCS;CABLE;100
 CTB-00042;CTB-00042-02-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;FLAT;€ 0.3 /charge;CCS;CABLE;100
-CTB-00042;CTB-00042-02-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;ENERGY;€ 0.27 /kWh;CCS;CABLE;100
 CTB-00042;CTB-00042-02-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;ENERGY;€ 0.57 /kWh;CCS;CABLE;100
+CTB-00042;CTB-00042-02-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;ENERGY;€ 0.27 /kWh;CCS;CABLE;100
 CTB-00042;CTB-00042-02-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;TIME;€ 0 /min até 45 min;CCS;CABLE;100
 CTB-00042;CTB-00042-02-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;TIME;€ 0.15 /min após 45 min;CCS;CABLE;100
 CTB-00042;CTB-00042-02-01;Rápido;Castelo Branco;Av. Prof. Dr. Egas Moniz;MOT;False;MT;TIME;€ 0.2 /min após 30 min;CCS;CABLE;100
@@ -7444,8 +7444,8 @@ ENT-00010;ENT-00010-01-01;Rápido;Entroncamento;EN 3, KM 81,Lote S1, Nº 124;FCT
 ENT-00010;ENT-00010-01-01;Rápido;Entroncamento;EN 3, KM 81,Lote S1, Nº 124;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
 ENT-00010;ENT-00010-01-01;Rápido;Entroncamento;EN 3, KM 81,Lote S1, Nº 124;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 ENT-00010;ENT-00010-02-01;Rápido;Entroncamento;EN 3, KM 81,Lote S1, Nº 124;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-ENT-00010;ENT-00010-02-01;Rápido;Entroncamento;EN 3, KM 81,Lote S1, Nº 124;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 ENT-00010;ENT-00010-02-01;Rápido;Entroncamento;EN 3, KM 81,Lote S1, Nº 124;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+ENT-00010;ENT-00010-02-01;Rápido;Entroncamento;EN 3, KM 81,Lote S1, Nº 124;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 ENT-00010;ENT-00010-02-01;Rápido;Entroncamento;EN 3, KM 81,Lote S1, Nº 124;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 ENT-90001;ENT-90001-01-01;Semirrápido;Entroncamento;Praça Mal. Carmona;HRZ;False;BTN;TIME;€ 0.0298 /min;MENNEKES;SOCKET;22
 ENT-90001;ENT-90001-02-01;Semirrápido;Entroncamento;Praça Mal. Carmona;HRZ;False;BTN;TIME;€ 0.0298 /min;MENNEKES;SOCKET;22
@@ -8024,12 +8024,12 @@ EVR-00043;EVR-00043-02-01;Semirrápido;Évora;TRAVESSA da Palmeira 4;EDP;False;M
 EVR-00043;EVR-00043-02-01;Semirrápido;Évora;TRAVESSA da Palmeira 4;EDP;False;MT;ENERGY;€ 0.1 /kWh;MENNEKES;SOCKET;7,4
 EVR-00043;EVR-00043-02-01;Semirrápido;Évora;TRAVESSA da Palmeira 4;EDP;False;MT;TIME;€ 0.015 /min;MENNEKES;SOCKET;7,4
 EVR-00045;EVR-00045-01-01;Ultrarrápido;Évora;Av. Dona Leonor de Oliveira Fernandes;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-EVR-00045;EVR-00045-01-01;Ultrarrápido;Évora;Av. Dona Leonor de Oliveira Fernandes;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 EVR-00045;EVR-00045-01-01;Ultrarrápido;Évora;Av. Dona Leonor de Oliveira Fernandes;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+EVR-00045;EVR-00045-01-01;Ultrarrápido;Évora;Av. Dona Leonor de Oliveira Fernandes;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 EVR-00045;EVR-00045-01-01;Ultrarrápido;Évora;Av. Dona Leonor de Oliveira Fernandes;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 EVR-00045;EVR-00045-02-01;Ultrarrápido;Évora;Av. Dona Leonor de Oliveira Fernandes;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-EVR-00045;EVR-00045-02-01;Ultrarrápido;Évora;Av. Dona Leonor de Oliveira Fernandes;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 EVR-00045;EVR-00045-02-01;Ultrarrápido;Évora;Av. Dona Leonor de Oliveira Fernandes;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+EVR-00045;EVR-00045-02-01;Ultrarrápido;Évora;Av. Dona Leonor de Oliveira Fernandes;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 EVR-00045;EVR-00045-02-01;Ultrarrápido;Évora;Av. Dona Leonor de Oliveira Fernandes;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 EVR-00045;EVR-00045-03-01;Ultrarrápido;Évora;Av. Dona Leonor de Oliveira Fernandes;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 EVR-00045;EVR-00045-03-01;Ultrarrápido;Évora;Av. Dona Leonor de Oliveira Fernandes;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
@@ -8091,13 +8091,13 @@ EVR-00057;EVR-00057-01-01;Semirrápido;Évora;Rua Circular Norte - Edifício NER
 EVR-00057;EVR-00057-01-01;Semirrápido;Évora;Rua Circular Norte - Edifício NERE;IBD;False;BTE;TIME;€ 0.04 /min;MENNEKES;SOCKET;11
 EVR-00057;EVR-00057-02-01;Semirrápido;Évora;Rua Circular Norte - Edifício NERE;IBD;False;BTE;FLAT;€ 0.16 /charge;MENNEKES;SOCKET;11
 EVR-00057;EVR-00057-02-01;Semirrápido;Évora;Rua Circular Norte - Edifício NERE;IBD;False;BTE;TIME;€ 0.04 /min;MENNEKES;SOCKET;11
-EVR-00058;EVR-00058-01-01;Semirrápido;Évora;Rua Luís Adelino Fonseca 2;MOT;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 EVR-00058;EVR-00058-01-01;Semirrápido;Évora;Rua Luís Adelino Fonseca 2;MOT;False;MT;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;22
+EVR-00058;EVR-00058-01-01;Semirrápido;Évora;Rua Luís Adelino Fonseca 2;MOT;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 EVR-00058;EVR-00058-01-01;Semirrápido;Évora;Rua Luís Adelino Fonseca 2;MOT;False;MT;ENERGY;€ 0.26 /kWh;MENNEKES;SOCKET;22
-EVR-00058;EVR-00058-01-01;Semirrápido;Évora;Rua Luís Adelino Fonseca 2;MOT;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
 EVR-00058;EVR-00058-01-01;Semirrápido;Évora;Rua Luís Adelino Fonseca 2;MOT;False;MT;TIME;€ 0.0301 /min;MENNEKES;SOCKET;22
-EVR-00058;EVR-00058-02-01;Semirrápido;Évora;Rua Luís Adelino Fonseca 2;MOT;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
+EVR-00058;EVR-00058-01-01;Semirrápido;Évora;Rua Luís Adelino Fonseca 2;MOT;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
 EVR-00058;EVR-00058-02-01;Semirrápido;Évora;Rua Luís Adelino Fonseca 2;MOT;False;MT;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;22
+EVR-00058;EVR-00058-02-01;Semirrápido;Évora;Rua Luís Adelino Fonseca 2;MOT;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 EVR-00058;EVR-00058-02-01;Semirrápido;Évora;Rua Luís Adelino Fonseca 2;MOT;False;MT;ENERGY;€ 0.26 /kWh;MENNEKES;SOCKET;22
 EVR-00058;EVR-00058-02-01;Semirrápido;Évora;Rua Luís Adelino Fonseca 2;MOT;False;MT;TIME;€ 0.0301 /min;MENNEKES;SOCKET;22
 EVR-00058;EVR-00058-02-01;Semirrápido;Évora;Rua Luís Adelino Fonseca 2;MOT;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
@@ -8462,8 +8462,8 @@ FAR-00072;FAR-00072-02-01;Ultrarrápido;Faro;LUGAR DE CAMPINAS - EDIFICIO INTERM
 FAR-00073;FAR-00073-01-01;Rápido;Faro;LUGAR DE CAMPINAS - EDIFICIO BRICOMARCHÉ;EVI;False;BTE;TIME;€ 0.08 /min;CCS;CABLE;120
 FAR-00073;FAR-00073-02-01;Rápido;Faro;LUGAR DE CAMPINAS - EDIFICIO BRICOMARCHÉ;EVI;False;BTE;TIME;€ 0.08 /min;CCS;CABLE;120
 FAR-00074;FAR-00074-01-01;Rápido;Faro;Av. Cidade de Hayward 9002;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-FAR-00074;FAR-00074-01-01;Rápido;Faro;Av. Cidade de Hayward 9002;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
 FAR-00074;FAR-00074-01-01;Rápido;Faro;Av. Cidade de Hayward 9002;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
+FAR-00074;FAR-00074-01-01;Rápido;Faro;Av. Cidade de Hayward 9002;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
 FAR-00074;FAR-00074-01-01;Rápido;Faro;Av. Cidade de Hayward 9002;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 FAR-00074;FAR-00074-02-01;Rápido;Faro;Av. Cidade de Hayward 9002;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
 FAR-00074;FAR-00074-02-01;Rápido;Faro;Av. Cidade de Hayward 9002;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
@@ -8753,8 +8753,8 @@ FLG-00016;FLG-00016-03-01;Rápido;Felgueiras;Lugar Da Agra, R. Manuel de Faria e
 FLG-00016;FLG-00016-03-01;Rápido;Felgueiras;Lugar Da Agra, R. Manuel de Faria e Sousa,;ATL;False;BTN;ENERGY;€ 0.25 /kWh até 60 min;MENNEKES;SOCKET;22
 FLG-00016;FLG-00016-03-01;Rápido;Felgueiras;Lugar Da Agra, R. Manuel de Faria e Sousa,;ATL;False;BTN;TIME;€ 0.2 /min após 60 min;MENNEKES;SOCKET;22
 FLG-00017;FLG-00017-01-01;Ultrarrápido;Felgueiras;Estrada Nacional 207, km 40, Lameiro;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-FLG-00017;FLG-00017-01-01;Ultrarrápido;Felgueiras;Estrada Nacional 207, km 40, Lameiro;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 FLG-00017;FLG-00017-01-01;Ultrarrápido;Felgueiras;Estrada Nacional 207, km 40, Lameiro;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+FLG-00017;FLG-00017-01-01;Ultrarrápido;Felgueiras;Estrada Nacional 207, km 40, Lameiro;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 FLG-00017;FLG-00017-01-01;Ultrarrápido;Felgueiras;Estrada Nacional 207, km 40, Lameiro;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 FLG-00017;FLG-00017-02-01;Ultrarrápido;Felgueiras;Estrada Nacional 207, km 40, Lameiro;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
 FLG-00017;FLG-00017-02-01;Ultrarrápido;Felgueiras;Estrada Nacional 207, km 40, Lameiro;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
@@ -8811,8 +8811,8 @@ FNC-00044;FNC-00044-01-01;Ultrarrápido;Funchal;Rua 31 de Janeiro;FCT;False;BTE;
 FNC-00044;FNC-00044-01-01;Ultrarrápido;Funchal;Rua 31 de Janeiro;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 FNC-00044;FNC-00044-01-01;Ultrarrápido;Funchal;Rua 31 de Janeiro;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 FNC-00044;FNC-00044-02-01;Ultrarrápido;Funchal;Rua 31 de Janeiro;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-FNC-00044;FNC-00044-02-01;Ultrarrápido;Funchal;Rua 31 de Janeiro;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 FNC-00044;FNC-00044-02-01;Ultrarrápido;Funchal;Rua 31 de Janeiro;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
+FNC-00044;FNC-00044-02-01;Ultrarrápido;Funchal;Rua 31 de Janeiro;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 FNC-00044;FNC-00044-02-01;Ultrarrápido;Funchal;Rua 31 de Janeiro;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 FNC-00044;FNC-00044-03-01;Ultrarrápido;Funchal;Rua 31 de Janeiro;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 FNC-00044;FNC-00044-03-01;Ultrarrápido;Funchal;Rua 31 de Janeiro;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
@@ -8889,14 +8889,14 @@ FND-00007;FND-00007-02-01;Rápido;Fundão;Rua Cidade da Covilhã;HRZ;False;MT;EN
 FND-00007;FND-00007-03-01;Rápido;Fundão;Rua Cidade da Covilhã;HRZ;False;MT;FLAT;€ 0.3 /charge;MENNEKES;CABLE;43
 FND-00007;FND-00007-03-01;Rápido;Fundão;Rua Cidade da Covilhã;HRZ;False;MT;ENERGY;€ 0.25 /kWh;MENNEKES;CABLE;43
 FND-00013;FND-00013-01-01;Rápido;Fundão;CEPSA FUNDÃO- A23 KM 162 TEIXOSO ALQUERIA N/S;CPS;False;MT;FLAT;€ 0.1572 /charge;CCS;CABLE;100
-FND-00013;FND-00013-01-01;Rápido;Fundão;CEPSA FUNDÃO- A23 KM 162 TEIXOSO ALQUERIA N/S;CPS;False;MT;ENERGY;€ 0.3 /kWh;CCS;CABLE;100
 FND-00013;FND-00013-01-01;Rápido;Fundão;CEPSA FUNDÃO- A23 KM 162 TEIXOSO ALQUERIA N/S;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;100
+FND-00013;FND-00013-01-01;Rápido;Fundão;CEPSA FUNDÃO- A23 KM 162 TEIXOSO ALQUERIA N/S;CPS;False;MT;ENERGY;€ 0.3 /kWh;CCS;CABLE;100
 FND-00013;FND-00013-02-01;Rápido;Fundão;CEPSA FUNDÃO- A23 KM 162 TEIXOSO ALQUERIA N/S;CPS;False;MT;FLAT;€ 0.1572 /charge;CCS;CABLE;100
-FND-00013;FND-00013-02-01;Rápido;Fundão;CEPSA FUNDÃO- A23 KM 162 TEIXOSO ALQUERIA N/S;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;100
 FND-00013;FND-00013-02-01;Rápido;Fundão;CEPSA FUNDÃO- A23 KM 162 TEIXOSO ALQUERIA N/S;CPS;False;MT;ENERGY;€ 0.3 /kWh;CCS;CABLE;100
+FND-00013;FND-00013-02-01;Rápido;Fundão;CEPSA FUNDÃO- A23 KM 162 TEIXOSO ALQUERIA N/S;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;100
 FND-00014;FND-00014-01-01;Rápido;Fundão;CEPSA FUNDÃO- A23 KM 162 TEIXOSO ALQUERIA S/N;CPS;False;MT;FLAT;€ 0.1572 /charge;CCS;CABLE;100
-FND-00014;FND-00014-01-01;Rápido;Fundão;CEPSA FUNDÃO- A23 KM 162 TEIXOSO ALQUERIA S/N;CPS;False;MT;ENERGY;€ 0.3 /kWh;CCS;CABLE;100
 FND-00014;FND-00014-01-01;Rápido;Fundão;CEPSA FUNDÃO- A23 KM 162 TEIXOSO ALQUERIA S/N;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;100
+FND-00014;FND-00014-01-01;Rápido;Fundão;CEPSA FUNDÃO- A23 KM 162 TEIXOSO ALQUERIA S/N;CPS;False;MT;ENERGY;€ 0.3 /kWh;CCS;CABLE;100
 FND-00014;FND-00014-02-01;Rápido;Fundão;CEPSA FUNDÃO- A23 KM 162 TEIXOSO ALQUERIA S/N;CPS;False;MT;FLAT;€ 0.1572 /charge;CCS;CABLE;100
 FND-00014;FND-00014-02-01;Rápido;Fundão;CEPSA FUNDÃO- A23 KM 162 TEIXOSO ALQUERIA S/N;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;100
 FND-00014;FND-00014-02-01;Rápido;Fundão;CEPSA FUNDÃO- A23 KM 162 TEIXOSO ALQUERIA S/N;CPS;False;MT;ENERGY;€ 0.3 /kWh;CCS;CABLE;100
@@ -9113,8 +9113,8 @@ FZZ-00002;FZZ-00002-01-01;Semirrápido;Ferreira do Zêzere;Aldeamento das Varand
 FZZ-00002;FZZ-00002-02-01;Semirrápido;Ferreira do Zêzere;Aldeamento das Varandas do Lago;HRZ;False;BTE;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 FZZ-00002;FZZ-00002-02-01;Semirrápido;Ferreira do Zêzere;Aldeamento das Varandas do Lago;HRZ;False;BTE;TIME;€ 0.035 /min;MENNEKES;SOCKET;22
 FZZ-00003;FZZ-00003-01-01;Ultrarrápido;Ferreira do Zêzere;CEPSA FERREIRA - RUA BRIGADEIRO LINO VALENTE;CPS;False;BTE;FLAT;€ 0.1572 /charge;CCS;CABLE;150
-FZZ-00003;FZZ-00003-01-01;Ultrarrápido;Ferreira do Zêzere;CEPSA FERREIRA - RUA BRIGADEIRO LINO VALENTE;CPS;False;BTE;ENERGY;€ 0.6 /kWh;CCS;CABLE;150
 FZZ-00003;FZZ-00003-01-01;Ultrarrápido;Ferreira do Zêzere;CEPSA FERREIRA - RUA BRIGADEIRO LINO VALENTE;CPS;False;BTE;ENERGY;€ 0.3 /kWh;CCS;CABLE;150
+FZZ-00003;FZZ-00003-01-01;Ultrarrápido;Ferreira do Zêzere;CEPSA FERREIRA - RUA BRIGADEIRO LINO VALENTE;CPS;False;BTE;ENERGY;€ 0.6 /kWh;CCS;CABLE;150
 FZZ-90001;FZZ-90001-01-01;Semirrápido;Ferreira do Zêzere;Rua Depósito da Água;HRZ;False;BTN;TIME;€ 0.0298 /min;MENNEKES;SOCKET;22
 FZZ-90001;FZZ-90001-02-01;Semirrápido;Ferreira do Zêzere;Rua Depósito da Água;HRZ;False;BTN;TIME;€ 0.0298 /min;MENNEKES;SOCKET;22
 GAV-90001;GAV-90001-01-01;Semirrápido;Gavião;R. Eugénio Maleitas;HRZ;False;BTN;TIME;€ 0.0239 /min;MENNEKES;SOCKET;22
@@ -9518,8 +9518,8 @@ GDM-00044;GDM-00044-03-01;Rápido;Gondomar;Rua Dr. Carlos Moura Guedes (UA: 276)
 GDM-00044;GDM-00044-03-01;Rápido;Gondomar;Rua Dr. Carlos Moura Guedes (UA: 276),;KLS;False;MT;ENERGY;€ 0 /kWh;CHADEMO;CABLE;50
 GDM-00044;GDM-00044-03-01;Rápido;Gondomar;Rua Dr. Carlos Moura Guedes (UA: 276),;KLS;False;MT;TIME;€ 0.08 /min;CHADEMO;CABLE;50
 GDM-00045;GDM-00045-01-01;Ultrarrápido;Gondomar;CEPSA GONDOMAR - AV. CARVALHA, 662;CPS;False;BTE;FLAT;€ 0.1572 /charge;CCS;CABLE;150
-GDM-00045;GDM-00045-01-01;Ultrarrápido;Gondomar;CEPSA GONDOMAR - AV. CARVALHA, 662;CPS;False;BTE;ENERGY;€ 0.3 /kWh;CCS;CABLE;150
 GDM-00045;GDM-00045-01-01;Ultrarrápido;Gondomar;CEPSA GONDOMAR - AV. CARVALHA, 662;CPS;False;BTE;ENERGY;€ 0.6 /kWh;CCS;CABLE;150
+GDM-00045;GDM-00045-01-01;Ultrarrápido;Gondomar;CEPSA GONDOMAR - AV. CARVALHA, 662;CPS;False;BTE;ENERGY;€ 0.3 /kWh;CCS;CABLE;150
 GDM-00046;GDM-00046-01-01;Rápido;Gondomar;Estrada de Dom Miguel, lote 3;KLS;False;MT;ENERGY;€ 0.6539 /kWh;MENNEKES;CABLE;22
 GDM-00046;GDM-00046-01-01;Rápido;Gondomar;Estrada de Dom Miguel, lote 3;KLS;False;MT;TIME;€ 0.08 /min;MENNEKES;CABLE;22
 GDM-00046;GDM-00046-02-01;Rápido;Gondomar;Estrada de Dom Miguel, lote 3;KLS;False;MT;ENERGY;€ 0.4208 /kWh;CCS;CABLE;49
@@ -10204,16 +10204,16 @@ IDN-00004;IDN-00004-01-01;Ultrarrápido;Idanha-a-Nova;Rua Dr. José Gardete Mart
 IDN-00004;IDN-00004-01-02;Ultrarrápido;Idanha-a-Nova;Rua Dr. José Gardete Martins, Monfortinho;IBD;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;180
 IDN-00004;IDN-00004-01-02;Ultrarrápido;Idanha-a-Nova;Rua Dr. José Gardete Martins, Monfortinho;IBD;False;MT;TIME;€ 0.25 /min;CCS;CABLE;180
 IDN-00005;IDN-00005-01-01;Ultrarrápido;Idanha-a-Nova;Estrada Nacional 239, Km 36,4 6060-302 Penha;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-IDN-00005;IDN-00005-01-01;Ultrarrápido;Idanha-a-Nova;Estrada Nacional 239, Km 36,4 6060-302 Penha;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 IDN-00005;IDN-00005-01-01;Ultrarrápido;Idanha-a-Nova;Estrada Nacional 239, Km 36,4 6060-302 Penha;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+IDN-00005;IDN-00005-01-01;Ultrarrápido;Idanha-a-Nova;Estrada Nacional 239, Km 36,4 6060-302 Penha;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 IDN-00005;IDN-00005-01-01;Ultrarrápido;Idanha-a-Nova;Estrada Nacional 239, Km 36,4 6060-302 Penha;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 IDN-00005;IDN-00005-02-01;Ultrarrápido;Idanha-a-Nova;Estrada Nacional 239, Km 36,4 6060-302 Penha;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
 IDN-00005;IDN-00005-02-01;Ultrarrápido;Idanha-a-Nova;Estrada Nacional 239, Km 36,4 6060-302 Penha;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 IDN-00005;IDN-00005-02-01;Ultrarrápido;Idanha-a-Nova;Estrada Nacional 239, Km 36,4 6060-302 Penha;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 IDN-00005;IDN-00005-02-01;Ultrarrápido;Idanha-a-Nova;Estrada Nacional 239, Km 36,4 6060-302 Penha;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 IDN-00005;IDN-00005-03-01;Ultrarrápido;Idanha-a-Nova;Estrada Nacional 239, Km 36,4 6060-302 Penha;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-IDN-00005;IDN-00005-03-01;Ultrarrápido;Idanha-a-Nova;Estrada Nacional 239, Km 36,4 6060-302 Penha;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 IDN-00005;IDN-00005-03-01;Ultrarrápido;Idanha-a-Nova;Estrada Nacional 239, Km 36,4 6060-302 Penha;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+IDN-00005;IDN-00005-03-01;Ultrarrápido;Idanha-a-Nova;Estrada Nacional 239, Km 36,4 6060-302 Penha;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 IDN-00005;IDN-00005-03-01;Ultrarrápido;Idanha-a-Nova;Estrada Nacional 239, Km 36,4 6060-302 Penha;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 IDN-00006;IDN-00006-01-01;Rápido;Idanha-a-Nova;N239 KM. 30-400, Medelim;PRI;False;BTE;FLAT;€ 0.3 /charge;CHADEMO;CABLE;60
 IDN-00006;IDN-00006-01-01;Rápido;Idanha-a-Nova;N239 KM. 30-400, Medelim;PRI;False;BTE;TIME;€ 0.18 /min;CHADEMO;CABLE;60
@@ -10552,16 +10552,16 @@ LGS-00036;LGS-00036-01-01;Semirrápido;Lagos;Urbanização Quinta da Boavista S�
 LGS-00036;LGS-00036-02-01;Semirrápido;Lagos;Urbanização Quinta da Boavista Sítio Atalaia;EDP;False;MT;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;7,4
 LGS-00036;LGS-00036-02-01;Semirrápido;Lagos;Urbanização Quinta da Boavista Sítio Atalaia;EDP;False;MT;TIME;€ 0.033 /min;MENNEKES;SOCKET;7,4
 LGS-00037;LGS-00037-01-01;Ultrarrápido;Lagos;E. N. 125 - Telheiro;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-LGS-00037;LGS-00037-01-01;Ultrarrápido;Lagos;E. N. 125 - Telheiro;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 LGS-00037;LGS-00037-01-01;Ultrarrápido;Lagos;E. N. 125 - Telheiro;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
+LGS-00037;LGS-00037-01-01;Ultrarrápido;Lagos;E. N. 125 - Telheiro;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 LGS-00037;LGS-00037-01-01;Ultrarrápido;Lagos;E. N. 125 - Telheiro;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 LGS-00037;LGS-00037-02-01;Ultrarrápido;Lagos;E. N. 125 - Telheiro;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-LGS-00037;LGS-00037-02-01;Ultrarrápido;Lagos;E. N. 125 - Telheiro;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 LGS-00037;LGS-00037-02-01;Ultrarrápido;Lagos;E. N. 125 - Telheiro;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
+LGS-00037;LGS-00037-02-01;Ultrarrápido;Lagos;E. N. 125 - Telheiro;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 LGS-00037;LGS-00037-02-01;Ultrarrápido;Lagos;E. N. 125 - Telheiro;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 LGS-00037;LGS-00037-03-01;Ultrarrápido;Lagos;E. N. 125 - Telheiro;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-LGS-00037;LGS-00037-03-01;Ultrarrápido;Lagos;E. N. 125 - Telheiro;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 LGS-00037;LGS-00037-03-01;Ultrarrápido;Lagos;E. N. 125 - Telheiro;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
+LGS-00037;LGS-00037-03-01;Ultrarrápido;Lagos;E. N. 125 - Telheiro;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 LGS-00037;LGS-00037-03-01;Ultrarrápido;Lagos;E. N. 125 - Telheiro;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 LGS-00038;LGS-00038-01-01;Rápido;Lagos;Rua Infante Dom Henrique S/N Lagos;GLP;False;BTE;FLAT;€ 0.5 /charge;CCS;CABLE;90
 LGS-00038;LGS-00038-01-01;Rápido;Lagos;Rua Infante Dom Henrique S/N Lagos;GLP;False;BTE;FLAT;€ 0.5 /charge;CCS;CABLE;90
@@ -10588,8 +10588,8 @@ LGS-00039;LGS-00039-02-01;Ultrarrápido;Lagos;Urbanização Marluz, Estrada Muni
 LGS-00039;LGS-00039-02-01;Ultrarrápido;Lagos;Urbanização Marluz, Estrada Municipal 537-1;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 LGS-00039;LGS-00039-02-01;Ultrarrápido;Lagos;Urbanização Marluz, Estrada Municipal 537-1;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 LGS-00039;LGS-00039-03-01;Ultrarrápido;Lagos;Urbanização Marluz, Estrada Municipal 537-1;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-LGS-00039;LGS-00039-03-01;Ultrarrápido;Lagos;Urbanização Marluz, Estrada Municipal 537-1;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 LGS-00039;LGS-00039-03-01;Ultrarrápido;Lagos;Urbanização Marluz, Estrada Municipal 537-1;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
+LGS-00039;LGS-00039-03-01;Ultrarrápido;Lagos;Urbanização Marluz, Estrada Municipal 537-1;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 LGS-00039;LGS-00039-03-01;Ultrarrápido;Lagos;Urbanização Marluz, Estrada Municipal 537-1;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 LGS-90001;LGS-90001-01-01;Semirrápido;Lagos;Avenida dos Descobrimentos;EDP;False;BTN;TIME;€ 0.021 /min;MENNEKES;SOCKET;22
 LGS-90001;LGS-90001-02-01;Semirrápido;Lagos;Avenida dos Descobrimentos;EDP;False;BTN;TIME;€ 0.021 /min;MENNEKES;SOCKET;22
@@ -11244,22 +11244,22 @@ LLE-00217;LLE-00217-01-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;M
 LLE-00217;LLE-00217-01-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;ENERGY;€ 0.1 /kWh;CCS;CABLE;120
 LLE-00217;LLE-00217-01-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;TIME;€ 0.1 /min;CCS;CABLE;120
 LLE-00217;LLE-00217-02-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;FLAT;€ 0.2608 /charge;CCS;CABLE;120
-LLE-00217;LLE-00217-02-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;ENERGY;€ 0.1 /kWh;CCS;CABLE;120
 LLE-00217;LLE-00217-02-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;ENERGY;€ 0.5448 /kWh;CCS;CABLE;120
+LLE-00217;LLE-00217-02-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;ENERGY;€ 0.1 /kWh;CCS;CABLE;120
 LLE-00217;LLE-00217-02-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;TIME;€ 0.1 /min;CCS;CABLE;120
 LLE-00218;LLE-00218-01-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;FLAT;€ 0.2608 /charge;CCS;CABLE;60
 LLE-00218;LLE-00218-01-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;ENERGY;€ 0.06 /kWh;CCS;CABLE;60
 LLE-00218;LLE-00218-01-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;ENERGY;€ 0.5285 /kWh;CCS;CABLE;60
 LLE-00218;LLE-00218-01-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;TIME;€ 0.08 /min;CCS;CABLE;60
 LLE-00218;LLE-00218-02-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;FLAT;€ 0.2608 /charge;CCS;CABLE;60
-LLE-00218;LLE-00218-02-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;ENERGY;€ 0.06 /kWh;CCS;CABLE;60
 LLE-00218;LLE-00218-02-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;ENERGY;€ 0.5285 /kWh;CCS;CABLE;60
+LLE-00218;LLE-00218-02-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;ENERGY;€ 0.06 /kWh;CCS;CABLE;60
 LLE-00218;LLE-00218-02-01;Rápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;TIME;€ 0.08 /min;CCS;CABLE;60
 LLE-00219;LLE-00219-01-01;Semirrápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;FLAT;€ 0.2608 /charge;MENNEKES;SOCKET;22
 LLE-00219;LLE-00219-01-01;Semirrápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;22
 LLE-00219;LLE-00219-01-01;Semirrápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;ENERGY;€ 0.2602 /kWh;MENNEKES;SOCKET;22
-LLE-00219;LLE-00219-01-01;Semirrápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
 LLE-00219;LLE-00219-01-01;Semirrápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;TIME;€ 0.031 /min;MENNEKES;SOCKET;22
+LLE-00219;LLE-00219-01-01;Semirrápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
 LLE-00219;LLE-00219-02-01;Semirrápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;FLAT;€ 0.2608 /charge;MENNEKES;SOCKET;22
 LLE-00219;LLE-00219-02-01;Semirrápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;22
 LLE-00219;LLE-00219-02-01;Semirrápido;Loulé;Volta do Parque, n.º 2 Aquashow Park;MOT;False;MT;ENERGY;€ 0.2602 /kWh;MENNEKES;SOCKET;22
@@ -11278,8 +11278,8 @@ LLE-00223;LLE-00223-01-01;Ultrarrápido;Loulé;Rua do Vale Formoso;FCT;False;BTE
 LLE-00223;LLE-00223-01-01;Ultrarrápido;Loulé;Rua do Vale Formoso;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 LLE-00223;LLE-00223-01-01;Ultrarrápido;Loulé;Rua do Vale Formoso;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 LLE-00223;LLE-00223-02-01;Ultrarrápido;Loulé;Rua do Vale Formoso;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-LLE-00223;LLE-00223-02-01;Ultrarrápido;Loulé;Rua do Vale Formoso;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 LLE-00223;LLE-00223-02-01;Ultrarrápido;Loulé;Rua do Vale Formoso;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
+LLE-00223;LLE-00223-02-01;Ultrarrápido;Loulé;Rua do Vale Formoso;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 LLE-00223;LLE-00223-02-01;Ultrarrápido;Loulé;Rua do Vale Formoso;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 LLE-00223;LLE-00223-03-01;Ultrarrápido;Loulé;Rua do Vale Formoso;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 LLE-00223;LLE-00223-03-01;Ultrarrápido;Loulé;Rua do Vale Formoso;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
@@ -11484,15 +11484,15 @@ LOU-00008;LOU-00008-01-01;Semirrápido;Lousada;Hosp Lares - Avenida Major Arruch
 LOU-00008;LOU-00008-02-01;Semirrápido;Lousada;Hosp Lares - Avenida Major Arruchela Lobo;EDP;False;MT;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;22
 LOU-00008;LOU-00008-02-01;Semirrápido;Lousada;Hosp Lares - Avenida Major Arruchela Lobo;EDP;False;MT;TIME;€ 0.033 /min;MENNEKES;SOCKET;22
 LOU-00009;LOU-00009-01-01;Rápido;Lousada;Avenida da Estrada Real, N.º 825;MOT;False;BTE;FLAT;€ 0.3 /charge;CCS;CABLE;60
-LOU-00009;LOU-00009-01-01;Rápido;Lousada;Avenida da Estrada Real, N.º 825;MOT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;60
 LOU-00009;LOU-00009-01-01;Rápido;Lousada;Avenida da Estrada Real, N.º 825;MOT;False;BTE;ENERGY;€ 0.53 /kWh;CCS;CABLE;60
+LOU-00009;LOU-00009-01-01;Rápido;Lousada;Avenida da Estrada Real, N.º 825;MOT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;60
 LOU-00009;LOU-00009-01-01;Rápido;Lousada;Avenida da Estrada Real, N.º 825;MOT;False;BTE;TIME;€ 0 /min até 60 min;CCS;CABLE;60
 LOU-00009;LOU-00009-01-01;Rápido;Lousada;Avenida da Estrada Real, N.º 825;MOT;False;BTE;TIME;€ 0 /min até 60 min;CCS;CABLE;60
 LOU-00009;LOU-00009-01-01;Rápido;Lousada;Avenida da Estrada Real, N.º 825;MOT;False;BTE;TIME;€ 0.1 /min após 60 min;CCS;CABLE;60
 LOU-00009;LOU-00009-01-01;Rápido;Lousada;Avenida da Estrada Real, N.º 825;MOT;False;BTE;TIME;€ 0.1 /min após 60 min;CCS;CABLE;60
 LOU-00009;LOU-00009-02-01;Rápido;Lousada;Avenida da Estrada Real, N.º 825;MOT;False;BTE;FLAT;€ 0.3 /charge;CCS;CABLE;60
-LOU-00009;LOU-00009-02-01;Rápido;Lousada;Avenida da Estrada Real, N.º 825;MOT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;60
 LOU-00009;LOU-00009-02-01;Rápido;Lousada;Avenida da Estrada Real, N.º 825;MOT;False;BTE;ENERGY;€ 0.53 /kWh;CCS;CABLE;60
+LOU-00009;LOU-00009-02-01;Rápido;Lousada;Avenida da Estrada Real, N.º 825;MOT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;60
 LOU-00009;LOU-00009-02-01;Rápido;Lousada;Avenida da Estrada Real, N.º 825;MOT;False;BTE;TIME;€ 0 /min até 60 min;CCS;CABLE;60
 LOU-00009;LOU-00009-02-01;Rápido;Lousada;Avenida da Estrada Real, N.º 825;MOT;False;BTE;TIME;€ 0 /min até 60 min;CCS;CABLE;60
 LOU-00009;LOU-00009-02-01;Rápido;Lousada;Avenida da Estrada Real, N.º 825;MOT;False;BTE;TIME;€ 0.1 /min após 60 min;CCS;CABLE;60
@@ -11805,12 +11805,12 @@ LRA-00122;LRA-00122-02-01;Rápido;Leiria;BK Leiria Olhavas - R. de Santo André;
 LRA-00122;LRA-00122-02-01;Rápido;Leiria;BK Leiria Olhavas - R. de Santo André;EDP;False;BTE;ENERGY;€ 0.13 /kWh;CHADEMO;CABLE;60
 LRA-00122;LRA-00122-02-01;Rápido;Leiria;BK Leiria Olhavas - R. de Santo André;EDP;False;BTE;TIME;€ 0.1 /min;CHADEMO;CABLE;60
 LRA-00123;LRA-00123-01-01;Ultrarrápido;Leiria;Rua Luís Pereira da Costa EN109 Km 150,5;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-LRA-00123;LRA-00123-01-01;Ultrarrápido;Leiria;Rua Luís Pereira da Costa EN109 Km 150,5;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 LRA-00123;LRA-00123-01-01;Ultrarrápido;Leiria;Rua Luís Pereira da Costa EN109 Km 150,5;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
+LRA-00123;LRA-00123-01-01;Ultrarrápido;Leiria;Rua Luís Pereira da Costa EN109 Km 150,5;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 LRA-00123;LRA-00123-01-01;Ultrarrápido;Leiria;Rua Luís Pereira da Costa EN109 Km 150,5;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 LRA-00123;LRA-00123-02-01;Ultrarrápido;Leiria;Rua Luís Pereira da Costa EN109 Km 150,5;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-LRA-00123;LRA-00123-02-01;Ultrarrápido;Leiria;Rua Luís Pereira da Costa EN109 Km 150,5;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
 LRA-00123;LRA-00123-02-01;Ultrarrápido;Leiria;Rua Luís Pereira da Costa EN109 Km 150,5;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+LRA-00123;LRA-00123-02-01;Ultrarrápido;Leiria;Rua Luís Pereira da Costa EN109 Km 150,5;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
 LRA-00123;LRA-00123-02-01;Ultrarrápido;Leiria;Rua Luís Pereira da Costa EN109 Km 150,5;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 LRA-00123;LRA-00123-03-01;Ultrarrápido;Leiria;Rua Luís Pereira da Costa EN109 Km 150,5;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 LRA-00123;LRA-00123-03-01;Ultrarrápido;Leiria;Rua Luís Pereira da Costa EN109 Km 150,5;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
@@ -11827,11 +11827,11 @@ LRA-00126;LRA-00126-01-01;Semirrápido;Leiria;Rua Dr. Oliveira Salazar 19;MOT;Fa
 LRA-00126;LRA-00126-01-01;Semirrápido;Leiria;Rua Dr. Oliveira Salazar 19;MOT;False;BTE;ENERGY;€ 0.2602 /kWh;MENNEKES;SOCKET;11
 LRA-00126;LRA-00126-01-01;Semirrápido;Leiria;Rua Dr. Oliveira Salazar 19;MOT;False;BTE;TIME;€ 0.0252 /min;MENNEKES;SOCKET;11
 LRA-00126;LRA-00126-01-01;Semirrápido;Leiria;Rua Dr. Oliveira Salazar 19;MOT;False;BTE;TIME;€ 0.025 /min;MENNEKES;SOCKET;11
-LRA-00126;LRA-00126-02-01;Semirrápido;Leiria;Rua Dr. Oliveira Salazar 19;MOT;False;BTE;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;11
 LRA-00126;LRA-00126-02-01;Semirrápido;Leiria;Rua Dr. Oliveira Salazar 19;MOT;False;BTE;FLAT;€ 0.2608 /charge;MENNEKES;SOCKET;11
+LRA-00126;LRA-00126-02-01;Semirrápido;Leiria;Rua Dr. Oliveira Salazar 19;MOT;False;BTE;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;11
 LRA-00126;LRA-00126-02-01;Semirrápido;Leiria;Rua Dr. Oliveira Salazar 19;MOT;False;BTE;ENERGY;€ 0.2602 /kWh;MENNEKES;SOCKET;11
-LRA-00126;LRA-00126-02-01;Semirrápido;Leiria;Rua Dr. Oliveira Salazar 19;MOT;False;BTE;TIME;€ 0.025 /min;MENNEKES;SOCKET;11
 LRA-00126;LRA-00126-02-01;Semirrápido;Leiria;Rua Dr. Oliveira Salazar 19;MOT;False;BTE;TIME;€ 0.0252 /min;MENNEKES;SOCKET;11
+LRA-00126;LRA-00126-02-01;Semirrápido;Leiria;Rua Dr. Oliveira Salazar 19;MOT;False;BTE;TIME;€ 0.025 /min;MENNEKES;SOCKET;11
 LRA-00128;LRA-00128-01-01;Rápido;Leiria;R. da Escola 309;EDP;False;MT;FLAT;€ 0.4 /charge;CHADEMO;CABLE;60
 LRA-00128;LRA-00128-01-01;Rápido;Leiria;R. da Escola 309;EDP;False;MT;ENERGY;€ 0.06 /kWh;CHADEMO;CABLE;60
 LRA-00128;LRA-00128-01-01;Rápido;Leiria;R. da Escola 309;EDP;False;MT;TIME;€ 0.08 /min;CHADEMO;CABLE;60
@@ -11861,8 +11861,8 @@ LRA-00133;LRA-00133-01-01;Rápido;Leiria;Cruz de S. Tom, Estr. da Maceira 1076;F
 LRA-00133;LRA-00133-01-01;Rápido;Leiria;Cruz de S. Tom, Estr. da Maceira 1076;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
 LRA-00133;LRA-00133-01-01;Rápido;Leiria;Cruz de S. Tom, Estr. da Maceira 1076;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 LRA-00133;LRA-00133-02-01;Rápido;Leiria;Cruz de S. Tom, Estr. da Maceira 1076;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-LRA-00133;LRA-00133-02-01;Rápido;Leiria;Cruz de S. Tom, Estr. da Maceira 1076;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
 LRA-00133;LRA-00133-02-01;Rápido;Leiria;Cruz de S. Tom, Estr. da Maceira 1076;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
+LRA-00133;LRA-00133-02-01;Rápido;Leiria;Cruz de S. Tom, Estr. da Maceira 1076;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
 LRA-00133;LRA-00133-02-01;Rápido;Leiria;Cruz de S. Tom, Estr. da Maceira 1076;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 LRA-00134;LRA-00134-01-01;Ultrarrápido;Leiria;R. da Europa, 2400-136 Leiria;GLP;False;MT;FLAT;€ 0 /charge;CCS;CABLE;180
 LRA-00134;LRA-00134-01-01;Ultrarrápido;Leiria;R. da Europa, 2400-136 Leiria;GLP;False;MT;ENERGY;€ 0.3 /kWh;CCS;CABLE;180
@@ -12387,12 +12387,12 @@ LRS-00131;LRS-00131-03-01;Rápido;Loures;R. Estado da Índia pav 9;EDP;False;MT;
 LRS-00131;LRS-00131-03-01;Rápido;Loures;R. Estado da Índia pav 9;EDP;False;MT;ENERGY;€ 0.06 /kWh;MENNEKES;CABLE;22
 LRS-00131;LRS-00131-03-01;Rápido;Loures;R. Estado da Índia pav 9;EDP;False;MT;TIME;€ 0.08 /min;MENNEKES;CABLE;22
 LRS-00132;LRS-00132-01-01;Rápido;Loures;E.N. 10, km 138.4;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-LRS-00132;LRS-00132-01-01;Rápido;Loures;E.N. 10, km 138.4;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 LRS-00132;LRS-00132-01-01;Rápido;Loures;E.N. 10, km 138.4;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+LRS-00132;LRS-00132-01-01;Rápido;Loures;E.N. 10, km 138.4;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 LRS-00132;LRS-00132-01-01;Rápido;Loures;E.N. 10, km 138.4;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 LRS-00132;LRS-00132-02-01;Rápido;Loures;E.N. 10, km 138.4;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-LRS-00132;LRS-00132-02-01;Rápido;Loures;E.N. 10, km 138.4;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 LRS-00132;LRS-00132-02-01;Rápido;Loures;E.N. 10, km 138.4;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+LRS-00132;LRS-00132-02-01;Rápido;Loures;E.N. 10, km 138.4;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 LRS-00132;LRS-00132-02-01;Rápido;Loures;E.N. 10, km 138.4;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 LRS-00133;LRS-00133-01-01;Rápido;Loures;EN115 Rua Casal do Letrado, 2660-140 Loures;PRI;False;BTE;FLAT;€ 0.3 /charge;CHADEMO;CABLE;60
 LRS-00133;LRS-00133-01-01;Rápido;Loures;EN115 Rua Casal do Letrado, 2660-140 Loures;PRI;False;BTE;TIME;€ 0.17 /min;CHADEMO;CABLE;60
@@ -13451,8 +13451,8 @@ LSB-00400;LSB-00400-03-01;Rápido;Lisboa;Avenida Eusébio da Silva Ferreira;EDP;
 LSB-00400;LSB-00400-03-01;Rápido;Lisboa;Avenida Eusébio da Silva Ferreira;EDP;False;MT;TIME;€ 0.11 /min;MENNEKES;CABLE;43
 LSB-00400;LSB-00400-03-01;Rápido;Lisboa;Avenida Eusébio da Silva Ferreira;EDP;False;MT;TIME;€ 0.1 /min após 60 min;MENNEKES;CABLE;43
 LSB-00401;LSB-00401-01-01;Ultrarrápido;Lisboa;Avenida Eusébio da Silva Ferreira;EDP;False;MT;FLAT;€ 0.261 /charge;CHADEMO;CABLE;50
-LSB-00401;LSB-00401-01-01;Ultrarrápido;Lisboa;Avenida Eusébio da Silva Ferreira;EDP;False;MT;ENERGY;€ 0.59 /kWh;CHADEMO;CABLE;50
 LSB-00401;LSB-00401-01-01;Ultrarrápido;Lisboa;Avenida Eusébio da Silva Ferreira;EDP;False;MT;ENERGY;€ 0.1 /kWh;CHADEMO;CABLE;50
+LSB-00401;LSB-00401-01-01;Ultrarrápido;Lisboa;Avenida Eusébio da Silva Ferreira;EDP;False;MT;ENERGY;€ 0.59 /kWh;CHADEMO;CABLE;50
 LSB-00401;LSB-00401-01-01;Ultrarrápido;Lisboa;Avenida Eusébio da Silva Ferreira;EDP;False;MT;TIME;€ 0.15 /min;CHADEMO;CABLE;50
 LSB-00401;LSB-00401-01-01;Ultrarrápido;Lisboa;Avenida Eusébio da Silva Ferreira;EDP;False;MT;TIME;€ 0.1 /min após 35 min;CHADEMO;CABLE;50
 LSB-00401;LSB-00401-02-01;Ultrarrápido;Lisboa;Avenida Eusébio da Silva Ferreira;EDP;False;MT;FLAT;€ 0.261 /charge;CCS;CABLE;160
@@ -14121,8 +14121,8 @@ LSB-00613;LSB-00613-01-01;Semirrápido;Lisboa;Av. Infante Dom Henrique 341;LOG;F
 LSB-00613;LSB-00613-01-01;Semirrápido;Lisboa;Av. Infante Dom Henrique 341;LOG;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 LSB-00613;LSB-00613-01-01;Semirrápido;Lisboa;Av. Infante Dom Henrique 341;LOG;False;MT;ENERGY;€ 0.06 /kWh;MENNEKES;SOCKET;22
 LSB-00613;LSB-00613-01-01;Semirrápido;Lisboa;Av. Infante Dom Henrique 341;LOG;False;MT;ENERGY;€ 0.06 /kWh;MENNEKES;SOCKET;22
-LSB-00613;LSB-00613-01-01;Semirrápido;Lisboa;Av. Infante Dom Henrique 341;LOG;False;MT;TIME;€ 0 /min;MENNEKES;SOCKET;22
 LSB-00613;LSB-00613-01-01;Semirrápido;Lisboa;Av. Infante Dom Henrique 341;LOG;False;MT;TIME;€ 0.01 /min;MENNEKES;SOCKET;22
+LSB-00613;LSB-00613-01-01;Semirrápido;Lisboa;Av. Infante Dom Henrique 341;LOG;False;MT;TIME;€ 0 /min;MENNEKES;SOCKET;22
 LSB-00614;LSB-00614-01-01;Semirrápido;Lisboa;Av. Infante Dom Henrique 341;LOG;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 LSB-00614;LSB-00614-01-01;Semirrápido;Lisboa;Av. Infante Dom Henrique 341;LOG;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 LSB-00614;LSB-00614-01-01;Semirrápido;Lisboa;Av. Infante Dom Henrique 341;LOG;False;MT;ENERGY;€ 0.06 /kWh;MENNEKES;SOCKET;22
@@ -14775,20 +14775,20 @@ LSB-00839;LSB-00839-02-01;Semirrápido;Lisboa;Av. João XXI 80, 1000-081 Lisboa;
 LSB-00839;LSB-00839-02-01;Semirrápido;Lisboa;Av. João XXI 80, 1000-081 Lisboa;EDP;False;MT;ENERGY;€ 0.1 /kWh;MENNEKES;SOCKET;7,4
 LSB-00839;LSB-00839-02-01;Semirrápido;Lisboa;Av. João XXI 80, 1000-081 Lisboa;EDP;False;MT;TIME;€ 0.015 /min;MENNEKES;SOCKET;7,4
 LSB-00840;LSB-00840-01-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;FLAT;€ 0.24 /charge;MENNEKES;SOCKET;22
-LSB-00840;LSB-00840-01-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
 LSB-00840;LSB-00840-01-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.05 /min;MENNEKES;SOCKET;22
+LSB-00840;LSB-00840-01-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
 LSB-00840;LSB-00840-02-02;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;FLAT;€ 0.24 /charge;IEC_60309_2_single_16;SOCKET;3,6
-LSB-00840;LSB-00840-02-02;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.03 /min;IEC_60309_2_single_16;SOCKET;3,6
 LSB-00840;LSB-00840-02-02;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.05 /min;IEC_60309_2_single_16;SOCKET;3,6
+LSB-00840;LSB-00840-02-02;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.03 /min;IEC_60309_2_single_16;SOCKET;3,6
 LSB-00840;LSB-00840-03-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;FLAT;€ 0.24 /charge;MENNEKES;SOCKET;22
-LSB-00840;LSB-00840-03-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.05 /min;MENNEKES;SOCKET;22
 LSB-00840;LSB-00840-03-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
+LSB-00840;LSB-00840-03-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.05 /min;MENNEKES;SOCKET;22
 LSB-00840;LSB-00840-04-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;FLAT;€ 0.24 /charge;IEC_60309_2_single_16;SOCKET;3,6
-LSB-00840;LSB-00840-04-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.03 /min;IEC_60309_2_single_16;SOCKET;3,6
 LSB-00840;LSB-00840-04-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.05 /min;IEC_60309_2_single_16;SOCKET;3,6
+LSB-00840;LSB-00840-04-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.03 /min;IEC_60309_2_single_16;SOCKET;3,6
 LSB-00841;LSB-00841-01-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;FLAT;€ 0.24 /charge;MENNEKES;SOCKET;22
-LSB-00841;LSB-00841-01-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.05 /min;MENNEKES;SOCKET;22
 LSB-00841;LSB-00841-01-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
+LSB-00841;LSB-00841-01-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.05 /min;MENNEKES;SOCKET;22
 LSB-00841;LSB-00841-02-02;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;FLAT;€ 0.24 /charge;IEC_60309_2_single_16;SOCKET;3,6
 LSB-00841;LSB-00841-02-02;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.03 /min;IEC_60309_2_single_16;SOCKET;3,6
 LSB-00841;LSB-00841-02-02;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.05 /min;IEC_60309_2_single_16;SOCKET;3,6
@@ -14805,8 +14805,8 @@ LSB-00842;LSB-00842-02-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, 
 LSB-00842;LSB-00842-02-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.03 /min;IEC_60309_2_single_16;SOCKET;3,6
 LSB-00842;LSB-00842-02-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.05 /min;IEC_60309_2_single_16;SOCKET;3,6
 LSB-00842;LSB-00842-03-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;FLAT;€ 0.24 /charge;MENNEKES;SOCKET;22
-LSB-00842;LSB-00842-03-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
 LSB-00842;LSB-00842-03-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.05 /min;MENNEKES;SOCKET;22
+LSB-00842;LSB-00842-03-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
 LSB-00842;LSB-00842-04-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;FLAT;€ 0.24 /charge;IEC_60309_2_single_16;SOCKET;3,6
 LSB-00842;LSB-00842-04-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.03 /min;IEC_60309_2_single_16;SOCKET;3,6
 LSB-00842;LSB-00842-04-01;Semirrápido;Lisboa;REITORIA DA UNIVERSIDADE NOVA LX, CAMPOLIDE;GSF;False;MT;TIME;€ 0.05 /min;IEC_60309_2_single_16;SOCKET;3,6
@@ -14900,8 +14900,8 @@ LSB-00863;LSB-00863-01-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;M
 LSB-00863;LSB-00863-01-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;ENERGY;€ 0.26 /kWh;MENNEKES;SOCKET;22
 LSB-00863;LSB-00863-01-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;TIME;€ 0.0333 /min;MENNEKES;SOCKET;22
 LSB-00863;LSB-00863-01-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
-LSB-00863;LSB-00863-02-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;22
 LSB-00863;LSB-00863-02-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
+LSB-00863;LSB-00863-02-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;22
 LSB-00863;LSB-00863-02-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;ENERGY;€ 0.26 /kWh;MENNEKES;SOCKET;22
 LSB-00863;LSB-00863-02-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
 LSB-00863;LSB-00863-02-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;TIME;€ 0.0333 /min;MENNEKES;SOCKET;22
@@ -14910,8 +14910,8 @@ LSB-00864;LSB-00864-01-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;M
 LSB-00864;LSB-00864-01-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;ENERGY;€ 0.26 /kWh;MENNEKES;SOCKET;22
 LSB-00864;LSB-00864-01-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;TIME;€ 0.0333 /min;MENNEKES;SOCKET;22
 LSB-00864;LSB-00864-01-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
-LSB-00864;LSB-00864-02-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;22
 LSB-00864;LSB-00864-02-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
+LSB-00864;LSB-00864-02-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;22
 LSB-00864;LSB-00864-02-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;ENERGY;€ 0.26 /kWh;MENNEKES;SOCKET;22
 LSB-00864;LSB-00864-02-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
 LSB-00864;LSB-00864-02-01;Semirrápido;Lisboa;Praça das Indústrias;MOT;False;MT;TIME;€ 0.0333 /min;MENNEKES;SOCKET;22
@@ -15667,12 +15667,12 @@ MAI-00052;MAI-00052-01-01;Ultrarrápido;Maia;Via Doutor Francisco Sá Carneiro;F
 MAI-00052;MAI-00052-01-01;Ultrarrápido;Maia;Via Doutor Francisco Sá Carneiro;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 MAI-00052;MAI-00052-01-01;Ultrarrápido;Maia;Via Doutor Francisco Sá Carneiro;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 MAI-00052;MAI-00052-02-01;Ultrarrápido;Maia;Via Doutor Francisco Sá Carneiro;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-MAI-00052;MAI-00052-02-01;Ultrarrápido;Maia;Via Doutor Francisco Sá Carneiro;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 MAI-00052;MAI-00052-02-01;Ultrarrápido;Maia;Via Doutor Francisco Sá Carneiro;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+MAI-00052;MAI-00052-02-01;Ultrarrápido;Maia;Via Doutor Francisco Sá Carneiro;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 MAI-00052;MAI-00052-02-01;Ultrarrápido;Maia;Via Doutor Francisco Sá Carneiro;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 MAI-00052;MAI-00052-03-01;Ultrarrápido;Maia;Via Doutor Francisco Sá Carneiro;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-MAI-00052;MAI-00052-03-01;Ultrarrápido;Maia;Via Doutor Francisco Sá Carneiro;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 MAI-00052;MAI-00052-03-01;Ultrarrápido;Maia;Via Doutor Francisco Sá Carneiro;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+MAI-00052;MAI-00052-03-01;Ultrarrápido;Maia;Via Doutor Francisco Sá Carneiro;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 MAI-00052;MAI-00052-03-01;Ultrarrápido;Maia;Via Doutor Francisco Sá Carneiro;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 MAI-00053;MAI-00053-01-01;Semirrápido;Maia;Entroncamento da Rua Júlio Dinis 2;EDP;False;BTE;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;22
 MAI-00053;MAI-00053-01-01;Semirrápido;Maia;Entroncamento da Rua Júlio Dinis 2;EDP;False;BTE;TIME;€ 0.033 /min;MENNEKES;SOCKET;22
@@ -15795,16 +15795,16 @@ MCH-00008;MCH-00008-01-01;Semirrápido;Machico;Clube de Golf do Santo da Serra;F
 MCH-00008;MCH-00008-02-01;Semirrápido;Machico;Clube de Golf do Santo da Serra;FAC;False;BTE;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 MCH-00008;MCH-00008-02-01;Semirrápido;Machico;Clube de Golf do Santo da Serra;FAC;False;BTE;TIME;€ 0.06 /min;MENNEKES;SOCKET;22
 MCH-00010;MCH-00010-01-01;Ultrarrápido;Machico;Rua da Árvore;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-MCH-00010;MCH-00010-01-01;Ultrarrápido;Machico;Rua da Árvore;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 MCH-00010;MCH-00010-01-01;Ultrarrápido;Machico;Rua da Árvore;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
+MCH-00010;MCH-00010-01-01;Ultrarrápido;Machico;Rua da Árvore;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 MCH-00010;MCH-00010-01-01;Ultrarrápido;Machico;Rua da Árvore;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 MCH-00010;MCH-00010-02-01;Ultrarrápido;Machico;Rua da Árvore;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-MCH-00010;MCH-00010-02-01;Ultrarrápido;Machico;Rua da Árvore;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 MCH-00010;MCH-00010-02-01;Ultrarrápido;Machico;Rua da Árvore;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
+MCH-00010;MCH-00010-02-01;Ultrarrápido;Machico;Rua da Árvore;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 MCH-00010;MCH-00010-02-01;Ultrarrápido;Machico;Rua da Árvore;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 MCH-00010;MCH-00010-03-01;Ultrarrápido;Machico;Rua da Árvore;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-MCH-00010;MCH-00010-03-01;Ultrarrápido;Machico;Rua da Árvore;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 MCH-00010;MCH-00010-03-01;Ultrarrápido;Machico;Rua da Árvore;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
+MCH-00010;MCH-00010-03-01;Ultrarrápido;Machico;Rua da Árvore;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 MCH-00010;MCH-00010-03-01;Ultrarrápido;Machico;Rua da Árvore;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 MCH-00011;MCH-00011-01-01;Semirrápido;Machico;Estrada Regional 101;FAC;False;BTN;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 MCH-00011;MCH-00011-01-01;Semirrápido;Machico;Estrada Regional 101;FAC;False;BTN;TIME;€ 0.06 /min;MENNEKES;SOCKET;22
@@ -16422,8 +16422,8 @@ MGR-00020;MGR-00020-01-01;Rápido;Marinha Grande;R. de Leiria EN 242 Km 9.894;FC
 MGR-00020;MGR-00020-01-01;Rápido;Marinha Grande;R. de Leiria EN 242 Km 9.894;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 MGR-00020;MGR-00020-01-01;Rápido;Marinha Grande;R. de Leiria EN 242 Km 9.894;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 MGR-00020;MGR-00020-02-01;Rápido;Marinha Grande;R. de Leiria EN 242 Km 9.894;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-MGR-00020;MGR-00020-02-01;Rápido;Marinha Grande;R. de Leiria EN 242 Km 9.894;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
 MGR-00020;MGR-00020-02-01;Rápido;Marinha Grande;R. de Leiria EN 242 Km 9.894;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
+MGR-00020;MGR-00020-02-01;Rápido;Marinha Grande;R. de Leiria EN 242 Km 9.894;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
 MGR-00020;MGR-00020-02-01;Rápido;Marinha Grande;R. de Leiria EN 242 Km 9.894;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 MGR-00021;MGR-00021-01-01;Rápido;Marinha Grande;N242 KM 8.5, 2430-074 M.nha Grande;REP;False;BTE;FLAT;€ 0.3 /charge;CHADEMO;CABLE;50
 MGR-00021;MGR-00021-01-01;Rápido;Marinha Grande;N242 KM 8.5, 2430-074 M.nha Grande;REP;False;BTE;ENERGY;€ 0.05 /kWh;CHADEMO;CABLE;50
@@ -16533,8 +16533,8 @@ MLD-00017;MLD-00017-01-01;Rápido;Mealhada;N1, 3050-131 Casal Comba;MOT;False;BT
 MLD-00017;MLD-00017-01-01;Rápido;Mealhada;N1, 3050-131 Casal Comba;MOT;False;BTE;TIME;€ 0.15 /min após 45 min;CCS;CABLE;90
 MLD-00017;MLD-00017-01-01;Rápido;Mealhada;N1, 3050-131 Casal Comba;MOT;False;BTE;TIME;€ 0.15 /min após 45 min;CCS;CABLE;90
 MLD-00017;MLD-00017-02-01;Rápido;Mealhada;N1, 3050-131 Casal Comba;MOT;False;BTE;FLAT;€ 0.3 /charge;CCS;CABLE;90
-MLD-00017;MLD-00017-02-01;Rápido;Mealhada;N1, 3050-131 Casal Comba;MOT;False;BTE;ENERGY;€ 0.27 /kWh;CCS;CABLE;90
 MLD-00017;MLD-00017-02-01;Rápido;Mealhada;N1, 3050-131 Casal Comba;MOT;False;BTE;ENERGY;€ 0.54 /kWh;CCS;CABLE;90
+MLD-00017;MLD-00017-02-01;Rápido;Mealhada;N1, 3050-131 Casal Comba;MOT;False;BTE;ENERGY;€ 0.27 /kWh;CCS;CABLE;90
 MLD-00017;MLD-00017-02-01;Rápido;Mealhada;N1, 3050-131 Casal Comba;MOT;False;BTE;TIME;€ 0 /min;CCS;CABLE;90
 MLD-00017;MLD-00017-02-01;Rápido;Mealhada;N1, 3050-131 Casal Comba;MOT;False;BTE;TIME;€ 0 /min;CCS;CABLE;90
 MLD-00017;MLD-00017-02-01;Rápido;Mealhada;N1, 3050-131 Casal Comba;MOT;False;BTE;TIME;€ 0.15 /min após 45 min;CCS;CABLE;90
@@ -17039,8 +17039,8 @@ MOBI-LSB-01096;MOBI-LSB-01096-01-01;Semirrápido;Lisboa;Av. 24 de Julho 74A;GLP;
 MOBI-LSB-01096;MOBI-LSB-01096-02-01;Semirrápido;Lisboa;Av. 24 de Julho 74A;GLP;False;MT;FLAT;€ 0.1572 /charge;MENNEKES;CABLE;22
 MOBI-LSB-01096;MOBI-LSB-01096-02-01;Semirrápido;Lisboa;Av. 24 de Julho 74A;GLP;False;MT;ENERGY;€ 0 /kWh;MENNEKES;CABLE;22
 MOBI-LSB-01096;MOBI-LSB-01096-02-01;Semirrápido;Lisboa;Av. 24 de Julho 74A;GLP;False;MT;TIME;€ 0 /min;MENNEKES;CABLE;22
-MOBI-MTS-00001;MOBI-MTS-00001-01-01;Semirrápido;Matosinhos;Avenida Dom Afonso Henriques, 1825;EVI;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;7,4
 MOBI-MTS-00001;MOBI-MTS-00001-01-01;Semirrápido;Matosinhos;Avenida Dom Afonso Henriques, 1825;EVI;False;MT;FLAT;€ 0.15 /charge;MENNEKES;SOCKET;7,4
+MOBI-MTS-00001;MOBI-MTS-00001-01-01;Semirrápido;Matosinhos;Avenida Dom Afonso Henriques, 1825;EVI;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;7,4
 MOBI-MTS-00001;MOBI-MTS-00001-01-01;Semirrápido;Matosinhos;Avenida Dom Afonso Henriques, 1825;EVI;False;MT;ENERGY;€ 0.3 /kWh;MENNEKES;SOCKET;7,4
 MOBI-MTS-00001;MOBI-MTS-00001-01-01;Semirrápido;Matosinhos;Avenida Dom Afonso Henriques, 1825;EVI;False;MT;TIME;€ 0.03 /min;MENNEKES;SOCKET;7,4
 MOBI-MTS-00001;MOBI-MTS-00001-02-01;Semirrápido;Matosinhos;Avenida Dom Afonso Henriques, 1825;EVI;False;MT;FLAT;€ 0.15 /charge;MENNEKES;SOCKET;7,4
@@ -17071,12 +17071,12 @@ MOBI-VPA-00001;MOBI-VPA-00001-01-01;Semirrápido;Vila Pouca de Aguiar;Parque Ped
 MOBI-VPA-00001;MOBI-VPA-00001-02-01;Semirrápido;Vila Pouca de Aguiar;Parque Pedras Salgadas;IBD;False;MT;FLAT;€ 0.16 /charge;MENNEKES;CABLE;7,4
 MOBI-VPA-00001;MOBI-VPA-00001-02-01;Semirrápido;Vila Pouca de Aguiar;Parque Pedras Salgadas;IBD;False;MT;ENERGY;€ 0.16 /kWh;MENNEKES;CABLE;7,4
 MOR-00002;MOR-00002-01-01;Ultrarrápido;Mora;Rua 5 de Outubro, nº 2;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-MOR-00002;MOR-00002-01-01;Ultrarrápido;Mora;Rua 5 de Outubro, nº 2;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 MOR-00002;MOR-00002-01-01;Ultrarrápido;Mora;Rua 5 de Outubro, nº 2;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+MOR-00002;MOR-00002-01-01;Ultrarrápido;Mora;Rua 5 de Outubro, nº 2;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 MOR-00002;MOR-00002-01-01;Ultrarrápido;Mora;Rua 5 de Outubro, nº 2;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 MOR-00002;MOR-00002-02-01;Ultrarrápido;Mora;Rua 5 de Outubro, nº 2;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-MOR-00002;MOR-00002-02-01;Ultrarrápido;Mora;Rua 5 de Outubro, nº 2;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 MOR-00002;MOR-00002-02-01;Ultrarrápido;Mora;Rua 5 de Outubro, nº 2;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
+MOR-00002;MOR-00002-02-01;Ultrarrápido;Mora;Rua 5 de Outubro, nº 2;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 MOR-00002;MOR-00002-02-01;Ultrarrápido;Mora;Rua 5 de Outubro, nº 2;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 MOR-00002;MOR-00002-03-01;Ultrarrápido;Mora;Rua 5 de Outubro, nº 2;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 MOR-00002;MOR-00002-03-01;Ultrarrápido;Mora;Rua 5 de Outubro, nº 2;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
@@ -17581,20 +17581,20 @@ MTJ-00107;MTJ-00107-02-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;Fals
 MTJ-00107;MTJ-00107-02-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 MTJ-00107;MTJ-00107-02-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 MTJ-00107;MTJ-00107-03-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
-MTJ-00107;MTJ-00107-03-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 MTJ-00107;MTJ-00107-03-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+MTJ-00107;MTJ-00107-03-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 MTJ-00107;MTJ-00107-03-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 MTJ-00108;MTJ-00108-01-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
-MTJ-00108;MTJ-00108-01-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 MTJ-00108;MTJ-00108-01-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+MTJ-00108;MTJ-00108-01-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 MTJ-00108;MTJ-00108-01-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 MTJ-00108;MTJ-00108-02-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-MTJ-00108;MTJ-00108-02-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
 MTJ-00108;MTJ-00108-02-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+MTJ-00108;MTJ-00108-02-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
 MTJ-00108;MTJ-00108-02-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 MTJ-00108;MTJ-00108-03-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
-MTJ-00108;MTJ-00108-03-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 MTJ-00108;MTJ-00108-03-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+MTJ-00108;MTJ-00108-03-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 MTJ-00108;MTJ-00108-03-01;Ultrarrápido;Montijo;Alto das Vinhas Grandes;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 MTJ-90003;MTJ-90003-01-01;Semirrápido;Montijo;Rua Manuel Neves Nunes de Almeida;GLP;False;BTN;TIME;€ 0.033 /min;MENNEKES;SOCKET;22
 MTJ-90003;MTJ-90003-02-01;Semirrápido;Montijo;Rua Manuel Neves Nunes de Almeida;GLP;False;BTN;TIME;€ 0.033 /min;MENNEKES;SOCKET;22
@@ -18096,14 +18096,14 @@ MTS-00126;MTS-00126-01-01;Semirrápido;Matosinhos;Rua Henrique Pousão;LOG;False
 MTS-00126;MTS-00126-01-01;Semirrápido;Matosinhos;Rua Henrique Pousão;LOG;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 MTS-00126;MTS-00126-01-01;Semirrápido;Matosinhos;Rua Henrique Pousão;LOG;False;MT;ENERGY;€ 0.06 /kWh;MENNEKES;SOCKET;22
 MTS-00126;MTS-00126-01-01;Semirrápido;Matosinhos;Rua Henrique Pousão;LOG;False;MT;ENERGY;€ 0.06 /kWh;MENNEKES;SOCKET;22
-MTS-00126;MTS-00126-01-01;Semirrápido;Matosinhos;Rua Henrique Pousão;LOG;False;MT;TIME;€ 0.01 /min;MENNEKES;SOCKET;22
 MTS-00126;MTS-00126-01-01;Semirrápido;Matosinhos;Rua Henrique Pousão;LOG;False;MT;TIME;€ 0 /min;MENNEKES;SOCKET;22
+MTS-00126;MTS-00126-01-01;Semirrápido;Matosinhos;Rua Henrique Pousão;LOG;False;MT;TIME;€ 0.01 /min;MENNEKES;SOCKET;22
 MTS-00127;MTS-00127-01-01;Semirrápido;Matosinhos;Rua Henrique Pousão;LOG;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 MTS-00127;MTS-00127-01-01;Semirrápido;Matosinhos;Rua Henrique Pousão;LOG;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 MTS-00127;MTS-00127-01-01;Semirrápido;Matosinhos;Rua Henrique Pousão;LOG;False;MT;ENERGY;€ 0.06 /kWh;MENNEKES;SOCKET;22
 MTS-00127;MTS-00127-01-01;Semirrápido;Matosinhos;Rua Henrique Pousão;LOG;False;MT;ENERGY;€ 0.06 /kWh;MENNEKES;SOCKET;22
-MTS-00127;MTS-00127-01-01;Semirrápido;Matosinhos;Rua Henrique Pousão;LOG;False;MT;TIME;€ 0 /min;MENNEKES;SOCKET;22
 MTS-00127;MTS-00127-01-01;Semirrápido;Matosinhos;Rua Henrique Pousão;LOG;False;MT;TIME;€ 0.01 /min;MENNEKES;SOCKET;22
+MTS-00127;MTS-00127-01-01;Semirrápido;Matosinhos;Rua Henrique Pousão;LOG;False;MT;TIME;€ 0 /min;MENNEKES;SOCKET;22
 MTS-00128;MTS-00128-01-01;Semirrápido;Matosinhos;LUGAR DE GONÇALVES;EDP;False;BTE;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;11
 MTS-00128;MTS-00128-01-01;Semirrápido;Matosinhos;LUGAR DE GONÇALVES;EDP;False;BTE;TIME;€ 0.028 /min;MENNEKES;SOCKET;11
 MTS-00128;MTS-00128-02-01;Semirrápido;Matosinhos;LUGAR DE GONÇALVES;EDP;False;BTE;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;11
@@ -18289,8 +18289,8 @@ MTS-00173;MTS-00173-01-01;Semirrápido;Matosinhos;Av. Dr. Salgado Zenha 371;EDP;
 MTS-00173;MTS-00173-02-01;Semirrápido;Matosinhos;Av. Dr. Salgado Zenha 371;EDP;False;BTE;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;22
 MTS-00173;MTS-00173-02-01;Semirrápido;Matosinhos;Av. Dr. Salgado Zenha 371;EDP;False;BTE;TIME;€ 0.033 /min;MENNEKES;SOCKET;22
 MTS-00175;MTS-00175-01-01;Rápido;Matosinhos;Amieira - Via Norte;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;50
-MTS-00175;MTS-00175-01-01;Rápido;Matosinhos;Amieira - Via Norte;FCT;False;MT;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 MTS-00175;MTS-00175-01-01;Rápido;Matosinhos;Amieira - Via Norte;FCT;False;MT;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+MTS-00175;MTS-00175-01-01;Rápido;Matosinhos;Amieira - Via Norte;FCT;False;MT;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 MTS-00175;MTS-00175-01-01;Rápido;Matosinhos;Amieira - Via Norte;FCT;False;MT;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 MTS-00175;MTS-00175-02-01;Rápido;Matosinhos;Amieira - Via Norte;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;50
 MTS-00175;MTS-00175-02-01;Rápido;Matosinhos;Amieira - Via Norte;FCT;False;MT;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
@@ -18303,12 +18303,12 @@ MTS-00176;MTS-00176-02-01;Rápido;Matosinhos;Rua de Silva Aroso 4455-559;KLS;Fal
 MTS-00176;MTS-00176-02-02;Rápido;Matosinhos;Rua de Silva Aroso 4455-559;KLS;False;MT;ENERGY;€ 0.4208 /kWh;CHADEMO;CABLE;49
 MTS-00176;MTS-00176-02-02;Rápido;Matosinhos;Rua de Silva Aroso 4455-559;KLS;False;MT;TIME;€ 0.08 /min;CHADEMO;CABLE;49
 MTS-00177;MTS-00177-01-01;Ultrarrápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-MTS-00177;MTS-00177-01-01;Ultrarrápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 MTS-00177;MTS-00177-01-01;Ultrarrápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
+MTS-00177;MTS-00177-01-01;Ultrarrápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 MTS-00177;MTS-00177-01-01;Ultrarrápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 MTS-00177;MTS-00177-02-01;Ultrarrápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-MTS-00177;MTS-00177-02-01;Ultrarrápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 MTS-00177;MTS-00177-02-01;Ultrarrápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+MTS-00177;MTS-00177-02-01;Ultrarrápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 MTS-00177;MTS-00177-02-01;Ultrarrápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 MTS-00177;MTS-00177-03-01;Ultrarrápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 MTS-00177;MTS-00177-03-01;Ultrarrápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
@@ -18319,12 +18319,12 @@ MTS-00178;MTS-00178-01-01;Rápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENE
 MTS-00178;MTS-00178-01-01;Rápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
 MTS-00178;MTS-00178-01-01;Rápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 MTS-00178;MTS-00178-02-01;Rápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-MTS-00178;MTS-00178-02-01;Rápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 MTS-00178;MTS-00178-02-01;Rápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+MTS-00178;MTS-00178-02-01;Rápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 MTS-00178;MTS-00178-02-01;Rápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 MTS-00179;MTS-00179-01-01;Rápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-MTS-00179;MTS-00179-01-01;Rápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 MTS-00179;MTS-00179-01-01;Rápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+MTS-00179;MTS-00179-01-01;Rápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 MTS-00179;MTS-00179-01-01;Rápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 MTS-00179;MTS-00179-02-01;Rápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
 MTS-00179;MTS-00179-02-01;Rápido;Matosinhos;Rua de Goa, nº 2;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
@@ -18948,8 +18948,8 @@ ODV-00028;ODV-00028-02-01;Ultrarrápido;Odivelas;Casal do Troca, Estr. da Paiã 
 ODV-00028;ODV-00028-03-01;Ultrarrápido;Odivelas;Casal do Troca, Estr. da Paiã Lisboa;HRZ;False;BTE;ENERGY;€ 0.31 /kWh;CCS;CABLE;200
 ODV-00028;ODV-00028-04-01;Ultrarrápido;Odivelas;Casal do Troca, Estr. da Paiã Lisboa;HRZ;False;BTE;ENERGY;€ 0.31 /kWh;CCS;CABLE;200
 ODV-00029;ODV-00029-01-01;Ultrarrápido;Odivelas;EST. NAC. 250/2  KM 0,600;CPS;False;MT;FLAT;€ 0.1572 /charge;CCS;CABLE;300
-ODV-00029;ODV-00029-01-01;Ultrarrápido;Odivelas;EST. NAC. 250/2  KM 0,600;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;300
 ODV-00029;ODV-00029-01-01;Ultrarrápido;Odivelas;EST. NAC. 250/2  KM 0,600;CPS;False;MT;ENERGY;€ 0.35 /kWh;CCS;CABLE;300
+ODV-00029;ODV-00029-01-01;Ultrarrápido;Odivelas;EST. NAC. 250/2  KM 0,600;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;300
 ODV-00029;ODV-00029-02-01;Ultrarrápido;Odivelas;EST. NAC. 250/2  KM 0,600;CPS;False;MT;FLAT;€ 0.1572 /charge;CCS;CABLE;300
 ODV-00029;ODV-00029-02-01;Ultrarrápido;Odivelas;EST. NAC. 250/2  KM 0,600;CPS;False;MT;ENERGY;€ 0.35 /kWh;CCS;CABLE;300
 ODV-00029;ODV-00029-02-01;Ultrarrápido;Odivelas;EST. NAC. 250/2  KM 0,600;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;300
@@ -18994,8 +18994,8 @@ ODV-00038;ODV-00038-02-01;Ultrarrápido;Odivelas;R. Heróis de Chaimite 16,  Odi
 ODV-00038;ODV-00038-02-01;Ultrarrápido;Odivelas;R. Heróis de Chaimite 16,  Odivelas;PRI;False;BTE;ENERGY;€ 0.09 /kWh;CCS;CABLE;150
 ODV-00038;ODV-00038-02-01;Ultrarrápido;Odivelas;R. Heróis de Chaimite 16,  Odivelas;PRI;False;BTE;TIME;€ 0.09 /min;CCS;CABLE;150
 ODV-00039;ODV-00039-01-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;200
-ODV-00039;ODV-00039-01-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;200
 ODV-00039;ODV-00039-01-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;200
+ODV-00039;ODV-00039-01-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;200
 ODV-00039;ODV-00039-01-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;200
 ODV-00039;ODV-00039-02-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;200
 ODV-00039;ODV-00039-02-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;200
@@ -19006,8 +19006,8 @@ ODV-00040;ODV-00040-01-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda E
 ODV-00040;ODV-00040-01-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;ENERGY;€ 0.37 /kWh;CCS;CABLE;400
 ODV-00040;ODV-00040-01-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;400
 ODV-00040;ODV-00040-02-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;400
-ODV-00040;ODV-00040-02-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;ENERGY;€ 0.65 /kWh;CCS;CABLE;400
 ODV-00040;ODV-00040-02-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;ENERGY;€ 0.37 /kWh;CCS;CABLE;400
+ODV-00040;ODV-00040-02-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;ENERGY;€ 0.65 /kWh;CCS;CABLE;400
 ODV-00040;ODV-00040-02-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;400
 ODV-00041;ODV-00041-01-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;400
 ODV-00041;ODV-00041-01-01;Ultrarrápido;Odivelas;Rua General Roçadas. Rotunda EN8;FCT;False;MT;ENERGY;€ 0.37 /kWh;CCS;CABLE;400
@@ -19639,8 +19639,8 @@ OER-00182;OER-00182-01-01;Semirrápido;Oeiras;Rua do Silval 37;LOG;False;MT;FLAT
 OER-00182;OER-00182-01-01;Semirrápido;Oeiras;Rua do Silval 37;LOG;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 OER-00182;OER-00182-01-01;Semirrápido;Oeiras;Rua do Silval 37;LOG;False;MT;ENERGY;€ 0.06 /kWh;MENNEKES;SOCKET;22
 OER-00182;OER-00182-01-01;Semirrápido;Oeiras;Rua do Silval 37;LOG;False;MT;ENERGY;€ 0.06 /kWh;MENNEKES;SOCKET;22
-OER-00182;OER-00182-01-01;Semirrápido;Oeiras;Rua do Silval 37;LOG;False;MT;TIME;€ 0 /min;MENNEKES;SOCKET;22
 OER-00182;OER-00182-01-01;Semirrápido;Oeiras;Rua do Silval 37;LOG;False;MT;TIME;€ 0.01 /min;MENNEKES;SOCKET;22
+OER-00182;OER-00182-01-01;Semirrápido;Oeiras;Rua do Silval 37;LOG;False;MT;TIME;€ 0 /min;MENNEKES;SOCKET;22
 OER-00183;OER-00183-01-01;Semirrápido;Oeiras;Av. Santa Casa da Misericórdia;LOG;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 OER-00183;OER-00183-01-01;Semirrápido;Oeiras;Av. Santa Casa da Misericórdia;LOG;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 OER-00183;OER-00183-01-01;Semirrápido;Oeiras;Av. Santa Casa da Misericórdia;LOG;False;MT;ENERGY;€ 0.06 /kWh;MENNEKES;SOCKET;22
@@ -19777,8 +19777,8 @@ OER-00222;OER-00222-02-01;Ultrarrápido;Oeiras;Estrada de São Marcos nº4;FCT;F
 OER-00222;OER-00222-02-01;Ultrarrápido;Oeiras;Estrada de São Marcos nº4;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 OER-00222;OER-00222-02-01;Ultrarrápido;Oeiras;Estrada de São Marcos nº4;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 OER-00222;OER-00222-03-01;Ultrarrápido;Oeiras;Estrada de São Marcos nº4;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-OER-00222;OER-00222-03-01;Ultrarrápido;Oeiras;Estrada de São Marcos nº4;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 OER-00222;OER-00222-03-01;Ultrarrápido;Oeiras;Estrada de São Marcos nº4;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
+OER-00222;OER-00222-03-01;Ultrarrápido;Oeiras;Estrada de São Marcos nº4;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 OER-00222;OER-00222-03-01;Ultrarrápido;Oeiras;Estrada de São Marcos nº4;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 OER-00223;OER-00223-01-01;Rápido;Oeiras;Rua coro de Santo Amaro de Oeiras 12;EDP;False;BTE;FLAT;€ 0.261 /charge;CCS;CABLE;120
 OER-00223;OER-00223-01-01;Rápido;Oeiras;Rua coro de Santo Amaro de Oeiras 12;EDP;False;BTE;ENERGY;€ 0.1 /kWh;CCS;CABLE;120
@@ -19911,16 +19911,16 @@ OHP-00018;OHP-00018-02-01;Semirrápido;Oliveira do Hospital;Rua Principal 1, Pen
 OHP-00018;OHP-00018-02-01;Semirrápido;Oliveira do Hospital;Rua Principal 1, Penalva do alva;HLX;False;MT;TIME;€ 0.035 /min até 300 min;MENNEKES;SOCKET;22
 OHP-00018;OHP-00018-02-01;Semirrápido;Oliveira do Hospital;Rua Principal 1, Penalva do alva;HLX;False;MT;TIME;€ 0.02 /min após 300 min;MENNEKES;SOCKET;22
 OHP-00019;OHP-00019-01-01;Ultrarrápido;Oliveira do Hospital;R. Ameal 12;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-OHP-00019;OHP-00019-01-01;Ultrarrápido;Oliveira do Hospital;R. Ameal 12;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 OHP-00019;OHP-00019-01-01;Ultrarrápido;Oliveira do Hospital;R. Ameal 12;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+OHP-00019;OHP-00019-01-01;Ultrarrápido;Oliveira do Hospital;R. Ameal 12;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 OHP-00019;OHP-00019-01-01;Ultrarrápido;Oliveira do Hospital;R. Ameal 12;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 OHP-00019;OHP-00019-02-01;Ultrarrápido;Oliveira do Hospital;R. Ameal 12;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-OHP-00019;OHP-00019-02-01;Ultrarrápido;Oliveira do Hospital;R. Ameal 12;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 OHP-00019;OHP-00019-02-01;Ultrarrápido;Oliveira do Hospital;R. Ameal 12;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
+OHP-00019;OHP-00019-02-01;Ultrarrápido;Oliveira do Hospital;R. Ameal 12;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 OHP-00019;OHP-00019-02-01;Ultrarrápido;Oliveira do Hospital;R. Ameal 12;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 OHP-00019;OHP-00019-03-01;Ultrarrápido;Oliveira do Hospital;R. Ameal 12;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-OHP-00019;OHP-00019-03-01;Ultrarrápido;Oliveira do Hospital;R. Ameal 12;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 OHP-00019;OHP-00019-03-01;Ultrarrápido;Oliveira do Hospital;R. Ameal 12;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+OHP-00019;OHP-00019-03-01;Ultrarrápido;Oliveira do Hospital;R. Ameal 12;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 OHP-00019;OHP-00019-03-01;Ultrarrápido;Oliveira do Hospital;R. Ameal 12;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 OHP-00020;OHP-00020-01-01;Semirrápido;Oliveira do Hospital;Rua Comendador Manuel Rodrigues Lagos, 1;EDP;False;BTE;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;22
 OHP-00020;OHP-00020-01-01;Semirrápido;Oliveira do Hospital;Rua Comendador Manuel Rodrigues Lagos, 1;EDP;False;BTE;TIME;€ 0.033 /min;MENNEKES;SOCKET;22
@@ -20067,8 +20067,8 @@ OLH-00047;OLH-00047-02-01;Ultrarrápido;Olhão;CEPSA - A22, VIA DO INFANTE DE SA
 OLH-00047;OLH-00047-02-01;Ultrarrápido;Olhão;CEPSA - A22, VIA DO INFANTE DE SAGRES, km 97;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;300
 OLH-00047;OLH-00047-02-01;Ultrarrápido;Olhão;CEPSA - A22, VIA DO INFANTE DE SAGRES, km 97;CPS;False;MT;ENERGY;€ 0.35 /kWh;CCS;CABLE;300
 OLH-00048;OLH-00048-01-01;Ultrarrápido;Olhão;CEPSA - A22, VIA DO INFANTE DE SAGRES km 97;CPS;False;MT;FLAT;€ 0.1572 /charge;CCS;CABLE;300
-OLH-00048;OLH-00048-01-01;Ultrarrápido;Olhão;CEPSA - A22, VIA DO INFANTE DE SAGRES km 97;CPS;False;MT;ENERGY;€ 0.35 /kWh;CCS;CABLE;300
 OLH-00048;OLH-00048-01-01;Ultrarrápido;Olhão;CEPSA - A22, VIA DO INFANTE DE SAGRES km 97;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;300
+OLH-00048;OLH-00048-01-01;Ultrarrápido;Olhão;CEPSA - A22, VIA DO INFANTE DE SAGRES km 97;CPS;False;MT;ENERGY;€ 0.35 /kWh;CCS;CABLE;300
 OLH-00048;OLH-00048-02-01;Ultrarrápido;Olhão;CEPSA - A22, VIA DO INFANTE DE SAGRES km 97;CPS;False;MT;FLAT;€ 0.1572 /charge;CCS;CABLE;300
 OLH-00048;OLH-00048-02-01;Ultrarrápido;Olhão;CEPSA - A22, VIA DO INFANTE DE SAGRES km 97;CPS;False;MT;ENERGY;€ 0.35 /kWh;CCS;CABLE;300
 OLH-00048;OLH-00048-02-01;Ultrarrápido;Olhão;CEPSA - A22, VIA DO INFANTE DE SAGRES km 97;CPS;False;MT;ENERGY;€ 0.6 /kWh;CCS;CABLE;300
@@ -20225,8 +20225,8 @@ ORQ-00006;ORQ-00006-01-01;Ultrarrápido;Ourique;Estrada Nac 123 Loteamento Rosal
 ORQ-00006;ORQ-00006-01-01;Ultrarrápido;Ourique;Estrada Nac 123 Loteamento Rosal Sul Lote 2 E;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 ORQ-00006;ORQ-00006-01-01;Ultrarrápido;Ourique;Estrada Nac 123 Loteamento Rosal Sul Lote 2 E;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 ORQ-00006;ORQ-00006-02-01;Ultrarrápido;Ourique;Estrada Nac 123 Loteamento Rosal Sul Lote 2 E;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-ORQ-00006;ORQ-00006-02-01;Ultrarrápido;Ourique;Estrada Nac 123 Loteamento Rosal Sul Lote 2 E;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 ORQ-00006;ORQ-00006-02-01;Ultrarrápido;Ourique;Estrada Nac 123 Loteamento Rosal Sul Lote 2 E;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
+ORQ-00006;ORQ-00006-02-01;Ultrarrápido;Ourique;Estrada Nac 123 Loteamento Rosal Sul Lote 2 E;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 ORQ-00006;ORQ-00006-02-01;Ultrarrápido;Ourique;Estrada Nac 123 Loteamento Rosal Sul Lote 2 E;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 ORQ-00006;ORQ-00006-03-01;Ultrarrápido;Ourique;Estrada Nac 123 Loteamento Rosal Sul Lote 2 E;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 ORQ-00006;ORQ-00006-03-01;Ultrarrápido;Ourique;Estrada Nac 123 Loteamento Rosal Sul Lote 2 E;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
@@ -20501,48 +20501,48 @@ PBL-00022;PBL-00022-02-01;Ultrarrápido;Pombal;(A1) KM 166,7 - LISBOA/PORTO;GLP;
 PBL-00022;PBL-00022-02-01;Ultrarrápido;Pombal;(A1) KM 166,7 - LISBOA/PORTO;GLP;False;MT;TIME;€ 0 /min;CCS;CABLE;200
 PBL-00022;PBL-00022-02-01;Ultrarrápido;Pombal;(A1) KM 166,7 - LISBOA/PORTO;GLP;False;MT;TIME;€ 0.27 /min após 30 min;CCS;CABLE;200
 PBL-00023;PBL-00023-01-01;Rápido;Pombal;Estrada da Guia 13, lugar de Carnide;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;125
-PBL-00023;PBL-00023-01-01;Rápido;Pombal;Estrada da Guia 13, lugar de Carnide;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CCS;CABLE;125
 PBL-00023;PBL-00023-01-01;Rápido;Pombal;Estrada da Guia 13, lugar de Carnide;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;125
+PBL-00023;PBL-00023-01-01;Rápido;Pombal;Estrada da Guia 13, lugar de Carnide;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CCS;CABLE;125
 PBL-00023;PBL-00023-01-01;Rápido;Pombal;Estrada da Guia 13, lugar de Carnide;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CCS;CABLE;125
 PBL-00023;PBL-00023-02-01;Rápido;Pombal;Estrada da Guia 13, lugar de Carnide;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
 PBL-00023;PBL-00023-02-01;Rápido;Pombal;Estrada da Guia 13, lugar de Carnide;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
 PBL-00023;PBL-00023-02-01;Rápido;Pombal;Estrada da Guia 13, lugar de Carnide;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 PBL-00023;PBL-00023-02-01;Rápido;Pombal;Estrada da Guia 13, lugar de Carnide;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 PBL-00023;PBL-00023-03-01;Rápido;Pombal;Estrada da Guia 13, lugar de Carnide;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;125
-PBL-00023;PBL-00023-03-01;Rápido;Pombal;Estrada da Guia 13, lugar de Carnide;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;125
 PBL-00023;PBL-00023-03-01;Rápido;Pombal;Estrada da Guia 13, lugar de Carnide;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CCS;CABLE;125
+PBL-00023;PBL-00023-03-01;Rápido;Pombal;Estrada da Guia 13, lugar de Carnide;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;125
 PBL-00023;PBL-00023-03-01;Rápido;Pombal;Estrada da Guia 13, lugar de Carnide;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CCS;CABLE;125
 PBL-00024;PBL-00024-01-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
 PBL-00024;PBL-00024-01-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 PBL-00024;PBL-00024-01-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 PBL-00024;PBL-00024-01-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 PBL-00024;PBL-00024-02-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-PBL-00024;PBL-00024-02-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 PBL-00024;PBL-00024-02-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
+PBL-00024;PBL-00024-02-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 PBL-00024;PBL-00024-02-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 PBL-00024;PBL-00024-03-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
 PBL-00024;PBL-00024-03-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 PBL-00024;PBL-00024-03-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 PBL-00024;PBL-00024-03-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 PBL-00025;PBL-00025-01-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
-PBL-00025;PBL-00025-01-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 PBL-00025;PBL-00025-01-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
+PBL-00025;PBL-00025-01-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 PBL-00025;PBL-00025-01-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 PBL-00025;PBL-00025-02-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-PBL-00025;PBL-00025-02-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
 PBL-00025;PBL-00025-02-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+PBL-00025;PBL-00025-02-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
 PBL-00025;PBL-00025-02-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 PBL-00025;PBL-00025-03-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
 PBL-00025;PBL-00025-03-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 PBL-00025;PBL-00025-03-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 PBL-00025;PBL-00025-03-01;Ultrarrápido;Pombal;Estrada Nacional 1 Km 152;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 PBL-00026;PBL-00026-01-01;Rápido;Pombal;E. N. 1 - Km 148,35;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-PBL-00026;PBL-00026-01-01;Rápido;Pombal;E. N. 1 - Km 148,35;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 PBL-00026;PBL-00026-01-01;Rápido;Pombal;E. N. 1 - Km 148,35;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+PBL-00026;PBL-00026-01-01;Rápido;Pombal;E. N. 1 - Km 148,35;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 PBL-00026;PBL-00026-01-01;Rápido;Pombal;E. N. 1 - Km 148,35;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 PBL-00026;PBL-00026-02-01;Rápido;Pombal;E. N. 1 - Km 148,35;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-PBL-00026;PBL-00026-02-01;Rápido;Pombal;E. N. 1 - Km 148,35;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 PBL-00026;PBL-00026-02-01;Rápido;Pombal;E. N. 1 - Km 148,35;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+PBL-00026;PBL-00026-02-01;Rápido;Pombal;E. N. 1 - Km 148,35;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 PBL-00026;PBL-00026-02-01;Rápido;Pombal;E. N. 1 - Km 148,35;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 PBL-00027;PBL-00027-01-01;Rápido;Pombal;Aldi Pombal, Rua do Aduguet 2, Pombal;EDP;False;BTE;FLAT;€ 0.4 /charge;CHADEMO;CABLE;60
 PBL-00027;PBL-00027-01-01;Rápido;Pombal;Aldi Pombal, Rua do Aduguet 2, Pombal;EDP;False;BTE;ENERGY;€ 0.06 /kWh;CHADEMO;CABLE;60
@@ -20749,24 +20749,24 @@ PFR-00016;PFR-00016-02-01;Rápido;Paços de Ferreira;Avenida Doutor Jaime Barros
 PFR-00016;PFR-00016-02-02;Rápido;Paços de Ferreira;Avenida Doutor Jaime Barros;KLS;False;MT;ENERGY;€ 0.4208 /kWh;CHADEMO;CABLE;49
 PFR-00016;PFR-00016-02-02;Rápido;Paços de Ferreira;Avenida Doutor Jaime Barros;KLS;False;MT;TIME;€ 0.08 /min;CHADEMO;CABLE;49
 PFR-00017;PFR-00017-01-01;Rápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-PFR-00017;PFR-00017-01-01;Rápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 PFR-00017;PFR-00017-01-01;Rápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+PFR-00017;PFR-00017-01-01;Rápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 PFR-00017;PFR-00017-01-01;Rápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 PFR-00017;PFR-00017-02-01;Rápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-PFR-00017;PFR-00017-02-01;Rápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 PFR-00017;PFR-00017-02-01;Rápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+PFR-00017;PFR-00017-02-01;Rápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 PFR-00017;PFR-00017-02-01;Rápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 PFR-00018;PFR-00018-01-01;Ultrarrápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-PFR-00018;PFR-00018-01-01;Ultrarrápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 PFR-00018;PFR-00018-01-01;Ultrarrápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+PFR-00018;PFR-00018-01-01;Ultrarrápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 PFR-00018;PFR-00018-01-01;Ultrarrápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 PFR-00018;PFR-00018-02-01;Ultrarrápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-PFR-00018;PFR-00018-02-01;Ultrarrápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 PFR-00018;PFR-00018-02-01;Ultrarrápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+PFR-00018;PFR-00018-02-01;Ultrarrápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 PFR-00018;PFR-00018-02-01;Ultrarrápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 PFR-00018;PFR-00018-03-01;Ultrarrápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-PFR-00018;PFR-00018-03-01;Ultrarrápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 PFR-00018;PFR-00018-03-01;Ultrarrápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
+PFR-00018;PFR-00018-03-01;Ultrarrápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 PFR-00018;PFR-00018-03-01;Ultrarrápido;Paços de Ferreira;R. de São Brás 241 Frazão;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 PFR-80001;PFR-80001-01-01;Semirrápido;Paços de Ferreira;Rua Dom José de Lencastre;ATL;False;BTN;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
 PFR-80001;PFR-80001-02-01;Semirrápido;Paços de Ferreira;Rua Dom José de Lencastre;ATL;False;BTN;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
@@ -20895,8 +20895,8 @@ PLM-00040;PLM-00040-01-01;Semirrápido;Palmela;Av. António Xavier de Lima,  Q.t
 PLM-00040;PLM-00040-02-01;Semirrápido;Palmela;Av. António Xavier de Lima,  Q.ta do Anjo;EDP;False;MT;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;22
 PLM-00040;PLM-00040-02-01;Semirrápido;Palmela;Av. António Xavier de Lima,  Q.ta do Anjo;EDP;False;MT;TIME;€ 0.033 /min;MENNEKES;SOCKET;22
 PLM-00041;PLM-00041-01-01;Rápido;Palmela;Rua Gago Coutinho e Sacadura Cabral EN 252, K;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-PLM-00041;PLM-00041-01-01;Rápido;Palmela;Rua Gago Coutinho e Sacadura Cabral EN 252, K;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
 PLM-00041;PLM-00041-01-01;Rápido;Palmela;Rua Gago Coutinho e Sacadura Cabral EN 252, K;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
+PLM-00041;PLM-00041-01-01;Rápido;Palmela;Rua Gago Coutinho e Sacadura Cabral EN 252, K;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
 PLM-00041;PLM-00041-01-01;Rápido;Palmela;Rua Gago Coutinho e Sacadura Cabral EN 252, K;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 PLM-00041;PLM-00041-02-01;Rápido;Palmela;Rua Gago Coutinho e Sacadura Cabral EN 252, K;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
 PLM-00041;PLM-00041-02-01;Rápido;Palmela;Rua Gago Coutinho e Sacadura Cabral EN 252, K;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
@@ -21023,8 +21023,8 @@ PMS-00013;PMS-00013-01-01;Ultrarrápido;Porto de Mós;E.N. 1 (IC2), Km 107, 4 E;
 PMS-00013;PMS-00013-01-01;Ultrarrápido;Porto de Mós;E.N. 1 (IC2), Km 107, 4 E;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 PMS-00013;PMS-00013-01-01;Ultrarrápido;Porto de Mós;E.N. 1 (IC2), Km 107, 4 E;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 PMS-00013;PMS-00013-02-01;Ultrarrápido;Porto de Mós;E.N. 1 (IC2), Km 107, 4 E;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-PMS-00013;PMS-00013-02-01;Ultrarrápido;Porto de Mós;E.N. 1 (IC2), Km 107, 4 E;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 PMS-00013;PMS-00013-02-01;Ultrarrápido;Porto de Mós;E.N. 1 (IC2), Km 107, 4 E;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+PMS-00013;PMS-00013-02-01;Ultrarrápido;Porto de Mós;E.N. 1 (IC2), Km 107, 4 E;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 PMS-00013;PMS-00013-02-01;Ultrarrápido;Porto de Mós;E.N. 1 (IC2), Km 107, 4 E;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 PMS-00013;PMS-00013-03-01;Ultrarrápido;Porto de Mós;E.N. 1 (IC2), Km 107, 4 E;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 PMS-00013;PMS-00013-03-01;Ultrarrápido;Porto de Mós;E.N. 1 (IC2), Km 107, 4 E;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
@@ -21245,8 +21245,8 @@ PNF-00039;PNF-00039-01-01;Rápido;Penafiel;Avenida Egas Moniz, n.º 255 Lugar da
 PNF-00039;PNF-00039-02-01;Rápido;Penafiel;Avenida Egas Moniz, n.º 255 Lugar da Ribeira;HRZ;False;BTE;ENERGY;€ 0.31 /kWh;MENNEKES;SOCKET;22
 PNF-00039;PNF-00039-03-01;Rápido;Penafiel;Avenida Egas Moniz, n.º 255 Lugar da Ribeira;HRZ;False;BTE;ENERGY;€ 0.31 /kWh;CHADEMO;CABLE;50
 PNF-00040;PNF-00040-01-01;Rápido;Penafiel;Rua província de Pontevedra , s/n;MOT;False;MT;FLAT;€ 0.2608 /charge;CCS;CABLE;60
-PNF-00040;PNF-00040-01-01;Rápido;Penafiel;Rua província de Pontevedra , s/n;MOT;False;MT;ENERGY;€ 0.5285 /kWh;CCS;CABLE;60
 PNF-00040;PNF-00040-01-01;Rápido;Penafiel;Rua província de Pontevedra , s/n;MOT;False;MT;ENERGY;€ 0.08 /kWh;CCS;CABLE;60
+PNF-00040;PNF-00040-01-01;Rápido;Penafiel;Rua província de Pontevedra , s/n;MOT;False;MT;ENERGY;€ 0.5285 /kWh;CCS;CABLE;60
 PNF-00040;PNF-00040-01-01;Rápido;Penafiel;Rua província de Pontevedra , s/n;MOT;False;MT;TIME;€ 0.06 /min;CCS;CABLE;60
 PNF-00040;PNF-00040-02-01;Rápido;Penafiel;Rua província de Pontevedra , s/n;MOT;False;MT;FLAT;€ 0.2608 /charge;CCS;CABLE;60
 PNF-00040;PNF-00040-02-01;Rápido;Penafiel;Rua província de Pontevedra , s/n;MOT;False;MT;ENERGY;€ 0.08 /kWh;CCS;CABLE;60
@@ -21264,16 +21264,16 @@ PNF-00042;PNF-00042-02-01;Rápido;Penafiel;Quinta da Lagarteira;ATL;False;MT;FLA
 PNF-00042;PNF-00042-02-01;Rápido;Penafiel;Quinta da Lagarteira;ATL;False;MT;ENERGY;€ 0.25 /kWh até 60 min;CCS;CABLE;60
 PNF-00042;PNF-00042-02-01;Rápido;Penafiel;Quinta da Lagarteira;ATL;False;MT;TIME;€ 0.2 /min após 60 min;CCS;CABLE;60
 PNF-00043;PNF-00043-01-01;Ultrarrápido;Penafiel;Lugar da Ermida - Irivo;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-PNF-00043;PNF-00043-01-01;Ultrarrápido;Penafiel;Lugar da Ermida - Irivo;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 PNF-00043;PNF-00043-01-01;Ultrarrápido;Penafiel;Lugar da Ermida - Irivo;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+PNF-00043;PNF-00043-01-01;Ultrarrápido;Penafiel;Lugar da Ermida - Irivo;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 PNF-00043;PNF-00043-01-01;Ultrarrápido;Penafiel;Lugar da Ermida - Irivo;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 PNF-00043;PNF-00043-02-01;Ultrarrápido;Penafiel;Lugar da Ermida - Irivo;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-PNF-00043;PNF-00043-02-01;Ultrarrápido;Penafiel;Lugar da Ermida - Irivo;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 PNF-00043;PNF-00043-02-01;Ultrarrápido;Penafiel;Lugar da Ermida - Irivo;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
+PNF-00043;PNF-00043-02-01;Ultrarrápido;Penafiel;Lugar da Ermida - Irivo;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 PNF-00043;PNF-00043-02-01;Ultrarrápido;Penafiel;Lugar da Ermida - Irivo;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 PNF-00043;PNF-00043-03-01;Ultrarrápido;Penafiel;Lugar da Ermida - Irivo;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-PNF-00043;PNF-00043-03-01;Ultrarrápido;Penafiel;Lugar da Ermida - Irivo;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 PNF-00043;PNF-00043-03-01;Ultrarrápido;Penafiel;Lugar da Ermida - Irivo;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+PNF-00043;PNF-00043-03-01;Ultrarrápido;Penafiel;Lugar da Ermida - Irivo;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 PNF-00043;PNF-00043-03-01;Ultrarrápido;Penafiel;Lugar da Ermida - Irivo;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 PNF-00044;PNF-00044-01-01;Semirrápido;Penafiel;R. da Igreja, Marecos;EDP;False;MT;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;11
 PNF-00044;PNF-00044-01-01;Semirrápido;Penafiel;R. da Igreja, Marecos;EDP;False;MT;TIME;€ 0.028 /min;MENNEKES;SOCKET;11
@@ -22346,8 +22346,8 @@ PRT-00215;PRT-00215-01-01;Semirrápido;Porto;Rua Praça da Batalha 32-34;LOG;Fal
 PRT-00215;PRT-00215-01-01;Semirrápido;Porto;Rua Praça da Batalha 32-34;LOG;False;MT;FLAT;€ 0.3 /charge;MENNEKES;SOCKET;22
 PRT-00215;PRT-00215-01-01;Semirrápido;Porto;Rua Praça da Batalha 32-34;LOG;False;MT;ENERGY;€ 0.06 /kWh;MENNEKES;SOCKET;22
 PRT-00215;PRT-00215-01-01;Semirrápido;Porto;Rua Praça da Batalha 32-34;LOG;False;MT;ENERGY;€ 0.06 /kWh;MENNEKES;SOCKET;22
-PRT-00215;PRT-00215-01-01;Semirrápido;Porto;Rua Praça da Batalha 32-34;LOG;False;MT;TIME;€ 0 /min;MENNEKES;SOCKET;22
 PRT-00215;PRT-00215-01-01;Semirrápido;Porto;Rua Praça da Batalha 32-34;LOG;False;MT;TIME;€ 0.01 /min;MENNEKES;SOCKET;22
+PRT-00215;PRT-00215-01-01;Semirrápido;Porto;Rua Praça da Batalha 32-34;LOG;False;MT;TIME;€ 0 /min;MENNEKES;SOCKET;22
 PRT-00217;PRT-00217-01-01;Rápido;Porto;PRIO - Rua Engenheiro Ferreira Dias;PRI;False;BTE;FLAT;€ 0.3 /charge;CCS;CABLE;50
 PRT-00217;PRT-00217-01-01;Rápido;Porto;PRIO - Rua Engenheiro Ferreira Dias;PRI;False;BTE;TIME;€ 0.1 /min;CCS;CABLE;50
 PRT-00217;PRT-00217-01-02;Rápido;Porto;PRIO - Rua Engenheiro Ferreira Dias;PRI;False;BTE;FLAT;€ 0.3 /charge;CHADEMO;CABLE;50
@@ -22481,8 +22481,8 @@ PRT-00239;PRT-00239-01-01;Semirrápido;Porto;Estr. da Circunvalação 12 843;ATL
 PRT-00239;PRT-00239-02-01;Semirrápido;Porto;Estr. da Circunvalação 12 843;ATL;False;BTE;FLAT;€ 0.2499 /charge;MENNEKES;SOCKET;22
 PRT-00239;PRT-00239-02-01;Semirrápido;Porto;Estr. da Circunvalação 12 843;ATL;False;BTE;TIME;€ 0.03 /min;MENNEKES;SOCKET;22
 PRT-00240;PRT-00240-01-01;Ultrarrápido;Porto;Estrada da Circunvalação;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-PRT-00240;PRT-00240-01-01;Ultrarrápido;Porto;Estrada da Circunvalação;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 PRT-00240;PRT-00240-01-01;Ultrarrápido;Porto;Estrada da Circunvalação;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+PRT-00240;PRT-00240-01-01;Ultrarrápido;Porto;Estrada da Circunvalação;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 PRT-00240;PRT-00240-01-01;Ultrarrápido;Porto;Estrada da Circunvalação;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 PRT-00240;PRT-00240-02-01;Ultrarrápido;Porto;Estrada da Circunvalação;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
 PRT-00240;PRT-00240-02-01;Ultrarrápido;Porto;Estrada da Circunvalação;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
@@ -22730,16 +22730,16 @@ PST-00003;PST-00003-01-01;Semirrápido;Porto Santo;Sítio do Espírito Santo;EMA
 PST-00004;PST-00004-01-01;Semirrápido;Porto Santo;Sítio do Espírito Santo;EMA;False;BTN;FLAT;€ 0.16 /charge;MENNEKES;SOCKET;7,4
 PST-00004;PST-00004-01-01;Semirrápido;Porto Santo;Sítio do Espírito Santo;EMA;False;BTN;TIME;€ 0.04 /min;MENNEKES;SOCKET;7,4
 PST-00006;PST-00006-01-01;Ultrarrápido;Porto Santo;Parque Empresarial do Porto Santo, Lote 7, Lo;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-PST-00006;PST-00006-01-01;Ultrarrápido;Porto Santo;Parque Empresarial do Porto Santo, Lote 7, Lo;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 PST-00006;PST-00006-01-01;Ultrarrápido;Porto Santo;Parque Empresarial do Porto Santo, Lote 7, Lo;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+PST-00006;PST-00006-01-01;Ultrarrápido;Porto Santo;Parque Empresarial do Porto Santo, Lote 7, Lo;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 PST-00006;PST-00006-01-01;Ultrarrápido;Porto Santo;Parque Empresarial do Porto Santo, Lote 7, Lo;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 PST-00006;PST-00006-02-01;Ultrarrápido;Porto Santo;Parque Empresarial do Porto Santo, Lote 7, Lo;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-PST-00006;PST-00006-02-01;Ultrarrápido;Porto Santo;Parque Empresarial do Porto Santo, Lote 7, Lo;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 PST-00006;PST-00006-02-01;Ultrarrápido;Porto Santo;Parque Empresarial do Porto Santo, Lote 7, Lo;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+PST-00006;PST-00006-02-01;Ultrarrápido;Porto Santo;Parque Empresarial do Porto Santo, Lote 7, Lo;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 PST-00006;PST-00006-02-01;Ultrarrápido;Porto Santo;Parque Empresarial do Porto Santo, Lote 7, Lo;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 PST-00006;PST-00006-03-01;Ultrarrápido;Porto Santo;Parque Empresarial do Porto Santo, Lote 7, Lo;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-PST-00006;PST-00006-03-01;Ultrarrápido;Porto Santo;Parque Empresarial do Porto Santo, Lote 7, Lo;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 PST-00006;PST-00006-03-01;Ultrarrápido;Porto Santo;Parque Empresarial do Porto Santo, Lote 7, Lo;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+PST-00006;PST-00006-03-01;Ultrarrápido;Porto Santo;Parque Empresarial do Porto Santo, Lote 7, Lo;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 PST-00006;PST-00006-03-01;Ultrarrápido;Porto Santo;Parque Empresarial do Porto Santo, Lote 7, Lo;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 PST-00007;PST-00007-01-01;Semirrápido;Porto Santo;Estrada Regional 120 - Calheta;EMA;False;BTN;FLAT;€ 0.16 /charge;MENNEKES;SOCKET;7,4
 PST-00007;PST-00007-01-01;Semirrápido;Porto Santo;Estrada Regional 120 - Calheta;EMA;False;BTN;TIME;€ 0.04 /min;MENNEKES;SOCKET;7,4
@@ -23500,8 +23500,8 @@ RMR-00013;RMR-00013-01-01;Ultrarrápido;Rio Maior;A15 Km 23,4 - Boicas;FCT;False
 RMR-00013;RMR-00013-01-01;Ultrarrápido;Rio Maior;A15 Km 23,4 - Boicas;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 RMR-00013;RMR-00013-01-01;Ultrarrápido;Rio Maior;A15 Km 23,4 - Boicas;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 RMR-00013;RMR-00013-02-01;Ultrarrápido;Rio Maior;A15 Km 23,4 - Boicas;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-RMR-00013;RMR-00013-02-01;Ultrarrápido;Rio Maior;A15 Km 23,4 - Boicas;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 RMR-00013;RMR-00013-02-01;Ultrarrápido;Rio Maior;A15 Km 23,4 - Boicas;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
+RMR-00013;RMR-00013-02-01;Ultrarrápido;Rio Maior;A15 Km 23,4 - Boicas;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 RMR-00013;RMR-00013-02-01;Ultrarrápido;Rio Maior;A15 Km 23,4 - Boicas;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 RMR-00013;RMR-00013-03-01;Ultrarrápido;Rio Maior;A15 Km 23,4 - Boicas;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 RMR-00013;RMR-00013-03-01;Ultrarrápido;Rio Maior;A15 Km 23,4 - Boicas;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
@@ -23822,12 +23822,12 @@ SEI-00012;SEI-00012-01-01;Rápido;Seia;Avenida Terras de Sena;KLS;False;MT;TIME;
 SEI-00012;SEI-00012-01-02;Rápido;Seia;Avenida Terras de Sena;KLS;False;MT;TIME;€ 0.08 /min;CCS;CABLE;50
 SEI-00012;SEI-00012-02-01;Rápido;Seia;Avenida Terras de Sena;KLS;False;MT;TIME;€ 0.08 /min;MENNEKES;CABLE;43
 SEI-00014;SEI-00014-01-01;Ultrarrápido;Seia;Estrada de São Romão;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-SEI-00014;SEI-00014-01-01;Ultrarrápido;Seia;Estrada de São Romão;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 SEI-00014;SEI-00014-01-01;Ultrarrápido;Seia;Estrada de São Romão;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+SEI-00014;SEI-00014-01-01;Ultrarrápido;Seia;Estrada de São Romão;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 SEI-00014;SEI-00014-01-01;Ultrarrápido;Seia;Estrada de São Romão;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 SEI-00014;SEI-00014-02-01;Ultrarrápido;Seia;Estrada de São Romão;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-SEI-00014;SEI-00014-02-01;Ultrarrápido;Seia;Estrada de São Romão;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 SEI-00014;SEI-00014-02-01;Ultrarrápido;Seia;Estrada de São Romão;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+SEI-00014;SEI-00014-02-01;Ultrarrápido;Seia;Estrada de São Romão;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 SEI-00014;SEI-00014-02-01;Ultrarrápido;Seia;Estrada de São Romão;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 SEI-00014;SEI-00014-03-01;Ultrarrápido;Seia;Estrada de São Romão;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 SEI-00014;SEI-00014-03-01;Ultrarrápido;Seia;Estrada de São Romão;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
@@ -24185,28 +24185,28 @@ SMG-00010;SMG-00010-01-01;Rápido;Salvaterra de Magos;Estrada Nacional n, 118,;K
 SMG-00010;SMG-00010-02-01;Rápido;Salvaterra de Magos;Estrada Nacional n, 118,;KLS;False;MT;TIME;€ 0.08 /min;CCS;CABLE;50
 SMG-00010;SMG-00010-02-02;Rápido;Salvaterra de Magos;Estrada Nacional n, 118,;KLS;False;MT;TIME;€ 0.08 /min;CHADEMO;CABLE;50
 SMG-00012;SMG-00012-01-01;Ultrarrápido;Salvaterra de Magos;Estrada Nacional 118, km 46+800, nº 194;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-SMG-00012;SMG-00012-01-01;Ultrarrápido;Salvaterra de Magos;Estrada Nacional 118, km 46+800, nº 194;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 SMG-00012;SMG-00012-01-01;Ultrarrápido;Salvaterra de Magos;Estrada Nacional 118, km 46+800, nº 194;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
+SMG-00012;SMG-00012-01-01;Ultrarrápido;Salvaterra de Magos;Estrada Nacional 118, km 46+800, nº 194;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 SMG-00012;SMG-00012-01-01;Ultrarrápido;Salvaterra de Magos;Estrada Nacional 118, km 46+800, nº 194;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 SMG-00012;SMG-00012-02-01;Ultrarrápido;Salvaterra de Magos;Estrada Nacional 118, km 46+800, nº 194;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-SMG-00012;SMG-00012-02-01;Ultrarrápido;Salvaterra de Magos;Estrada Nacional 118, km 46+800, nº 194;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
 SMG-00012;SMG-00012-02-01;Ultrarrápido;Salvaterra de Magos;Estrada Nacional 118, km 46+800, nº 194;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+SMG-00012;SMG-00012-02-01;Ultrarrápido;Salvaterra de Magos;Estrada Nacional 118, km 46+800, nº 194;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
 SMG-00012;SMG-00012-02-01;Ultrarrápido;Salvaterra de Magos;Estrada Nacional 118, km 46+800, nº 194;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 SMG-00012;SMG-00012-03-01;Ultrarrápido;Salvaterra de Magos;Estrada Nacional 118, km 46+800, nº 194;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-SMG-00012;SMG-00012-03-01;Ultrarrápido;Salvaterra de Magos;Estrada Nacional 118, km 46+800, nº 194;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 SMG-00012;SMG-00012-03-01;Ultrarrápido;Salvaterra de Magos;Estrada Nacional 118, km 46+800, nº 194;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
+SMG-00012;SMG-00012-03-01;Ultrarrápido;Salvaterra de Magos;Estrada Nacional 118, km 46+800, nº 194;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 SMG-00012;SMG-00012-03-01;Ultrarrápido;Salvaterra de Magos;Estrada Nacional 118, km 46+800, nº 194;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 SMG-00013;SMG-00013-01-01;Ultrarrápido;Salvaterra de Magos;EN 118, N158, Marinhais;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-SMG-00013;SMG-00013-01-01;Ultrarrápido;Salvaterra de Magos;EN 118, N158, Marinhais;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 SMG-00013;SMG-00013-01-01;Ultrarrápido;Salvaterra de Magos;EN 118, N158, Marinhais;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+SMG-00013;SMG-00013-01-01;Ultrarrápido;Salvaterra de Magos;EN 118, N158, Marinhais;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 SMG-00013;SMG-00013-01-01;Ultrarrápido;Salvaterra de Magos;EN 118, N158, Marinhais;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 SMG-00013;SMG-00013-02-01;Ultrarrápido;Salvaterra de Magos;EN 118, N158, Marinhais;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-SMG-00013;SMG-00013-02-01;Ultrarrápido;Salvaterra de Magos;EN 118, N158, Marinhais;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 SMG-00013;SMG-00013-02-01;Ultrarrápido;Salvaterra de Magos;EN 118, N158, Marinhais;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
+SMG-00013;SMG-00013-02-01;Ultrarrápido;Salvaterra de Magos;EN 118, N158, Marinhais;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 SMG-00013;SMG-00013-02-01;Ultrarrápido;Salvaterra de Magos;EN 118, N158, Marinhais;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 SMG-00013;SMG-00013-03-01;Ultrarrápido;Salvaterra de Magos;EN 118, N158, Marinhais;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-SMG-00013;SMG-00013-03-01;Ultrarrápido;Salvaterra de Magos;EN 118, N158, Marinhais;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 SMG-00013;SMG-00013-03-01;Ultrarrápido;Salvaterra de Magos;EN 118, N158, Marinhais;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+SMG-00013;SMG-00013-03-01;Ultrarrápido;Salvaterra de Magos;EN 118, N158, Marinhais;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 SMG-00013;SMG-00013-03-01;Ultrarrápido;Salvaterra de Magos;EN 118, N158, Marinhais;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 SMG-90001;SMG-90001-01-01;Semirrápido;Salvaterra de Magos;Rua do Parque;HRZ;False;BTN;TIME;€ 0.0298 /min;MENNEKES;SOCKET;22
 SMG-90001;SMG-90001-02-01;Semirrápido;Salvaterra de Magos;Rua do Parque;HRZ;False;BTN;TIME;€ 0.0298 /min;MENNEKES;SOCKET;22
@@ -24279,12 +24279,12 @@ SNS-00016;SNS-00016-03-01;Rápido;Sines;Avenida da Trindade;KLS;False;MT;FLAT;�
 SNS-00016;SNS-00016-03-01;Rápido;Sines;Avenida da Trindade;KLS;False;MT;ENERGY;€ 0 /kWh;CHADEMO;CABLE;50
 SNS-00016;SNS-00016-03-01;Rápido;Sines;Avenida da Trindade;KLS;False;MT;TIME;€ 0.08 /min;CHADEMO;CABLE;50
 SNS-00018;SNS-00018-01-01;Rápido;Sines;Loteamento Municipal Norte da R52, Lote 8;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-SNS-00018;SNS-00018-01-01;Rápido;Sines;Loteamento Municipal Norte da R52, Lote 8;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 SNS-00018;SNS-00018-01-01;Rápido;Sines;Loteamento Municipal Norte da R52, Lote 8;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+SNS-00018;SNS-00018-01-01;Rápido;Sines;Loteamento Municipal Norte da R52, Lote 8;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 SNS-00018;SNS-00018-01-01;Rápido;Sines;Loteamento Municipal Norte da R52, Lote 8;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 SNS-00018;SNS-00018-02-01;Rápido;Sines;Loteamento Municipal Norte da R52, Lote 8;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-SNS-00018;SNS-00018-02-01;Rápido;Sines;Loteamento Municipal Norte da R52, Lote 8;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 SNS-00018;SNS-00018-02-01;Rápido;Sines;Loteamento Municipal Norte da R52, Lote 8;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+SNS-00018;SNS-00018-02-01;Rápido;Sines;Loteamento Municipal Norte da R52, Lote 8;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 SNS-00018;SNS-00018-02-01;Rápido;Sines;Loteamento Municipal Norte da R52, Lote 8;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 SNT-00011;SNT-00011-01-01;Rápido;Sintra;R. LUGAR DO MOURO;MLT;False;MT;FLAT;€ 0.261 /charge;CHADEMO;CABLE;50
 SNT-00011;SNT-00011-01-01;Rápido;Sintra;R. LUGAR DO MOURO;MLT;False;MT;ENERGY;€ 0 /kWh;CHADEMO;CABLE;50
@@ -24867,16 +24867,16 @@ SNT-00157;SNT-00157-01-01;Semirrápido;Sintra;Av. 29 de Agosto e Av. da Aviaçã
 SNT-00157;SNT-00157-02-01;Semirrápido;Sintra;Av. 29 de Agosto e Av. da Aviação Portuguesa;EDP;False;BTE;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;22
 SNT-00157;SNT-00157-02-01;Semirrápido;Sintra;Av. 29 de Agosto e Av. da Aviação Portuguesa;EDP;False;BTE;TIME;€ 0.033 /min;MENNEKES;SOCKET;22
 SNT-00158;SNT-00158-01-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
-SNT-00158;SNT-00158-01-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 SNT-00158;SNT-00158-01-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
+SNT-00158;SNT-00158-01-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 SNT-00158;SNT-00158-01-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 SNT-00158;SNT-00158-02-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
 SNT-00158;SNT-00158-02-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 SNT-00158;SNT-00158-02-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
 SNT-00158;SNT-00158-02-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 SNT-00158;SNT-00158-03-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
-SNT-00158;SNT-00158-03-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 SNT-00158;SNT-00158-03-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
+SNT-00158;SNT-00158-03-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 SNT-00158;SNT-00158-03-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 SNT-00159;SNT-00159-01-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
 SNT-00159;SNT-00159-01-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
@@ -24895,12 +24895,12 @@ SNT-00160;SNT-00160-01-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parc
 SNT-00160;SNT-00160-01-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.65 /kWh;CCS;CABLE;300
 SNT-00160;SNT-00160-01-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;300
 SNT-00160;SNT-00160-02-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-SNT-00160;SNT-00160-02-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.37 /kWh;CHADEMO;CABLE;80
 SNT-00160;SNT-00160-02-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.65 /kWh;CHADEMO;CABLE;80
+SNT-00160;SNT-00160-02-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.37 /kWh;CHADEMO;CABLE;80
 SNT-00160;SNT-00160-02-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 SNT-00160;SNT-00160-03-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;300
-SNT-00160;SNT-00160-03-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.37 /kWh;CCS;CABLE;300
 SNT-00160;SNT-00160-03-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.65 /kWh;CCS;CABLE;300
+SNT-00160;SNT-00160-03-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;ENERGY;€ 0.37 /kWh;CCS;CABLE;300
 SNT-00160;SNT-00160-03-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho - Parce;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;300
 SNT-00161;SNT-00161-01-01;Semirrápido;Sintra;Rua das Vagens;IBD;False;MT;FLAT;€ 0.16 /charge até 120 min;MENNEKES;SOCKET;22
 SNT-00161;SNT-00161-01-01;Semirrápido;Sintra;Rua das Vagens;IBD;False;MT;TIME;€ 0.03 /min até 120 min;MENNEKES;SOCKET;22
@@ -24996,8 +24996,8 @@ SNT-00181;SNT-00181-01-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho;FCT;Fa
 SNT-00181;SNT-00181-01-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho;FCT;False;MT;ENERGY;€ 0.37 /kWh;CCS;CABLE;400
 SNT-00181;SNT-00181-01-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;400
 SNT-00181;SNT-00181-02-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;400
-SNT-00181;SNT-00181-02-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho;FCT;False;MT;ENERGY;€ 0.37 /kWh;CCS;CABLE;400
 SNT-00181;SNT-00181-02-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho;FCT;False;MT;ENERGY;€ 0.65 /kWh;CCS;CABLE;400
+SNT-00181;SNT-00181-02-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho;FCT;False;MT;ENERGY;€ 0.37 /kWh;CCS;CABLE;400
 SNT-00181;SNT-00181-02-01;Ultrarrápido;Sintra;Av Almirante Gago Coutinho;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;400
 SNT-80002;SNT-80002-01-01;Normal;Sintra;Rua Guilherme Gomes Fernandes;ATL;False;BTN;TIME;€ 0.01 /min;MENNEKES;SOCKET;3,7
 SNT-80002;SNT-80002-02-01;Normal;Sintra;Rua Guilherme Gomes Fernandes;ATL;False;BTN;TIME;€ 0.01 /min;MENNEKES;SOCKET;3,7
@@ -25515,8 +25515,8 @@ STB-00081;STB-00081-01-01;Ultrarrápido;Setúbal;"R Alexandre O'Neill";HRZ;False
 STB-00081;STB-00081-02-01;Ultrarrápido;Setúbal;"R Alexandre O'Neill";HRZ;False;BTE;FLAT;€ 0.3 /charge;CCS;CABLE;160
 STB-00081;STB-00081-02-01;Ultrarrápido;Setúbal;"R Alexandre O'Neill";HRZ;False;BTE;ENERGY;€ 0.3 /kWh;CCS;CABLE;160
 STB-00082;STB-00082-01-01;Ultrarrápido;Setúbal;Estrada dos Ciprestes;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-STB-00082;STB-00082-01-01;Ultrarrápido;Setúbal;Estrada dos Ciprestes;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 STB-00082;STB-00082-01-01;Ultrarrápido;Setúbal;Estrada dos Ciprestes;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+STB-00082;STB-00082-01-01;Ultrarrápido;Setúbal;Estrada dos Ciprestes;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 STB-00082;STB-00082-01-01;Ultrarrápido;Setúbal;Estrada dos Ciprestes;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 STB-00082;STB-00082-02-01;Ultrarrápido;Setúbal;Estrada dos Ciprestes;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
 STB-00082;STB-00082-02-01;Ultrarrápido;Setúbal;Estrada dos Ciprestes;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
@@ -25665,8 +25665,8 @@ STN-00005;STN-00005-01-01;Ultrarrápido;Santana;Sítio dos Barreiros;FCT;False;B
 STN-00005;STN-00005-01-01;Ultrarrápido;Santana;Sítio dos Barreiros;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 STN-00005;STN-00005-01-01;Ultrarrápido;Santana;Sítio dos Barreiros;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 STN-00005;STN-00005-02-01;Ultrarrápido;Santana;Sítio dos Barreiros;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-STN-00005;STN-00005-02-01;Ultrarrápido;Santana;Sítio dos Barreiros;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 STN-00005;STN-00005-02-01;Ultrarrápido;Santana;Sítio dos Barreiros;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
+STN-00005;STN-00005-02-01;Ultrarrápido;Santana;Sítio dos Barreiros;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 STN-00005;STN-00005-02-01;Ultrarrápido;Santana;Sítio dos Barreiros;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 STN-00005;STN-00005-03-01;Ultrarrápido;Santana;Sítio dos Barreiros;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 STN-00005;STN-00005-03-01;Ultrarrápido;Santana;Sítio dos Barreiros;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
@@ -25985,16 +25985,16 @@ STS-00024;STS-00024-03-01;Rápido;Santo Tirso;Calyada da Azenha do Pisco;KLS;Fal
 STS-00024;STS-00024-03-01;Rápido;Santo Tirso;Calyada da Azenha do Pisco;KLS;False;MT;ENERGY;€ 0 /kWh;CHADEMO;CABLE;50
 STS-00024;STS-00024-03-01;Rápido;Santo Tirso;Calyada da Azenha do Pisco;KLS;False;MT;TIME;€ 0.08 /min;CHADEMO;CABLE;50
 STS-00026;STS-00026-01-01;Rápido;Santo Tirso;R. Fontiscos, nº 693;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;130
-STS-00026;STS-00026-01-01;Rápido;Santo Tirso;R. Fontiscos, nº 693;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;130
 STS-00026;STS-00026-01-01;Rápido;Santo Tirso;R. Fontiscos, nº 693;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CCS;CABLE;130
+STS-00026;STS-00026-01-01;Rápido;Santo Tirso;R. Fontiscos, nº 693;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;130
 STS-00026;STS-00026-01-01;Rápido;Santo Tirso;R. Fontiscos, nº 693;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CCS;CABLE;130
 STS-00026;STS-00026-02-01;Rápido;Santo Tirso;R. Fontiscos, nº 693;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-STS-00026;STS-00026-02-01;Rápido;Santo Tirso;R. Fontiscos, nº 693;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 STS-00026;STS-00026-02-01;Rápido;Santo Tirso;R. Fontiscos, nº 693;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
+STS-00026;STS-00026-02-01;Rápido;Santo Tirso;R. Fontiscos, nº 693;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 STS-00026;STS-00026-02-01;Rápido;Santo Tirso;R. Fontiscos, nº 693;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 STS-00026;STS-00026-03-01;Rápido;Santo Tirso;R. Fontiscos, nº 693;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;130
-STS-00026;STS-00026-03-01;Rápido;Santo Tirso;R. Fontiscos, nº 693;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CCS;CABLE;130
 STS-00026;STS-00026-03-01;Rápido;Santo Tirso;R. Fontiscos, nº 693;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;130
+STS-00026;STS-00026-03-01;Rápido;Santo Tirso;R. Fontiscos, nº 693;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CCS;CABLE;130
 STS-00026;STS-00026-03-01;Rápido;Santo Tirso;R. Fontiscos, nº 693;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CCS;CABLE;130
 STS-00027;STS-00027-01-01;Rápido;Santo Tirso;Rua Jornal de Santo Tirso - Lugar da Vilalva;KLS;False;MT;ENERGY;€ 0.6539 /kWh;MENNEKES;CABLE;22
 STS-00027;STS-00027-01-01;Rápido;Santo Tirso;Rua Jornal de Santo Tirso - Lugar da Vilalva;KLS;False;MT;TIME;€ 0.08 /min;MENNEKES;CABLE;22
@@ -26416,8 +26416,8 @@ SXL-00064;SXL-00064-01-01;Rápido;Seixal;Casal do Marco Interface do Fogueteiro;
 SXL-00064;SXL-00064-01-01;Rápido;Seixal;Casal do Marco Interface do Fogueteiro;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
 SXL-00064;SXL-00064-01-01;Rápido;Seixal;Casal do Marco Interface do Fogueteiro;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 SXL-00064;SXL-00064-02-01;Rápido;Seixal;Casal do Marco Interface do Fogueteiro;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-SXL-00064;SXL-00064-02-01;Rápido;Seixal;Casal do Marco Interface do Fogueteiro;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 SXL-00064;SXL-00064-02-01;Rápido;Seixal;Casal do Marco Interface do Fogueteiro;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+SXL-00064;SXL-00064-02-01;Rápido;Seixal;Casal do Marco Interface do Fogueteiro;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 SXL-00064;SXL-00064-02-01;Rápido;Seixal;Casal do Marco Interface do Fogueteiro;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 SXL-00065;SXL-00065-01-01;Semirrápido;Seixal;Av. Vieira da Silva, Alam. S. Marta do Pinhal;IBD;False;BTN;FLAT;€ 0.16 /charge;MENNEKES;CABLE;11
 SXL-00065;SXL-00065-01-01;Semirrápido;Seixal;Av. Vieira da Silva, Alam. S. Marta do Pinhal;IBD;False;BTN;ENERGY;€ 0.13 /kWh;MENNEKES;CABLE;11
@@ -27616,12 +27616,12 @@ VCT-00050;VCT-00050-01-01;Ultrarrápido;Viana do Castelo;Estrada da Abelheira - 
 VCT-00050;VCT-00050-01-01;Ultrarrápido;Viana do Castelo;Estrada da Abelheira - Via Entre Santos, s/n;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 VCT-00050;VCT-00050-01-01;Ultrarrápido;Viana do Castelo;Estrada da Abelheira - Via Entre Santos, s/n;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 VCT-00050;VCT-00050-02-01;Ultrarrápido;Viana do Castelo;Estrada da Abelheira - Via Entre Santos, s/n;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-VCT-00050;VCT-00050-02-01;Ultrarrápido;Viana do Castelo;Estrada da Abelheira - Via Entre Santos, s/n;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 VCT-00050;VCT-00050-02-01;Ultrarrápido;Viana do Castelo;Estrada da Abelheira - Via Entre Santos, s/n;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
+VCT-00050;VCT-00050-02-01;Ultrarrápido;Viana do Castelo;Estrada da Abelheira - Via Entre Santos, s/n;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
 VCT-00050;VCT-00050-02-01;Ultrarrápido;Viana do Castelo;Estrada da Abelheira - Via Entre Santos, s/n;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 VCT-00050;VCT-00050-03-01;Ultrarrápido;Viana do Castelo;Estrada da Abelheira - Via Entre Santos, s/n;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-VCT-00050;VCT-00050-03-01;Ultrarrápido;Viana do Castelo;Estrada da Abelheira - Via Entre Santos, s/n;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 VCT-00050;VCT-00050-03-01;Ultrarrápido;Viana do Castelo;Estrada da Abelheira - Via Entre Santos, s/n;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
+VCT-00050;VCT-00050-03-01;Ultrarrápido;Viana do Castelo;Estrada da Abelheira - Via Entre Santos, s/n;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 VCT-00050;VCT-00050-03-01;Ultrarrápido;Viana do Castelo;Estrada da Abelheira - Via Entre Santos, s/n;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 VCT-00051;VCT-00051-01-01;Semirrápido;Viana do Castelo;Rua Lugar S. Amaro, sn-1, Bajo Prado;INT;False;MT;FLAT;€ 0.3 /charge;MENNEKES;CABLE;22
 VCT-00051;VCT-00051-01-01;Semirrápido;Viana do Castelo;Rua Lugar S. Amaro, sn-1, Bajo Prado;INT;False;MT;ENERGY;€ 0.22 /kWh;MENNEKES;CABLE;22
@@ -28178,8 +28178,8 @@ VFR-00090;VFR-00090-01-01;Ultrarrápido;Santa Maria da Feira;Rua de Fornos, n. 3
 VFR-00090;VFR-00090-01-01;Ultrarrápido;Santa Maria da Feira;Rua de Fornos, n. 370 4525-323 Guisande;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
 VFR-00090;VFR-00090-01-01;Ultrarrápido;Santa Maria da Feira;Rua de Fornos, n. 370 4525-323 Guisande;FCT;False;BTE;TIME;€ 0.05 /min;CCS;CABLE;150
 VFR-00090;VFR-00090-02-01;Ultrarrápido;Santa Maria da Feira;Rua de Fornos, n. 370 4525-323 Guisande;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-VFR-00090;VFR-00090-02-01;Ultrarrápido;Santa Maria da Feira;Rua de Fornos, n. 370 4525-323 Guisande;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 VFR-00090;VFR-00090-02-01;Ultrarrápido;Santa Maria da Feira;Rua de Fornos, n. 370 4525-323 Guisande;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CHADEMO;CABLE;80
+VFR-00090;VFR-00090-02-01;Ultrarrápido;Santa Maria da Feira;Rua de Fornos, n. 370 4525-323 Guisande;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 VFR-00090;VFR-00090-02-01;Ultrarrápido;Santa Maria da Feira;Rua de Fornos, n. 370 4525-323 Guisande;FCT;False;BTE;TIME;€ 0.05 /min;CHADEMO;CABLE;80
 VFR-00090;VFR-00090-03-01;Ultrarrápido;Santa Maria da Feira;Rua de Fornos, n. 370 4525-323 Guisande;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 VFR-00090;VFR-00090-03-01;Ultrarrápido;Santa Maria da Feira;Rua de Fornos, n. 370 4525-323 Guisande;FCT;False;BTE;ENERGY;€ 0.28 /kWh;CCS;CABLE;150
@@ -28709,18 +28709,18 @@ VFX-00081;VFX-00081-01-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monte
 VFX-00081;VFX-00081-01-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;ENERGY;€ 0.5447 /kWh;CHADEMO;CABLE;60
 VFX-00081;VFX-00081-01-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;TIME;€ 0 /min até 60 min;CHADEMO;CABLE;60
 VFX-00081;VFX-00081-01-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;TIME;€ 0 /min até 60 min;CHADEMO;CABLE;60
-VFX-00081;VFX-00081-01-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;TIME;€ 0.0976 /min após 60 min;CHADEMO;CABLE;60
 VFX-00081;VFX-00081-01-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;TIME;€ 0.9756 /min após 60 min;CHADEMO;CABLE;60
+VFX-00081;VFX-00081-01-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;TIME;€ 0.0976 /min após 60 min;CHADEMO;CABLE;60
 VFX-00081;VFX-00081-02-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;FLAT;€ 0.2033 /charge;CCS;CABLE;60
-VFX-00081;VFX-00081-02-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;ENERGY;€ 0.252 /kWh;CCS;CABLE;60
 VFX-00081;VFX-00081-02-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;ENERGY;€ 0.5447 /kWh;CCS;CABLE;60
+VFX-00081;VFX-00081-02-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;ENERGY;€ 0.252 /kWh;CCS;CABLE;60
 VFX-00081;VFX-00081-02-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;TIME;€ 0 /min até 60 min;CCS;CABLE;60
 VFX-00081;VFX-00081-02-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;TIME;€ 0 /min até 60 min;CCS;CABLE;60
-VFX-00081;VFX-00081-02-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;TIME;€ 0.9756 /min após 60 min;CCS;CABLE;60
 VFX-00081;VFX-00081-02-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;TIME;€ 0.0976 /min após 60 min;CCS;CABLE;60
+VFX-00081;VFX-00081-02-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;TIME;€ 0.9756 /min após 60 min;CCS;CABLE;60
 VFX-00081;VFX-00081-03-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;22
-VFX-00081;VFX-00081-03-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;ENERGY;€ 0.252 /kWh;MENNEKES;SOCKET;22
 VFX-00081;VFX-00081-03-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;ENERGY;€ 0.5447 /kWh;MENNEKES;SOCKET;22
+VFX-00081;VFX-00081-03-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;ENERGY;€ 0.252 /kWh;MENNEKES;SOCKET;22
 VFX-00081;VFX-00081-03-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;TIME;€ 0 /min até 60 min;MENNEKES;SOCKET;22
 VFX-00081;VFX-00081-03-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;TIME;€ 0 /min até 60 min;MENNEKES;SOCKET;22
 VFX-00081;VFX-00081-03-01;Rápido;Vila Franca de Xira;Lg.Dr. Armindo Sttau Monteiro;MOT;False;BTE;TIME;€ 0.0976 /min após 60 min;MENNEKES;SOCKET;22
@@ -28750,8 +28750,8 @@ VFX-00083;VFX-00083-02-01;Rápido;Vila Franca de Xira;R. Maria Lamas;MOT;False;B
 VFX-00083;VFX-00083-02-01;Rápido;Vila Franca de Xira;R. Maria Lamas;MOT;False;BTE;TIME;€ 0.9756 /min após 60 min;MENNEKES;CABLE;22
 VFX-00083;VFX-00083-02-01;Rápido;Vila Franca de Xira;R. Maria Lamas;MOT;False;BTE;TIME;€ 0.0976 /min após 60 min;MENNEKES;CABLE;22
 VFX-00083;VFX-00083-03-01;Rápido;Vila Franca de Xira;R. Maria Lamas;MOT;False;BTE;FLAT;€ 0.2033 /charge;CCS;CABLE;60
-VFX-00083;VFX-00083-03-01;Rápido;Vila Franca de Xira;R. Maria Lamas;MOT;False;BTE;ENERGY;€ 0.5447 /kWh;CCS;CABLE;60
 VFX-00083;VFX-00083-03-01;Rápido;Vila Franca de Xira;R. Maria Lamas;MOT;False;BTE;ENERGY;€ 0.252 /kWh;CCS;CABLE;60
+VFX-00083;VFX-00083-03-01;Rápido;Vila Franca de Xira;R. Maria Lamas;MOT;False;BTE;ENERGY;€ 0.5447 /kWh;CCS;CABLE;60
 VFX-00083;VFX-00083-03-01;Rápido;Vila Franca de Xira;R. Maria Lamas;MOT;False;BTE;TIME;€ 0 /min até 60 min;CCS;CABLE;60
 VFX-00083;VFX-00083-03-01;Rápido;Vila Franca de Xira;R. Maria Lamas;MOT;False;BTE;TIME;€ 0 /min até 60 min;CCS;CABLE;60
 VFX-00083;VFX-00083-03-01;Rápido;Vila Franca de Xira;R. Maria Lamas;MOT;False;BTE;TIME;€ 0.9756 /min após 60 min;CCS;CABLE;60
@@ -28774,8 +28774,8 @@ VFX-00085;VFX-00085-01-01;Rápido;Vila Franca de Xira;Praceta 2;MOT;False;BTE;TI
 VFX-00085;VFX-00085-01-01;Rápido;Vila Franca de Xira;Praceta 2;MOT;False;BTE;TIME;€ 0.1545 /min após 45 min;CCS;CABLE;120
 VFX-00085;VFX-00085-01-01;Rápido;Vila Franca de Xira;Praceta 2;MOT;False;BTE;TIME;€ 0.15 /min após 45 min;CCS;CABLE;120
 VFX-00085;VFX-00085-02-01;Rápido;Vila Franca de Xira;Praceta 2;MOT;False;BTE;FLAT;€ 0.2033 /charge;CCS;CABLE;120
-VFX-00085;VFX-00085-02-01;Rápido;Vila Franca de Xira;Praceta 2;MOT;False;BTE;ENERGY;€ 0.2764 /kWh;CCS;CABLE;120
 VFX-00085;VFX-00085-02-01;Rápido;Vila Franca de Xira;Praceta 2;MOT;False;BTE;ENERGY;€ 0.54 /kWh;CCS;CABLE;120
+VFX-00085;VFX-00085-02-01;Rápido;Vila Franca de Xira;Praceta 2;MOT;False;BTE;ENERGY;€ 0.2764 /kWh;CCS;CABLE;120
 VFX-00085;VFX-00085-02-01;Rápido;Vila Franca de Xira;Praceta 2;MOT;False;BTE;TIME;€ 0 /min;CCS;CABLE;120
 VFX-00085;VFX-00085-02-01;Rápido;Vila Franca de Xira;Praceta 2;MOT;False;BTE;TIME;€ 0 /min;CCS;CABLE;120
 VFX-00085;VFX-00085-02-01;Rápido;Vila Franca de Xira;Praceta 2;MOT;False;BTE;TIME;€ 0.15 /min após 45 min;CCS;CABLE;120
@@ -28805,12 +28805,12 @@ VFX-00087;VFX-00087-02-01;Rápido;Vila Franca de Xira;R. Batista Pereira 19;MOT;
 VFX-00087;VFX-00087-02-01;Rápido;Vila Franca de Xira;R. Batista Pereira 19;MOT;False;BTE;TIME;€ 0.0976 /min após 60 min;MENNEKES;SOCKET;22
 VFX-00087;VFX-00087-02-01;Rápido;Vila Franca de Xira;R. Batista Pereira 19;MOT;False;BTE;TIME;€ 0.9756 /min após 60 min;MENNEKES;SOCKET;22
 VFX-00087;VFX-00087-03-01;Rápido;Vila Franca de Xira;R. Batista Pereira 19;MOT;False;BTE;FLAT;€ 0.2033 /charge;CCS;CABLE;60
-VFX-00087;VFX-00087-03-01;Rápido;Vila Franca de Xira;R. Batista Pereira 19;MOT;False;BTE;ENERGY;€ 0.5447 /kWh;CCS;CABLE;60
 VFX-00087;VFX-00087-03-01;Rápido;Vila Franca de Xira;R. Batista Pereira 19;MOT;False;BTE;ENERGY;€ 0.252 /kWh;CCS;CABLE;60
+VFX-00087;VFX-00087-03-01;Rápido;Vila Franca de Xira;R. Batista Pereira 19;MOT;False;BTE;ENERGY;€ 0.5447 /kWh;CCS;CABLE;60
 VFX-00087;VFX-00087-03-01;Rápido;Vila Franca de Xira;R. Batista Pereira 19;MOT;False;BTE;TIME;€ 0 /min até 60 min;CCS;CABLE;60
 VFX-00087;VFX-00087-03-01;Rápido;Vila Franca de Xira;R. Batista Pereira 19;MOT;False;BTE;TIME;€ 0 /min até 60 min;CCS;CABLE;60
-VFX-00087;VFX-00087-03-01;Rápido;Vila Franca de Xira;R. Batista Pereira 19;MOT;False;BTE;TIME;€ 0.9756 /min após 60 min;CCS;CABLE;60
 VFX-00087;VFX-00087-03-01;Rápido;Vila Franca de Xira;R. Batista Pereira 19;MOT;False;BTE;TIME;€ 0.0976 /min após 60 min;CCS;CABLE;60
+VFX-00087;VFX-00087-03-01;Rápido;Vila Franca de Xira;R. Batista Pereira 19;MOT;False;BTE;TIME;€ 0.9756 /min após 60 min;CCS;CABLE;60
 VFX-00088;VFX-00088-01-01;Semirrápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;22
 VFX-00088;VFX-00088-01-01;Semirrápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;22
 VFX-00088;VFX-00088-01-01;Semirrápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;ENERGY;€ 0.2602 /kWh;MENNEKES;SOCKET;22
@@ -28822,19 +28822,19 @@ VFX-00088;VFX-00088-02-01;Semirrápido;Vila Franca de Xira;R. Pier Maria Baldi 9
 VFX-00088;VFX-00088-02-01;Semirrápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;TIME;€ 0.0301 /min;MENNEKES;SOCKET;22
 VFX-00088;VFX-00088-02-01;Semirrápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;TIME;€ 0.0301 /min;MENNEKES;SOCKET;22
 VFX-00089;VFX-00089-01-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;FLAT;€ 0.2033 /charge;CCS;CABLE;120
-VFX-00089;VFX-00089-01-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;ENERGY;€ 0.2764 /kWh;CCS;CABLE;120
 VFX-00089;VFX-00089-01-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;ENERGY;€ 0.54 /kWh;CCS;CABLE;120
+VFX-00089;VFX-00089-01-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;ENERGY;€ 0.2764 /kWh;CCS;CABLE;120
 VFX-00089;VFX-00089-01-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;TIME;€ 0 /min;CCS;CABLE;120
 VFX-00089;VFX-00089-01-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;TIME;€ 0 /min;CCS;CABLE;120
 VFX-00089;VFX-00089-01-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;TIME;€ 0.1545 /min após 45 min;CCS;CABLE;120
 VFX-00089;VFX-00089-01-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;TIME;€ 0.15 /min após 45 min;CCS;CABLE;120
 VFX-00089;VFX-00089-02-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;FLAT;€ 0.2033 /charge;CCS;CABLE;120
-VFX-00089;VFX-00089-02-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;ENERGY;€ 0.2764 /kWh;CCS;CABLE;120
 VFX-00089;VFX-00089-02-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;ENERGY;€ 0.54 /kWh;CCS;CABLE;120
+VFX-00089;VFX-00089-02-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;ENERGY;€ 0.2764 /kWh;CCS;CABLE;120
 VFX-00089;VFX-00089-02-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;TIME;€ 0 /min;CCS;CABLE;120
 VFX-00089;VFX-00089-02-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;TIME;€ 0 /min;CCS;CABLE;120
-VFX-00089;VFX-00089-02-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;TIME;€ 0.15 /min após 45 min;CCS;CABLE;120
 VFX-00089;VFX-00089-02-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;TIME;€ 0.1545 /min após 45 min;CCS;CABLE;120
+VFX-00089;VFX-00089-02-01;Rápido;Vila Franca de Xira;R. Pier Maria Baldi 9874;MOT;False;BTN;TIME;€ 0.15 /min após 45 min;CCS;CABLE;120
 VFX-00090;VFX-00090-01-01;Semirrápido;Vila Franca de Xira;R. Gentil 3;MOT;False;BTN;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;22
 VFX-00090;VFX-00090-01-01;Semirrápido;Vila Franca de Xira;R. Gentil 3;MOT;False;BTN;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;22
 VFX-00090;VFX-00090-01-01;Semirrápido;Vila Franca de Xira;R. Gentil 3;MOT;False;BTN;ENERGY;€ 0.2602 /kWh;MENNEKES;SOCKET;22
@@ -28855,15 +28855,15 @@ VFX-00092;VFX-00092-01-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;
 VFX-00092;VFX-00092-01-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;BTE;ENERGY;€ 0.54 /kWh;CCS;CABLE;120
 VFX-00092;VFX-00092-01-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;BTE;TIME;€ 0 /min;CCS;CABLE;120
 VFX-00092;VFX-00092-01-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;BTE;TIME;€ 0 /min;CCS;CABLE;120
-VFX-00092;VFX-00092-01-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;BTE;TIME;€ 0.15 /min após 45 min;CCS;CABLE;120
 VFX-00092;VFX-00092-01-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;BTE;TIME;€ 0.1545 /min após 45 min;CCS;CABLE;120
+VFX-00092;VFX-00092-01-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;BTE;TIME;€ 0.15 /min após 45 min;CCS;CABLE;120
 VFX-00092;VFX-00092-02-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;BTE;FLAT;€ 0.2033 /charge;CCS;CABLE;120
-VFX-00092;VFX-00092-02-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;BTE;ENERGY;€ 0.2764 /kWh;CCS;CABLE;120
 VFX-00092;VFX-00092-02-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;BTE;ENERGY;€ 0.54 /kWh;CCS;CABLE;120
+VFX-00092;VFX-00092-02-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;BTE;ENERGY;€ 0.2764 /kWh;CCS;CABLE;120
 VFX-00092;VFX-00092-02-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;BTE;TIME;€ 0 /min;CCS;CABLE;120
 VFX-00092;VFX-00092-02-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;BTE;TIME;€ 0 /min;CCS;CABLE;120
-VFX-00092;VFX-00092-02-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;BTE;TIME;€ 0.1545 /min após 45 min;CCS;CABLE;120
 VFX-00092;VFX-00092-02-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;BTE;TIME;€ 0.15 /min após 45 min;CCS;CABLE;120
+VFX-00092;VFX-00092-02-01;Rápido;Vila Franca de Xira;R. Miguel Torga;MOT;False;BTE;TIME;€ 0.1545 /min após 45 min;CCS;CABLE;120
 VFX-00093;VFX-00093-01-01;Semirrápido;Vila Franca de Xira;Largo Comandante José Ferreira;GLP;False;BTN;FLAT;€ 0.2608 /charge;MENNEKES;CABLE;11
 VFX-00093;VFX-00093-01-01;Semirrápido;Vila Franca de Xira;Largo Comandante José Ferreira;GLP;False;BTN;ENERGY;€ 0 /kWh;MENNEKES;CABLE;11
 VFX-00093;VFX-00093-01-01;Semirrápido;Vila Franca de Xira;Largo Comandante José Ferreira;GLP;False;BTN;TIME;€ 0.039 /min;MENNEKES;CABLE;11
@@ -29298,13 +29298,13 @@ VIS-00106;VIS-00106-02-01;Semirrápido;Viseu;LARGO DE SANTA CRISTINA;EDP;False;M
 VIS-00107;VIS-00107-01-01;Semirrápido;Viseu;Igreja de Moure de Madalena, Estrada Naci. 2;MOT;False;BTE;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;11
 VIS-00107;VIS-00107-01-01;Semirrápido;Viseu;Igreja de Moure de Madalena, Estrada Naci. 2;MOT;False;BTE;FLAT;€ 0.2608 /charge;MENNEKES;SOCKET;11
 VIS-00107;VIS-00107-01-01;Semirrápido;Viseu;Igreja de Moure de Madalena, Estrada Naci. 2;MOT;False;BTE;ENERGY;€ 0.2602 /kWh;MENNEKES;SOCKET;11
-VIS-00107;VIS-00107-01-01;Semirrápido;Viseu;Igreja de Moure de Madalena, Estrada Naci. 2;MOT;False;BTE;TIME;€ 0.03 /min;MENNEKES;SOCKET;11
 VIS-00107;VIS-00107-01-01;Semirrápido;Viseu;Igreja de Moure de Madalena, Estrada Naci. 2;MOT;False;BTE;TIME;€ 0.0301 /min;MENNEKES;SOCKET;11
-VIS-00107;VIS-00107-02-01;Semirrápido;Viseu;Igreja de Moure de Madalena, Estrada Naci. 2;MOT;False;BTE;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;11
+VIS-00107;VIS-00107-01-01;Semirrápido;Viseu;Igreja de Moure de Madalena, Estrada Naci. 2;MOT;False;BTE;TIME;€ 0.03 /min;MENNEKES;SOCKET;11
 VIS-00107;VIS-00107-02-01;Semirrápido;Viseu;Igreja de Moure de Madalena, Estrada Naci. 2;MOT;False;BTE;FLAT;€ 0.2608 /charge;MENNEKES;SOCKET;11
+VIS-00107;VIS-00107-02-01;Semirrápido;Viseu;Igreja de Moure de Madalena, Estrada Naci. 2;MOT;False;BTE;FLAT;€ 0.2033 /charge;MENNEKES;SOCKET;11
 VIS-00107;VIS-00107-02-01;Semirrápido;Viseu;Igreja de Moure de Madalena, Estrada Naci. 2;MOT;False;BTE;ENERGY;€ 0.2602 /kWh;MENNEKES;SOCKET;11
-VIS-00107;VIS-00107-02-01;Semirrápido;Viseu;Igreja de Moure de Madalena, Estrada Naci. 2;MOT;False;BTE;TIME;€ 0.0301 /min;MENNEKES;SOCKET;11
 VIS-00107;VIS-00107-02-01;Semirrápido;Viseu;Igreja de Moure de Madalena, Estrada Naci. 2;MOT;False;BTE;TIME;€ 0.03 /min;MENNEKES;SOCKET;11
+VIS-00107;VIS-00107-02-01;Semirrápido;Viseu;Igreja de Moure de Madalena, Estrada Naci. 2;MOT;False;BTE;TIME;€ 0.0301 /min;MENNEKES;SOCKET;11
 VIS-00108;VIS-00108-01-01;Semirrápido;Viseu;Rua 21 de Agosto, SN;EDP;False;BTE;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;22
 VIS-00108;VIS-00108-01-01;Semirrápido;Viseu;Rua 21 de Agosto, SN;EDP;False;BTE;TIME;€ 0.033 /min;MENNEKES;SOCKET;22
 VIS-00108;VIS-00108-02-01;Semirrápido;Viseu;Rua 21 de Agosto, SN;EDP;False;BTE;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;22
@@ -29384,12 +29384,12 @@ VIZ-00010;VIZ-00010-03-01;Rápido;Vizela;Lugar do Poço Quente;ATL;False;MT;FLAT
 VIZ-00010;VIZ-00010-03-01;Rápido;Vizela;Lugar do Poço Quente;ATL;False;MT;ENERGY;€ 0.25 /kWh até 60 min;MENNEKES;CABLE;22
 VIZ-00010;VIZ-00010-03-01;Rápido;Vizela;Lugar do Poço Quente;ATL;False;MT;TIME;€ 0.2 /min após 60 min;MENNEKES;CABLE;22
 VIZ-00014;VIZ-00014-01-01;Rápido;Vizela;Estrada Nacional 106, KM 0.5 Lugar de fundos;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-VIZ-00014;VIZ-00014-01-01;Rápido;Vizela;Estrada Nacional 106, KM 0.5 Lugar de fundos;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 VIZ-00014;VIZ-00014-01-01;Rápido;Vizela;Estrada Nacional 106, KM 0.5 Lugar de fundos;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+VIZ-00014;VIZ-00014-01-01;Rápido;Vizela;Estrada Nacional 106, KM 0.5 Lugar de fundos;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 VIZ-00014;VIZ-00014-01-01;Rápido;Vizela;Estrada Nacional 106, KM 0.5 Lugar de fundos;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 VIZ-00014;VIZ-00014-02-01;Rápido;Vizela;Estrada Nacional 106, KM 0.5 Lugar de fundos;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;50
-VIZ-00014;VIZ-00014-02-01;Rápido;Vizela;Estrada Nacional 106, KM 0.5 Lugar de fundos;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 VIZ-00014;VIZ-00014-02-01;Rápido;Vizela;Estrada Nacional 106, KM 0.5 Lugar de fundos;FCT;False;BTE;ENERGY;€ 0.45 /kWh;CCS;CABLE;50
+VIZ-00014;VIZ-00014-02-01;Rápido;Vizela;Estrada Nacional 106, KM 0.5 Lugar de fundos;FCT;False;BTE;ENERGY;€ 0.25 /kWh;CCS;CABLE;50
 VIZ-00014;VIZ-00014-02-01;Rápido;Vizela;Estrada Nacional 106, KM 0.5 Lugar de fundos;FCT;False;BTE;TIME;€ 0.2 /min após 90 min;CCS;CABLE;50
 VIZ-90001;VIZ-90001-01-01;Semirrápido;Vizela;Rua Joaquim Ribeiro Ferreira;HRZ;False;BTN;TIME;€ 0.0239 /min;MENNEKES;SOCKET;22
 VIZ-90001;VIZ-90001-02-01;Semirrápido;Vizela;Rua Joaquim Ribeiro Ferreira;HRZ;False;BTN;TIME;€ 0.0239 /min;MENNEKES;SOCKET;22
@@ -29992,12 +29992,12 @@ VNF-00044;VNF-00044-01-01;Rápido;Vila Nova de Famalicão;Avenida Engenheiro Pin
 VNF-00044;VNF-00044-02-01;Rápido;Vila Nova de Famalicão;Avenida Engenheiro Pinheiro Braga;KLS;False;MT;TIME;€ 0.08 /min;CCS;CABLE;50
 VNF-00044;VNF-00044-02-02;Rápido;Vila Nova de Famalicão;Avenida Engenheiro Pinheiro Braga;KLS;False;MT;TIME;€ 0.08 /min;CHADEMO;CABLE;50
 VNF-00045;VNF-00045-01-01;Ultrarrápido;Vila Nova de Famalicão;Rua das Paradas, Vilarinho das Cambas;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
-VNF-00045;VNF-00045-01-01;Ultrarrápido;Vila Nova de Famalicão;Rua das Paradas, Vilarinho das Cambas;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 VNF-00045;VNF-00045-01-01;Ultrarrápido;Vila Nova de Famalicão;Rua das Paradas, Vilarinho das Cambas;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
+VNF-00045;VNF-00045-01-01;Ultrarrápido;Vila Nova de Famalicão;Rua das Paradas, Vilarinho das Cambas;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
 VNF-00045;VNF-00045-01-01;Ultrarrápido;Vila Nova de Famalicão;Rua das Paradas, Vilarinho das Cambas;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 VNF-00045;VNF-00045-02-01;Ultrarrápido;Vila Nova de Famalicão;Rua das Paradas, Vilarinho das Cambas;FCT;False;BTE;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-VNF-00045;VNF-00045-02-01;Ultrarrápido;Vila Nova de Famalicão;Rua das Paradas, Vilarinho das Cambas;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 VNF-00045;VNF-00045-02-01;Ultrarrápido;Vila Nova de Famalicão;Rua das Paradas, Vilarinho das Cambas;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
+VNF-00045;VNF-00045-02-01;Ultrarrápido;Vila Nova de Famalicão;Rua das Paradas, Vilarinho das Cambas;FCT;False;BTE;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 VNF-00045;VNF-00045-02-01;Ultrarrápido;Vila Nova de Famalicão;Rua das Paradas, Vilarinho das Cambas;FCT;False;BTE;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 VNF-00045;VNF-00045-03-01;Ultrarrápido;Vila Nova de Famalicão;Rua das Paradas, Vilarinho das Cambas;FCT;False;BTE;FLAT;€ 0.16 /charge;CCS;CABLE;150
 VNF-00045;VNF-00045-03-01;Ultrarrápido;Vila Nova de Famalicão;Rua das Paradas, Vilarinho das Cambas;FCT;False;BTE;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
@@ -30754,12 +30754,12 @@ VNG-00172;VNG-00172-03-01;Rápido;Vila Nova de Gaia;Avenida da República 1174;A
 VNG-00172;VNG-00172-03-01;Rápido;Vila Nova de Gaia;Avenida da República 1174;ATL;False;MT;ENERGY;€ 0.25 /kWh até 60 min;MENNEKES;CABLE;22
 VNG-00172;VNG-00172-03-01;Rápido;Vila Nova de Gaia;Avenida da República 1174;ATL;False;MT;TIME;€ 0.2 /min após 60 min;MENNEKES;CABLE;22
 VNG-00173;VNG-00173-01-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
-VNG-00173;VNG-00173-01-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 VNG-00173;VNG-00173-01-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;ENERGY;€ 0.33 /kWh;CCS;CABLE;150
+VNG-00173;VNG-00173-01-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
 VNG-00173;VNG-00173-01-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;150
 VNG-00173;VNG-00173-02-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-VNG-00173;VNG-00173-02-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 VNG-00173;VNG-00173-02-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;ENERGY;€ 0.33 /kWh;CHADEMO;CABLE;80
+VNG-00173;VNG-00173-02-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;ENERGY;€ 0.61 /kWh;CHADEMO;CABLE;80
 VNG-00173;VNG-00173-02-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 VNG-00173;VNG-00173-03-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;150
 VNG-00173;VNG-00173-03-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;ENERGY;€ 0.61 /kWh;CCS;CABLE;150
@@ -30770,8 +30770,8 @@ VNG-00174;VNG-00174-01-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 2
 VNG-00174;VNG-00174-01-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;ENERGY;€ 0.37 /kWh;CCS;CABLE;300
 VNG-00174;VNG-00174-01-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CCS;CABLE;300
 VNG-00174;VNG-00174-02-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;FLAT;€ 0.16 /charge;CHADEMO;CABLE;80
-VNG-00174;VNG-00174-02-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;ENERGY;€ 0.65 /kWh;CHADEMO;CABLE;80
 VNG-00174;VNG-00174-02-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;ENERGY;€ 0.37 /kWh;CHADEMO;CABLE;80
+VNG-00174;VNG-00174-02-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;ENERGY;€ 0.65 /kWh;CHADEMO;CABLE;80
 VNG-00174;VNG-00174-02-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;TIME;€ 0.2 /min após 40 min;CHADEMO;CABLE;80
 VNG-00174;VNG-00174-03-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;FLAT;€ 0.16 /charge;CCS;CABLE;300
 VNG-00174;VNG-00174-03-01;Ultrarrápido;Vila Nova de Gaia;R. Escola do Maninho 260;FCT;False;MT;ENERGY;€ 0.65 /kWh;CCS;CABLE;300
@@ -31102,24 +31102,24 @@ VRL-00040;VRL-00040-01-01;Semirrápido;Vila Real;"Martha's Wines & SpiritsLugar 
 VRL-00040;VRL-00040-01-01;Semirrápido;Vila Real;"Martha's Wines & SpiritsLugar da Estalagem 4,";EDP;False;MT;TIME;€ 0.033 /min;MENNEKES;SOCKET;22
 VRL-00040;VRL-00040-02-01;Semirrápido;Vila Real;"Martha's Wines & SpiritsLugar da Estalagem 4,";EDP;False;MT;FLAT;€ 0.261 /charge;MENNEKES;SOCKET;22
 VRL-00040;VRL-00040-02-01;Semirrápido;Vila Real;"Martha's Wines & SpiritsLugar da Estalagem 4,";EDP;False;MT;TIME;€ 0.033 /min;MENNEKES;SOCKET;22
-VRL-00041;VRL-00041-01-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.3423 /charge;CCS;CABLE;150
 VRL-00041;VRL-00041-01-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.2964 /charge;CCS;CABLE;150
+VRL-00041;VRL-00041-01-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.3423 /charge;CCS;CABLE;150
 VRL-00041;VRL-00041-01-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.566 /kWh;CCS;CABLE;150
 VRL-00041;VRL-00041-01-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.32 /kWh;CCS;CABLE;150
 VRL-00041;VRL-00041-02-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.3423 /charge;CHADEMO;CABLE;100
 VRL-00041;VRL-00041-02-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.2964 /charge;CHADEMO;CABLE;100
-VRL-00041;VRL-00041-02-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.25 /kWh;CHADEMO;CABLE;100
 VRL-00041;VRL-00041-02-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.496 /kWh;CHADEMO;CABLE;100
-VRL-00042;VRL-00042-01-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.3423 /charge;CCS;CABLE;100
+VRL-00041;VRL-00041-02-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.25 /kWh;CHADEMO;CABLE;100
 VRL-00042;VRL-00042-01-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.2964 /charge;CCS;CABLE;100
+VRL-00042;VRL-00042-01-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.3423 /charge;CCS;CABLE;100
 VRL-00042;VRL-00042-01-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.496 /kWh;CCS;CABLE;100
 VRL-00042;VRL-00042-01-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.32 /kWh;CCS;CABLE;100
 VRL-00042;VRL-00042-02-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.3423 /charge;CHADEMO;CABLE;100
 VRL-00042;VRL-00042-02-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.2964 /charge;CHADEMO;CABLE;100
-VRL-00042;VRL-00042-02-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.496 /kWh;CHADEMO;CABLE;100
 VRL-00042;VRL-00042-02-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.25 /kWh;CHADEMO;CABLE;100
-VRL-00042;VRL-00042-03-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.3423 /charge;MENNEKES;SOCKET;22
+VRL-00042;VRL-00042-02-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.496 /kWh;CHADEMO;CABLE;100
 VRL-00042;VRL-00042-03-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.2964 /charge;MENNEKES;SOCKET;22
+VRL-00042;VRL-00042-03-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.3423 /charge;MENNEKES;SOCKET;22
 VRL-00042;VRL-00042-03-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.246 /kWh;MENNEKES;SOCKET;22
 VRL-00042;VRL-00042-03-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;TIME;€ 0.05 /min;MENNEKES;SOCKET;22
 VRL-00042;VRL-00042-03-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;TIME;€ 0.05 /min;MENNEKES;SOCKET;22
@@ -31127,18 +31127,18 @@ VRL-00043;VRL-00043-01-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (
 VRL-00043;VRL-00043-01-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.3423 /charge;CCS;CABLE;150
 VRL-00043;VRL-00043-01-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.566 /kWh;CCS;CABLE;150
 VRL-00043;VRL-00043-01-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.32 /kWh;CCS;CABLE;150
-VRL-00043;VRL-00043-02-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.2964 /charge;CHADEMO;CABLE;100
 VRL-00043;VRL-00043-02-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.3423 /charge;CHADEMO;CABLE;100
-VRL-00043;VRL-00043-02-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.25 /kWh;CHADEMO;CABLE;100
+VRL-00043;VRL-00043-02-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.2964 /charge;CHADEMO;CABLE;100
 VRL-00043;VRL-00043-02-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.496 /kWh;CHADEMO;CABLE;100
+VRL-00043;VRL-00043-02-01;Ultrarrápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.25 /kWh;CHADEMO;CABLE;100
 VRL-00044;VRL-00044-01-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.2964 /charge;CCS;CABLE;100
 VRL-00044;VRL-00044-01-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.3423 /charge;CCS;CABLE;100
 VRL-00044;VRL-00044-01-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.32 /kWh;CCS;CABLE;100
 VRL-00044;VRL-00044-01-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.496 /kWh;CCS;CABLE;100
 VRL-00044;VRL-00044-02-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.3423 /charge;CHADEMO;CABLE;100
 VRL-00044;VRL-00044-02-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.2964 /charge;CHADEMO;CABLE;100
-VRL-00044;VRL-00044-02-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.25 /kWh;CHADEMO;CABLE;100
 VRL-00044;VRL-00044-02-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.496 /kWh;CHADEMO;CABLE;100
+VRL-00044;VRL-00044-02-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.25 /kWh;CHADEMO;CABLE;100
 VRL-00044;VRL-00044-03-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.2964 /charge;MENNEKES;SOCKET;22
 VRL-00044;VRL-00044-03-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;FLAT;€ 0.3423 /charge;MENNEKES;SOCKET;22
 VRL-00044;VRL-00044-03-01;Rápido;Vila Real;Parada de Cunhos/Quintanilha (A4 km 101,5);CAB;False;BTE;ENERGY;€ 0.246 /kWh;MENNEKES;SOCKET;22
