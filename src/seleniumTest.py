@@ -56,7 +56,7 @@ try:
     element = driver.find_element(By.ID, "searchBox")
     actions.move_to_element(element).click().perform()
 
-    time.sleep(0.9)
+    time.sleep(0.85)
     print("Total requests: " + str(len(driver.requests)))
 
     for request in driver.requests:
