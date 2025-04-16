@@ -12,7 +12,7 @@ from selenium.webdriver.common.by import By
 import time
 
 
-for x in range(0, 11):
+for x in range(0, 5):
 
     if platform.system() == "Windows":
         chrome_service = Service(executable_path="./chromedriver.exe")
