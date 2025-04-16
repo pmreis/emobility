@@ -12,17 +12,14 @@ from selenium.webdriver.common.by import By
 import time
 
 
-
-
-sleepVals = (x * 0.1 for x in range(0, 50))
-for sleepVal in sleepVals:
+for x in range(0, 11):
 
     if platform.system() == "Windows":
         chrome_service = Service(executable_path="./chromedriver.exe")
         wait = 1
     else:
         chrome_service = Service(ChromeDriverManager().install())
-        wait = 5
+        wait = 2
 
     chrome_options = Options()
     options = [
@@ -52,7 +49,7 @@ for sleepVal in sleepVals:
     try:
         driver.get("https://mobie.pt/redemobie/encontrar-posto")
     
-        print(f"implicit wait = {wait}, sleep = {sleepVal}")
+        print(f"implicit wait = {wait}")
         driver.implicitly_wait(wait)
     
         #actions = ActionChains(driver)
@@ -61,7 +58,7 @@ for sleepVal in sleepVals:
         #element = driver.find_element(By.ID, "searchBox")
         #actions.move_to_element(element).click().perform()
     
-        time.sleep(sleepVal)
+        #time.sleep(sleepVal)
         print("Total requests: " + str(len(driver.requests)))
     
         for request in driver.requests:
@@ -92,4 +89,4 @@ for sleepVal in sleepVals:
     finally:
         driver.quit()
 
-    time.sleep(10)
+    time.sleep(1)
