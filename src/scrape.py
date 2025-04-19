@@ -1,92 +1,41 @@
-#from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-from seleniumwire import webdriver
-from io import BytesIO
-import platform
-import gzip
-import json
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.by import By
-import time
+import requests
+from bs4 import BeautifulSoup
+from datetime import datetime as dt
+import csv
 
 
-if platform.system() == "Windows":
-    chrome_service = Service(executable_path="./chromedriver.exe")
-    wait = 1
-else:
-    chrome_service = Service(ChromeDriverManager().install())
-    wait = 5
+results = []
+for year in range(2004, 2026):
+    response = requests.get(f"https://www.euro-millions.com/results-history-{year}")
+    soup = BeautifulSoup(response.text, 'html.parser')
 
-chrome_options = Options()
-options = [
-    "--headless=new",
-    "--disable-blink-features=AutomationControlled",
-    "--disable-gpu",
-    "--window-size=1920,1080",
-    "--ignore-certificate-errors",
-    "--disable-extensions",
-    "--no-sandbox",
-    "--disable-dev-shm-usage",
-    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7490.85 Safari/537.36"
-]
-for option in options:
-    chrome_options.add_argument(option)
+    for row in soup.select("tr.resultRow"):
+        date_elem = row.select_one("td.date")
+        balls_elem = row.select("ul.balls li")
+        jackpot_elem = row.select_one("td[data-title='Jackpot'] strong")
 
-driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
+        if date_elem and balls_elem and jackpot_elem:
+            data = date_elem.get_text(separator=" ", strip=True).strip().replace(" st ", " ").replace(" nd ", " ").replace(" rd ", " ").replace(" th ", " ")
+            numbers = [int(b.get_text()) for b in balls_elem if "lucky-star" not in b["class"]]
+            stars = [int(b.get_text()) for b in balls_elem if "lucky-star" in b["class"]]
+            jackpot = jackpot_elem.get_text(strip=True).replace("€", "").replace(",", "").strip()
 
-driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
-    "source": """
-        Object.defineProperty(navigator, 'webdriver', {
-            get: () => undefined
-        });
-    """
-})
+            results.append({
+                "date": dt.strptime(data, "%A %d %B %Y").strftime("%Y-%m-%d"),
+                "numbers": numbers,
+                "stars": stars,
+                "jackpot": int(jackpot)
+            })
 
-sleepVals = (x * 0.1 for x in range(0, 50))
-for sleepVal in sleepVals:
-    try:
-        driver.get("https://mobie.pt/redemobie/encontrar-posto")
-    
-        print(f"implicit wait = {wait}, sleep = {sleepVal}")
-        driver.implicitly_wait(wait)
-    
-        #actions = ActionChains(driver)
-        #element = driver.find_element(By.CLASS_NAME, "section-subheader-bold")
-        #actions.move_to_element(element).click().perform()
-        #element = driver.find_element(By.ID, "searchBox")
-        #actions.move_to_element(element).click().perform()
-    
-        time.sleep(sleepVal)
-        print("Total requests: " + str(len(driver.requests)))
-    
-        for request in driver.requests:
-            status = getattr(request.response, 'status_code', None)
-            #print("URL:", request.url)
-            #print("Request method:", request.method)
-            #print("Status:", status)
-    
-            if status != None and "mobierest/locations" in request.url:
-                if status > 200:
-                    print(f"Got a {status} on URL: ", request.url)
-                    break
-           
-                compressed_data = request.response.body
-                with gzip.GzipFile(fileobj=BytesIO(compressed_data)) as f:
-                    decompressed = f.read()
-    
-                text = decompressed.decode("utf-8")    
-                data = json.loads(text)
-    
-                file = open("./../data/sources/mobie_locations.json", "w", encoding="utf-8")
-                file.write(json.dumps(data, indent=4, ensure_ascii=False))
-                file.close()
-    
-                print("Saved new locations")
-                break
-    
-    finally:
-        driver.quit()
-        
-    time.sleep(10)
+results.sort(key=lambda r: r["date"])
+
+with open("./../data/outputs/results.csv", "w", newline="", encoding="utf-8") as f:
+    writer = csv.DictWriter(f, fieldnames=["date", "numbers", "stars", "jackpot"])
+    writer.writeheader()
+    for r in results:
+        writer.writerow({
+            "date": r["date"],
+            "numbers": " ".join(map(str, r["numbers"])),
+            "stars": " ".join(map(str, r["stars"])),
+            "jackpot": r["jackpot"]
+        })
