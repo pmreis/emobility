@@ -4,7 +4,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  '*/5 * * * *'
+    - cron:  '*/15 * * * *'
 
 jobs:
   scheduled:
@@ -26,12 +26,14 @@ jobs:
         pip install -r requirements.txt
         pip install setuptools --upgrade
 
-    - name: Install all necessary packages
-      run: pip install blinker==1.7.0
+    - name: Fetch data via curl
+      run: |
+        curl -k -f https://mobie.pt/documents/42032/106470/8602.csv -o ./data/sources/mobie_tariffs.csv      
+        curl -k -f https://pgm.mobie.pt/integration/nap/evChargingInfra -o ./data/sources/nap_EvChargingInfra.xml        
 
     - name: Run selenium test
       run: |
-        python ./src/seleniumTest.py
+        python ./src/parseDatex.py
 
     - name: Commit and push if it changed
       run: |
@@ -39,5 +41,5 @@ jobs:
         git config user.email "actions@users.noreply.github.com"
         git add -A
         timestamp=$(date -u)
-        git commit -m "Latest data: ${timestamp}" || exit 0
+        git commit -m "Static data: ${timestamp}" || exit 0
         git push
