@@ -18,8 +18,3 @@ create table Plugs (
     MaxPower integer default 11000 not null,
     foreign key(ChargerId) references Chargers(Id)
 );
-
-create table Ravel (
-    Id integer primary key autoincrement,
-    Name varchar(50) not null
-);
