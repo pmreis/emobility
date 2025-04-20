@@ -138,6 +138,7 @@ def main():
     conn = connect_db(db_name)
     data = parse_datex(xml_file)
     insert_chargers(conn, data)
+    insert_plugs(conn, data)
 
 if __name__ == "__main__":
     main()
