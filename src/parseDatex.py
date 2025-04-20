@@ -1,21 +1,25 @@
 import sqlite3
 import xml.etree.ElementTree as ET
+import os.path as osp
 import os
 from pathlib import Path
+import csv
 
 projRootPath = Path(
-    os.getenv("DATA_SOURCE_PATH", Path(__file__).resolve().parent.parent)
+    os.getenv('DATA_SOURCE_PATH', Path(__file__).resolve().parent.parent)
 )
 
+# connect_db
 # Connect to SQLite DB and return connection
 def connect_db(db_name):
-    dbpath = f"{projRootPath}/data/{db_name}"
+    dbpath = osp.normpath(f'{projRootPath}/data/{db_name}')
     conn = sqlite3.connect(dbpath)
     return conn
 
+# parse_datex
 # Parse Datex II file and return data structure with Chargers and Plugs
 def parse_datex(xml_file):
-    filepath = f"{projRootPath}/data/sources/{xml_file}"
+    filepath = os.getenv(f'{projRootPath}/data/sources/{xml_file}')
     tree = ET.parse(filepath)
     root = tree.getroot()
 
@@ -87,6 +91,8 @@ def parse_datex(xml_file):
 
     return data
 
+# insert_chargers
+# Insert chargers data into SQLite
 def insert_chargers(conn, data):
     cursor = conn.cursor()
 
@@ -104,6 +110,8 @@ def insert_chargers(conn, data):
 
     conn.commit()
 
+# insert_plugs
+# Insert plugs data into SQLite
 def insert_plugs(conn, data):
     cursor = conn.cursor()
 
@@ -129,6 +137,45 @@ def insert_plugs(conn, data):
             ))
 
     conn.commit()
+
+# output_market_share_analysis
+# Generate market share analysis CSV
+def output_market_share_analysis(conn):
+    cursor = conn.cursor()
+
+    cursor.execute('''
+        with recursive
+        countAllChargers as (
+            select count(1) total
+            from Chargers
+        ),
+        cte1 as (
+            select
+                OperatorMobAbb party_id,
+            count(1) as 'count'
+            from Chargers
+            group by OperatorMobAbb
+            order by count desc
+        ),
+        cte2 as (
+            select
+            row_number() over() idx,
+            cte1.*,
+            cast(cte1.count as real) / cast(countAllChargers.total as real) mrkt_shr
+            from cte1, countAllChargers
+        )
+    select
+        cte2.*,
+        sum(mrkt_shr) over (order by idx) mrkt_shr_acc
+    from cte2
+    ''')
+
+    data = cursor.fetchone()
+    filepath = os.getenv(f'{projRootPath}/data/outputs/simpleAnalysis.csv')
+
+    with open(filepath, 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
 
 
 def main():
