@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 import os.path as osp
 import os
 from pathlib import Path
-import csv
+#import csv
 
 projRootPath = Path(
     os.getenv('DATA_SOURCE_PATH', Path(__file__).resolve().parent.parent)
@@ -174,8 +174,9 @@ def output_market_share_analysis(conn):
     filepath = os.getenv(f'{projRootPath}/data/outputs/simpleAnalysis.csv')
 
     with open(filepath, 'w', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+        #writer = csv.writer(f)
+        #writer.writerows(data)
+        print('bla')
 
 
 def main():
