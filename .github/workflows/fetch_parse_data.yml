@@ -1,4 +1,4 @@
-name: Locations
+name: Fetch and parse data
 
 on:
   push:
