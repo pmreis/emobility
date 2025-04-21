@@ -5,9 +5,7 @@ import os
 from pathlib import Path
 import pandas as pd
 
-projRootPath = Path(
-    os.getenv('DATA_SOURCE_PATH', Path(__file__).resolve().parent.parent)
-)
+projRootPath = Path(__file__).resolve().parent.parent
 
 # connect_db
 # Connect to SQLite DB and return connection
@@ -35,40 +33,53 @@ def parse_datex(xml_file):
     }
 
     data = {
+        'operators': [],
         'chargers': [],
         'plugs': []
     }
 
     for site in root.findall('.//ns6:energyInfrastructureSite', ns):
         site_id = site.get('id')
-        
-        # Country
-        country = site.find('.//ns2:countryCode', ns).text
-        
+
+        # Charger Location
+        city = site.find('.//ns2:city/ns:values/ns:value[@lang="pt-pt"]', ns).text.strip()
+        country = site.find('.//ns2:countryCode', ns).text.strip()
+        latitude = float(site.find('.//ns3:latitude', ns).text.strip())
+        longitude = float(site.find('.//ns3:longitude', ns).text.strip())
+
         # Operator
-        operator = site.find('.//ns4:operator', ns)
-        operator_mob_abb = operator.get('id')
-        operator_nap_abb = operator.find('.//ns4:nationalOrganisationNumber', ns).text
-        operator_name = operator.find('.//ns4:name/ns:values/ns:value[@lang="pt-pt"]', ns).text.strip()
+        operator_elem = site.find('.//ns4:operator', ns)
+        operator_abb = site.find('.//ns6:refillPoint/ns4:externalIdentifier', ns).text.split('*')[1][:3]
+        operator_other_abb = operator_elem.find('.//ns4:nationalOrganisationNumber', ns).text.strip()
+        operator_name = operator_elem.find('.//ns4:name/ns:values/ns:value[@lang="pt-pt"]', ns).text.strip()
+        operator_tin = operator_elem.find('.//ns4:vatIdentificationNumber', ns).text.replace(' ', '').strip()
+        operator_phone = operator_elem.find('.//ns4:telephoneNumber', ns).text.replace(' ', '').strip()
 
         charger = {
+            'ChargerId': site_id,
             'Country': country,
-            'ChargerNapId': site_id,
-            'OperatorMobAbb': operator_mob_abb,
-            'OperatorNapAbb': operator_nap_abb,
-            'OperatorName': operator_name
+            'OperatorAbb': operator_abb,
+            'City': city,
+            'Lat': latitude,
+            'Lon': longitude,
         }
 
-        # The first plug id contains the Mobie abbreviation (3 letter)
-        first_plug = site.find('.//ns6:refillPoint', ns)
-        charger['OperatorMobAbb'] = first_plug.find('.//ns4:externalIdentifier', ns).text.split('*')[1][:3]
+        operator = {
+            'OperatorAbb': operator_abb,
+            'OperatorOtherAbb': operator_other_abb,
+            'OperatorName': operator_name,
+            'CountryIso': country,
+            'Tin': operator_tin,
+            'Phone': operator_phone
+        }
 
+        data['operators'].append(operator)
         data['chargers'].append(charger)
 
         # Parse Charger Plugs data
         for refill_point in site.findall('.//ns6:refillPoint', ns):
-            plug_nap_id = refill_point.find('.//ns4:externalIdentifier', ns).text
-            
+            plug_id = refill_point.find('.//ns4:externalIdentifier', ns).text
+
             connector = refill_point.find('.//ns6:connector', ns)
             plug_design = connector.find('.//ns6:connectorType', ns).text
             voltage = int(float(connector.find('.//ns6:voltage', ns).text))
@@ -76,8 +87,8 @@ def parse_datex(xml_file):
             max_power = int(float(connector.find('.//ns6:maxPowerAtSocket', ns).text))
 
             plug = {
-                'ChargerNapId': site_id,
-                'PlugNapId': plug_nap_id,
+                'PlugId': plug_id,
+                'ChargerId': site_id,
                 'PlugDesign': plug_design,
                 'Voltage': voltage,
                 'Current': current,
@@ -86,10 +97,31 @@ def parse_datex(xml_file):
 
             data['plugs'].append(plug)
 
-    data['chargers'].sort(key=lambda r: r['ChargerNapId'])
-    data['plugs'].sort(key=lambda r: (r['ChargerNapId'], r['PlugNapId']))
+    data['operators'].sort(key=lambda r: r['OperatorAbb'])
+    data['chargers'].sort(key=lambda r: r['ChargerId'])
+    data['plugs'].sort(key=lambda r: (r['ChargerId'], r['PlugId']))
 
     return data
+
+# insert_chargers
+# Insert operators data into SQLite
+def insert_operators(conn, data):
+    cursor = conn.cursor()
+
+    for operator in data['operators']:
+        cursor.execute('''
+            INSERT OR IGNORE INTO Operators (OperatorAbb, OperatorOtherAbb, OperatorName, CountryIso, Tin, Phone)
+            VALUES (?, ?, ?, ?, ?, ?)
+        ''', (
+            operator['OperatorAbb'],
+            operator['OperatorOtherAbb'],
+            operator['OperatorName'],
+            operator['CountryIso'],
+            operator['Tin'],
+            operator['Phone']
+        ))
+
+    conn.commit()
 
 # insert_chargers
 # Insert chargers data into SQLite
@@ -98,14 +130,15 @@ def insert_chargers(conn, data):
 
     for charger in data['chargers']:
         cursor.execute('''
-            INSERT OR IGNORE INTO Chargers (Country, ChargerNapId, OperatorMobAbb, OperatorNapAbb, OperatorName)
-            VALUES (?, ?, ?, ?, ?)
+            INSERT OR IGNORE INTO Chargers (Country, ChargerId, OperatorAbb, City, Lat, Lon)
+            VALUES (?, ?, ?, ?, ?, ?)
         ''', (
             charger['Country'],
-            charger['ChargerNapId'],
-            charger['OperatorMobAbb'],
-            charger['OperatorNapAbb'],
-            charger['OperatorName']
+            charger['ChargerId'],
+            charger['OperatorAbb'],
+            charger['City'],
+            charger['Lat'],
+            charger['Lon']
         ))
 
     conn.commit()
@@ -117,19 +150,12 @@ def insert_plugs(conn, data):
 
     # Inserir plugs
     for plug in data['plugs']:
-
-        cursor.execute('SELECT Id FROM Chargers WHERE Country = ? AND ChargerNapId = ?', 
-            ('PT', plug['ChargerNapId']))
-
-        charger_id = cursor.fetchone()[0]
-
-        if charger_id:
             cursor.execute('''
-                INSERT INTO Plugs (ChargerId, PlugNapId, PlugDesign, Voltage, Current, MaxPower)
+                INSERT OR IGNORE INTO Plugs (ChargerId, PlugId, PlugDesign, Voltage, Current, MaxPower)
                 VALUES (?, ?, ?, ?, ?, ?)
             ''', (
-                charger_id,
-                plug['PlugNapId'],
+                plug['ChargerId'],
+                plug['PlugId'],
                 plug['PlugDesign'],
                 plug['Voltage'],
                 plug['Current'],
@@ -151,10 +177,10 @@ def output_market_share_analysis(conn):
         ),
         cte1 as (
             select
-                OperatorMobAbb party_id,
+                OperatorAbb party_id,
             count(1) as 'count'
             from Chargers
-            group by OperatorMobAbb
+            group by OperatorAbb
             order by count desc
         ),
         cte2 as (
@@ -170,16 +196,34 @@ def output_market_share_analysis(conn):
     from cte2
     ''', conn)
 
-    filepath = osp.normpath(f'{projRootPath}/data/outputs/simpleAnalysis.csv')
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Market_Share_Analysis.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
+
+    #Outup Operators as CSV
+    data = pd.read_sql_query('''
+        select * from Operators order by OperatorAbb
+    ''', conn)
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Operators.csv')
+    data.to_csv(filepath, sep=",", index=None, mode="w")
+
+    #Outup Chargers as CSV
+    data = pd.read_sql_query('''
+        select * from Chargers order by ChargerId
+    ''', conn)
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers.csv')
+    data.to_csv(filepath, sep=",", index=None, mode="w")
+
+    conn.execute("VACUUM")
+    conn.close()
 
 
 def main():
     db_name = 'data.db'
-    xml_file = 'nap_EvChargingInfra.xml'
+    xml_file = 'PT_NAP_Static.xml'
 
     conn = connect_db(db_name)
     data = parse_datex(xml_file)
+    insert_operators(conn, data)
     insert_chargers(conn, data)
     insert_plugs(conn, data)
     output_market_share_analysis(conn)

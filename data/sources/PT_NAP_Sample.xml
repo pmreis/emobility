@@ -1,0 +1,111 @@
+<ns6:energyInfrastructureSite id="GMR-00022" version="1">
+    <ns4:name>
+        <values>
+            <value lang="pt-pt">GMR-00022</value>
+        </values>
+    </ns4:name>
+    <ns4:externalIdentifier>GMR-00022</ns4:externalIdentifier>
+    <ns4:lastUpdated>2025-04-21T02:58:13.429Z</ns4:lastUpdated>
+    <ns4:operatingHours xsi:type="ns4:OpenAllHours"/>
+    <ns4:locationReference xsi:type="ns3:PointLocation">
+        <ns3:_locationReferenceExtension>
+            <ns3:facilityLocation>
+                <ns2:timeZone>+01:00</ns2:timeZone>
+                <ns2:address>
+                    <ns2:postcode>4810-107</ns2:postcode>
+                    <ns2:city>
+                        <values>
+                            <value lang="pt-pt">Guimarães</value>
+                        </values>
+                    </ns2:city>
+                    <ns2:countryCode>PT</ns2:countryCode>
+                    <ns2:addressLine order="0">
+                        <ns2:type>street</ns2:type>
+                        <ns2:text>
+                            <values>
+                                <value lang="pt-pt">Intermarché Urgezes-Guimarães</value>
+                            </values>
+                        </ns2:text>
+                    </ns2:addressLine>
+                </ns2:address>
+            </ns3:facilityLocation>
+        </ns3:_locationReferenceExtension>
+        <ns3:pointByCoordinates>
+            <ns3:pointCoordinates>
+                <ns3:latitude>41.423855</ns3:latitude>
+                <ns3:longitude>-8.299072</ns3:longitude>
+            </ns3:pointCoordinates>
+        </ns3:pointByCoordinates>
+    </ns4:locationReference>
+    <ns4:operator xsi:type="ns4:OrganisationSpecification" id="SGMR" version="1">
+        <ns4:name>
+            <values>
+                <value lang="pt-pt">Superguimarães - Supermercados,lda</value>
+            </values>
+        </ns4:name>
+        <ns4:nationalOrganisationNumber>SGMR</ns4:nationalOrganisationNumber>
+        <ns4:vatIdentificationNumber>509009620</ns4:vatIdentificationNumber>
+        <ns4:organisationUnit>
+            <ns4:contactInformation>
+                <ns4:telephoneNumber>253598000</ns4:telephoneNumber>
+            </ns4:contactInformation>
+        </ns4:organisationUnit>
+    </ns4:operator>
+    <ns6:energyInfrastructureStation id="GMR-00022" version="1">
+        <ns4:associatedFacility>
+            <ns4:type>carPark</ns4:type>
+        </ns4:associatedFacility>
+        <ns6:authenticationAndIdentificationMethods>rfid</ns6:authenticationAndIdentificationMethods>
+        <ns6:authenticationAndIdentificationMethods>apps</ns6:authenticationAndIdentificationMethods>
+        <ns6:refillPoint xsi:type="ns6:ElectricChargingPoint" id="GMR-00022-01" version="1">
+            <ns4:externalIdentifier>PT*SGM*E*GMR*00022*01</ns4:externalIdentifier>
+            <ns4:rates xsi:type="ns4:GeneralRateInformation">
+                <ns4:applicableCurrency>EUR</ns4:applicableCurrency>
+                <ns4:overallPeriod>
+                    <overallStartTime>2024-01-22T14:35:42.000Z</overallStartTime>
+                </ns4:overallPeriod>
+                <ns4:energyPricingPolicy>
+                    <ns6:pricingPolicy>pricePerChargingTime</ns6:pricingPolicy>
+                    <ns6:minimumDeliveryFee>0.05</ns6:minimumDeliveryFee>
+                </ns4:energyPricingPolicy>
+            </ns4:rates>
+            <ns6:usageType>electricVehicle</ns6:usageType>
+            <ns6:connector>
+                <ns6:connectorType>iec62196T2</ns6:connectorType>
+                <ns6:chargingMode>mode3AC3p</ns6:chargingMode>
+                <ns6:connectorFormat>socket</ns6:connectorFormat>
+                <ns6:maxPowerAtSocket>22000.0</ns6:maxPowerAtSocket>
+                <ns6:voltage>400.0</ns6:voltage>
+                <ns6:maximumCurrent>32.0</ns6:maximumCurrent>
+            </ns6:connector>
+            <ns6:electricEnergyMix energyMixIndex="1">
+                <ns6:isGreenEnergy>false</ns6:isGreenEnergy>
+            </ns6:electricEnergyMix>
+        </ns6:refillPoint>
+        <ns6:refillPoint xsi:type="ns6:ElectricChargingPoint" id="GMR-00022-02" version="1">
+            <ns4:externalIdentifier>PT*SGM*E*GMR*00022*02</ns4:externalIdentifier>
+            <ns4:rates xsi:type="ns4:GeneralRateInformation">
+                <ns4:applicableCurrency>EUR</ns4:applicableCurrency>
+                <ns4:overallPeriod>
+                    <overallStartTime>2024-01-22T14:35:42.000Z</overallStartTime>
+                </ns4:overallPeriod>
+                <ns4:energyPricingPolicy>
+                    <ns6:pricingPolicy>pricePerChargingTime</ns6:pricingPolicy>
+                    <ns6:minimumDeliveryFee>0.05</ns6:minimumDeliveryFee>
+                </ns4:energyPricingPolicy>
+            </ns4:rates>
+            <ns6:usageType>electricVehicle</ns6:usageType>
+            <ns6:connector>
+                <ns6:connectorType>iec62196T2</ns6:connectorType>
+                <ns6:chargingMode>mode3AC3p</ns6:chargingMode>
+                <ns6:connectorFormat>socket</ns6:connectorFormat>
+                <ns6:maxPowerAtSocket>22000.0</ns6:maxPowerAtSocket>
+                <ns6:voltage>400.0</ns6:voltage>
+                <ns6:maximumCurrent>32.0</ns6:maximumCurrent>
+            </ns6:connector>
+            <ns6:electricEnergyMix energyMixIndex="2">
+                <ns6:isGreenEnergy>false</ns6:isGreenEnergy>
+            </ns6:electricEnergyMix>
+        </ns6:refillPoint>
+    </ns6:energyInfrastructureStation>
+</ns6:energyInfrastructureSite>
