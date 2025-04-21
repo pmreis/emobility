@@ -199,21 +199,21 @@ def output_market_share_analysis(conn):
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Market_Share_Analysis.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
-    #Outup Operators as CSV
+    # Outup Operators as CSV
     data = pd.read_sql_query('''
         select * from Operators order by OperatorAbb
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Operators.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
-    #Outup Chargers as CSV
+    # Outup Chargers as CSV
     data = pd.read_sql_query('''
         select * from Chargers order by ChargerId
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
-    conn.execute("VACUUM")
+    #conn.execute("VACUUM")
     conn.close()
 
 
