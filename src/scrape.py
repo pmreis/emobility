@@ -27,7 +27,7 @@ for year in range(2004, 2026):
                 "jackpot": int(jackpot)
             })
 
-results.sort(key=lambda r: r["date"])
+results.sort(key=lambda r: r["date"], reverse=True)
 
 with open("./../data/outputs/results.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=["date", "numbers", "stars", "jackpot"])
