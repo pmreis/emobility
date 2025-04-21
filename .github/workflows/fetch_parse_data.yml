@@ -31,7 +31,7 @@ jobs:
         curl -k -f https://mobie.pt/documents/42032/106470/8602.csv -o ./data/sources/mobie_tariffs.csv
         curl -k -f https://pgm.mobie.pt/integration/nap/evChargingInfra -o ./data/sources/PT_NAP_Static.xml
 
-    - name: Run selenium test
+    - name: Run main Python script
       run: |
         python ./src/parseDatex.py
 
