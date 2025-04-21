@@ -1,20 +1,29 @@
-create table Chargers (
-    Id integer primary key autoincrement,
-    Country char(2) not null,
-    ChargerNapId varchar(20) not null,
-    OperatorMobAbb char(3) not null,
-    OperatorNapAbb varchar(10) not null,
+create table Operators (
+    OperatorAbb char(3) primary key,
+    OperatorOtherAbb varchar(10) null,
     OperatorName varchar(50) not null,
-    unique (Country, ChargerNapId)
+    CountryIso char(2) not null,
+    Tin varchar(20) null, -- Tax Identification Number
+    Phone varchar(20) null
+);
+
+create table Chargers (
+    ChargerId varchar(36) primary key,
+    Country char(2) not null,
+    OperatorAbb char(3) not null,
+    City varchar(100) not null,
+    Lat float not null,
+    Lon float not null,
+    foreign key(OperatorAbb) references Operators(OperatorAbb)
 );
 
 create table Plugs (
-    Id integer primary key autoincrement,
-    ChargerId integer not null,
-    PlugNapId varchar(30) not null,
+    PlugId varchar(36) not null,
+    ChargerId varchar(36) not null,
     PlugDesign varchar(30) not null,
     Voltage integer default 400 not null,
     Current integer default 16 not null,
     MaxPower integer default 11000 not null,
-    foreign key(ChargerId) references Chargers(Id)
+    primary key (PlugId, ChargerId),
+    foreign key(ChargerId) references Chargers(ChargerId)
 );

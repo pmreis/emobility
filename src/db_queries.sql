@@ -13,6 +13,21 @@ select *
 from Chargers
 where length(ChargerNapId) > 9;
 
+select PlugId, count(1) qnt
+from Plugs
+group by PlugId
+order by qnt desc;
+
+select *
+from Plugs
+where PlugId in (
+    'PT*ATL*EAMD*00095*1',
+    'PT*ATL*EAMD*00095*2',
+    'PT*ATL*EAMD*00095*3',
+    'PT*ATL*ENZR*00035*1',
+    'PT*ATL*ENZR*00035*2'
+)
+
 with recursive
     countAllChargers as (
         select count(1) total
@@ -20,10 +35,10 @@ with recursive
     ),
     cte1 as (
         select
-            OperatorMobAbb party_id,
+            OperatorAbb party_id,
             count(1) as 'count'
         from Chargers
-        group by OperatorMobAbb
+        group by OperatorAbb
         order by count desc
     ),
     cte2 as (

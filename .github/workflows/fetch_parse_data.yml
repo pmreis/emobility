@@ -3,8 +3,8 @@ name: Fetch and parse data
 on:
   push:
   workflow_dispatch:
-#  schedule:
-#    - cron:  '*/15 * * * *'
+  schedule:
+    - cron:  '*/15 * * * *'
 
 jobs:
   scheduled:
@@ -14,12 +14,12 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v4
-      
+
     - name: Setup python
       uses: actions/setup-python@v5
       with:
          python-version: 3.12.5
-       
+
     - name: Setup python dependencies
       run: |
         python -m pip install --upgrade pip
@@ -28,8 +28,8 @@ jobs:
 
     - name: Fetch data via curl
       run: |
-        curl -k -f https://mobie.pt/documents/42032/106470/8602.csv -o ./data/sources/mobie_tariffs.csv      
-        curl -k -f https://pgm.mobie.pt/integration/nap/evChargingInfra -o ./data/sources/nap_EvChargingInfra.xml        
+        curl -k -f https://mobie.pt/documents/42032/106470/8602.csv -o ./data/sources/mobie_tariffs.csv
+        curl -k -f https://pgm.mobie.pt/integration/nap/evChargingInfra -o ./data/sources/PT_NAP_Static.xml
 
     - name: Run selenium test
       run: |
