@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 import os.path as osp
 import os
 from pathlib import Path
-#import csv
+import pandas as pd
 
 projRootPath = Path(
     os.getenv('DATA_SOURCE_PATH', Path(__file__).resolve().parent.parent)
@@ -19,7 +19,7 @@ def connect_db(db_name):
 # parse_datex
 # Parse Datex II file and return data structure with Chargers and Plugs
 def parse_datex(xml_file):
-    filepath = os.getenv(f'{projRootPath}/data/sources/{xml_file}')
+    filepath = osp.normpath(f'{projRootPath}/data/sources/{xml_file}')
     tree = ET.parse(filepath)
     root = tree.getroot()
 
@@ -143,7 +143,7 @@ def insert_plugs(conn, data):
 def output_market_share_analysis(conn):
     cursor = conn.cursor()
 
-    cursor.execute('''
+    data = pd.read_sql_query('''
         with recursive
         countAllChargers as (
             select count(1) total
@@ -168,15 +168,10 @@ def output_market_share_analysis(conn):
         cte2.*,
         sum(mrkt_shr) over (order by idx) mrkt_shr_acc
     from cte2
-    ''')
+    ''', conn)
 
-    data = cursor.fetchone()
-    filepath = os.getenv(f'{projRootPath}/data/outputs/simpleAnalysis.csv')
-
-    with open(filepath, 'w', newline='') as f:
-        #writer = csv.writer(f)
-        #writer.writerows(data)
-        print('bla')
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/simpleAnalysis.csv')
+    data.to_csv(filepath, sep=",", index=None, mode="w")
 
 
 def main():
@@ -187,6 +182,7 @@ def main():
     data = parse_datex(xml_file)
     insert_chargers(conn, data)
     insert_plugs(conn, data)
+    output_market_share_analysis(conn)
 
 if __name__ == "__main__":
     main()
