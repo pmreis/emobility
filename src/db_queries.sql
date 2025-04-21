@@ -2,21 +2,26 @@
 -- delete from Chargers;
 -- delete from sqlite_sequence;
 
+
 select distinct PlugDesign
 from Plugs;
+
 
 select *
 from Plugs
 where PlugDesign = 'iec60309x2single16';
 
+
 select *
 from Chargers
 where length(ChargerNapId) > 9;
+
 
 select PlugId, count(1) qnt
 from Plugs
 group by PlugId
 order by qnt desc;
+
 
 select *
 from Plugs
@@ -27,6 +32,19 @@ where PlugId in (
     'PT*ATL*ENZR*00035*1',
     'PT*ATL*ENZR*00035*2'
 )
+
+
+with cte as (
+    select OperatorAbb, count(1) qnt
+    from Chargers
+    group by OperatorAbb
+    having qnt < 6
+)
+select o.*, cte.qnt
+from Operators o
+join cte on cte.OperatorAbb = o.OperatorAbb
+order by cte.qnt, o.OperatorAbb;
+
 
 with recursive
     countAllChargers as (
