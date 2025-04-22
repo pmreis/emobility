@@ -78,7 +78,7 @@ def parse_datex(xml_file):
 
         # Parse Charger Plugs data
         for refill_point in site.findall('.//ns6:refillPoint', ns):
-            plug_id = refill_point.find('.//ns4:externalIdentifier', ns).text
+            plug_id = refill_point.get('id') if refill_point.find('.//ns4:externalIdentifier', ns) is None else refill_point.find('.//ns4:externalIdentifier', ns).text.strip()
 
             connector = refill_point.find('.//ns6:connector', ns)
             plug_design = connector.find('.//ns6:connectorType', ns).text
