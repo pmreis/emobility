@@ -61,8 +61,7 @@ def parse_datex(xml_file):
             'OperatorAbb': operator_abb,
             'City': city,
             'Lat': latitude,
-            'Lon': longitude,
-            'GMapsUrl': f'http://www.google.com/maps/place/{latitude},{longitude}'
+            'Lon': longitude
         }
 
         operator = {
@@ -135,16 +134,15 @@ def insert_chargers(conn, data):
 
     for charger in data['chargers']:
         cursor.execute('''
-            INSERT OR IGNORE INTO Chargers (Country, ChargerId, OperatorAbb, City, Lat, Lon, GMapsUrl)
-            VALUES (?, ?, ?, ?, ?, ?, ?)
+            INSERT OR IGNORE INTO Chargers (Country, ChargerId, OperatorAbb, City, Lat, Lon)
+            VALUES (?, ?, ?, ?, ?, ?)
         ''', (
             charger['Country'],
             charger['ChargerId'],
             charger['OperatorAbb'],
             charger['City'],
             charger['Lat'],
-            charger['Lon'],
-            charger['GMapsUrl']
+            charger['Lon']
         ))
 
     conn.commit()

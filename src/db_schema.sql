@@ -14,7 +14,6 @@ create table Chargers (
     City varchar(100) not null,
     Lat float not null,
     Lon float not null,
-    GMapsUrl varchar(1024) not null,
     foreign key(OperatorAbb) references Operators(OperatorAbb)
 );
 
