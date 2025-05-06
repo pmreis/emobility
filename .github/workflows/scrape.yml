@@ -1,0 +1,41 @@
+name: Fetch and parse data
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '30 23 * * 2,5'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v4
+
+    - name: Setup python
+      uses: actions/setup-python@v5
+      with:
+         python-version: 3.12.5
+
+    - name: Setup python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install setuptools --upgrade
+
+    - name: Run main Python script
+      run: |
+        python ./src/scrape.py
+
+    - name: Commit and push if it changed
+      run: |
+        git pull
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Updated results: ${timestamp}" || exit 0
+        git push
