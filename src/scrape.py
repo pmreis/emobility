@@ -2,7 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime as dt
 import csv
+from pathlib import Path
+import os.path as osp
 
+projRootPath = Path(__file__).resolve().parent.parent
 
 results = []
 for year in range(2004, 2026):
@@ -29,7 +32,9 @@ for year in range(2004, 2026):
 
 results.sort(key=lambda r: r["date"], reverse=True)
 
-with open("./../data/outputs/results.csv", "w", newline="", encoding="utf-8") as f:
+filepath = osp.normpath(f'{projRootPath}/data/outputs/results.csv')
+
+with open(filepath, "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=["date", "numbers", "stars", "jackpot"])
     writer.writeheader()
     for r in results:
