@@ -162,6 +162,8 @@ def insert_tmp_chargers(conn, data):
         )
     ''')
 
+    cursor.execute('delete from TempChargers')
+
     conn.commit()
 
 # insert_chargers
