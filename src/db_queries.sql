@@ -14,7 +14,7 @@ where PlugDesign = 'iec60309x2single16';
 
 select *
 from Chargers
-where length(ChargerNapId) > 9;
+where length(ChargerId) > 9;
 
 
 select PlugId, count(1) qnt
