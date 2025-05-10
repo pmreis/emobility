@@ -12,6 +12,8 @@ create table Chargers (
     Country char(2) not null,
     OperatorAbb char(3) not null,
     City varchar(100) not null,
+    DeployDate date not null,
+    Status varchar(20) not null default 'Present',
     Lat float not null,
     Lon float not null,
     foreign key(OperatorAbb) references Operators(OperatorAbb)
@@ -26,4 +28,8 @@ create table Plugs (
     MaxPower integer default 11000 not null,
     primary key (PlugId, ChargerId),
     foreign key(ChargerId) references Chargers(ChargerId)
+);
+
+create table TempChargers (
+    ChargerId varchar(36) primary key
 );

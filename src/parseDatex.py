@@ -44,6 +44,9 @@ def parse_datex(xml_file):
         # Charger Location
         city = site.find('.//ns2:city/ns:values/ns:value[@lang="pt-pt"]', ns).text.strip()
         country = site.find('.//ns2:countryCode', ns).text.strip()
+        deployDate = '1970-01-01' if site.find('.//ns4:overallPeriod/ns:overallStartTime', ns) is None \
+            else site.find('.//ns4:overallPeriod/ns:overallStartTime', ns).text.strip()[:10]
+
         latitude = float(site.find('.//ns3:latitude', ns).text.strip())
         longitude = float(site.find('.//ns3:longitude', ns).text.strip())
 
@@ -60,6 +63,7 @@ def parse_datex(xml_file):
             'Country': country,
             'OperatorAbb': operator_abb,
             'City': city,
+            'DeployDate': deployDate,
             'Lat': latitude,
             'Lon': longitude
         }
@@ -127,6 +131,39 @@ def insert_operators(conn, data):
 
     conn.commit()
 
+# insert temp chargers (only IDs)
+def insert_tmp_chargers(conn, data):
+    cursor = conn.cursor()
+    cursor.execute('delete from TempChargers')
+
+    for charger in data['chargers']:
+        cursor.execute('''
+            INSERT INTO TempChargers (ChargerId)
+            VALUES (?)
+        ''', (
+            charger['ChargerId'],
+        ))
+
+    cursor.execute('''
+            update Chargers
+            set Status = 'Removed'
+            where ChargerId not in (
+                select ChargerId
+                from TempChargers
+            )
+        ''')
+
+    cursor.execute('''
+        update Chargers
+        set Status = 'Present'
+        where ChargerId in (
+            select ChargerId
+            from TempChargers
+        )
+    ''')
+
+    conn.commit()
+
 # insert_chargers
 # Insert chargers data into SQLite
 def insert_chargers(conn, data):
@@ -134,13 +171,14 @@ def insert_chargers(conn, data):
 
     for charger in data['chargers']:
         cursor.execute('''
-            INSERT OR IGNORE INTO Chargers (Country, ChargerId, OperatorAbb, City, Lat, Lon)
-            VALUES (?, ?, ?, ?, ?, ?)
+            INSERT OR IGNORE INTO Chargers (Country, ChargerId, OperatorAbb, City, DeployDate, Lat, Lon)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
         ''', (
             charger['Country'],
             charger['ChargerId'],
             charger['OperatorAbb'],
             charger['City'],
+            charger['DeployDate'],
             charger['Lat'],
             charger['Lon']
         ))
@@ -230,6 +268,7 @@ def main():
     insert_operators(conn, data)
     insert_chargers(conn, data)
     insert_plugs(conn, data)
+    insert_tmp_chargers(conn, data)
     output_market_share_analysis(conn)
 
 if __name__ == "__main__":

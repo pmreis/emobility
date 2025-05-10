@@ -46,6 +46,20 @@ join cte on cte.OperatorAbb = o.OperatorAbb
 order by cte.qnt, o.OperatorAbb;
 
 
+select strftime('%Y', DeployDate), count(1)
+from Chargers
+group by strftime('%Y', DeployDate);
+
+
+select p.*
+from Plugs p
+join Chargers c on c.ChargerId = p.ChargerId
+join Operators o on o.OperatorAbb = c.OperatorAbb
+where o.OperatorAbb = 'IOY'
+order by c.ChargerId
+limit 100;
+
+
 with recursive
     countAllChargers as (
         select count(1) total
