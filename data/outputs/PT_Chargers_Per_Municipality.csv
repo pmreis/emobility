@@ -1,0 +1,307 @@
+City,Qnt
+Lisboa,766
+Cascais,268
+Porto,225
+Oeiras,154
+Vila Nova de Gaia,149
+Loulé,140
+Sintra,131
+Barreiro,123
+Matosinhos,116
+Loures,112
+Braga,106
+Guimarães,102
+Viseu,91
+Coimbra,90
+Vila Franca de Xira,84
+Montijo,84
+Leiria,84
+Santa Maria da Feira,77
+Setúbal,63
+Portimão,62
+Amadora,61
+Almada,60
+Albufeira,60
+Faro,56
+Seixal,51
+Viana do Castelo,50
+Aveiro,50
+Évora,48
+Beja,48
+Gondomar,46
+Funchal,46
+Vila do Conde,44
+Santarém,42
+Torres Vedras,39
+São João da Madeira,39
+Maia,39
+Grândola,39
+Penafiel,38
+Valongo,37
+Tomar,37
+Mealhada,37
+Vila Nova de Famalicão,36
+Santo Tirso,35
+Olhão,33
+Mafra,33
+Esposende,33
+Castelo Branco,33
+Palmela,32
+Covilhã,31
+Póvoa de Varzim,30
+"Lagoa, Faro",30
+Vila Real,29
+Lagos,29
+Odivelas,28
+Guarda,27
+Caldas da Rainha,27
+Barcelos,27
+Nazaré,26
+Alcochete,26
+Alcobaça,26
+Silves,25
+Paredes,25
+Ílhavo,24
+Ourém,24
+Figueira da Foz,24
+Ovar,23
+Chaves,23
+Albergaria-a-Velha,23
+Anadia,22
+Cantanhede,21
+Tavira,20
+Caminha,20
+Portalegre,19
+Pombal,19
+Felgueiras,19
+Amarante,19
+Abrantes,19
+Peniche,18
+Fundão,18
+Estarreja,18
+Alenquer,18
+Óbidos,17
+Vila Verde,17
+Torres Novas,17
+Marinha Grande,17
+Fafe,17
+Santa Cruz,16
+Ponta Delgada,16
+Paços de Ferreira,16
+Lourinhã,16
+Estremoz,16
+Bragança,16
+Ponte de Lima,15
+Trofa,14
+Sesimbra,14
+Seia,14
+Oliveira do Hospital,14
+Oliveira do Bairro,14
+Marco de Canaveses,14
+Machico,14
+Lamego,14
+Alcácer do Sal,14
+Vila do Bispo,13
+Porto Santo,13
+Moita,13
+Lousada,13
+Angra do Heroísmo,13
+Águeda,12
+Santiago do Cacém,12
+Montemor-o-Novo,12
+Benavente,12
+Arruda dos Vinhos,12
+Santa Comba Dão,11
+Porto de Mós,11
+Oliveira de Azeméis,11
+Azambuja,11
+Sines,10
+Salvaterra de Magos,10
+Rio Maior,10
+Odemira,10
+Mirandela,10
+Lousã,10
+Espinho,10
+Elvas,10
+Bombarral,10
+Batalha,10
+Arcos de Valdevez,10
+Vendas Novas,9
+Monção,9
+Castro Marim,9
+Ribeira Grande,8
+Praia da Vitória,8
+Montemor-o-Velho,8
+Entroncamento,8
+Celorico da Beira,8
+Almeida,8
+Alcanena,8
+Vizela,7
+Vila Real de Santo António,7
+Vila Nova de Cerveira,7
+Vagos,7
+Terras de Bouro,7
+São Brás de Alportel,7
+Proença-a-Nova,7
+Miranda do Douro,7
+Mangualde,7
+Condeixa-a-Nova,7
+Cabeceiras de Basto,7
+Baião,7
+Aljustrel,7
+Vila Franca do Campo,6
+Viana do Alentejo,6
+Tábua,6
+Tondela,6
+São Pedro do Sul,6
+Sertã,6
+Reguengos de Monsaraz,6
+Ponte de Sôr,6
+Penalva do Castelo,6
+Penacova,6
+Nelas,6
+Mira,6
+Idanha-a-Nova,6
+Cinfães,6
+Alter do Chão,6
+Almeirim,6
+Vouzela,5
+Vila Pouca de Aguiar,5
+Valença,5
+Vale de Cambra,5
+São Vicente,5
+Sabugal,5
+Póvoa de Lanhoso,5
+Peso da Régua,5
+Oliveira de Frades,5
+Miranda do Corvo,5
+Macedo de Cavaleiros,5
+Coruche,5
+Chamusca,5
+Celorico de Basto,5
+Castro Verde,5
+Amares,5
+Alvaiázere,5
+Vila do Porto,4
+Vila Velha de Ródão,4
+Vila Nova de Paiva,4
+Vila Nova de Foz Côa,4
+Sátão,4
+Serpa,4
+Sernancelhe,4
+Santa Cruz da Graciosa,4
+Resende,4
+Porto Moniz,4
+Ourique,4
+Murtosa,4
+Moura,4
+Melgaço,4
+Manteigas,4
+Gouveia,4
+Câmara de Lobos,4
+Cartaxo,4
+Carregal do Sal,4
+"Calheta, Madeira",4
+Arouca,4
+Armamar,4
+Arganil,4
+Alvito,4
+Almodôvar,4
+Aljezur,4
+Vimioso,3
+Vieira do Minho,3
+Valpaços,3
+Torre de Moncorvo,3
+Tabuaço,3
+São João da Pesqueira,3
+Soure,3
+Sobral de Monte Agraço,3
+Sever do Vouga,3
+Santana,3
+Santa Marta de Penaguião,3
+Ribeira de Pena,3
+Ribeira Brava,3
+Oleiros,3
+Mora,3
+Montalegre,3
+Mondim de Basto,3
+Horta,3
+Figueiró dos Vinhos,3
+Ferreira do Zêzere,3
+Crato,3
+Castelo de Vide,3
+Castelo de Paiva,3
+Borba,3
+Belmonte,3
+Avis,3
+Arraiolos,3
+Alijó,3
+Alcoutim,3
+Vila de Rei,2
+Vila Viçosa,2
+Vila Nova da Barquinha,2
+Vila Flor,2
+Vidigueira,2
+Velas,2
+Trancoso,2
+Tarouca,2
+Sousel,2
+Sardoal,2
+Redondo,2
+Povoação,2
+Ponte da Barca,2
+Pinhel,2
+Penela,2
+Penedono,2
+Penamacor,2
+Pampilhosa da Serra,2
+Nordeste,2
+Nisa,2
+Mêda,2
+Mortágua,2
+Monchique,2
+Moimenta da Beira,2
+Mogadouro,2
+Marvão,2
+Golegã,2
+Freixo de Espada à Cinta,2
+Figueira de Castelo Rodrigo,2
+Ferreira do Alentejo,2
+Cuba,2
+Corvo,2
+Constância,2
+Castro Daire,2
+Castanheira de Pêra,2
+Campo Maior,2
+"Calheta, Azores",2
+Ansião,2
+Alfândega da Fé,2
+Aguiar da Beira,2
+Vinhais,1
+Vila Nova de Poiares,1
+Sabrosa,1
+Portel,1
+Ponta do Sol,1
+Pedrógão Grande,1
+Paredes de Coura,1
+Mértola,1
+Murça,1
+Mourão,1
+Monforte,1
+Mesão Frio,1
+Mação,1
+Madalena,1
+Lajes do Pico,1
+Lajes das Flores,1
+"Lagoa, Azores",1
+Góis,1
+Gavião,1
+Fronteira,1
+Fornos de Algodres,1
+Carrazeda de Ansiães,1
+Cadaval,1
+Boticas,1
+Barrancos,1
+Arronches,1
+Alpiarça,1
+Alandroal,1

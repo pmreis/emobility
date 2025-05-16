@@ -4,6 +4,7 @@ import os.path as osp
 import os
 from pathlib import Path
 import pandas as pd
+import hashlib
 
 projRootPath = Path(__file__).resolve().parent.parent
 
@@ -68,6 +69,9 @@ def parse_datex(xml_file):
             'Lon': longitude
         }
 
+        chargerHash = dictionaryHash(charger)
+        charger['Hash'] = chargerHash
+
         operator = {
             'OperatorAbb': operator_abb,
             'OperatorOtherAbb': operator_other_abb,
@@ -110,6 +114,13 @@ def parse_datex(xml_file):
     data['plugs'].sort(key=lambda r: (r['ChargerId'], r['PlugId']))
 
     return data
+
+
+def dictionaryHash(d: dict[str, str]) -> str:
+    sorted_values = [f'{d[k]}' for k in sorted(d.keys())]
+    concat_str = ''.join(sorted_values)
+    return hashlib.sha256(concat_str.encode()).hexdigest()
+
 
 # insert_chargers
 # Insert operators data into SQLite
@@ -243,18 +254,28 @@ def output_market_share_analysis(conn):
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Market_Share_Analysis.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
-    # Outup Operators as CSV
+    # Output Operators as CSV
     data = pd.read_sql_query('''
         select * from Operators order by OperatorAbb
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Operators.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
-    # Outup Chargers as CSV
+    # Output Chargers as CSV
     data = pd.read_sql_query('''
         select * from Chargers order by ChargerId
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers.csv')
+    data.to_csv(filepath, sep=",", index=None, mode="w")
+
+    # Output Chargers per Municipality
+    data = pd.read_sql_query('''
+        select City, count(1) Qnt
+        from Chargers
+        group by City
+        order by Qnt desc;
+    ''', conn)
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Per_Municipality.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
     #conn.execute("VACUUM")
