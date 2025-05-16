@@ -270,10 +270,10 @@ def output_market_share_analysis(conn):
 
     # Output Chargers per Municipality
     data = pd.read_sql_query('''
-        select City, count(1) Qnt
+        select City, count(1) Qty
         from Chargers
         group by City
-        order by Qnt desc;
+        order by Qty desc, City asc;
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Per_Municipality.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
