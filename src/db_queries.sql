@@ -60,6 +60,12 @@ order by c.ChargerId
 limit 100;
 
 
+select City, count(1) Qty
+from Chargers
+group by City
+order by Qty desc, City asc;
+
+
 with recursive
     countAllChargers as (
         select count(1) total
