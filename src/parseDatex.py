@@ -280,12 +280,12 @@ def output_market_share_analysis(conn):
 
     # Output Plugs
     data = pd.read_sql_query('''
-        select p.ChargerId, p.PlugId, p.PlugDesign,
-            p.Voltage, p.Current, p.MaxPower
+        select p.ChargerId, p.PlugId, p.MaxPower
         from Plugs p
+        where p.PlugDesign != 'chademo'
         order by p.ChargerId, p.PlugId;
     ''', conn)
-    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Plugs.csv')
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Plugs_NonChademo.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
     #conn.execute("VACUUM")
