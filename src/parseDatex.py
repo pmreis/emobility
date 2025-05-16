@@ -278,6 +278,16 @@ def output_market_share_analysis(conn):
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Per_Municipality.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
+    # Output Plugs
+    data = pd.read_sql_query('''
+        select p.ChargerId, p.PlugId, p.PlugDesign,
+            p.Voltage, p.Current, p.MaxPower
+        from Plugs p
+        order by p.ChargerId, p.PlugId;
+    ''', conn)
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Plugs.csv')
+    data.to_csv(filepath, sep=",", index=None, mode="w")
+
     #conn.execute("VACUUM")
     conn.close()
 
