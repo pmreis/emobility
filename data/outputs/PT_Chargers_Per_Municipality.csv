@@ -2,7 +2,7 @@ City,Qty
 Lisboa,766
 Cascais,268
 Porto,225
-Oeiras,154
+Oeiras,155
 Vila Nova de Gaia,149
 Loulé,140
 Sintra,131
@@ -37,6 +37,7 @@ Maia,39
 São João da Madeira,39
 Torres Vedras,39
 Penafiel,38
+Covilhã,37
 Mealhada,37
 Tomar,37
 Valongo,37
@@ -47,13 +48,12 @@ Esposende,33
 Mafra,33
 Olhão,33
 Palmela,32
-Covilhã,31
 "Lagoa, Faro",30
 Póvoa de Varzim,30
+Barcelos,29
 Lagos,29
 Vila Real,29
 Odivelas,28
-Barcelos,27
 Caldas da Rainha,27
 Guarda,27
 Alcobaça,26
@@ -181,6 +181,7 @@ São Vicente,5
 Vale de Cambra,5
 Valença,5
 Vila Pouca de Aguiar,5
+Vila Velha de Ródão,5
 Vouzela,5
 Aljezur,4
 Almodôvar,4
@@ -206,7 +207,6 @@ Serpa,4
 Sátão,4
 Vila Nova de Foz Côa,4
 Vila Nova de Paiva,4
-Vila Velha de Ródão,4
 Vila do Porto,4
 Alcoutim,3
 Alijó,3
