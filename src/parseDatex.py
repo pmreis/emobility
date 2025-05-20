@@ -4,18 +4,15 @@ import os.path as osp
 import os
 from pathlib import Path
 import pandas as pd
-import hashlib
 
 projRootPath = Path(__file__).resolve().parent.parent
 
-# connect_db
 # Connect to SQLite DB and return connection
 def connect_db(db_name):
     dbpath = osp.normpath(f'{projRootPath}/data/{db_name}')
     conn = sqlite3.connect(dbpath)
     return conn
 
-# parse_datex
 # Parse Datex II file and return data structure with Chargers and Plugs
 def parse_datex(xml_file):
     filepath = osp.normpath(f'{projRootPath}/data/sources/{xml_file}')
@@ -69,8 +66,7 @@ def parse_datex(xml_file):
             'Lon': longitude
         }
 
-        chargerHash = dictionaryHash(charger)
-        charger['Hash'] = chargerHash
+        charger['Data'] = f'{charger['ChargerId']}{charger['Country']}{charger['OperatorAbb']}{charger['City']}{charger['DeployDate']}{charger['Lat']}{charger['Lon']}'
 
         operator = {
             'OperatorAbb': operator_abb,
@@ -116,14 +112,7 @@ def parse_datex(xml_file):
     return data
 
 
-def dictionaryHash(d: dict[str, str]) -> str:
-    sorted_values = [f'{d[k]}' for k in sorted(d.keys())]
-    concat_str = ''.join(sorted_values)
-    return hashlib.sha256(concat_str.encode()).hexdigest()
-
-
-# insert_chargers
-# Insert operators data into SQLite
+# Insert operators
 def insert_operators(conn, data):
     cursor = conn.cursor()
 
@@ -142,10 +131,15 @@ def insert_operators(conn, data):
 
     conn.commit()
 
-# insert temp chargers (only IDs)
+# Insert temp chargers (only IDs)
 def insert_tmp_chargers(conn, data):
     cursor = conn.cursor()
-    cursor.execute('delete from TempChargers')
+
+    cursor.execute('''
+        create table TempChargers (
+            ChargerId varchar(36) primary key
+        );
+    ''')
 
     for charger in data['chargers']:
         cursor.execute('''
@@ -173,33 +167,52 @@ def insert_tmp_chargers(conn, data):
         )
     ''')
 
-    cursor.execute('delete from TempChargers')
+    cursor.execute('drop table TempChargers')
 
     conn.commit()
 
-# insert_chargers
-# Insert chargers data into SQLite
-def insert_chargers(conn, data):
+# Insert or update chargers
+def insert_or_update_chargers(conn, data):
     cursor = conn.cursor()
 
     for charger in data['chargers']:
-        cursor.execute('''
-            INSERT OR IGNORE INTO Chargers (Country, ChargerId, OperatorAbb, City, DeployDate, Lat, Lon)
-            VALUES (?, ?, ?, ?, ?, ?, ?)
-        ''', (
-            charger['Country'],
-            charger['ChargerId'],
-            charger['OperatorAbb'],
-            charger['City'],
-            charger['DeployDate'],
-            charger['Lat'],
-            charger['Lon']
-        ))
+        chargerId = charger['ChargerId']
+        cursor.execute('SELECT CONCAT(ChargerId, Country, OperatorAbb, City, DeployDate, Lat, Lon) FROM Chargers WHERE ChargerId = ?', (chargerId,))
+        row = cursor.fetchone()
+        if(row is None):
+            cursor.execute('''
+                INSERT OR IGNORE INTO Chargers (ChargerId, Country, OperatorAbb, City, DeployDate, Lat, Lon)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+            ''', (
+                charger['ChargerId'],
+                charger['Country'],
+                charger['OperatorAbb'],
+                charger['City'],
+                charger['DeployDate'],
+                charger['Lat'],
+                charger['Lon']
+            ))
+            continue
+        else:
+            existingChargerData = row[0]
+            if(existingChargerData != charger['Data']):
+                cursor.execute('''
+                    UPDATE Chargers
+                    SET Country = ?, OperatorAbb = ?, City = ?, DeployDate = ?, Lat = ?, Lon = ?
+                    WHERE ChargerId = ?
+                ''', (
+                    charger['Country'],
+                    charger['OperatorAbb'],
+                    charger['City'],
+                    charger['DeployDate'],
+                    charger['Lat'],
+                    charger['Lon'],
+                    charger['ChargerId']
+                ))
 
     conn.commit()
 
-# insert_plugs
-# Insert plugs data into SQLite
+# Insert plugs
 def insert_plugs(conn, data):
     cursor = conn.cursor()
 
@@ -219,10 +232,8 @@ def insert_plugs(conn, data):
 
     conn.commit()
 
-# output_market_share_analysis
-# Generate market share analysis CSV
-def output_market_share_analysis(conn):
-    cursor = conn.cursor()
+# Generate CSVs
+def generate_output_csvs(conn):
 
     data = pd.read_sql_query('''
         with recursive
@@ -299,10 +310,10 @@ def main():
     conn = connect_db(db_name)
     data = parse_datex(xml_file)
     insert_operators(conn, data)
-    insert_chargers(conn, data)
+    insert_or_update_chargers(conn, data)
     insert_plugs(conn, data)
     insert_tmp_chargers(conn, data)
-    output_market_share_analysis(conn)
+    generate_output_csvs(conn)
 
 if __name__ == "__main__":
     main()
