@@ -192,7 +192,10 @@ def insert_or_update_chargers(conn, data):
                 charger['Lat'],
                 charger['Lon']
             ))
+
+            conn.commit()
             continue
+
         else:
             existingChargerData = row[0]
             if(existingChargerData != charger['Data']):
@@ -210,7 +213,7 @@ def insert_or_update_chargers(conn, data):
                     charger['ChargerId']
                 ))
 
-    conn.commit()
+                conn.commit()
 
 # Insert plugs
 def insert_plugs(conn, data):
