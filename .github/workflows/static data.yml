@@ -1,4 +1,4 @@
-name: Fetch and parse data
+name: Static Data
 
 on:
   push:
