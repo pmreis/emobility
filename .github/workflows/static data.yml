@@ -30,6 +30,16 @@ jobs:
       run: |
         curl -k -f https://pgm.mobie.pt/integration/nap/evChargingInfra -o ./data/sources/PT_NAP_Static.xml
 
+    - name: Commit and push if the source data has changed
+      run: |
+        git pull
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Static data source: ${timestamp}" || exit 0
+        git push
+
     - name: Run main Python script
       run: |
         python ./src/parseDatex.py
@@ -41,5 +51,5 @@ jobs:
         git config user.email "actions@users.noreply.github.com"
         git add -A
         timestamp=$(date -u)
-        git commit -m "Static data: ${timestamp}" || exit 0
+        git commit -m "Static data outputs: ${timestamp}" || exit 0
         git push
