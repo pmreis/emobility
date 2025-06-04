@@ -45,9 +45,8 @@ jobs:
         git push
 
     - name: Run main Python script
-      run: |
-        if: env.SKIP_REMAINING != 'true'
-        run: python ./src/parseDatex.py
+      if: ${{ env.SKIP_REMAINING != 'true' }}
+      run: python ./src/parseDatex.py
 
     - name: Commit and push if it changed
       run: |
