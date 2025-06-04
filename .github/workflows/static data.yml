@@ -37,7 +37,7 @@ jobs:
         git config user.email "actions@users.noreply.github.com"
         git add -A
         if git diff --cached --quiet; then
-          echo "No changes to commit. Exiting."
+          echo "SKIP_REMAINING=true" >> $GITHUB_ENV
           exit 0
         fi
         timestamp=$(date -u)
@@ -46,7 +46,8 @@ jobs:
 
     - name: Run main Python script
       run: |
-        python ./src/parseDatex.py
+        if: env.SKIP_REMAINING != 'true'
+        run: python ./src/parseDatex.py
 
     - name: Commit and push if it changed
       run: |
