@@ -1,16 +1,16 @@
 City,Qty
-Lisboa,774
-Cascais,273
-Porto,225
+Lisboa,791
+Cascais,274
+Porto,227
 Oeiras,155
-Vila Nova de Gaia,150
-Loulé,140
+Vila Nova de Gaia,152
+Loulé,142
 Sintra,131
 Barreiro,123
 Matosinhos,116
-Loures,112
+Loures,113
 Braga,106
-Guimarães,102
+Guimarães,105
 Viseu,91
 Coimbra,90
 Vila Franca de Xira,88
@@ -25,20 +25,20 @@ Almada,60
 Faro,56
 Seixal,53
 Aveiro,50
+Beja,50
 Viana do Castelo,50
-Beja,49
 Évora,48
 Funchal,46
 Gondomar,46
+Santarém,45
 Vila do Conde,45
-Santarém,43
 São João da Madeira,41
+Covilhã,39
 Grândola,39
 Maia,39
 Torres Vedras,39
 Mafra,38
 Penafiel,38
-Covilhã,37
 Mealhada,37
 Santo Tirso,37
 Tomar,37
@@ -48,9 +48,9 @@ Castelo Branco,33
 Esposende,33
 Olhão,33
 Palmela,32
+Póvoa de Varzim,31
 "Lagoa, Faro",30
 Odivelas,30
-Póvoa de Varzim,30
 Barcelos,29
 Lagos,29
 Vila Real,29
@@ -61,10 +61,10 @@ Guarda,27
 Alcochete,26
 Nazaré,26
 Silves,26
+Ílhavo,25
 Figueira da Foz,24
 Ourém,24
 Ovar,24
-Ílhavo,24
 Albergaria-a-Velha,23
 Anadia,23
 Chaves,23
@@ -82,6 +82,7 @@ Fundão,18
 Marinha Grande,18
 Peniche,18
 Fafe,17
+Ponte de Lima,17
 Torres Novas,17
 Vila Verde,17
 Óbidos,17
@@ -91,7 +92,6 @@ Lourinhã,16
 Paços de Ferreira,16
 Ponta Delgada,16
 Santa Cruz,16
-Ponte de Lima,15
 Alcácer do Sal,14
 Lamego,14
 Machico,14
@@ -102,15 +102,15 @@ Seia,14
 Sesimbra,14
 Trofa,14
 Angra do Heroísmo,13
+Benavente,13
 Lousada,13
 Moita,13
 Oliveira de Azeméis,13
 Porto Santo,13
+Santiago do Cacém,13
 Vila do Bispo,13
 Arruda dos Vinhos,12
-Benavente,12
 Montemor-o-Novo,12
-Santiago do Cacém,12
 Águeda,12
 Azambuja,11
 Mirandela,11
@@ -127,6 +127,7 @@ Rio Maior,10
 Salvaterra de Magos,10
 Sines,10
 Castro Marim,9
+Montemor-o-Velho,9
 Monção,9
 Vendas Novas,9
 Alcanena,8
@@ -134,9 +135,9 @@ Almeida,8
 Celorico da Beira,8
 Entroncamento,8
 Miranda do Douro,8
-Montemor-o-Velho,8
 Praia da Vitória,8
 Ribeira Grande,8
+Tondela,8
 Aljustrel,7
 Almeirim,7
 Baião,7
@@ -161,7 +162,6 @@ Ponte de Sôr,6
 Reguengos de Monsaraz,6
 Sertã,6
 São Pedro do Sul,6
-Tondela,6
 Tábua,6
 Viana do Alentejo,6
 Vila Franca do Campo,6
@@ -186,6 +186,7 @@ Vouzela,5
 Aljezur,4
 Almodôvar,4
 Alvito,4
+Ansião,4
 Arganil,4
 Armamar,4
 Arouca,4
@@ -196,6 +197,7 @@ Câmara de Lobos,4
 Gouveia,4
 Manteigas,4
 Melgaço,4
+Mondim de Basto,4
 Moura,4
 Murtosa,4
 Ourique,4
@@ -220,10 +222,10 @@ Crato,3
 Ferreira do Zêzere,3
 Figueiró dos Vinhos,3
 Horta,3
-Mondim de Basto,3
 Montalegre,3
 Mora,3
 Oleiros,3
+Penela,3
 Ribeira Brava,3
 Ribeira de Pena,3
 Santa Marta de Penaguião,3
@@ -239,7 +241,6 @@ Vieira do Minho,3
 Vimioso,3
 Aguiar da Beira,2
 Alfândega da Fé,2
-Ansião,2
 "Calheta, Azores",2
 Campo Maior,2
 Castanheira de Pêra,2
@@ -262,7 +263,6 @@ Nordeste,2
 Pampilhosa da Serra,2
 Penamacor,2
 Penedono,2
-Penela,2
 Pinhel,2
 Ponte da Barca,2
 Povoação,2
