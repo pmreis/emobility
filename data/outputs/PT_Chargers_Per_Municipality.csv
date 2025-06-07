@@ -1,6 +1,6 @@
 City,Qty
 Lisboa,791
-Cascais,274
+Cascais,276
 Porto,227
 Oeiras,155
 Vila Nova de Gaia,152
@@ -24,8 +24,8 @@ Amadora,61
 Almada,60
 Faro,56
 Seixal,53
+Beja,51
 Aveiro,50
-Beja,50
 Viana do Castelo,50
 Évora,48
 Funchal,46
@@ -132,6 +132,7 @@ Monção,9
 Vendas Novas,9
 Alcanena,8
 Almeida,8
+Cabeceiras de Basto,8
 Celorico da Beira,8
 Entroncamento,8
 Miranda do Douro,8
@@ -141,7 +142,6 @@ Tondela,8
 Aljustrel,7
 Almeirim,7
 Baião,7
-Cabeceiras de Basto,7
 Condeixa-a-Nova,7
 Mangualde,7
 Proença-a-Nova,7
