@@ -1,7 +1,7 @@
 City,Qty
-Lisboa,796
-Cascais,276
-Porto,229
+Lisboa,800
+Cascais,278
+Porto,231
 Oeiras,155
 Vila Nova de Gaia,154
 Loulé,144
@@ -17,8 +17,8 @@ Vila Franca de Xira,88
 Montijo,85
 Leiria,84
 Santa Maria da Feira,77
+Albufeira,64
 Setúbal,63
-Albufeira,62
 Portimão,62
 Amadora,61
 Almada,60
@@ -131,6 +131,7 @@ Montemor-o-Velho,9
 Monção,9
 Vendas Novas,9
 Alcanena,8
+Aljustrel,8
 Almeida,8
 Cabeceiras de Basto,8
 Celorico da Beira,8
@@ -139,7 +140,6 @@ Miranda do Douro,8
 Praia da Vitória,8
 Ribeira Grande,8
 Tondela,8
-Aljustrel,7
 Almeirim,7
 Baião,7
 Condeixa-a-Nova,7
