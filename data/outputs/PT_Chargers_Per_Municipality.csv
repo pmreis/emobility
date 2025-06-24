@@ -1,5 +1,5 @@
 City,Qty
-Lisboa,800
+Lisboa,801
 Cascais,288
 Porto,231
 Oeiras,156
@@ -28,7 +28,7 @@ Beja,51
 Aveiro,50
 Viana do Castelo,50
 Évora,49
-Funchal,46
+Funchal,47
 Gondomar,46
 Santarém,45
 Vila do Conde,45
@@ -139,6 +139,7 @@ Entroncamento,8
 Miranda do Douro,8
 Praia da Vitória,8
 Ribeira Grande,8
+Terras de Bouro,8
 Tondela,8
 Almeirim,7
 Baião,7
@@ -147,7 +148,6 @@ Mangualde,7
 Ponte de Sôr,7
 Proença-a-Nova,7
 São Brás de Alportel,7
-Terras de Bouro,7
 Vagos,7
 Vila Nova de Cerveira,7
 Vila Real de Santo António,7
@@ -159,6 +159,7 @@ Mira,6
 Nelas,6
 Penacova,6
 Penalva do Castelo,6
+Póvoa de Lanhoso,6
 Reguengos de Monsaraz,6
 Sertã,6
 São Pedro do Sul,6
@@ -175,7 +176,6 @@ Macedo de Cavaleiros,5
 Miranda do Corvo,5
 Oliveira de Frades,5
 Peso da Régua,5
-Póvoa de Lanhoso,5
 Sabugal,5
 São Vicente,5
 Vale de Cambra,5
