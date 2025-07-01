@@ -1,5 +1,5 @@
 City,Qty
-Lisboa,820
+Lisboa,822
 Cascais,291
 Porto,231
 Oeiras,157
@@ -48,8 +48,8 @@ Castelo Branco,33
 Esposende,33
 Olhão,33
 Palmela,32
+"Lagoa, Faro",31
 Póvoa de Varzim,31
-"Lagoa, Faro",30
 Odivelas,30
 Barcelos,29
 Lagos,29
@@ -92,13 +92,14 @@ Lourinhã,16
 Paços de Ferreira,16
 Ponta Delgada,16
 Santa Cruz,16
+Santiago do Cacém,15
 Alcácer do Sal,14
 Lamego,14
 Machico,14
 Marco de Canaveses,14
+Oliveira de Azeméis,14
 Oliveira do Bairro,14
 Oliveira do Hospital,14
-Santiago do Cacém,14
 Seia,14
 Sesimbra,14
 Trofa,14
@@ -106,7 +107,6 @@ Angra do Heroísmo,13
 Benavente,13
 Lousada,13
 Moita,13
-Oliveira de Azeméis,13
 Porto Santo,13
 Vila do Bispo,13
 Arruda dos Vinhos,12
