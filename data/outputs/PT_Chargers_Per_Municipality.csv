@@ -1,12 +1,12 @@
 City,Qty
-Lisboa,827
+Lisboa,828
 Cascais,291
 Porto,231
-Oeiras,157
+Oeiras,158
 Vila Nova de Gaia,154
 Loulé,144
 Sintra,138
-Barreiro,123
+Barreiro,124
 Matosinhos,116
 Loures,114
 Guimarães,107
@@ -24,7 +24,7 @@ Amadora,62
 Portimão,62
 Aveiro,59
 Faro,56
-Seixal,53
+Seixal,54
 Beja,51
 Viana do Castelo,50
 Évora,49
@@ -61,12 +61,12 @@ Paredes,28
 Alcobaça,27
 Alcochete,27
 Silves,27
+Ourém,25
 Ílhavo,25
+Anadia,24
 Figueira da Foz,24
-Ourém,24
 Ovar,24
 Albergaria-a-Velha,23
-Anadia,23
 Chaves,23
 Cantanhede,21
 Caminha,20
@@ -150,6 +150,7 @@ Mangualde,7
 Ponte de Sôr,7
 Proença-a-Nova,7
 São Brás de Alportel,7
+São Pedro do Sul,7
 Tábua,7
 Vagos,7
 Vila Nova de Cerveira,7
@@ -164,10 +165,10 @@ Penacova,6
 Penalva do Castelo,6
 Reguengos de Monsaraz,6
 Sertã,6
-São Pedro do Sul,6
 Viana do Alentejo,6
 Vila Franca do Campo,6
 Vila Pouca de Aguiar,6
+Aljezur,5
 Alvaiázere,5
 Amares,5
 Castro Verde,5
@@ -184,7 +185,6 @@ Vale de Cambra,5
 Valença,5
 Vila Velha de Ródão,5
 Vouzela,5
-Aljezur,4
 Almodôvar,4
 Alvito,4
 Ansião,4
@@ -303,5 +303,6 @@ Pedrógão Grande,1
 Ponta do Sol,1
 Portel,1
 Sabrosa,1
+São Roque do Pico,1
 Vila Nova de Poiares,1
 Vinhais,1
