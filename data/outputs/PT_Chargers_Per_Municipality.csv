@@ -9,27 +9,27 @@ Sintra,138
 Barreiro,124
 Matosinhos,117
 Loures,115
+Braga,109
 Guimarães,109
-Braga,107
 Coimbra,93
 Montijo,91
 Viseu,91
+Leiria,90
 Vila Franca de Xira,89
-Leiria,84
 Santa Maria da Feira,78
+Setúbal,67
 Albufeira,65
 Almada,65
-Setúbal,64
 Amadora,63
 Portimão,62
 Aveiro,61
-Faro,56
+Faro,57
 Seixal,54
 Beja,51
 Viana do Castelo,50
+Gondomar,49
 Évora,49
 Funchal,47
-Gondomar,47
 Santarém,45
 Vila do Conde,45
 Grândola,44
@@ -37,12 +37,12 @@ São João da Madeira,43
 Torres Vedras,41
 Covilhã,39
 Maia,39
+Penafiel,39
 Mafra,38
-Penafiel,38
+Valongo,38
 Mealhada,37
 Santo Tirso,37
 Tomar,37
-Valongo,37
 Vila Nova de Famalicão,37
 Olhão,34
 Castelo Branco,33
@@ -50,9 +50,9 @@ Esposende,33
 "Lagoa, Faro",32
 Palmela,32
 Póvoa de Varzim,31
+Lagos,30
 Odivelas,30
 Barcelos,29
-Lagos,29
 Paredes,29
 Vila Real,29
 Caldas da Rainha,28
@@ -270,6 +270,7 @@ Pinhel,2
 Ponte da Barca,2
 Povoação,2
 Redondo,2
+Sabrosa,2
 Sardoal,2
 Sousel,2
 Tarouca,2
@@ -302,7 +303,6 @@ Murça,1
 Paredes de Coura,1
 Ponta do Sol,1
 Portel,1
-Sabrosa,1
 São Roque do Pico,1
 Vila Nova de Poiares,1
 Vinhais,1
