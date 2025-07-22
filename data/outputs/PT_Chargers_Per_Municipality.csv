@@ -1,8 +1,8 @@
 City,Qty
 Lisboa,839
-Cascais,310
+Cascais,312
 Porto,243
-Vila Nova de Gaia,162
+Vila Nova de Gaia,163
 Oeiras,159
 Loulé,152
 Sintra,138
@@ -16,7 +16,7 @@ Montijo,91
 Viseu,91
 Leiria,90
 Vila Franca de Xira,89
-Santa Maria da Feira,78
+Santa Maria da Feira,79
 Setúbal,67
 Albufeira,65
 Almada,65
@@ -35,7 +35,7 @@ Vila do Conde,45
 Grândola,44
 São João da Madeira,43
 Torres Vedras,41
-Covilhã,39
+Covilhã,40
 Guarda,39
 Maia,39
 Penafiel,39
@@ -143,6 +143,7 @@ Póvoa de Lanhoso,8
 Ribeira Grande,8
 São Brás de Alportel,8
 Terras de Bouro,8
+Vale de Cambra,8
 Almeirim,7
 Baião,7
 Condeixa-a-Nova,7
@@ -153,7 +154,6 @@ Proença-a-Nova,7
 São Pedro do Sul,7
 Tábua,7
 Vagos,7
-Vale de Cambra,7
 Vila Nova de Cerveira,7
 Vila Real de Santo António,7
 Vizela,7
