@@ -1,11 +1,11 @@
 City,Qty
-Lisboa,841
-Cascais,315
+Lisboa,843
+Cascais,316
 Porto,244
 Vila Nova de Gaia,163
-Oeiras,159
+Oeiras,160
 Loulé,152
-Sintra,143
+Sintra,151
 Barreiro,124
 Matosinhos,117
 Loures,116
@@ -20,22 +20,22 @@ Santa Maria da Feira,79
 Setúbal,67
 Albufeira,65
 Almada,65
-Amadora,63
+Amadora,64
+Aveiro,62
 Portimão,62
-Aveiro,61
 Faro,57
 Seixal,54
 Beja,51
+Gondomar,50
 Viana do Castelo,50
-Gondomar,49
 Évora,49
 Funchal,47
 Santarém,45
 Vila do Conde,45
 Grândola,44
+Torres Vedras,44
 São João da Madeira,43
 Maia,41
-Torres Vedras,41
 Covilhã,40
 Guarda,40
 Penafiel,39
@@ -81,10 +81,10 @@ Bragança,18
 Estarreja,18
 Fundão,18
 Marinha Grande,18
+Paços de Ferreira,18
 Peniche,18
 Óbidos,18
 Fafe,17
-Paços de Ferreira,17
 Ponte de Lima,17
 Torres Novas,17
 Vila Verde,17
@@ -144,6 +144,7 @@ Praia da Vitória,8
 Póvoa de Lanhoso,8
 São Brás de Alportel,8
 Terras de Bouro,8
+Vagos,8
 Almeirim,7
 Baião,7
 Condeixa-a-Nova,7
@@ -153,7 +154,6 @@ Ponte de Sôr,7
 Proença-a-Nova,7
 São Pedro do Sul,7
 Tábua,7
-Vagos,7
 Vila Nova de Cerveira,7
 Vila Real de Santo António,7
 Vizela,7
@@ -209,6 +209,7 @@ Resende,4
 Santa Cruz da Graciosa,4
 Sernancelhe,4
 Serpa,4
+Sever do Vouga,4
 Sátão,4
 Vila Nova de Foz Côa,4
 Vila Nova de Paiva,4
@@ -232,7 +233,6 @@ Ribeira Brava,3
 Ribeira de Pena,3
 Santa Marta de Penaguião,3
 Santana,3
-Sever do Vouga,3
 Sobral de Monte Agraço,3
 Soure,3
 São João da Pesqueira,3
