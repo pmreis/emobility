@@ -290,6 +290,7 @@ def generate_output_csvs(conn):
             Lon
         from Chargers c
         where c.InsertedDate = date('now')
+        order by ChargerId;
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_New_Today.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
