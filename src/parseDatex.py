@@ -65,7 +65,7 @@ def parse_datex(xml_file):
             'Lon': longitude
         }
 
-        charger['Data'] = f'{charger['ChargerId']}{charger['Country']}{charger['OperatorAbb']}{charger['City']}{charger['InsertedDate']}{charger['Lat']}{charger['Lon']}'
+        charger['Data'] = f'{charger['ChargerId']}{charger['Country']}{charger['OperatorAbb']}{charger['City']}{charger['Lat']}{charger['Lon']}'
 
         operator = {
             'OperatorAbb': operator_abb,
@@ -176,7 +176,7 @@ def insert_or_update_chargers(conn, data):
 
     for charger in data['chargers']:
         chargerId = charger['ChargerId']
-        cursor.execute('SELECT CONCAT(ChargerId, Country, OperatorAbb, City, InsertedDate, Lat, Lon) FROM Chargers WHERE ChargerId = ?', (chargerId,))
+        cursor.execute('SELECT CONCAT(ChargerId, Country, OperatorAbb, City, Lat, Lon) FROM Chargers WHERE ChargerId = ?', (chargerId,))
         row = cursor.fetchone()
         if(row is None):
             cursor.execute('''

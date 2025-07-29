@@ -90,3 +90,14 @@ select
     cte2.*,
     sum(mrkt_shr) over (order by idx) mrkt_shr_acc
 from cte2;
+
+alter table Chargers
+rename column DeployDate to InsertedDate;
+
+update Chargers
+set InsertedDate = '2025-01-02'
+where InsertedDate < '2018-01-01';
+
+select *
+from Chargers c
+where c.InsertedDate = date('now')
