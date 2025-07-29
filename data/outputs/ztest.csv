@@ -1,0 +1,8 @@
+ChargerId,Country,OperatorAbb,City,Lat,Lon,GMapsUrl
+ABF-00008,PT,EDP,Albufeira,37.0907,-8.243906,"http://www.google.com/maps/place/37.0907,-8.243906"
+ABF-00009,PT,EDP,Albufeira,37.0904,-8.243906,"http://www.google.com/maps/place/37.0904,-8.243906"
+ABF-00011,PT,BLU,Albufeira,37.09177,-8.205087,"http://www.google.com/maps/place/37.09177,-8.205087"
+ABF-00012,PT,GLP,Albufeira,37.129463,-8.282082,"http://www.google.com/maps/place/37.129463,-8.282082"
+ABF-00013,PT,GLP,Albufeira,37.129463,-8.282082,"http://www.google.com/maps/place/37.129463,-8.282082"
+ABF-00024,PT,GLG,Albufeira,37.11872,-8.22682,"http://www.google.com/maps/place/37.11872,-8.22682"
+ABF-00035,PT,REP,Albufeira,37.095833,-8.255161,"http://www.google.com/maps/place/37.095833,-8.255161"
