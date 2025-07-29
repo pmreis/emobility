@@ -281,6 +281,19 @@ def generate_output_csvs(conn):
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
+    # Output Today's New Chargers as CSV
+    data = pd.read_sql_query('''
+        select ChargerId,
+            OperatorAbb,
+            City,
+            Lat,
+            Lon
+        from Chargers c
+        where c.InsertedDate = date('now')
+    ''', conn)
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_New_Today.csv')
+    data.to_csv(filepath, sep=",", index=None, mode="w")
+
     # Output Chargers per Municipality
     data = pd.read_sql_query('''
         select City, count(1) Qty
