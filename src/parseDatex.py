@@ -1,7 +1,7 @@
 import sqlite3
-import xml.etree.ElementTree as ET
+import xml.etree.ElementTree as et
 import os.path as osp
-import os
+from datetime import datetime as dt
 from pathlib import Path
 import pandas as pd
 
@@ -16,7 +16,7 @@ def connect_db(db_name):
 # Parse Datex II file and return data structure with Chargers and Plugs
 def parse_datex(xml_file):
     filepath = osp.normpath(f'{projRootPath}/data/sources/{xml_file}')
-    tree = ET.parse(filepath)
+    tree = et.parse(filepath)
     root = tree.getroot()
 
     ns = {
@@ -42,8 +42,7 @@ def parse_datex(xml_file):
         # Charger Location
         city = site.find('.//ns2:city/ns:values/ns:value[@lang="pt-pt"]', ns).text.strip()
         country = site.find('.//ns2:countryCode', ns).text.strip()
-        deployDate = '1970-01-01' if site.find('.//ns4:overallPeriod/ns:overallStartTime', ns) is None \
-            else site.find('.//ns4:overallPeriod/ns:overallStartTime', ns).text.strip()[:10]
+        insertedDate = dt.today().strftime('%Y-%m-%d')
 
         latitude = float(site.find('.//ns3:latitude', ns).text.strip())
         longitude = float(site.find('.//ns3:longitude', ns).text.strip())
@@ -61,12 +60,12 @@ def parse_datex(xml_file):
             'Country': country,
             'OperatorAbb': operator_abb,
             'City': city,
-            'DeployDate': deployDate,
+            'InsertedDate': insertedDate,
             'Lat': latitude,
             'Lon': longitude
         }
 
-        charger['Data'] = f'{charger['ChargerId']}{charger['Country']}{charger['OperatorAbb']}{charger['City']}{charger['DeployDate']}{charger['Lat']}{charger['Lon']}'
+        charger['Data'] = f'{charger['ChargerId']}{charger['Country']}{charger['OperatorAbb']}{charger['City']}{charger['InsertedDate']}{charger['Lat']}{charger['Lon']}'
 
         operator = {
             'OperatorAbb': operator_abb,
@@ -177,18 +176,18 @@ def insert_or_update_chargers(conn, data):
 
     for charger in data['chargers']:
         chargerId = charger['ChargerId']
-        cursor.execute('SELECT CONCAT(ChargerId, Country, OperatorAbb, City, DeployDate, Lat, Lon) FROM Chargers WHERE ChargerId = ?', (chargerId,))
+        cursor.execute('SELECT CONCAT(ChargerId, Country, OperatorAbb, City, InsertedDate, Lat, Lon) FROM Chargers WHERE ChargerId = ?', (chargerId,))
         row = cursor.fetchone()
         if(row is None):
             cursor.execute('''
-                INSERT OR IGNORE INTO Chargers (ChargerId, Country, OperatorAbb, City, DeployDate, Lat, Lon)
+                INSERT OR IGNORE INTO Chargers (ChargerId, Country, OperatorAbb, City, InsertedDate, Lat, Lon)
                 VALUES (?, ?, ?, ?, ?, ?, ?)
             ''', (
                 charger['ChargerId'],
                 charger['Country'],
                 charger['OperatorAbb'],
                 charger['City'],
-                charger['DeployDate'],
+                charger['InsertedDate'],
                 charger['Lat'],
                 charger['Lon']
             ))
@@ -201,13 +200,13 @@ def insert_or_update_chargers(conn, data):
             if(existingChargerData != charger['Data']):
                 cursor.execute('''
                     UPDATE Chargers
-                    SET Country = ?, OperatorAbb = ?, City = ?, DeployDate = ?, Lat = ?, Lon = ?
+                    SET Country = ?, OperatorAbb = ?, City = ?, InsertedDate = ?, Lat = ?, Lon = ?
                     WHERE ChargerId = ?
                 ''', (
                     charger['Country'],
                     charger['OperatorAbb'],
                     charger['City'],
-                    charger['DeployDate'],
+                    charger['InsertedDate'],
                     charger['Lat'],
                     charger['Lon'],
                     charger['ChargerId']
