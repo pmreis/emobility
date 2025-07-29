@@ -54,7 +54,7 @@ The European Green Deal is a set of policy initiatives launched by the European 
 8. Zero Pollution
     - A zero pollution ambition for a toxic-free environment
 
-More info: 
+More info:
 - https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal_en
 - https://sharedgreendeal.eu/
 
@@ -94,7 +94,7 @@ The **Alternative Fuels Infrastructure Regulation (AFIR)** is a key legislative 
 
 #### NOTES:
 1. Mobi.e's reach and responsibilities extend beyond a NAP.
-2. Mobi.e is a monopoly established by law, as recognized by the national energy regulator ERSE. 
+2. Mobi.e is a monopoly established by law, as recognized by the national energy regulator ERSE.
 
  | ![mobie=monopoly](legal/ERSE_Mobie_Monopoly.png) |
  |:--:|
@@ -122,38 +122,39 @@ The Portuguese Competition Authority – Autoridade da Concorrência (AdC) carri
 - One Pager PT: [AdC One Pager PT, v2](legal/AdC_One_Pager_PT.pdf)
 - One Pager EN: [AdC One Pager EN, v1](legal/AdC_One_Pager_EN.pdf)
 
+### Public consultation on the Study into Competition and Electric Vehicle Recharging in Portugal
 
+This was the AdC's most participated public consultation, which illustrates the high level of interest in this sector. Alongside the opinion of the sector's regulator - ERSE - the AdC received 183 contributions from public entities, individual consumers, consumer associations, operators and associations of companies in the electric mobility sector, entities in the electricity sector and entities from other sectors.
 
-| Num |         Entity        | Stance   |   PDF    |
-|-----|-----------------------|----------|----------|
-|  1  | Amme                  |          |          |
-|  2  | ANMP                  |          |          |
-|  3  | Apocme                |          |          |
-|  4  | Apren                 |          |          |
-|  5  | ASFAC                 |          |          |
-|  6  | Avere                 |          |          |
-|  7  | CM Odivelas           |          |          |
-|  8  | DECO                  |          |          |
-|  9  | DGC                   |          |          |
-|  10 | EDP                   |          |          |
-|  11 | Elergone energia      |          |          |
-|  12 | Emel                  |          |          |
-|  13 | Endesa                |          |          |
-|  14 | ENSE                  |          |          |
-|  15 | E-Redes               |          |          |
-|  16 | Evio                  |          |          |
-|  17 | Galp                  |          |          |
-|  18 | Helexia               |          |          |
-|  19 | Iberdrola- BP Pulse   |          |          |
-|  20 | Iberdrola             |          |          |
-|  21 | IMT                   |          |          |
-|  22 | miio                  |          |          |
-|  23 | Mobi.E                |          |          |
-|  24 | Renewing              |          |          |
-|  25 | Tesla                 |          |          |
-|  26 | UVE                   |          |          |
-|  27 | ERSE                  |          |          |
-
+| Num |         Entity        |   PDF
+|-----|-----------------------|-----------
+|  1  | AMME                  | [pdf](legal/AdC%20Contribs/Contributo%20Amme.pdf)
+|  2  | ANMP                  | [pdf](legal/AdC%20Contribs/Contributo%20ANMP.pdf)
+|  3  | APOCME                | [pdf](legal/AdC%20Contribs/contributo%20Apocme.pdf)
+|  4  | APREN                 | [pdf](legal/AdC%20Contribs/Contributo%20Apren.pdf)
+|  5  | ASFAC                 | [pdf](legal/AdC%20Contribs/Contributo%20ASFAC.pdf.pdf)
+|  6  | AVERE                 | [pdf](legal/AdC%20Contribs/Contributo%20Avere.pdf.pdf)
+|  7  | CM Odivelas           | [pdf](legal/AdC%20Contribs/Contributo%20CM%20Odivelas.pdf)
+|  8  | DECO                  | [pdf](legal/AdC%20Contribs/Contributo%20DECO.pdf)
+|  9  | DGC                   | [pdf](legal/AdC%20Contribs/Contributo%20DGC.pdf)
+|  10 | EDP                   | [pdf](legal/AdC%20Contribs/Contributo%20Edp.pdf)
+|  11 | Elergone energia      | [pdf](legal/AdC%20Contribs/Contributo%20Elergone%20energia.pdf)
+|  12 | EMEL                  | [pdf](legal/AdC%20Contribs/Contributo%20Emel.pdf)
+|  13 | Endesa                | [pdf](legal/AdC%20Contribs/Contributo%20Endesa.pdf)
+|  14 | ENSE                  | [pdf](legal/AdC%20Contribs/Contributo%20Ense.pdf)
+|  15 | E-Redes               | [pdf](legal/AdC%20Contribs/Contributo%20E-Redes.pdf)
+|  16 | EVIO                  | [pdf](legal/AdC%20Contribs/Contributo%20Evio.pdf)
+|  17 | Galp                  | [pdf](legal/AdC%20Contribs/Contributo%20Galp.pdf)
+|  18 | Helexia               | [pdf](legal/AdC%20Contribs/Contributo%20Helexia.pdf)
+|  19 | Iberdrola- BP Pulse   | [pdf](legal/AdC%20Contribs/Contributo%20Iberdrola-%20BP%20Pulse.pdf)
+|  20 | Iberdrola             | [pdf](legal/AdC%20Contribs/Contributo%20Iberdrola.pdf)
+|  21 | IMT                   | [pdf](legal/AdC%20Contribs/Contributo%20IMT.pdf)
+|  22 | miio                  | [pdf](legal/AdC%20Contribs/Contributo%20miio.pdf)
+|  23 | MOBI.E                | [pdf](legal/AdC%20Contribs/Contributo%20Mobi.E.pdf)
+|  24 | Renewing              | [pdf](legal/AdC%20Contribs/Contributo%20Renewing.pdf)
+|  25 | Tesla                 | [pdf](legal/AdC%20Contribs/Contributo%20Tesla.pdf)
+|  26 | UVE                   | [pdf](legal/AdC%20Contribs/Contributo%20UVE.pdf)
+|  27 | ERSE                  | [pdf](legal/AdC%20Contribs/Parecer%20ERSE.pdf)
 
 
 ### AVERE
