@@ -291,6 +291,18 @@ def generate_output_csvs(conn):
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Per_Municipality.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
+    # Output Chargers per District
+    data = pd.read_sql_query('''
+        select d.Distrito, count(1) Qty
+        from Chargers c
+        join Concelhos cc on cc.Alias = c.City
+        join Distritos d on d.Id = cc.Distrito
+        group by d.Id
+        order by Qty desc, d.Distrito asc;
+    ''', conn)
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Per_District.csv')
+    data.to_csv(filepath, sep=",", index=None, mode="w")
+
     # Output Plugs
     data = pd.read_sql_query('''
         select p.ChargerId, p.PlugId, p.MaxPower

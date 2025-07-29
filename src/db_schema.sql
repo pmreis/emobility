@@ -33,3 +33,16 @@ create table Plugs (
 create table TempChargers (
     ChargerId varchar(36) primary key
 );
+
+create table Distritos (
+    Id char(2) primary key,
+    Distrito varchar(30) not null
+);
+
+create table Concelhos (
+    Id char(4) primary key,
+    Concelho varchar(40) not null,
+    Distrito char(2) not null,
+    Alias varchar(50) null,
+    foreign key(Distrito) references Distritos(Id)
+);
