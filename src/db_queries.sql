@@ -105,6 +105,7 @@ select ChargerId,
     Lon
 from Chargers c
 where c.InsertedDate = date('now')
+order by ChargerId;
 
 
 select d.Distrito, count(1) Qty
