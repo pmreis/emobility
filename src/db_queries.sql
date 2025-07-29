@@ -98,6 +98,34 @@ update Chargers
 set InsertedDate = '2025-01-02'
 where InsertedDate < '2018-01-01';
 
-select *
+select ChargerId,
+    OperatorAbb,
+    City,
+    Lat,
+    Lon
 from Chargers c
 where c.InsertedDate = date('now')
+
+
+select d.Distrito, count(1) Qty
+from Chargers c
+join Concelhos cc on cc.Alias = c.City
+join Distritos d on d.Id = cc.Distrito
+group by d.Id
+order by Qty desc, d.Distrito asc;
+
+update Concelhos
+set Alias = 'Lagoa, Faro'
+where Id = '0806';
+
+update Concelhos
+set Alias = 'Lagoa, Azores'
+where Id = '4201';
+
+update Concelhos
+set Alias = 'Calheta, Madeira'
+where Id = '3101';
+
+update Concelhos
+set Alias = 'Calheta, Azores'
+where Id = '4501';
