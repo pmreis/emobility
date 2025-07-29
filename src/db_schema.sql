@@ -12,7 +12,7 @@ create table Chargers (
     Country char(2) not null,
     OperatorAbb char(3) not null,
     City varchar(100) not null,
-    DeployDate date not null,
+    InsertedDate date not null,
     Status varchar(20) not null default 'Present',
     Lat float not null,
     Lon float not null,
