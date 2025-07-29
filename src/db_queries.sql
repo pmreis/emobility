@@ -114,18 +114,27 @@ join Distritos d on d.Id = cc.Distrito
 group by d.Id
 order by Qty desc, d.Distrito asc;
 
+
 update Concelhos
-set Alias = 'Lagoa, Faro'
+set Alias = 'Lagoa, Faro',
+    Concelho = 'Lagoa'
 where Id = '0806';
 
 update Concelhos
-set Alias = 'Lagoa, Azores'
+set Alias = 'Lagoa, Azores',
+    Concelho = 'Lagoa'
 where Id = '4201';
 
 update Concelhos
-set Alias = 'Calheta, Madeira'
+set Alias = 'Calheta, Madeira',
+    Concelho = 'Calheta'
 where Id = '3101';
 
 update Concelhos
-set Alias = 'Calheta, Azores'
+set Alias = 'Calheta, Azores',
+        Concelho = 'Calheta'
 where Id = '4501';
+
+select *
+from Concelhos
+where Id in ('0806', '4201', '3101', '4501');
