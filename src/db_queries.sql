@@ -139,3 +139,9 @@ where Id = '4501';
 select *
 from Concelhos
 where Id in ('0806', '4201', '3101', '4501');
+
+
+select c.ChargerId, c.Status
+from Chargers c
+left outer join Plugs p on p.ChargerId = c.ChargerId
+where p.ChargerId is null;
