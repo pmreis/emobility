@@ -50,14 +50,14 @@ def parse_datex(xml_file):
         # Operator
         operator_abb_elem = site.find('.//ns6:refillPoint/ns4:externalIdentifier', ns)
         if operator_abb_elem is not None:
-            operator_abb = site.find('.//ns6:refillPoint/ns4:externalIdentifier', ns).text.split('*')[1]
+            operator_abb = site.find('.//ns6:refillPoint/ns4:externalIdentifier', ns).text.split('*')[1][:3]
         else:
             # The refillPoint ID might have either an asterisk (*) as separator or a hyphen (-)
-            refillId = site.find('.//ns6:refillPoint', ns).get('id')
+            refillId = site.find('.//ns6:refillPoint', ns).get('id').strip()
             if '-' in refillId:
-                operator_abb = refillId.split('-')[1]
+                operator_abb = refillId.split('-')[1][:3]
             else:
-                operator_abb = refillId.split('*')[1]
+                operator_abb = refillId.split('*')[1][:3]
 
         operator_elem = site.find('.//ns4:operator', ns)
         operator_other_abb = operator_elem.find('.//ns4:nationalOrganisationNumber', ns).text.strip()
@@ -92,10 +92,15 @@ def parse_datex(xml_file):
         # Parse Charger Plugs data
         for refill_point in site.findall('.//ns6:refillPoint', ns):
             plug_element = refill_point.find('.//ns4:externalIdentifier', ns)
-            if plug_element is None:
-                continue
-
-            plug_id = refill_point.find('.//ns4:externalIdentifier', ns).text.strip()
+            if plug_element is not None:
+                plug_id = refill_point.find('.//ns4:externalIdentifier', ns).text.strip()
+            else:
+                # The refillPoint ID might have either an asterisk (*) as separator or a hyphen (-)
+                refillId = refill_point.get('id').strip()
+                if '-' in refillId:
+                    plug_id = refillId.replace('-', '*')
+                else:
+                    plug_id = refillId
 
             connector = refill_point.find('.//ns6:connector', ns)
             plug_design = connector.find('.//ns6:connectorType', ns).text
@@ -230,17 +235,17 @@ def insert_plugs(conn, data):
 
     # Inserir plugs
     for plug in data['plugs']:
-            cursor.execute('''
-                INSERT OR IGNORE INTO Plugs (ChargerId, PlugId, PlugDesign, Voltage, Current, MaxPower)
-                VALUES (?, ?, ?, ?, ?, ?)
-            ''', (
-                plug['ChargerId'],
-                plug['PlugId'],
-                plug['PlugDesign'],
-                plug['Voltage'],
-                plug['Current'],
-                plug['MaxPower']
-            ))
+        cursor.execute('''
+            INSERT OR IGNORE INTO Plugs (ChargerId, PlugId, PlugDesign, Voltage, Current, MaxPower)
+            VALUES (?, ?, ?, ?, ?, ?)
+        ''', (
+            plug['ChargerId'],
+            plug['PlugId'],
+            plug['PlugDesign'],
+            plug['Voltage'],
+            plug['Current'],
+            plug['MaxPower']
+        ))
 
     conn.commit()
 
