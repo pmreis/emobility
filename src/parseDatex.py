@@ -48,13 +48,18 @@ def parse_datex(xml_file):
         longitude = float(site.find('.//ns3:longitude', ns).text.strip())
 
         # Operator
-        operator_elem = site.find('.//ns4:operator', ns)
         operator_abb_elem = site.find('.//ns6:refillPoint/ns4:externalIdentifier', ns)
         if operator_abb_elem is not None:
-            operator_abb = site.find('.//ns6:refillPoint/ns4:externalIdentifier', ns).text.split('*')[1][:3]
+            operator_abb = site.find('.//ns6:refillPoint/ns4:externalIdentifier', ns).text.split('*')[1]
         else:
-            operator_abb = site.find('.//ns6:refillPoint', ns).get('id').split('-')[1][:3]
+            # The refillPoint ID might have either an asterisk (*) as separator or a hyphen (-)
+            refillId = site.find('.//ns6:refillPoint', ns).get('id')
+            if '-' in refillId:
+                operator_abb = refillId.split('-')[1]
+            else:
+                operator_abb = refillId.split('*')[1]
 
+        operator_elem = site.find('.//ns4:operator', ns)
         operator_other_abb = operator_elem.find('.//ns4:nationalOrganisationNumber', ns).text.strip()
         operator_name = operator_elem.find('.//ns4:name/ns:values/ns:value[@lang="pt-pt"]', ns).text.strip()
         operator_tin = operator_elem.find('.//ns4:vatIdentificationNumber', ns).text.replace(' ', '').strip()
