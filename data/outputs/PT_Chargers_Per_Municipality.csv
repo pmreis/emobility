@@ -1,8 +1,8 @@
 City,Qty
 Lisboa,843
-Cascais,330
+Cascais,342
 Porto,248
-Vila Nova de Gaia,168
+Vila Nova de Gaia,169
 Oeiras,161
 Sintra,159
 Loulé,154
@@ -23,8 +23,8 @@ Albufeira,66
 Amadora,64
 Aveiro,62
 Portimão,62
+Seixal,59
 Faro,58
-Seixal,55
 Beja,51
 Gondomar,50
 Viana do Castelo,50
@@ -45,10 +45,10 @@ Vila Nova de Famalicão,38
 Mealhada,37
 Santo Tirso,37
 Tomar,37
+Castelo Branco,36
 Odivelas,34
 Olhão,34
 Póvoa de Varzim,34
-Castelo Branco,33
 Esposende,33
 "Lagoa, Faro",32
 Palmela,32
@@ -238,6 +238,7 @@ Sobral de Monte Agraço,3
 Soure,3
 São João da Pesqueira,3
 Tabuaço,3
+Tarouca,3
 Torre de Moncorvo,3
 Trancoso,3
 Valpaços,3
@@ -273,7 +274,6 @@ Redondo,2
 Sabrosa,2
 Sardoal,2
 Sousel,2
-Tarouca,2
 Velas,2
 Vidigueira,2
 Vila Flor,2
