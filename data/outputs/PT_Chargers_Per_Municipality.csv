@@ -1,13 +1,13 @@
 City,Qty
 Lisboa,847
 Cascais,342
-Porto,252
+Porto,254
 Vila Nova de Gaia,172
 Oeiras,161
 Sintra,159
 Loulé,158
-Barreiro,124
-Matosinhos,120
+Barreiro,126
+Matosinhos,122
 Loures,116
 Guimarães,113
 Braga,112
@@ -17,30 +17,30 @@ Vila Franca de Xira,93
 Viseu,91
 Leiria,90
 Santa Maria da Feira,79
-Almada,67
-Setúbal,67
-Albufeira,66
+Setúbal,69
+Almada,68
+Albufeira,67
 Amadora,64
 Portimão,63
 Aveiro,62
 Faro,60
 Seixal,59
 Beja,51
-Gondomar,50
+Gondomar,51
 Viana do Castelo,50
 Évora,50
 Funchal,47
+Torres Vedras,47
 Santarém,45
-Torres Vedras,45
 Vila do Conde,45
 Grândola,44
 São João da Madeira,43
 Maia,42
 Covilhã,40
 Guarda,40
+Valongo,40
 Penafiel,39
 Mafra,38
-Valongo,38
 Vila Nova de Famalicão,38
 Mealhada,37
 Santo Tirso,37
@@ -63,33 +63,33 @@ Nazaré,28
 Alcobaça,27
 Alcochete,27
 Figueira da Foz,26
+Ovar,26
 Cantanhede,25
 Ourém,25
 Anadia,24
-Ovar,24
 Albergaria-a-Velha,23
 Chaves,23
 Caminha,22
+Tavira,22
 Felgueiras,21
-Tavira,21
 Bragança,20
 Abrantes,19
 Alenquer,19
 Amarante,19
+Peniche,19
 Pombal,19
 Portalegre,19
 Estarreja,18
 Fundão,18
 Marinha Grande,18
 Paços de Ferreira,18
-Peniche,18
 Vila Verde,18
 Óbidos,18
 Fafe,17
+Lourinhã,17
 Ponte de Lima,17
 Torres Novas,17
 Estremoz,16
-Lourinhã,16
 Moita,16
 Ponta Delgada,16
 Santa Cruz,16
@@ -108,14 +108,15 @@ Sesimbra,14
 Trofa,14
 Vila do Bispo,14
 Angra do Heroísmo,13
+Azambuja,13
 Benavente,13
 Porto Santo,13
 Arruda dos Vinhos,12
 Montemor-o-Novo,12
 Tondela,12
+Vale de Cambra,12
 Águeda,12
 Arcos de Valdevez,11
-Azambuja,11
 Espinho,11
 Mirandela,11
 Porto de Mós,11
@@ -128,7 +129,6 @@ Odemira,10
 Rio Maior,10
 Salvaterra de Magos,10
 Sines,10
-Vale de Cambra,10
 Castro Marim,9
 Condeixa-a-Nova,9
 Montemor-o-Velho,9
