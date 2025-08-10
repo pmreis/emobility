@@ -394,9 +394,9 @@ def generate_charts(conn):
         height = bar.get_height()
         ax.text(bar.get_x() + bar.get_width() / 2, height, f'{height}', ha='center', va='bottom', fontsize=7)
 
-    ax.set_title('New chargers per day, in the last 30 days', color='white')
+    ax.set_title('Deployed chargers in the last 30 days', color='white')
     ax.set_xlabel('Date', color='white')
-    ax.set_ylabel('Amount of chargers', color='white')
+    ax.set_ylabel('Number of deployed chargers', color='white')
     ax.grid(True, color='gray', linestyle='--', alpha=0.5)
     ax.xaxis.grid(False)
     plt.xticks(fontsize=7, ha='center')
