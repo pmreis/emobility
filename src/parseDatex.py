@@ -353,7 +353,7 @@ def generate_charts(conn):
             union all
             select date(InsertedDate, '+1 day')
             from dates
-            where InsertedDate <= date('now')
+            where InsertedDate < date('now')
         ),
         lastDates as (
             select InsertedDate, '0' as Qnt
