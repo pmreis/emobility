@@ -145,3 +145,34 @@ select c.ChargerId, c.Status
 from Chargers c
 left outer join Plugs p on p.ChargerId = c.ChargerId
 where p.ChargerId is null;
+
+
+with recursive
+    dates(InsertedDate) as (
+        values(date('now', '-30 days'))
+        union all
+        select date(InsertedDate, '+1 day')
+        from dates
+        where InsertedDate <= date('now')
+    ),
+    lastDates as (
+        select InsertedDate, '0' as Qnt
+        from dates
+    ),
+    chargersCount as (
+        select c.InsertedDate, Count(c.ChargerId) as Qnt
+        from Chargers c
+        where c.InsertedDate >= DATETIME('now', '-30 days')
+        group by c.InsertedDate
+    ),
+    dataUnion as (
+        select *
+        from lastDates
+        union
+        select *
+        from chargersCount
+    )
+select InsertedDate, sum(Qnt) Qnt
+from dataUnion
+group by InsertedDate
+order by InsertedDate;
