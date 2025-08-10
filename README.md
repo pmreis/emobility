@@ -92,6 +92,10 @@ The **Alternative Fuels Infrastructure Regulation (AFIR)** is a key legislative 
 
 ### Portugal -Mobi.e
 
+#### Deployed chargers in the last 30 days
+
+ ![PT_Deployed](data/outputs/PT_Last30DayDeployedChargers.png)
+
 #### NOTES:
 1. Mobi.e's reach and responsibilities extend beyond a NAP.
 2. Mobi.e is a monopoly established by law, as recognized by the national energy regulator ERSE.
