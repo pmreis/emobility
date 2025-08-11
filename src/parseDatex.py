@@ -344,66 +344,6 @@ def generate_output_csvs(conn):
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Plugs_NonChademo.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
-# Generate Charts
-def generate_charts(conn):
-    data = pd.read_sql_query('''
-    with recursive
-        dates(InsertedDate) as (
-            values(date('now', '-30 days'))
-            union all
-            select date(InsertedDate, '+1 day')
-            from dates
-            where InsertedDate < date('now')
-        ),
-        lastDates as (
-            select InsertedDate, '0' as Qnt
-            from dates
-        ),
-        chargersCount as (
-            select c.InsertedDate, Count(c.ChargerId) as Qnt
-            from Chargers c
-            where c.InsertedDate >= date('now', '-30 days')
-            group by c.InsertedDate
-        ),
-        dataUnion as (
-            select *
-            from lastDates
-            union
-            select *
-            from chargersCount
-        )
-    select InsertedDate, sum(Qnt) Qnt
-    from dataUnion
-    group by InsertedDate
-    order by InsertedDate;
-    ''', conn)
-
-    # Create theme, figure and axes
-    plt.style.use('dark_background')
-    fig, ax = plt.subplots()
-    fig.autofmt_xdate(rotation=90)
-
-    bars = ax.bar(
-        x=np.arange(len(data)),  # Use range based on number of rows
-        height=data['Qnt'],
-        tick_label=data['InsertedDate'],  # Set tick labels to the years
-        color='cornflowerblue'
-    )
-
-    for bar in bars:
-        height = bar.get_height()
-        ax.text(bar.get_x() + bar.get_width() / 2, height, f'{height}', ha='center', va='bottom', fontsize=7)
-
-    ax.set_title('Deployed chargers in the last 30 days', color='white')
-    ax.set_xlabel('Date', color='white')
-    ax.set_ylabel('Number of deployed chargers', color='white')
-    ax.grid(True, color='gray', linestyle='--', alpha=0.5)
-    ax.xaxis.grid(False)
-    plt.xticks(fontsize=7, ha='center')
-
-    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Last30DayDeployedChargers.png')
-    plt.savefig(filepath, dpi=300, bbox_inches='tight')
-
 def main():
     db_name = 'data.db'
     xml_file = 'PT_NAP_Static.xml'
@@ -415,7 +355,6 @@ def main():
     insert_plugs(conn, data)
     insert_tmp_chargers(conn, data)
     generate_output_csvs(conn)
-    generate_charts(conn)
 
     conn.execute("VACUUM")
     conn.close()
