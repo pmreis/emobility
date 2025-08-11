@@ -4,3 +4,4 @@ beautifulsoup4
 webdriver-manager
 selenium
 selenium-wire
+matplotlib
