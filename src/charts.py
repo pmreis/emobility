@@ -64,12 +64,15 @@ def generate_charts(conn):
         height = bar.get_height()
         ax.text(bar.get_x() + bar.get_width() / 2, height, f'{height}', ha='center', va='bottom', fontsize=7)
 
+    average_y = np.mean(data['Qnt'])
+    plt.axhline(y=average_y, color='r', linestyle='--', label=f'Average Y: {average_y:.1f}')
     ax.set_title('Deployed chargers in the last 30 days', color='white')
     ax.set_xlabel('Date', color='white')
     ax.set_ylabel('Number of deployed chargers', color='white')
     ax.grid(True, color='gray', linestyle='--', alpha=0.5)
     ax.xaxis.grid(False)
     plt.xticks(fontsize=7, ha='center')
+    plt.legend()
 
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Last30DayDeployedChargers.png')
     plt.savefig(filepath, dpi=300, bbox_inches='tight')
