@@ -7,7 +7,7 @@ Oeiras,161
 Sintra,159
 Loulé,158
 Barreiro,126
-Matosinhos,122
+Matosinhos,123
 Loures,118
 Guimarães,113
 Braga,112
@@ -17,7 +17,7 @@ Vila Franca de Xira,93
 Viseu,91
 Leiria,90
 Santa Maria da Feira,79
-Setúbal,69
+Setúbal,73
 Almada,68
 Albufeira,67
 Amadora,64
@@ -31,10 +31,10 @@ Viana do Castelo,50
 Évora,50
 Funchal,47
 Torres Vedras,47
+Vila do Conde,46
 Santarém,45
-Vila do Conde,45
 Grândola,44
-Maia,43
+Maia,44
 São João da Madeira,43
 Covilhã,40
 Guarda,40
@@ -72,9 +72,9 @@ Chaves,23
 Caminha,22
 Tavira,22
 Felgueiras,21
+Alenquer,20
 Bragança,20
 Abrantes,19
-Alenquer,19
 Amarante,19
 Peniche,19
 Pombal,19
@@ -98,6 +98,7 @@ Alcácer do Sal,15
 Marco de Canaveses,15
 Oliveira de Azeméis,15
 Ribeira Grande,15
+Benavente,14
 Lamego,14
 Lousada,14
 Machico,14
@@ -108,10 +109,9 @@ Sesimbra,14
 Trofa,14
 Vila do Bispo,14
 Angra do Heroísmo,13
+Arruda dos Vinhos,13
 Azambuja,13
-Benavente,13
 Porto Santo,13
-Arruda dos Vinhos,12
 Montemor-o-Novo,12
 Tondela,12
 Vale de Cambra,12
@@ -120,15 +120,15 @@ Arcos de Valdevez,11
 Espinho,11
 Mirandela,11
 Porto de Mós,11
+Salvaterra de Magos,11
 Santa Comba Dão,11
+Sines,11
 Batalha,10
 Bombarral,10
 Elvas,10
 Lousã,10
 Odemira,10
 Rio Maior,10
-Salvaterra de Magos,10
-Sines,10
 Castro Marim,9
 Condeixa-a-Nova,9
 Montemor-o-Velho,9
@@ -160,6 +160,7 @@ Vila Nova de Cerveira,7
 Alter do Chão,6
 Amares,6
 Cinfães,6
+Coruche,6
 Idanha-a-Nova,6
 Mira,6
 Nelas,6
@@ -175,7 +176,6 @@ Alvaiázere,5
 Castro Verde,5
 Celorico de Basto,5
 Chamusca,5
-Coruche,5
 Macedo de Cavaleiros,5
 Miranda do Corvo,5
 Oliveira de Frades,5
@@ -227,6 +227,7 @@ Crato,3
 Ferreira do Zêzere,3
 Figueiró dos Vinhos,3
 Mora,3
+Mourão,3
 Oleiros,3
 Pedrógão Grande,3
 Penela,3
@@ -298,7 +299,6 @@ Madalena,1
 Mação,1
 Mesão Frio,1
 Monforte,1
-Mourão,1
 Murça,1
 Paredes de Coura,1
 Ponta do Sol,1
