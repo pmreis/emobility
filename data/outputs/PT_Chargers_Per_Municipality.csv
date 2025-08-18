@@ -1,46 +1,45 @@
 City,Qty
-Lisboa,848
-Cascais,342
-Porto,254
-Vila Nova de Gaia,172
-Oeiras,167
-Loulé,160
-Sintra,159
-Barreiro,126
-Matosinhos,124
-Loures,119
-Guimarães,113
+Lisboa,827
+Cascais,335
+Porto,249
+Oeiras,163
+Vila Nova de Gaia,162
+Loulé,157
+Sintra,149
+Barreiro,125
+Matosinhos,122
+Loures,117
 Braga,112
-Vila Franca de Xira,94
+Guimarães,105
 Coimbra,93
-Montijo,93
+Montijo,92
 Viseu,91
 Leiria,90
-Santa Maria da Feira,79
-Setúbal,73
-Almada,68
-Albufeira,67
-Amadora,64
-Aveiro,63
+Vila Franca de Xira,90
+Santa Maria da Feira,77
+Setúbal,72
+Albufeira,66
+Almada,66
 Portimão,63
+Amadora,62
+Aveiro,60
 Faro,60
-Seixal,59
-Gondomar,52
+Seixal,57
 Beja,51
 Viana do Castelo,50
 Évora,50
 Torres Vedras,48
 Vila do Conde,48
 Funchal,47
+Gondomar,46
 Santarém,46
-Grândola,44
-Maia,44
-São João da Madeira,43
+Grândola,43
+Maia,42
+São João da Madeira,41
 Covilhã,40
-Guarda,40
 Valongo,40
-Penafiel,39
 Mafra,38
+Penafiel,38
 Vila Nova de Famalicão,38
 Castelo Branco,37
 Mealhada,37
@@ -49,60 +48,60 @@ Tomar,37
 Ovar,36
 Póvoa de Varzim,35
 Esposende,34
-Odivelas,34
-Olhão,34
-"Lagoa, Faro",32
+Guarda,34
+Odivelas,33
+Olhão,33
 Palmela,32
-Silves,31
 Barcelos,30
-Lagos,30
-Vila Real,30
-Paredes,29
+"Lagoa, Faro",30
+Silves,30
+Lagos,29
+Vila Real,29
 Ílhavo,29
 Caldas da Rainha,28
-Nazaré,28
+Paredes,28
 Alcobaça,27
-Alcochete,27
-Figueira da Foz,26
+Nazaré,27
+Alcochete,26
 Cantanhede,25
+Figueira da Foz,25
 Ourém,25
 Anadia,24
 Albergaria-a-Velha,23
 Chaves,23
 Caminha,22
-Tavira,22
-Felgueiras,21
-Alenquer,20
 Bragança,20
 Abrantes,19
+Alenquer,19
 Amarante,19
+Felgueiras,19
 Peniche,19
 Pombal,19
 Portalegre,19
+Tavira,19
 Torres Novas,19
 Estarreja,18
 Fundão,18
-Marinha Grande,18
-Paços de Ferreira,18
-Vila Verde,18
 Óbidos,18
 Estremoz,17
 Fafe,17
 Lourinhã,17
+Marinha Grande,17
+Paços de Ferreira,17
 Ponte de Lima,17
-Moita,16
+Vila Verde,17
 Ponta Delgada,16
 Santa Cruz,16
-Santiago do Cacém,16
-Alcácer do Sal,15
-Marco de Canaveses,15
-Oliveira de Azeméis,15
+Moita,15
 Ribeira Grande,15
+Santiago do Cacém,15
+Alcácer do Sal,14
 Azambuja,14
 Benavente,14
 Lamego,14
-Lousada,14
 Machico,14
+Marco de Canaveses,14
+Oliveira de Azeméis,14
 Oliveira do Bairro,14
 Oliveira do Hospital,14
 Seia,14
@@ -112,9 +111,9 @@ Trofa,14
 Vila do Bispo,14
 Angra do Heroísmo,13
 Arruda dos Vinhos,13
+Lousada,13
 Porto Santo,13
 Montemor-o-Novo,12
-Vale de Cambra,12
 Águeda,12
 Arcos de Valdevez,11
 Espinho,11
@@ -124,6 +123,7 @@ Porto de Mós,11
 Salvaterra de Magos,11
 Santa Comba Dão,11
 Sines,11
+Vale de Cambra,11
 Batalha,10
 Bombarral,10
 Elvas,10
@@ -144,19 +144,17 @@ Entroncamento,8
 Mangualde,8
 Miranda do Douro,8
 Praia da Vitória,8
-Póvoa de Lanhoso,8
-São Brás de Alportel,8
 Terras de Bouro,8
-Vagos,8
 Vila Real de Santo António,8
-Vizela,8
 Baião,7
 Horta,7
 Ponte de Sôr,7
 Proença-a-Nova,7
-São Pedro do Sul,7
+São Brás de Alportel,7
 Tábua,7
+Vagos,7
 Vila Nova de Cerveira,7
+Vizela,7
 Alter do Chão,6
 Amares,6
 Cinfães,6
@@ -167,8 +165,9 @@ Nelas,6
 Penacova,6
 Penalva do Castelo,6
 Peso da Régua,6
+Póvoa de Lanhoso,6
 Reguengos de Monsaraz,6
-Sertã,6
+São Pedro do Sul,6
 Viana do Alentejo,6
 Vila Franca do Campo,6
 Vila Pouca de Aguiar,6
@@ -182,6 +181,7 @@ Macedo de Cavaleiros,5
 Miranda do Corvo,5
 Oliveira de Frades,5
 Sabugal,5
+Sertã,5
 São Vicente,5
 Valença,5
 Vila Velha de Ródão,5
@@ -194,14 +194,11 @@ Armamar,4
 Arouca,4
 "Calheta, Madeira",4
 Carregal do Sal,4
-Castelo de Paiva,4
 Câmara de Lobos,4
 Gouveia,4
 Manteigas,4
-Melgaço,4
 Mondim de Basto,4
 Montalegre,4
-Moura,4
 Murtosa,4
 Ourique,4
 Porto Moniz,4
@@ -209,9 +206,7 @@ Resende,4
 Santa Cruz da Graciosa,4
 Sernancelhe,4
 Serpa,4
-Sever do Vouga,4
 Sátão,4
-Vieira do Minho,4
 Vila Nova de Foz Côa,4
 Vila Nova de Paiva,4
 Vila do Porto,4
@@ -222,11 +217,14 @@ Arraiolos,3
 Avis,3
 Belmonte,3
 Borba,3
+Castelo de Paiva,3
 Castelo de Vide,3
 Crato,3
 Ferreira do Zêzere,3
 Figueiró dos Vinhos,3
+Melgaço,3
 Mora,3
+Moura,3
 Mourão,3
 Oleiros,3
 Pedrógão Grande,3
@@ -235,6 +233,7 @@ Ribeira Brava,3
 Ribeira de Pena,3
 Santa Marta de Penaguião,3
 Santana,3
+Sever do Vouga,3
 Sobral de Monte Agraço,3
 Soure,3
 São João da Pesqueira,3
@@ -243,6 +242,7 @@ Tarouca,3
 Torre de Moncorvo,3
 Trancoso,3
 Valpaços,3
+Vieira do Minho,3
 Vimioso,3
 Alfândega da Fé,2
 "Calheta, Azores",2
