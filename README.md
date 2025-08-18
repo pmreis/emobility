@@ -20,7 +20,7 @@ The goal is to track the evolution of sustainable mobility milestones on each Eu
 4. [Portuguese Law](#portuguese-law)
 5. [National Access Points (NAP)](#national-access-points-nap)
     1. [Norway - Nobil](#norway---nobil)
-    2. [Portugal -Mobi.e](#portugal--mobie)
+    2. [Portugal -Mobi.e](#portugal---mobie)
 7. [Possible barriers for eMobility in Portugal](#possible-barriers-for-emobility-in-portugal)
 
 > NOTE: Work in Progress. Join the cause!
@@ -179,5 +179,5 @@ This was the AdC's most participated public consultation, which illustrates the 
 
 AVERE has taken note of the preliminary report of the Estudo concorrência e mobilidade elétrica em Portugal and wish to express our agreement with the intention of the recommendations made to the Portuguese government to make fundamental changes to the Portuguese recharging network, to improve the current system in benefit of BEV users.
 
-- [Blog Page](https://www.avere.org/blogpages/policy-details/2024/03/05/AVEREs-Reaction-Letter-to-the-Report-on-Recharging-Network-Published-by-the-Portuguese-Competition-Authority)
+- [Blog Page](https://www.avere.org/blogpages/policy-details/2024/03/05/AVEREs-Reaction-Letter-to-the-Report-on-Recharging-Network-Published-by-the-Portuguese-Competition-Authority) * Now unavailable due to site restructuring, check it in the [Internet Archive](https://web.archive.org/web/20240422192745/https://www.avere.org/blogpages/policy-details/2024/03/05/AVEREs-Reaction-Letter-to-the-Report-on-Recharging-Network-Published-by-the-Portuguese-Competition-Authority)
 - Reaction Letter: [AVERE's Reaction Letter](legal/AVERE_Reaction_Letter_AdC.pdf)
