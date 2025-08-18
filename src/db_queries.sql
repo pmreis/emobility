@@ -176,3 +176,32 @@ select InsertedDate, sum(Qnt) Qnt
 from dataUnion
 group by InsertedDate
 order by InsertedDate;
+
+
+select *
+from Chargers
+order by InsertedDate desc;
+
+
+-- Check Chargers absent from NAP
+select *
+from Chargers
+where Status = 'Removed'
+order by InsertedDate desc;
+
+-- Check Chargers absent from NAP for more than 90 days
+select *
+from Chargers
+where Status = 'Removed'
+    and InsertedDate < date('now', '-90 days')
+order by InsertedDate desc;
+
+-- Delete Chargers absent from NAP for more than 90 days
+delete
+from Plugs
+where ChargerId in (
+    select ChargerId
+    from Chargers
+    where Status = 'Removed'
+        and InsertedDate < date('now', '-90 days')
+);

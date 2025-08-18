@@ -76,8 +76,15 @@ The **Alternative Fuels Infrastructure Regulation (AFIR)** is a key legislative 
 - [Regulation](http://data.europa.eu/eli/reg/2023/1804/oj)
 - [Q&A](https://transport.ec.europa.eu/transport-themes/clean-transport/alternative-fuels-sustainable-mobility-europe/alternative-fuels-infrastructure/questions-and-answers-regulation-deployment-alternative-fuels-infrastructure-eu-20231804_en)
 
-## Portuguese Law
+## Portuguese legal framework for electric mobility
 
+In August 2025, Portugal overhauled the RJME via Decree-Law 93/2025 to align with the EU’s Alternative Fuels Infrastructure Regulation (AFIR, applicable since 13 April 2024). The new regime mandates ad-hoc charging (no prior contract), broad electronic payment options (e.g., bank card/QR), open roaming, smart and bidirectional charging, adds maritime charging, eliminates the CEME figure and the previous centralized network management, and sets a transition period until 31 December 2026 to meet AFIR’s data/transparency rules and EU coverage/power goals.
+
+### Portuguese legal framework for electric mobility
+
+- [DL 93/2025 @ Journal of the Republic](https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2025-928937303)
+
+### Revoked at 2025-08-19
 - [DL 39/2010 @ Journal of the Republic](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2010-171436738)
 - [DL 39/2010 as PDF](legal/DL_39_2010.pdf)
 - Regulation (Portuguese Only): [RME](legal/RME%20Consolidado.pdf)
@@ -90,11 +97,14 @@ The **Alternative Fuels Infrastructure Regulation (AFIR)** is a key legislative 
 - Info: https://info.nobil.no/api
 - Doc: https://info.nobil.no/images/API-dokumentasjon/API_NOBIL_Documentation_v3_20240603.pdf
 
-### Portugal -Mobi.e
+### Portugal - Mobi.e
+
+During the transition period (until December 31, 2025), Mobi.e will provide data to the official National Access Point (IMT).
 
 #### Deployed chargers in the last 30 days
 
  ![PT_Deployed](data/outputs/PT_Last30DayDeployedChargers.png)
+* Data source = IMT / Mobi.e (have a look at the source code in this repo)
 
 #### NOTES:
 1. Mobi.e's reach and responsibilities extend beyond a NAP.
@@ -112,6 +122,10 @@ The **Alternative Fuels Infrastructure Regulation (AFIR)** is a key legislative 
 
 
 ## Possible barriers for eMobility in Portugal
+
+Portugal set its legal framework for electric mobility in 2010 with Decree-Law 39/2010, creating the RJME and the MOBI.E-based, centrally managed model with defined market roles and incentives, which structured how charging operators and service providers interacted and how a public pilot network would be deployed. Over the years the RJME was amended but kept that centralized architecture as the backbone of the system.
+
+Although initially praised, the Portuguese model later became a source of frustration for EV users, revealed several areas needing urgent improvement, and above all failed to comply with AFIR. This lead some entities to report on the issues or barriers of the Portuguese model, which can still be found below.
 
 ### Autoridade da Concorrência (AdC)
 
