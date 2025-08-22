@@ -1,8 +1,8 @@
 City,Qty
-Lisboa,827
+Lisboa,831
 Cascais,335
 Porto,250
-Oeiras,164
+Oeiras,165
 Vila Nova de Gaia,162
 Loulé,157
 Sintra,149
@@ -25,21 +25,21 @@ Amadora,62
 Aveiro,60
 Faro,60
 Seixal,57
+Viana do Castelo,52
 Beja,51
-Viana do Castelo,50
 Évora,50
 Funchal,48
 Torres Vedras,48
 Vila do Conde,48
+Grândola,47
 Gondomar,46
 Santarém,46
-Grândola,43
 Maia,43
 Mafra,41
 São João da Madeira,41
 Covilhã,40
+Penafiel,40
 Valongo,40
-Penafiel,38
 Vila Nova de Famalicão,38
 Castelo Branco,37
 Mealhada,37
@@ -71,6 +71,7 @@ Chaves,24
 Albergaria-a-Velha,23
 Caminha,22
 Bragança,21
+Torres Novas,21
 Abrantes,19
 Alenquer,19
 Amarante,19
@@ -79,7 +80,6 @@ Peniche,19
 Pombal,19
 Portalegre,19
 Tavira,19
-Torres Novas,19
 Estarreja,18
 Fundão,18
 Ponte de Lima,18
@@ -128,11 +128,11 @@ Batalha,10
 Bombarral,10
 Elvas,10
 Lousã,10
+Monção,10
 Rio Maior,10
 Castro Marim,9
 Condeixa-a-Nova,9
 Montemor-o-Velho,9
-Monção,9
 Vendas Novas,9
 Alcanena,8
 Aljustrel,8
@@ -169,6 +169,7 @@ Peso da Régua,6
 Póvoa de Lanhoso,6
 Reguengos de Monsaraz,6
 São Pedro do Sul,6
+Valença,6
 Viana do Alentejo,6
 Vila Franca do Campo,6
 Vila Pouca de Aguiar,6
@@ -183,7 +184,6 @@ Oliveira de Frades,5
 Sabugal,5
 Sertã,5
 São Vicente,5
-Valença,5
 Vila Velha de Ródão,5
 Vouzela,5
 Almodôvar,4
