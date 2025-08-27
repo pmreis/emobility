@@ -77,6 +77,7 @@ Alenquer,19
 Amarante,19
 Estarreja,19
 Felgueiras,19
+Lourinhã,19
 Peniche,19
 Pombal,19
 Portalegre,19
@@ -86,7 +87,6 @@ Ponte de Lima,18
 Óbidos,18
 Estremoz,17
 Fafe,17
-Lourinhã,17
 Marinha Grande,17
 Paços de Ferreira,17
 Vila Verde,17
@@ -97,6 +97,7 @@ Moita,15
 Oliveira do Hospital,15
 Ribeira Grande,15
 Santiago do Cacém,15
+Seia,15
 Alcácer do Sal,14
 Azambuja,14
 Benavente,14
@@ -105,7 +106,6 @@ Machico,14
 Marco de Canaveses,14
 Oliveira de Azeméis,14
 Oliveira do Bairro,14
-Seia,14
 Tondela,14
 Trofa,14
 Vila do Bispo,14
@@ -132,6 +132,7 @@ Monção,10
 Rio Maior,10
 Castro Marim,9
 Condeixa-a-Nova,9
+Mangualde,9
 Montemor-o-Velho,9
 Vendas Novas,9
 Alcanena,8
@@ -142,7 +143,6 @@ Cabeceiras de Basto,8
 Celorico da Beira,8
 Coruche,8
 Entroncamento,8
-Mangualde,8
 Miranda do Douro,8
 Praia da Vitória,8
 Terras de Bouro,8
@@ -156,6 +156,7 @@ Reguengos de Monsaraz,7
 São Brás de Alportel,7
 Tábua,7
 Vagos,7
+Valença,7
 Vila Nova de Cerveira,7
 Vizela,7
 Alter do Chão,6
@@ -170,7 +171,6 @@ Penalva do Castelo,6
 Peso da Régua,6
 Póvoa de Lanhoso,6
 São Pedro do Sul,6
-Valença,6
 Viana do Alentejo,6
 Vila Franca do Campo,6
 Vila Pouca de Aguiar,6
@@ -179,6 +179,7 @@ Alvaiázere,5
 Cartaxo,5
 Celorico de Basto,5
 Chamusca,5
+Gouveia,5
 Miranda do Corvo,5
 Oliveira de Frades,5
 Sabugal,5
@@ -195,7 +196,6 @@ Arouca,4
 "Calheta, Madeira",4
 Carregal do Sal,4
 Câmara de Lobos,4
-Gouveia,4
 Manteigas,4
 Melgaço,4
 Mondim de Basto,4
@@ -244,6 +244,7 @@ Trancoso,3
 Valpaços,3
 Vidigueira,3
 Vieira do Minho,3
+Vila Viçosa,3
 Vimioso,3
 Alfândega da Fé,2
 "Calheta, Azores",2
@@ -279,7 +280,6 @@ Sousel,2
 Velas,2
 Vila Flor,2
 Vila Nova da Barquinha,2
-Vila Viçosa,2
 Vila de Rei,2
 Alandroal,1
 Alpiarça,1
