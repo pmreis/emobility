@@ -25,42 +25,42 @@ Amadora,62
 Aveiro,61
 Faro,60
 Seixal,57
+Torres Vedras,52
 Viana do Castelo,52
 Beja,51
 Évora,51
-Torres Vedras,50
 Funchal,48
 Vila do Conde,48
 Grândola,47
 Gondomar,46
 Santarém,46
 Maia,43
+Covilhã,41
 Mafra,41
 São João da Madeira,41
-Covilhã,40
 Penafiel,40
 Valongo,40
 Vila Nova de Famalicão,40
+Castelo Branco,38
 Mealhada,38
-Castelo Branco,37
 Ovar,37
 Santo Tirso,37
 Tomar,37
-Guarda,35
+Guarda,36
 Póvoa de Varzim,35
 Esposende,34
 Palmela,34
+Barcelos,33
 Odivelas,33
 Olhão,33
-Barcelos,31
+Caldas da Rainha,30
 "Lagoa, Faro",30
 Silves,30
 Vila Real,30
 Ílhavo,30
+Alcobaça,29
 Lagos,29
-Caldas da Rainha,28
 Paredes,28
-Alcobaça,27
 Nazaré,27
 Alcochete,26
 Cantanhede,25
@@ -77,12 +77,12 @@ Alenquer,19
 Amarante,19
 Estarreja,19
 Felgueiras,19
+Fundão,19
 Lourinhã,19
 Peniche,19
 Pombal,19
 Portalegre,19
 Tavira,19
-Fundão,18
 Ponte de Lima,18
 Óbidos,18
 Estremoz,17
@@ -93,6 +93,7 @@ Vila Verde,17
 Ponta Delgada,16
 Santa Cruz,16
 Sesimbra,16
+Lousada,15
 Moita,15
 Oliveira do Hospital,15
 Ribeira Grande,15
@@ -111,25 +112,24 @@ Trofa,14
 Vila do Bispo,14
 Angra do Heroísmo,13
 Arruda dos Vinhos,13
-Lousada,13
 Montemor-o-Novo,13
 Porto Santo,13
 Águeda,13
 Mirandela,12
 Arcos de Valdevez,11
+Bombarral,11
+Elvas,11
 Espinho,11
 Odemira,11
 Porto de Mós,11
+Rio Maior,11
 Salvaterra de Magos,11
 Santa Comba Dão,11
 Sines,11
 Vale de Cambra,11
 Batalha,10
-Bombarral,10
-Elvas,10
 Lousã,10
 Monção,10
-Rio Maior,10
 Castro Marim,9
 Condeixa-a-Nova,9
 Mangualde,9
@@ -150,6 +150,7 @@ Vila Real de Santo António,8
 Baião,7
 Castro Verde,7
 Horta,7
+Nelas,7
 Ponte de Sôr,7
 Proença-a-Nova,7
 Reguengos de Monsaraz,7
@@ -165,7 +166,6 @@ Cinfães,6
 Idanha-a-Nova,6
 Macedo de Cavaleiros,6
 Mira,6
-Nelas,6
 Penacova,6
 Penalva do Castelo,6
 Peso da Régua,6
