@@ -1,6 +1,6 @@
 City,Qty
 Lisboa,834
-Cascais,335
+Cascais,345
 Porto,250
 Oeiras,166
 Vila Nova de Gaia,162
@@ -20,8 +20,8 @@ Santa Maria da Feira,77
 Setúbal,72
 Albufeira,66
 Almada,66
+Amadora,63
 Portimão,63
-Amadora,62
 Aveiro,61
 Faro,60
 Seixal,57
@@ -39,12 +39,12 @@ Ovar,42
 Covilhã,41
 Mafra,41
 São João da Madeira,41
+Castelo Branco,40
 Penafiel,40
 Valongo,40
 Vila Nova de Famalicão,40
-Castelo Branco,38
+Santo Tirso,39
 Mealhada,38
-Santo Tirso,37
 Tomar,37
 Guarda,36
 Póvoa de Varzim,35
@@ -71,7 +71,9 @@ Chaves,24
 Albergaria-a-Velha,23
 Caminha,22
 Bragança,21
+Ponte de Lima,21
 Torres Novas,21
+Portalegre,20
 Abrantes,19
 Alenquer,19
 Amarante,19
@@ -82,23 +84,24 @@ Fundão,19
 Lourinhã,19
 Peniche,19
 Pombal,19
-Portalegre,19
 Tavira,19
-Ponte de Lima,18
 Óbidos,18
 Estremoz,17
 Marinha Grande,17
 Paços de Ferreira,17
 Vila Verde,17
+Oliveira do Hospital,16
 Ponta Delgada,16
 Santa Cruz,16
 Sesimbra,16
 Lousada,15
 Moita,15
-Oliveira do Hospital,15
+Oliveira do Bairro,15
 Ribeira Grande,15
 Santiago do Cacém,15
 Seia,15
+Tondela,15
+Trofa,15
 Alcácer do Sal,14
 Azambuja,14
 Benavente,14
@@ -106,9 +109,6 @@ Lamego,14
 Machico,14
 Marco de Canaveses,14
 Oliveira de Azeméis,14
-Oliveira do Bairro,14
-Tondela,14
-Trofa,14
 Vila do Bispo,14
 Angra do Heroísmo,13
 Arruda dos Vinhos,13
@@ -117,6 +117,7 @@ Porto Santo,13
 Águeda,13
 Elvas,12
 Mirandela,12
+Santa Comba Dão,12
 Arcos de Valdevez,11
 Batalha,11
 Bombarral,11
@@ -126,15 +127,15 @@ Odemira,11
 Porto de Mós,11
 Rio Maior,11
 Salvaterra de Magos,11
-Santa Comba Dão,11
 Sines,11
 Vale de Cambra,11
 Monção,10
+Vendas Novas,10
 Castro Marim,9
 Condeixa-a-Nova,9
 Mangualde,9
 Montemor-o-Velho,9
-Vendas Novas,9
+Terras de Bouro,9
 Alcanena,8
 Aljustrel,8
 Almeida,8
@@ -145,7 +146,7 @@ Coruche,8
 Entroncamento,8
 Miranda do Douro,8
 Praia da Vitória,8
-Terras de Bouro,8
+Tábua,8
 Vila Pouca de Aguiar,8
 Vila Real de Santo António,8
 Baião,7
@@ -157,7 +158,6 @@ Ponte de Sôr,7
 Proença-a-Nova,7
 Reguengos de Monsaraz,7
 São Brás de Alportel,7
-Tábua,7
 Vagos,7
 Valença,7
 Vila Nova de Cerveira,7
