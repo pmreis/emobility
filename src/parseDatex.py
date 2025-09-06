@@ -217,13 +217,12 @@ def insert_or_update_chargers(conn, data):
             if(existingChargerData != charger['Data']):
                 cursor.execute('''
                     UPDATE Chargers
-                    SET Country = ?, OperatorAbb = ?, City = ?, InsertedDate = ?, Lat = ?, Lon = ?
+                    SET Country = ?, OperatorAbb = ?, City = ?, Lat = ?, Lon = ?
                     WHERE ChargerId = ?
                 ''', (
                     charger['Country'],
                     charger['OperatorAbb'],
                     charger['City'],
-                    charger['InsertedDate'],
                     charger['Lat'],
                     charger['Lon'],
                     charger['ChargerId']
