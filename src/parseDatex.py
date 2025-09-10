@@ -262,13 +262,13 @@ def generate_output_csvs(conn):
         ),
         cte1 as (
             select
-                c.OperatorAbb 'Operator',
+                o.OperatorAbb 'Operator',
                 o.OperatorName,
-                count(1) as 'Qty'
+                count(c.OperatorAbb) as 'Qty'
             from Chargers c
-            join Operators o on o.OperatorAbb = c.OperatorAbb
-            where Country = 'PT'
-            group by c.OperatorAbb
+            right join Operators o on o.OperatorAbb = c.OperatorAbb
+            where o.CountryIso = 'PT'
+            group by o.OperatorAbb
             order by Qty desc
         ),
         cte2 as (
