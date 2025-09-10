@@ -1,8 +1,8 @@
 City,Qty
-Lisboa,840
+Lisboa,841
 Cascais,345
 Porto,251
-Oeiras,173
+Oeiras,174
 Vila Nova de Gaia,162
 Loulé,157
 Sintra,149
@@ -53,6 +53,7 @@ Palmela,34
 Barcelos,33
 Odivelas,33
 Olhão,33
+Paredes,32
 Silves,31
 Caldas da Rainha,30
 "Lagoa, Faro",30
@@ -61,7 +62,6 @@ Vila Real,30
 Alcobaça,29
 Lagos,29
 Nazaré,28
-Paredes,28
 Alcochete,27
 Cantanhede,26
 Figueira da Foz,26
@@ -182,6 +182,7 @@ Cartaxo,5
 Celorico de Basto,5
 Chamusca,5
 Gouveia,5
+Melgaço,5
 Oliveira de Frades,5
 Sabugal,5
 Serpa,5
@@ -198,7 +199,6 @@ Arouca,4
 Carregal do Sal,4
 Câmara de Lobos,4
 Manteigas,4
-Melgaço,4
 Mondim de Basto,4
 Montalegre,4
 Murtosa,4
