@@ -67,29 +67,34 @@ order by Qty desc, City asc;
 
 
 with recursive
-    countAllChargers as (
-        select count(1) total
-        from Chargers
-    ),
-    cte1 as (
-        select
-            OperatorAbb party_id,
-            count(1) as 'count'
-        from Chargers
-        group by OperatorAbb
-        order by count desc
-    ),
-    cte2 as (
-        select
-            row_number() over() idx,
-            cte1.*,
-            cast(cte1.count as real) / cast(countAllChargers.total as real) mrkt_shr
-        from cte1, countAllChargers
-    )
+countAllChargers as (
+    select count(1) total
+    from Chargers
+    where Country = 'PT'
+),
+cte1 as (
+    select
+        o.OperatorAbb 'Operator',
+        o.OperatorName,
+        count(c.OperatorAbb) as 'Qty'
+    from Chargers c
+    right join Operators o on o.OperatorAbb = c.OperatorAbb
+    where o.CountryIso = 'PT'
+    group by o.OperatorAbb
+    order by Qty desc
+),
+cte2 as (
+    select
+    row_number() over() 'Rank',
+    cte1.*,
+    cast(cte1.Qty as real) / cast(countAllChargers.total as real) 'MarketShare'
+    from cte1, countAllChargers
+)
 select
-    cte2.*,
-    sum(mrkt_shr) over (order by idx) mrkt_shr_acc
+cte2.*,
+sum(MarketShare) over (order by Rank) 'CumulativeMarketShare'
 from cte2;
+
 
 alter table Chargers
 rename column DeployDate to InsertedDate;
