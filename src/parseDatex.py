@@ -258,26 +258,28 @@ def generate_output_csvs(conn):
         countAllChargers as (
             select count(1) total
             from Chargers
+            where Country = 'PT'
         ),
         cte1 as (
             select
-                OperatorAbb party_id,
-            count(1) as 'count'
+                OperatorAbb 'Operator',
+                count(1) as 'Qty'
             from Chargers
+            where Country = 'PT'
             group by OperatorAbb
-            order by count desc
+            order by Qty desc
         ),
         cte2 as (
             select
-            row_number() over() idx,
+            row_number() over() 'Rank',
             cte1.*,
-            cast(cte1.count as real) / cast(countAllChargers.total as real) mrkt_shr
+            cast(cte1.Qty as real) / cast(countAllChargers.total as real) 'MarketShare'
             from cte1, countAllChargers
         )
-    select
+        select
         cte2.*,
-        sum(mrkt_shr) over (order by idx) mrkt_shr_acc
-    from cte2
+        sum(MarketShare) over (order by Rank) 'CumulativeMarketShare'
+        from cte2;
     ''', conn)
 
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Market_Share_Analysis.csv')
@@ -285,27 +287,42 @@ def generate_output_csvs(conn):
 
     # Output Operators as CSV
     data = pd.read_sql_query('''
-        select * from Operators order by OperatorAbb
+        select *
+        from Operators
+        where CountryIso = 'PT'
+        order by OperatorAbb;
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Operators.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
     # Output Chargers as CSV
     data = pd.read_sql_query('''
-        select * from Chargers order by ChargerId
+        select ChargerId,
+            OperatorAbb,
+            City,
+            InsertedDate,
+            Status,
+            Lat,
+            Lon
+        from Chargers
+        where Country = 'PT'
+        order by ChargerId;
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
     # Output Today's New Chargers as CSV
     data = pd.read_sql_query('''
-        select ChargerId,
-            OperatorAbb,
-            City,
-            Lat,
-            Lon
+        select c.ChargerId,
+            c.OperatorAbb,
+            o.OperatorName,
+            c.City,
+            c.Lat,
+            c.Lon
         from Chargers c
+        join Operators o on o.OperatorAbb = c.OperatorAbb
         where c.InsertedDate = date('now')
+            and c.Country = 'PT'
         order by ChargerId;
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_New_Today.csv')
@@ -315,6 +332,7 @@ def generate_output_csvs(conn):
     data = pd.read_sql_query('''
         select City, count(1) Qty
         from Chargers
+        where Country = 'PT'
         group by City
         order by Qty desc, City asc;
     ''', conn)
@@ -327,6 +345,7 @@ def generate_output_csvs(conn):
         from Chargers c
         join Concelhos cc on cc.Alias = c.City
         join Distritos d on d.Id = cc.Distrito
+        where c.Country = 'PT'
         group by d.Id
         order by Qty desc, d.Distrito asc;
     ''', conn)
