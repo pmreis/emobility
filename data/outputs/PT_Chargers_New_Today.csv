@@ -1,8 +1,8 @@
-ChargerId,OperatorAbb,City,Lat,Lon
-LSB-01021,EML,Lisboa,38.755558,-9.141025
-MLG-00008,MOT,Melgaço,42.109318,-8.261032
-OER-00268,DTE,Oeiras,38.729694,-9.222799
-PRD-00037,GLP,Paredes,41.2052,-8.330962
-PRD-00038,GLP,Paredes,41.2052,-8.330962
-PRD-00039,GLP,Paredes,41.2052,-8.330962
-PRD-00040,GLP,Paredes,41.2052,-8.330962
+ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
+LSB-01021,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.755558,-9.141025
+MLG-00008,MOT,Mota-Engil Renewing,Melgaço,42.109318,-8.261032
+OER-00268,DTE,"DTE, Instalacoes Especiais",Oeiras,38.729694,-9.222799
+PRD-00037,GLP,Galp Power OPC,Paredes,41.2052,-8.330962
+PRD-00038,GLP,Galp Power OPC,Paredes,41.2052,-8.330962
+PRD-00039,GLP,Galp Power OPC,Paredes,41.2052,-8.330962
+PRD-00040,GLP,Galp Power OPC,Paredes,41.2052,-8.330962
