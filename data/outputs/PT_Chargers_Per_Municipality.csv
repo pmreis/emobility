@@ -1,6 +1,6 @@
 City,Qty
 Lisboa,841
-Cascais,345
+Cascais,346
 Porto,251
 Oeiras,174
 Vila Nova de Gaia,162
@@ -31,8 +31,8 @@ Viana do Castelo,52
 Évora,51
 Funchal,48
 Vila do Conde,48
+Gondomar,47
 Grândola,47
-Gondomar,46
 Santarém,46
 Ovar,44
 Maia,43
@@ -47,18 +47,18 @@ Mealhada,39
 Santo Tirso,39
 Tomar,38
 Guarda,36
+Palmela,36
 Póvoa de Varzim,35
 Esposende,34
-Palmela,34
 Barcelos,33
 Odivelas,33
 Olhão,33
 Paredes,32
 Silves,31
+Ílhavo,31
 Caldas da Rainha,30
 "Lagoa, Faro",30
 Vila Real,30
-Ílhavo,30
 Alcobaça,29
 Lagos,29
 Nazaré,28
@@ -91,11 +91,11 @@ Estremoz,17
 Paços de Ferreira,17
 Vila Verde,17
 Lamego,16
+Lousada,16
 Oliveira do Hospital,16
 Ponta Delgada,16
 Santa Cruz,16
 Sesimbra,16
-Lousada,15
 Moita,15
 Oliveira do Bairro,15
 Ribeira Grande,15
@@ -169,6 +169,7 @@ Idanha-a-Nova,6
 Macedo de Cavaleiros,6
 Mira,6
 Miranda do Corvo,6
+Oliveira de Frades,6
 Penalva do Castelo,6
 Peso da Régua,6
 Póvoa de Lanhoso,6
@@ -183,7 +184,6 @@ Celorico de Basto,5
 Chamusca,5
 Gouveia,5
 Melgaço,5
-Oliveira de Frades,5
 Sabugal,5
 Serpa,5
 Sertã,5
