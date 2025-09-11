@@ -52,7 +52,7 @@ def parse_datex(xml_file):
         # Operator
         operator_abb_elem = site.find('.//ns6:refillPoint/ns4:externalIdentifier', ns)
         if operator_abb_elem is not None:
-            operator_abb = site.find('.//ns6:refillPoint/ns4:externalIdentifier', ns).text.split('*')[1][:3]
+            operator_abb = operator_abb_elem.text.split('*')[1][:3]
         else:
             # The refillPoint ID might have either an asterisk (*) as separator or a hyphen (-)
             refillId = site.find('.//ns6:refillPoint', ns).get('id').strip()
@@ -95,7 +95,7 @@ def parse_datex(xml_file):
         for refill_point in site.findall('.//ns6:refillPoint', ns):
             plug_element = refill_point.find('.//ns4:externalIdentifier', ns)
             if plug_element is not None:
-                plug_id = refill_point.find('.//ns4:externalIdentifier', ns).text.strip()
+                plug_id = plug_element.text.strip()
             else:
                 # The refillPoint ID might have either an asterisk (*) as separator or a hyphen (-)
                 refillId = refill_point.get('id').strip()
