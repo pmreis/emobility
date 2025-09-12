@@ -1,0 +1,79 @@
+<ns4:payload xmlns="http://datex2.eu/schema/3/common" xmlns:ns2="http://datex2.eu/schema/3/facilities" xmlns:ns3="http://datex2.eu/schema/3/energyInfrastructure" xmlns:ns4="http://datex2.eu/schema/3/d2Payload" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns3:EnergyInfrastructureStatusPublication" lang="pt" modelBaseVersion="3">
+    <publicationTime>2025-07-12T13:10:02.301Z</publicationTime>
+    <publicationCreator>
+        <country>pt</country>
+        <nationalIdentifier>mobie</nationalIdentifier>
+    </publicationCreator>
+    <ns3:energyInfrastructureSiteStatus>
+        <ns2:reference targetClass="fac:FacilityObject" id="AMD-00051"/>
+        <ns3:energyInfrastructureStationStatus>
+            <ns2:reference targetClass="fac:FacilityObject" id="AMD-00051"/>
+            <ns3:refillPointStatus xsi:type="ns3:ElectricChargingPointStatus">
+                <ns2:reference targetClass="fac:FacilityObject" id="AMD-00051-1"/>
+                <ns3:status>unknown</ns3:status>
+                <ns3:electricEnergyMixOverride energyMixIndex="1">
+                    <ns3:rates xsi:type="ns2:GeneralRateInformation">
+                        <ns2:energyPricingPolicy>
+                            <ns3:pricingPolicy>pricePerDeliveryUnit</ns3:pricingPolicy>
+                            <ns3:minimumDeliveryFee>0.10</ns3:minimumDeliveryFee>
+                        </ns2:energyPricingPolicy>
+                    </ns3:rates>
+                </ns3:electricEnergyMixOverride>
+                <ns3:electricEnergyMixOverride energyMixIndex="2">
+                    <ns3:rates xsi:type="ns2:GeneralRateInformation">
+                        <ns2:energyPricingPolicy>
+                            <ns3:pricingPolicy>flatRate</ns3:pricingPolicy>
+                            <ns3:minimumDeliveryFee>0.26</ns3:minimumDeliveryFee>
+                        </ns2:energyPricingPolicy>
+                    </ns3:rates>
+                </ns3:electricEnergyMixOverride>
+            </ns3:refillPointStatus>
+        </ns3:energyInfrastructureStationStatus>
+    </ns3:energyInfrastructureSiteStatus>
+    <ns3:energyInfrastructureSiteStatus>
+        <ns2:reference targetClass="fac:FacilityObject" id="GMR-00022"/>
+        <ns3:energyInfrastructureStationStatus>
+            <ns2:reference targetClass="fac:FacilityObject" id="GMR-00022"/>
+            <ns3:refillPointStatus xsi:type="ns3:ElectricChargingPointStatus">
+                <ns2:reference targetClass="fac:FacilityObject" id="GMR-00022-01"/>
+                <ns3:status>available</ns3:status>
+                <ns3:electricEnergyMixOverride energyMixIndex="1">
+                    <ns3:rates xsi:type="ns2:GeneralRateInformation">
+                        <ns2:energyPricingPolicy>
+                            <ns3:pricingPolicy>pricePerChargingTime</ns3:pricingPolicy>
+                            <ns3:minimumDeliveryFee>0.05</ns3:minimumDeliveryFee>
+                        </ns2:energyPricingPolicy>
+                    </ns3:rates>
+                </ns3:electricEnergyMixOverride>
+                <ns3:electricEnergyMixOverride energyMixIndex="2">
+                    <ns3:rates xsi:type="ns2:GeneralRateInformation">
+                        <ns2:energyPricingPolicy>
+                            <ns3:pricingPolicy>flatRate</ns3:pricingPolicy>
+                            <ns3:minimumDeliveryFee>0.10</ns3:minimumDeliveryFee>
+                        </ns2:energyPricingPolicy>
+                    </ns3:rates>
+                </ns3:electricEnergyMixOverride>
+            </ns3:refillPointStatus>
+            <ns3:refillPointStatus xsi:type="ns3:ElectricChargingPointStatus">
+                <ns2:reference targetClass="fac:FacilityObject" id="GMR-00022-02"/>
+                <ns3:status>available</ns3:status>
+                <ns3:electricEnergyMixOverride energyMixIndex="1">
+                    <ns3:rates xsi:type="ns2:GeneralRateInformation">
+                        <ns2:energyPricingPolicy>
+                            <ns3:pricingPolicy>pricePerChargingTime</ns3:pricingPolicy>
+                            <ns3:minimumDeliveryFee>0.05</ns3:minimumDeliveryFee>
+                        </ns2:energyPricingPolicy>
+                    </ns3:rates>
+                </ns3:electricEnergyMixOverride>
+                <ns3:electricEnergyMixOverride energyMixIndex="2">
+                    <ns3:rates xsi:type="ns2:GeneralRateInformation">
+                        <ns2:energyPricingPolicy>
+                            <ns3:pricingPolicy>flatRate</ns3:pricingPolicy>
+                            <ns3:minimumDeliveryFee>0.10</ns3:minimumDeliveryFee>
+                        </ns2:energyPricingPolicy>
+                    </ns3:rates>
+                </ns3:electricEnergyMixOverride>
+            </ns3:refillPointStatus>
+        </ns3:energyInfrastructureStationStatus>
+    </ns3:energyInfrastructureSiteStatus>
+</ns4:payload>
