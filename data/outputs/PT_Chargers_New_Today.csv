@@ -1,5 +1,17 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-LSB-01017,MOA,"MOBI A - Mobilidade e Ambiente, Lda",Lisboa,38.747356,-9.187987
-VNF-00060,GLP,Galp Power OPC,Vila Nova de Famalicão,41.41516,-8.519926
-VNG-00214,MAK,Maksu,Vila Nova de Gaia,41.13873,-8.609518
-VNG-00215,MAK,Maksu,Vila Nova de Gaia,41.13873,-8.609518
+AVR-00081,MAK,Maksu,Aveiro,40.642212,-8.6577
+FNC-00047,EMA,"EMACOM - Telecomunicações da Madeira, Unipessoal, Lda",Funchal,32.647247,-16.9031
+FNC-00048,EMA,"EMACOM - Telecomunicações da Madeira, Unipessoal, Lda",Funchal,32.64736,-16.903126
+GRD-00049,EDP,EDP Comercial,Guarda,40.554203,-7.242541
+GRD-00051,EDP,EDP Comercial,Guarda,40.54438,-7.245912
+GRD-00052,EDP,EDP Comercial,Guarda,40.53045,-7.257741
+GRD-00053,EDP,EDP Comercial,Guarda,40.532032,-7.262236
+GRD-00055,EDP,EDP Comercial,Guarda,40.54179,-7.259612
+LRA-00169,CPS,Cepsa Portuguesa Petroleos,Leiria,39.740604,-8.799175
+MOBI-BRG-00047,EDP,EDP Comercial,Braga,41.563217,-8.429687
+NLS-00009,EDP,EDP Comercial,Nelas,40.52116,-7.861531
+NLS-00010,EDP,EDP Comercial,Nelas,40.52116,-7.861531
+OER-00258,EDP,EDP Comercial,Oeiras,38.726135,-9.222437
+PSR-00012,CPS,Cepsa Portuguesa Petroleos,Ponte de Sôr,39.24554,-8.01722
+VLF-00006,EDP,EDP Comercial,Vila Nova de Foz Côa,41.079063,-7.138216
+VLF-00007,EDP,EDP Comercial,Vila Nova de Foz Côa,41.079063,-7.138216
