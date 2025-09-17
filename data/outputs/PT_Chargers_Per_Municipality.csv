@@ -2,17 +2,17 @@ City,Qty
 Lisboa,842
 Cascais,346
 Porto,251
-Oeiras,174
+Oeiras,175
 Vila Nova de Gaia,164
 Loulé,160
 Sintra,150
 Barreiro,125
 Matosinhos,124
 Loures,118
-Braga,113
+Braga,114
 Guimarães,111
+Leiria,98
 Vila Franca de Xira,98
-Leiria,97
 Coimbra,95
 Viseu,94
 Montijo,92
@@ -22,14 +22,14 @@ Albufeira,69
 Almada,67
 Amadora,63
 Portimão,63
-Aveiro,61
+Aveiro,62
 Faro,60
 Seixal,60
 Torres Vedras,53
 Beja,52
 Viana do Castelo,52
 Évora,51
-Funchal,48
+Funchal,50
 Vila do Conde,48
 Gondomar,47
 Grândola,47
@@ -39,6 +39,7 @@ Maia,43
 Valongo,42
 Castelo Branco,41
 Covilhã,41
+Guarda,41
 Mafra,41
 São João da Madeira,41
 Vila Nova de Famalicão,41
@@ -46,7 +47,6 @@ Penafiel,40
 Mealhada,39
 Santo Tirso,39
 Tomar,38
-Guarda,36
 Palmela,36
 Póvoa de Varzim,35
 Esposende,34
@@ -137,6 +137,7 @@ Vendas Novas,10
 Alcanena,9
 Castro Marim,9
 Entroncamento,9
+Nelas,9
 Terras de Bouro,9
 Aljustrel,8
 Almeida,8
@@ -145,6 +146,7 @@ Cabeceiras de Basto,8
 Celorico da Beira,8
 Coruche,8
 Miranda do Douro,8
+Ponte de Sôr,8
 Praia da Vitória,8
 Tábua,8
 Vila Pouca de Aguiar,8
@@ -152,9 +154,7 @@ Vila Real de Santo António,8
 Baião,7
 Castro Verde,7
 Horta,7
-Nelas,7
 Penacova,7
-Ponte de Sôr,7
 Proença-a-Nova,7
 Reguengos de Monsaraz,7
 São Brás de Alportel,7
@@ -176,6 +176,7 @@ Póvoa de Lanhoso,6
 São Pedro do Sul,6
 Viana do Alentejo,6
 Vila Franca do Campo,6
+Vila Nova de Foz Côa,6
 Aljezur,5
 Alvaiázere,5
 Arganil,5
@@ -209,7 +210,6 @@ Santa Cruz da Graciosa,4
 Sernancelhe,4
 Soure,4
 Sátão,4
-Vila Nova de Foz Côa,4
 Vila Nova de Paiva,4
 Vila do Porto,4
 Aguiar da Beira,3
