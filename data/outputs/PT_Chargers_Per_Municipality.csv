@@ -1,10 +1,10 @@
 City,Qty
 Lisboa,842
-Cascais,346
+Cascais,356
 Porto,251
 Oeiras,175
 Vila Nova de Gaia,164
-Loulé,160
+Loulé,161
 Sintra,150
 Barreiro,125
 Matosinhos,124
@@ -20,8 +20,8 @@ Santa Maria da Feira,77
 Setúbal,72
 Albufeira,69
 Almada,67
+Portimão,64
 Amadora,63
-Portimão,63
 Aveiro,62
 Faro,60
 Seixal,60
@@ -71,11 +71,11 @@ Chaves,24
 Albergaria-a-Velha,23
 Caminha,22
 Torres Novas,22
+Amarante,21
 Bragança,21
 Estarreja,21
 Ponte de Lima,21
 Abrantes,20
-Amarante,20
 Felgueiras,20
 Pombal,20
 Portalegre,20
@@ -92,12 +92,12 @@ Paços de Ferreira,17
 Vila Verde,17
 Lamego,16
 Lousada,16
+Oliveira do Bairro,16
 Oliveira do Hospital,16
 Ponta Delgada,16
 Santa Cruz,16
 Sesimbra,16
 Moita,15
-Oliveira do Bairro,15
 Ribeira Grande,15
 Santiago do Cacém,15
 Seia,15
@@ -117,6 +117,7 @@ Porto Santo,13
 Águeda,13
 Elvas,12
 Mirandela,12
+Salvaterra de Magos,12
 Santa Comba Dão,12
 Vale de Cambra,12
 Arcos de Valdevez,11
@@ -128,7 +129,6 @@ Mangualde,11
 Odemira,11
 Porto de Mós,11
 Rio Maior,11
-Salvaterra de Magos,11
 Sines,11
 Condeixa-a-Nova,10
 Montemor-o-Velho,10
