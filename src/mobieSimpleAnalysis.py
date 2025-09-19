@@ -8,7 +8,7 @@ BASE_DATA_PATH = Path(
 )
 
 mobieInPath = osp.normpath(f"{BASE_DATA_PATH}/sources/mobie_locations.json")
-analysisOutPath = osp.normpath(f"{BASE_DATA_PATH}/outputs/PT_Market_Share_Analysis.csv")
+analysisOutPath = osp.normpath(f"{BASE_DATA_PATH}/outputs/simpleAnalysis.csv")
 
 df = pd.read_json(mobieInPath)
 dfnorm = pd.json_normalize(df["data"])
