@@ -259,6 +259,7 @@ def generate_output_csvs(conn):
             select count(1) total
             from Chargers
             where Country = 'PT'
+                and Status = 'Present'
         ),
         cte1 as (
             select
@@ -268,6 +269,7 @@ def generate_output_csvs(conn):
             from Chargers c
             right join Operators o on o.OperatorAbb = c.OperatorAbb
             where o.CountryIso = 'PT'
+                and Status = 'Present'
             group by o.OperatorAbb
             order by Qty desc
         ),
@@ -335,6 +337,7 @@ def generate_output_csvs(conn):
         select City, count(1) Qty
         from Chargers
         where Country = 'PT'
+            and Status = 'Present'
         group by City
         order by Qty desc, City asc;
     ''', conn)
@@ -348,6 +351,7 @@ def generate_output_csvs(conn):
         join Concelhos cc on cc.Alias = c.City
         join Distritos d on d.Id = cc.Distrito
         where c.Country = 'PT'
+            and Status = 'Present'
         group by d.Id
         order by Qty desc, d.Distrito asc;
     ''', conn)
