@@ -1,8 +1,8 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ACH-00039,EDP,EDP Comercial,Alcochete,38.719303,-8.960274
-LSB-00883,MAK,Maksu,Lisboa,38.7271,-9.161716
-LSB-00884,MAK,Maksu,Lisboa,38.7271,-9.161716
-LSB-00986,MAK,Maksu,Lisboa,38.716797,-9.142916
-LSB-00987,MAK,Maksu,Lisboa,38.716797,-9.142916
-PNI-00026,GLP,Galp Power OPC,Peniche,39.354687,-9.379878
-PNI-00027,GLP,Galp Power OPC,Peniche,39.3547,-9.379935
+AVR-00096,EVA,"EVAZ Energy, LDA",Aveiro,40.62778,-8.645427
+CDV-00002,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Cadaval,39.2812,-9.0588
+LSB-01022,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.732906,-9.142846
+VFX-00104,GLP,Galp Power OPC,Vila Franca de Xira,38.86152,-9.062429
+VFX-00105,GLP,Galp Power OPC,Vila Franca de Xira,38.852364,-9.07385
+VLC-00016,MOT,Mota-Engil Renewing,Vale de Cambra,40.855,-8.4
+VLC-00017,MOT,Mota-Engil Renewing,Vale de Cambra,40.829,-8.398
