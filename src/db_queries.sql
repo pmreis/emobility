@@ -212,3 +212,29 @@ where ChargerId in (
     where Status = 'Removed'
         and InsertedDate < date('now', '-90 days')
 );
+
+with
+klsChargers as (
+    select *
+    from Chargers c
+    where c.OperatorAbb in ('KLS')
+        and c.Status = 'Present'
+),
+galpChargers as (
+    select *
+    from Chargers c
+    where c.OperatorAbb in ('GLP')
+        and c.Status = 'Present'
+)
+select
+    k.ChargerId as 'Id KLS',
+        k.Lat ||',' || k.Lon 'geoKLC',
+    g.ChargerId as 'Id GLP'
+        , g.Lat ||',' || g.Lon 'geoGLP'
+from klsChargers k
+join galpChargers g on abs(g.Lat - k.Lat) < 0.0013
+    and abs(g.Lon - k.Lon) < 0.0013
+where
+    cast(substr(k.ChargerId, 5, 5) as integer) < cast(substr(g.ChargerId, 5, 5) as integer)
+    and substr(g.ChargerId, 5, 1) <> '9'
+order by k.ChargerId;
