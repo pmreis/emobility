@@ -66,20 +66,22 @@ group by City
 order by Qty desc, City asc;
 
 
-with recursive
+with
 countAllChargers as (
     select count(1) total
     from Chargers
     where Country = 'PT'
+        and Status = 'Present'
 ),
 cte1 as (
     select
         o.OperatorAbb 'Operator',
         o.OperatorName,
         count(c.OperatorAbb) as 'Qty'
-    from Chargers c
-    right join Operators o on o.OperatorAbb = c.OperatorAbb
-    where o.CountryIso = 'PT'
+    from Operators o
+    left join Chargers c on c.OperatorAbb = o.OperatorAbb
+        and o.CountryIso = 'PT'
+        and c.Status = 'Present'
     group by o.OperatorAbb
     order by Qty desc
 ),
