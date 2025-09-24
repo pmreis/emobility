@@ -99,7 +99,7 @@ In August 2025, Portugal overhauled the RJME via Decree-Law 93/2025 to align wit
 
 ### Portugal - Mobi.e
 
-During the transition period (until December 31, 2025), Mobi.e will provide data to the official National Access Point (IMT).
+During the transition period (until December 31, 2026), Mobi.e will provide data to the official National Access Point (IMT).
 
 #### Deployed chargers in the last 30 days
 
