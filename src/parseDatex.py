@@ -134,8 +134,8 @@ def insert_operators(conn, data):
 
     for operator in data['operators']:
         cursor.execute('''
-            INSERT OR IGNORE INTO Operators (OperatorAbb, OperatorOtherAbb, OperatorName, CountryIso, Tin, Phone)
-            VALUES (?, ?, ?, ?, ?, ?)
+            insert or ignore into Operators (OperatorAbb, OperatorOtherAbb, OperatorName, CountryIso, Tin, Phone)
+            values (?, ?, ?, ?, ?, ?);
         ''', (
             operator['OperatorAbb'],
             operator['OperatorOtherAbb'],
@@ -159,8 +159,8 @@ def insert_tmp_chargers(conn, data):
 
     for charger in data['chargers']:
         cursor.execute('''
-            INSERT INTO TempChargers (ChargerId)
-            VALUES (?)
+            insert into TempChargers (ChargerId)
+            values (?);
         ''', (
             charger['ChargerId'],
         ))
@@ -171,7 +171,7 @@ def insert_tmp_chargers(conn, data):
             where ChargerId not in (
                 select ChargerId
                 from TempChargers
-            )
+            );
         ''')
 
     cursor.execute('''
@@ -180,7 +180,21 @@ def insert_tmp_chargers(conn, data):
         where ChargerId in (
             select ChargerId
             from TempChargers
-        )
+        );
+    ''')
+
+    cursor.execute('''
+        update Chargers
+        set Status = 'Present'
+        where ChargerId in (
+            select ChargerId
+            from TempChargers
+        );
+    ''')
+
+    cursor.execute('''
+        delete from Plugs
+        where ChargerId in (select ChargerId from TempChargers);
     ''')
 
     cursor.execute('drop table TempChargers')
@@ -193,12 +207,12 @@ def insert_or_update_chargers(conn, data):
 
     for charger in data['chargers']:
         chargerId = charger['ChargerId']
-        cursor.execute('SELECT CONCAT(ChargerId, Country, OperatorAbb, City, Lat, Lon) FROM Chargers WHERE ChargerId = ?', (chargerId,))
+        cursor.execute('select concat(ChargerId, Country, OperatorAbb, City, Lat, Lon) from Chargers where ChargerId = ?;', (chargerId,))
         row = cursor.fetchone()
         if(row is None):
             cursor.execute('''
-                INSERT OR IGNORE INTO Chargers (ChargerId, Country, OperatorAbb, City, InsertedDate, Lat, Lon)
-                VALUES (?, ?, ?, ?, ?, ?, ?)
+                insert or ignore into Chargers (ChargerId, Country, OperatorAbb, City, InsertedDate, Lat, Lon)
+                values (?, ?, ?, ?, ?, ?, ?);
             ''', (
                 charger['ChargerId'],
                 charger['Country'],
@@ -216,9 +230,9 @@ def insert_or_update_chargers(conn, data):
             existingChargerData = row[0]
             if(existingChargerData != charger['Data']):
                 cursor.execute('''
-                    UPDATE Chargers
-                    SET Country = ?, OperatorAbb = ?, City = ?, Lat = ?, Lon = ?
-                    WHERE ChargerId = ?
+                    update Chargers
+                    set Country = ?, OperatorAbb = ?, City = ?, Lat = ?, Lon = ?
+                    where ChargerId = ?;
                 ''', (
                     charger['Country'],
                     charger['OperatorAbb'],
@@ -237,8 +251,8 @@ def insert_plugs(conn, data):
     # Inserir plugs
     for plug in data['plugs']:
         cursor.execute('''
-            INSERT OR IGNORE INTO Plugs (ChargerId, PlugId, PlugDesign, Voltage, Current, MaxPower)
-            VALUES (?, ?, ?, ?, ?, ?)
+            insert or ignore into Plugs (ChargerId, PlugId, PlugDesign, Voltage, Current, MaxPower)
+            values (?, ?, ?, ?, ?, ?);
         ''', (
             plug['ChargerId'],
             plug['PlugId'],
@@ -376,8 +390,8 @@ def main():
     data = parse_datex(xml_file)
     insert_operators(conn, data)
     insert_or_update_chargers(conn, data)
-    insert_plugs(conn, data)
     insert_tmp_chargers(conn, data)
+    insert_plugs(conn, data)
     generate_output_csvs(conn)
 
     conn.execute("VACUUM")
