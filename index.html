@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>CSV Viewer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/datatables.net-dt@1.13.6/css/jquery.dataTables.min.css">
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+    h1 { font-size: 1.6rem; margin-bottom: 0.5rem; }
+    .card { background: #fff; border-radius: 12px; padding: 16px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+    table.dataTable thead th { font-weight: 600; }
+  </style>
+</head>
+<body>
+  <h1>CSV Viewer</h1>
+  <div class="card">
+    <table id="csv-table" class="display" style="width:100%"></table>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/datatables.net@1.13.6/js/jquery.dataTables.min.js"></script>
+
+  <script>
+    // Change this to the CSV path in your repo (relative to this HTML)
+    const CSV_PATH = "https://github.com/pmreis/emobility/blob/main/data/test.csv";
+
+    function isURL(s) {
+      return /^https?:\/\//i.test(s);
+    }
+
+    Papa.parse(CSV_PATH, {
+      download: true,
+      header: true,
+      skipEmptyLines: true,
+      complete: function(results) {
+        const data = results.data;
+        if (!data.length) {
+          document.getElementById('csv-table').innerHTML = '<tr><td>No data</td></tr>';
+          return;
+        }
+        const cols = Object.keys(data[0]).map(k => ({ title: k, data: k }));
+        // transform cells: linkify urls
+        const transformed = data.map(row => {
+          const r = {};
+          for (const k in row) {
+            const v = (row[k] == null) ? "" : String(row[k]);
+            r[k] = isURL(v) ? `<a href="${v}" target="_blank" rel="noopener noreferrer">${(new URL(v)).hostname}</a>` : v;
+          }
+          return r;
+        });
+
+        $('#csv-table').DataTable({
+          data: transformed,
+          columns: cols,
+          pageLength: 10,
+          autoWidth: false,
+          order: [],
+          columnDefs: [{ targets: "_all", render: function(data){ return data; } }]
+        });
+      },
+      error: function(err){ console.error(err); }
+    });
+  </script>
+</body>
+</html>
