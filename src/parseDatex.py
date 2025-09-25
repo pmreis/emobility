@@ -372,14 +372,26 @@ def generate_output_csvs(conn):
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Per_District.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
-    # Output Plugs
+    # Output Plugs Pt1 and Pt2
     data = pd.read_sql_query('''
         select p.ChargerId, p.PlugId, p.MaxPower
         from Plugs p
         where p.PlugDesign != 'chademo'
-        order by p.ChargerId, p.PlugId;
+            and substr(p.ChargerId, 1, 1) <= 'L'
+        order by p.ChargerId, p.PlugId
     ''', conn)
-    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Plugs_NonChademo.csv')
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Plugs_NonChademo_1.csv')
+    data.to_csv(filepath, sep=",", index=None, mode="w")
+
+    data = pd.read_sql_query('''
+        select p.ChargerId, p.PlugId, p.MaxPower
+        from Plugs p
+        where p.PlugDesign != 'chademo'
+            and substr(p.ChargerId, 1, 1) > 'L'
+        order by p.ChargerId, p.PlugId
+
+    ''', conn)
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Plugs_NonChademo_2.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
 def main():
