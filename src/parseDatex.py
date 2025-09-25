@@ -161,18 +161,16 @@ def insert_tmp_chargers(conn, data):
         cursor.execute('''
             insert into TempChargers (ChargerId)
             values (?);
-        ''', (
-            charger['ChargerId'],
-        ))
+        ''', (charger['ChargerId'],))
 
     cursor.execute('''
-            update Chargers
-            set Status = 'Removed'
-            where ChargerId not in (
-                select ChargerId
-                from TempChargers
-            );
-        ''')
+        update Chargers
+        set Status = 'Removed'
+        where ChargerId not in (
+            select ChargerId
+            from TempChargers
+        );
+    ''')
 
     cursor.execute('''
         update Chargers
