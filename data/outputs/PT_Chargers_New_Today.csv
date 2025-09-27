@@ -1,7 +1,10 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-PLM-00057,EDP,EDP Comercial,Palmela,38.566986,-8.940771
-SNT-00208,HRZ,"Powerdot, S.A",Sintra,38.782578,-9.301332
-SNT-00209,HRZ,"Powerdot, S.A",Sintra,38.782578,-9.301332
-SNT-00210,HRZ,"Powerdot, S.A",Sintra,38.782578,-9.301332
-VLG-00054,GLP,Galp Power OPC,Valongo,41.183132,-8.473435
-VNH-00002,EDP,EDP Comercial,Vinhais,41.830013,-7.010247
+ACB-00025,EDP,EDP Comercial,Alcobaça,39.4239,-8.9625
+LRS-00140,HRZ,"Powerdot, S.A",Loures,38.77865,-9.102266
+LSB-00959,HRZ,"Powerdot, S.A",Lisboa,38.766388,-9.155833
+LSB-00961,HRZ,"Powerdot, S.A",Lisboa,38.72693,-9.165532
+LSB-00962,HRZ,"Powerdot, S.A",Lisboa,38.705482,-9.178776
+LSB-00964,HRZ,"Powerdot, S.A",Lisboa,38.708557,-9.138642
+SJM-00034,TRK,WOWPLUG,São João da Madeira,40.89633,-8.494967
+STB-00117,HRZ,"Powerdot, S.A",Setúbal,38.54018,-8.8686
+VCD-00062,EDP,EDP Comercial,Vila do Conde,41.37958,-8.682563
