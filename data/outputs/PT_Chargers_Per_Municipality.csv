@@ -1,191 +1,188 @@
 City,Qty
-Lisboa,849
-Cascais,366
-Porto,251
-Oeiras,175
-Vila Nova de Gaia,163
-Loulé,161
-Sintra,152
-Barreiro,125
-Matosinhos,124
-Loures,116
-Braga,113
+Lisboa,852
+Cascais,365
+Porto,245
+Oeiras,173
+Vila Nova de Gaia,159
+Loulé,158
+Sintra,150
+Barreiro,123
+Matosinhos,119
+Loures,112
 Guimarães,111
+Braga,110
 Vila Franca de Xira,100
-Leiria,98
-Coimbra,95
-Viseu,95
+Leiria,94
+Coimbra,93
 Montijo,93
+Viseu,92
 Santa Maria da Feira,77
-Setúbal,73
+Setúbal,69
 Albufeira,67
-Almada,67
-Portimão,64
-Amadora,63
-Aveiro,63
-Seixal,63
-Faro,60
-Beja,53
-Torres Vedras,53
-Viana do Castelo,52
-Évora,51
+Almada,65
+Portimão,63
+Amadora,62
+Aveiro,62
+Seixal,62
+Faro,58
+Beja,52
+Torres Vedras,51
 Funchal,50
-Vila do Conde,49
-Gondomar,47
+Viana do Castelo,50
+Évora,50
 Grândola,47
-Santarém,46
-Ovar,44
-Valongo,43
-Guarda,42
-Maia,42
+Vila do Conde,46
+Gondomar,45
+Santarém,45
+Ovar,43
 São João da Madeira,42
-Castelo Branco,41
-Vila Nova de Famalicão,41
-Covilhã,40
-Mafra,40
+Guarda,41
+Maia,40
 Penafiel,40
-Mealhada,39
-Santo Tirso,39
-Tomar,38
-Palmela,37
+Valongo,40
+Covilhã,39
+Castelo Branco,38
+Mealhada,38
+Vila Nova de Famalicão,38
+Mafra,37
+Santo Tirso,37
+Tomar,37
+Palmela,35
 Póvoa de Varzim,35
-Esposende,34
-Barcelos,33
-Odivelas,33
+Esposende,33
 Olhão,33
 Paredes,32
-Silves,31
+Barcelos,31
 Ílhavo,31
-Alcobaça,30
-Caldas da Rainha,30
 "Lagoa, Faro",30
-Vila Real,30
+Silves,30
 Lagos,29
-Nazaré,28
+Odivelas,29
+Vila Real,29
+Caldas da Rainha,28
+Alcobaça,27
 Alcochete,27
-Figueira da Foz,26
-Ourém,26
-Anadia,25
-Cantanhede,24
-Chaves,24
+Nazaré,27
+Figueira da Foz,25
+Ourém,25
+Anadia,24
 Albergaria-a-Velha,23
+Cantanhede,23
+Chaves,23
 Caminha,22
-Torres Novas,22
-Amarante,21
-Estarreja,21
-Peniche,21
-Ponte de Lima,21
-Abrantes,20
+Torres Novas,21
+Amarante,20
 Bragança,20
+Estarreja,20
 Felgueiras,20
-Pombal,20
-Portalegre,20
-Tavira,20
-Alenquer,19
+Peniche,20
+Ponte de Lima,20
+Abrantes,19
 Fafe,19
-Fundão,19
-Lourinhã,19
-Marinha Grande,19
+Pombal,19
+Portalegre,19
+Tavira,19
+Alenquer,18
+Fundão,18
+Lourinhã,18
 Óbidos,18
-Estremoz,17
+Marinha Grande,17
 Paços de Ferreira,17
 Vila Verde,17
-Lamego,16
+Estremoz,16
 Lousada,16
-Oliveira do Bairro,16
-Oliveira do Hospital,16
 Ponta Delgada,16
 Santa Cruz,16
-Sesimbra,16
+Lamego,15
 Moita,15
 Oliveira de Azeméis,15
+Oliveira do Bairro,15
+Oliveira do Hospital,15
 Ribeira Grande,15
 Santiago do Cacém,15
-Seia,15
-Tondela,15
-Trofa,15
 Alcácer do Sal,14
-Benavente,14
 Machico,14
 Marco de Canaveses,14
+Seia,14
+Sesimbra,14
+Tondela,14
+Trofa,14
 Vale de Cambra,14
-Vila do Bispo,14
 Angra do Heroísmo,13
-Arruda dos Vinhos,13
-Montemor-o-Novo,13
+Benavente,13
 Porto Santo,13
-Águeda,13
+Vila do Bispo,13
+Arruda dos Vinhos,12
 Azambuja,12
-Elvas,12
-Mirandela,12
-Salvaterra de Magos,12
-Santa Comba Dão,12
+Montemor-o-Novo,12
+Águeda,12
 Arcos de Valdevez,11
-Batalha,11
-Bombarral,11
-Espinho,11
-Lousã,11
-Mangualde,11
-Odemira,11
+Elvas,11
+Mirandela,11
 Porto de Mós,11
 Rio Maior,11
-Sines,11
-Condeixa-a-Nova,10
-Montemor-o-Velho,10
-Monção,10
-Vendas Novas,10
-Alcanena,9
+Salvaterra de Magos,11
+Santa Comba Dão,11
+Batalha,10
+Bombarral,10
+Espinho,10
+Lousã,10
+Mangualde,10
+Odemira,10
+Sines,10
 Castro Marim,9
-Entroncamento,9
+Condeixa-a-Nova,9
+Montemor-o-Velho,9
+Monção,9
 Terras de Bouro,9
+Vendas Novas,9
+Alcanena,8
 Aljustrel,8
 Almeida,8
-Almeirim,8
 Cabeceiras de Basto,8
 Celorico da Beira,8
+Entroncamento,8
 Horta,8
 Miranda do Douro,8
 Ponte de Sôr,8
 Praia da Vitória,8
 Tábua,8
 Vila Pouca de Aguiar,8
-Vila Real de Santo António,8
+Almeirim,7
 Baião,7
-Castro Verde,7
-Nelas,7
-Penacova,7
 Proença-a-Nova,7
-Reguengos de Monsaraz,7
 São Brás de Alportel,7
 Vagos,7
-Valença,7
 Vila Nova de Cerveira,7
+Vila Real de Santo António,7
 Vizela,7
 Alter do Chão,6
 Amares,6
-Cartaxo,6
 Cinfães,6
-Coruche,6
 Idanha-a-Nova,6
-Macedo de Cavaleiros,6
 Mira,6
-Miranda do Corvo,6
+Nelas,6
 Oliveira de Frades,6
+Penacova,6
 Penalva do Castelo,6
-Peso da Régua,6
 Póvoa de Lanhoso,6
+Reguengos de Monsaraz,6
 São Pedro do Sul,6
+Valença,6
 Viana do Alentejo,6
 Vila Franca do Campo,6
 Aljezur,5
 Alvaiázere,5
-Arganil,5
+Cartaxo,5
+Castro Verde,5
 Celorico de Basto,5
 Chamusca,5
-Gouveia,5
+Coruche,5
+Macedo de Cavaleiros,5
 Melgaço,5
+Miranda do Corvo,5
+Peso da Régua,5
 Sabugal,5
-Serpa,5
 Sertã,5
 São Vicente,5
 Vila Velha de Ródão,5
@@ -193,11 +190,13 @@ Vouzela,5
 Almodôvar,4
 Alvito,4
 Ansião,4
+Arganil,4
 Armamar,4
 Arouca,4
 "Calheta, Madeira",4
 Carregal do Sal,4
 Câmara de Lobos,4
+Gouveia,4
 Manteigas,4
 Mondim de Basto,4
 Montalegre,4
@@ -207,7 +206,7 @@ Porto Moniz,4
 Resende,4
 Santa Cruz da Graciosa,4
 Sernancelhe,4
-Soure,4
+Serpa,4
 Sátão,4
 Vila Nova de Foz Côa,4
 Vila Nova de Paiva,4
@@ -228,7 +227,6 @@ Moimenta da Beira,3
 Mora,3
 Moura,3
 Mourão,3
-Mértola,3
 Oleiros,3
 Pedrógão Grande,3
 Penela,3
@@ -238,15 +236,14 @@ Santa Marta de Penaguião,3
 Santana,3
 Sever do Vouga,3
 Sobral de Monte Agraço,3
+Soure,3
 São João da Pesqueira,3
 Tabuaço,3
 Tarouca,3
 Torre de Moncorvo,3
 Trancoso,3
 Valpaços,3
-Vidigueira,3
 Vieira do Minho,3
-Vila Viçosa,3
 Vimioso,3
 Alfândega da Fé,2
 Cadaval,2
@@ -266,6 +263,7 @@ Mogadouro,2
 Monchique,2
 Mortágua,2
 Murça,2
+Mértola,2
 Mêda,2
 Nisa,2
 Nordeste,2
@@ -280,8 +278,10 @@ Sabrosa,2
 Sardoal,2
 Sousel,2
 Velas,2
+Vidigueira,2
 Vila Flor,2
 Vila Nova da Barquinha,2
+Vila Viçosa,2
 Vila de Rei,2
 Vinhais,2
 Alandroal,1
