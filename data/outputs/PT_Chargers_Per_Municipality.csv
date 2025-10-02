@@ -1,13 +1,13 @@
 City,Qty
 Lisboa,852
 Cascais,365
-Porto,245
+Porto,248
 Oeiras,174
 Vila Nova de Gaia,159
 Loulé,158
 Sintra,150
 Barreiro,123
-Matosinhos,119
+Matosinhos,120
 Loures,112
 Guimarães,111
 Braga,110
@@ -41,12 +41,12 @@ Maia,40
 Penafiel,40
 Valongo,40
 Covilhã,39
+Tomar,39
 Castelo Branco,38
 Vila Nova de Famalicão,38
 Mafra,37
 Mealhada,37
 Santo Tirso,37
-Tomar,37
 Palmela,35
 Póvoa de Varzim,35
 Esposende,33
@@ -223,6 +223,7 @@ Castelo de Vide,3
 Crato,3
 Ferreira do Zêzere,3
 Figueiró dos Vinhos,3
+Góis,3
 Moimenta da Beira,3
 Mora,3
 Moura,3
@@ -293,7 +294,6 @@ Carrazeda de Ansiães,1
 Fornos de Algodres,1
 Fronteira,1
 Gavião,1
-Góis,1
 "Lagoa, Azores",1
 Lajes das Flores,1
 Lajes do Pico,1
