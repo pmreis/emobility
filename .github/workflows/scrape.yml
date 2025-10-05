@@ -3,7 +3,7 @@ name: Scrape
 on:
   push:
     branches:
-      - main  
+      - main
   workflow_dispatch:
   schedule:
     - cron:  '30 23 * * 2,5'

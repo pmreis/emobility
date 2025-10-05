@@ -3,7 +3,7 @@ name: Charts
 on:
   push:
     branches:
-      - main  
+      - main
   workflow_dispatch:
   schedule:
     - cron:  '53 3,4,11,23 * * *'
