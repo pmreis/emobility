@@ -92,23 +92,57 @@ In August 2025, Portugal overhauled the RJME via Decree-Law 93/2025 to align wit
 
 ## National Access Points (NAP)
 
-### Norway - Nobil
+https://napcore.eu/description-naps/national-access-point/
+
+### AT - Austria
+### BE - Belgium
+### BG - Bulgaria
+### CY - Cyprus
+### CZ - Czechia
+### DE - Germany
+### DK - Denmark
+### EE - Estonia
+### EL - Greece
+### ES - Spain
+
+- Info: https://nap.dgt.es/dataset/puntos-de-recarga-electrica-para-vehiculos
+- Map of fast chargers (greater than 43 kW): https://www.mapareve.es/mapa-puntos-recarga
+
+### FI - Finland
+### FR - France
+### HR - Croatia
+### HU - Hungary
+### IE - Ireland
+### IS - Iceland
+### IT - Italy
+### LI - Liechtenstein
+### LT - Lithuania
+### LU - Luxembourg
+### LV - Latvia
+### MT - Malta
+### NL - Netherlands
+### NO - Norway
 
 - Info: https://info.nobil.no/api
 - Doc: https://info.nobil.no/images/API-dokumentasjon/API_NOBIL_Documentation_v3_20240603.pdf
 
-### Portugal - Mobi.e
+### PL - Poland
 
-During the transition period (until December 31, 2026), Mobi.e will provide data to the official National Access Point (IMT).
+### PT - Portugal
+
+- Static Data: https://nap-portugal.imt-ip.pt/nap/multimodalsupplydetail/148
+- Dynamic Data: https://nap-portugal.imt-ip.pt/nap/multimodalsupplydetail/149
+- Mobi.e's chargers map: https://mobie.pt/en/charging/findachargingstation
 
 #### Deployed chargers in the last 30 days
 
  ![PT_Deployed](data/outputs/PT_Last30DayDeployedChargers.png)
-* Data source = IMT / Mobi.e (have a look at the source code in this repo)
+* Chart data source = IMT / Mobi.e
 
-#### NOTES:
-1. Mobi.e's reach and responsibilities extend beyond a NAP.
-2. Mobi.e is a monopoly established by law, as recognized by the national energy regulator ERSE.
+#### Notes on Mobi.e :
+During the transition period (until December 31, 2026), Mobi.e will provide data to the official National Access Point (IMT).
+
+Mobi.e's reach and responsibilities extend beyond a NAP, namely it is responsible for activation and finantial flows of the charging infrastructure. Mobi.e is a monopoly established by law, as recognized by the national energy regulator ERSE and also a mandatory roaming platform.
 
  | ![mobie=monopoly](legal/ERSE_Mobie_Monopoly.png) |
  |:--:|
@@ -121,13 +155,13 @@ During the transition period (until December 31, 2026), Mobi.e will provide data
 - Docs: https://www.mobie.pt/en/mobility/technical-rules-procedures
 
 
-## Possible barriers for eMobility in Portugal
+#### Possible barriers for eMobility in Portugal
 
 Portugal set its legal framework for electric mobility in 2010 with Decree-Law 39/2010, creating the RJME and the MOBI.E-based, centrally managed model with defined market roles and incentives, which structured how charging operators and service providers interacted and how a public pilot network would be deployed. Over the years the RJME was amended but kept that centralized architecture as the backbone of the system.
 
 Although initially praised, the Portuguese model later became a source of frustration for EV users, revealed several areas needing urgent improvement, and above all failed to comply with AFIR. This lead some entities to report on the issues or barriers of the Portuguese model, which can still be found below.
 
-### Autoridade da Concorrência (AdC)
+#### Autoridade da Concorrência (AdC)
 
 The Portuguese Competition Authority – Autoridade da Concorrência (AdC) carried out an analysis of the competition conditions in the electric vehicle recharging sector, which resulted in the identification of barriers that could jeopardise the development and expansion of an electric vehicle recharging network with adequate, efficient, and competitive coverage.
 
@@ -140,7 +174,7 @@ The Portuguese Competition Authority – Autoridade da Concorrência (AdC) carri
 - One Pager PT: [AdC One Pager PT, v2](legal/AdC_One_Pager_PT.pdf)
 - One Pager EN: [AdC One Pager EN, v1](legal/AdC_One_Pager_EN.pdf)
 
-### Public consultation on the Study into Competition and Electric Vehicle Recharging in Portugal
+#### Public consultation on the Study into Competition and Electric Vehicle Recharging in Portugal
 
 This was the AdC's most participated public consultation, which illustrates the high level of interest in this sector. Alongside the opinion of the sector's regulator - ERSE - the AdC received 183 contributions from public entities, individual consumers, consumer associations, operators and associations of companies in the electric mobility sector, entities in the electricity sector and entities from other sectors.
 
@@ -175,9 +209,14 @@ This was the AdC's most participated public consultation, which illustrates the 
 |  27 | ERSE                  | [pdf](legal/AdC%20Contribs/Parecer%20ERSE.pdf)
 
 
-### AVERE
+#### AVERE
 
 AVERE has taken note of the preliminary report of the Estudo concorrência e mobilidade elétrica em Portugal and wish to express our agreement with the intention of the recommendations made to the Portuguese government to make fundamental changes to the Portuguese recharging network, to improve the current system in benefit of BEV users.
 
 - [Blog Page](https://www.avere.org/blogpages/policy-details/2024/03/05/AVEREs-Reaction-Letter-to-the-Report-on-Recharging-Network-Published-by-the-Portuguese-Competition-Authority) * Now unavailable due to site restructuring, check it in the [Internet Archive](https://web.archive.org/web/20240422192745/https://www.avere.org/blogpages/policy-details/2024/03/05/AVEREs-Reaction-Letter-to-the-Report-on-Recharging-Network-Published-by-the-Portuguese-Competition-Authority)
 - Reaction Letter: [AVERE's Reaction Letter](legal/AVERE_Reaction_Letter_AdC.pdf)
+
+### RO - Romania
+### SE - Sweden
+### SI - Slovenia
+### SK - Slovakia
