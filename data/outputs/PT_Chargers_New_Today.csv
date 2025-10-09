@@ -1,3 +1,5 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-LRS-00138,HRZ,"Powerdot, S.A",Loures,38.7896,-9.104267
-LRS-00149,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Loures,38.814144,-9.147583
+CNT-00029,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Cantanhede,40.347862,-8.584926
+CNT-00030,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Cantanhede,40.347862,-8.584926
+CSC-00510,HRZ,"Powerdot, S.A",Cascais,38.714104,-9.386098
+PRD-00041,ENE,"Enercom, Vasconcelos e Almeida engenharia, lda",Paredes,41.22714,-8.40324
