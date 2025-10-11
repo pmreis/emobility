@@ -1,6 +1,7 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ALM-00118,GLP,Galp Power OPC,Almada,38.62338,-9.194799
-LRS-00113,EDP,EDP Comercial,Loures,38.786148,-9.11715
-LRS-00151,GLP,Galp Power OPC,Loures,38.790947,-9.102759
-LSB-00794,EDP,EDP Comercial,Lisboa,38.729122,-9.140919
-LSB-01016,MOA,"MOBI A - Mobilidade e Ambiente, Lda",Lisboa,38.74121,-9.123419
+CSC-00426,GLP,Galp Power OPC,Cascais,38.707294,-9.398439
+CSC-00427,GLP,Galp Power OPC,Cascais,38.707294,-9.398439
+GDL-00054,HLX,"Helexia II Energy Services, Lda.",Grândola,38.30708,-8.743285
+GDL-00055,HLX,"Helexia II Energy Services, Lda.",Grândola,38.30708,-8.743285
+GDL-00057,HLX,"Helexia II Energy Services, Lda.",Grândola,38.30708,-8.743285
+MAI-00082,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Maia,41.2373,-8.653
