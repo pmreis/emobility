@@ -1,5 +1,5 @@
 City,Qty
-Lisboa,860
+Lisboa,863
 Cascais,376
 Porto,248
 Oeiras,175
@@ -17,9 +17,9 @@ Leiria,94
 Montijo,93
 Viseu,92
 Santa Maria da Feira,77
+Almada,69
 Setúbal,69
 Albufeira,68
-Almada,66
 Portimão,63
 Amadora,62
 Seixal,62
@@ -130,6 +130,7 @@ Espinho,10
 Lousã,10
 Mangualde,10
 Odemira,10
+Ponte de Sôr,10
 Castro Marim,9
 Condeixa-a-Nova,9
 Montemor-o-Velho,9
@@ -145,7 +146,6 @@ Celorico da Beira,8
 Entroncamento,8
 Horta,8
 Miranda do Douro,8
-Ponte de Sôr,8
 Praia da Vitória,8
 Tábua,8
 Vila Pouca de Aguiar,8
@@ -194,6 +194,7 @@ Ansião,4
 Arganil,4
 Armamar,4
 Arouca,4
+Arraiolos,4
 "Calheta, Madeira",4
 Carregal do Sal,4
 Câmara de Lobos,4
@@ -216,7 +217,6 @@ Vila do Porto,4
 Aguiar da Beira,3
 Alcoutim,3
 Alijó,3
-Arraiolos,3
 Avis,3
 Belmonte,3
 Borba,3
