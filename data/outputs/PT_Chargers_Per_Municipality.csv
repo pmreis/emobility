@@ -13,7 +13,7 @@ Braga,111
 Vila Franca de Xira,111
 Guimarães,109
 Coimbra,95
-Leiria,94
+Leiria,95
 Montijo,94
 Viseu,94
 Almada,78
@@ -25,7 +25,7 @@ Amadora,62
 Seixal,62
 Aveiro,61
 Faro,58
-Beja,52
+Beja,53
 Torres Vedras,51
 Funchal,50
 Grândola,50
@@ -42,9 +42,9 @@ Guarda,41
 Covilhã,40
 Valongo,40
 Mafra,39
+Palmela,39
 Tomar,39
 Castelo Branco,38
-Palmela,38
 Vila Nova de Famalicão,38
 Mealhada,37
 Santo Tirso,37
@@ -76,11 +76,11 @@ Bragança,20
 Estarreja,20
 Felgueiras,20
 Peniche,20
+Ponte de Lima,20
 Abrantes,19
 Alenquer,19
 Fafe,19
 Pombal,19
-Ponte de Lima,19
 Portalegre,19
 Fundão,18
 Lourinhã,18
@@ -88,12 +88,12 @@ Ponta Delgada,18
 Óbidos,18
 Marinha Grande,17
 Paços de Ferreira,17
+Tavira,17
 Vila Verde,17
 Estremoz,16
 Lamego,16
 Lousada,16
 Santa Cruz,16
-Tavira,16
 Tondela,16
 Moita,15
 Oliveira de Azeméis,15
@@ -141,6 +141,7 @@ Vila Real de Santo António,9
 Alcanena,8
 Aljustrel,8
 Almeida,8
+Alter do Chão,8
 Cabeceiras de Basto,8
 Celorico da Beira,8
 Entroncamento,8
@@ -157,8 +158,8 @@ Proença-a-Nova,7
 São Brás de Alportel,7
 Vagos,7
 Vila Nova de Cerveira,7
+Vila Velha de Ródão,7
 Vizela,7
-Alter do Chão,6
 Amares,6
 Cinfães,6
 Idanha-a-Nova,6
@@ -186,7 +187,6 @@ Peso da Régua,5
 Sabugal,5
 Sertã,5
 São Vicente,5
-Vila Velha de Ródão,5
 Vouzela,5
 Almodôvar,4
 Alvito,4
