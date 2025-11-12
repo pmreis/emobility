@@ -1,7 +1,4 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ALM-00055,HRZ,"Powerdot, S.A",Almada,38.63152,-9.177273
-LRS-00152,MOO,Siva - Sociedade de Importação de Veículos Automóveis,Loures,38.83831,-9.16542
-MNC-00014,MOT,Mota-Engil Renewing,Monção,42.071503,-8.495764
-MNC-00015,REM,MOTA-ENGIL REMO CHARGING S.A,Monção,42.071503,-8.495764
-VFX-00120,HLX,"Helexia II Energy Services, Lda.",Vila Franca de Xira,39.000366,-8.963646
-VFX-00135,GLP,Galp Power OPC,Vila Franca de Xira,38.85838,-9.070421
+FIG-00044,GLP,Galp Power OPC,Figueira da Foz,40.179695,-8.829019
+PMS-00015,GLP,Galp Power OPC,Porto de Mós,39.62918,-8.855513
+VCD-00030,EDP,EDP Comercial,Vila do Conde,41.309086,-8.720658
