@@ -1,4 +1,9 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-FIG-00044,GLP,Galp Power OPC,Figueira da Foz,40.179695,-8.829019
-PMS-00015,GLP,Galp Power OPC,Porto de Mós,39.62918,-8.855513
-VCD-00030,EDP,EDP Comercial,Vila do Conde,41.309086,-8.720658
+FND-00029,DTE,"DTE, Instalacoes Especiais",Fundão,40.13386,-7.505178
+FND-00030,DTE,"DTE, Instalacoes Especiais",Fundão,40.142296,-7.501561
+FND-00032,DTE,"DTE, Instalacoes Especiais",Fundão,40.139847,-7.503565
+FND-00036,DTE,"DTE, Instalacoes Especiais",Fundão,40.0985,-7.466351
+RDD-00003,VEI,Veimonte Lda,Redondo,38.643322,-7.556156
+RDD-00004,VEI,Veimonte Lda,Redondo,38.643723,-7.552231
+TRC-00003,EDP,EDP Comercial,Tarouca,41.01914,-7.290636
+TRC-00004,EDP,EDP Comercial,Tarouca,41.01914,-7.77395
