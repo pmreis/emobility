@@ -1,22 +1,10 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-LRA-00085,EDP,EDP Comercial,Leiria,39.741146,-8.796346
-LSB-01045,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Lisboa,38.786976,-9.149356
-LSB-01046,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Lisboa,38.786976,-9.149356
-LSB-01103,MAK,Maksu,Lisboa,38.75967,-9.094378
-LSB-01104,MAK,Maksu,Lisboa,38.75967,-9.094378
-LSB-01105,MAK,Maksu,Lisboa,38.75967,-9.094378
-LSB-01106,MAK,Maksu,Lisboa,38.75967,-9.094378
-LSB-01107,MAK,Maksu,Lisboa,38.75967,-9.094378
-LSB-01108,MAK,Maksu,Lisboa,38.75967,-9.094378
-PNF-00052,EDP,EDP Comercial,Penafiel,41.20282,-8.293631
-PNF-00053,EDP,EDP Comercial,Penafiel,41.20282,-8.293631
-SBG-00009,REM,MOTA-ENGIL REMO CHARGING S.A,Sabugal,40.356,-7.095
-SNT-00055,EDP,EDP Comercial,Sintra,38.77702,-9.335286
-VCD-00067,ATL,"Atlante Infra Portugal, S.A",Vila do Conde,41.299667,-8.705062
-VCD-00068,ATL,"Atlante Infra Portugal, S.A",Vila do Conde,41.299667,-8.705062
-VCD-00075,ATL,"Atlante Infra Portugal, S.A",Vila do Conde,41.299667,-8.705062
-VCD-00076,ATL,"Atlante Infra Portugal, S.A",Vila do Conde,41.299667,-8.705062
-VCD-00077,ATL,"Atlante Infra Portugal, S.A",Vila do Conde,41.299667,-8.705062
-VCD-00078,ATL,"Atlante Infra Portugal, S.A",Vila do Conde,41.299667,-8.705062
-VFX-00133,GLP,Galp Power OPC,Vila Franca de Xira,38.956036,-9.003871
-VFX-00134,GLP,Galp Power OPC,Vila Franca de Xira,38.971478,-8.982775
+GMR-00160,GLP,Galp Power OPC,Guimarães,41.487045,-8.352567
+LLE-00196,LCG,"Loulé Concelho Global, EM",Loulé,37.06081,-8.029037
+LLE-00197,LCG,"Loulé Concelho Global, EM",Loulé,37.06081,-8.029037
+VCD-00069,ATL,"Atlante Infra Portugal, S.A",Vila do Conde,41.299667,-8.705062
+VCD-00070,ATL,"Atlante Infra Portugal, S.A",Vila do Conde,41.299667,-8.705062
+VCD-00071,ATL,"Atlante Infra Portugal, S.A",Vila do Conde,41.299667,-8.705062
+VCD-00072,ATL,"Atlante Infra Portugal, S.A",Vila do Conde,41.299667,-8.705062
+VCD-00073,ATL,"Atlante Infra Portugal, S.A",Vila do Conde,41.299667,-8.705062
+VCD-00074,ATL,"Atlante Infra Portugal, S.A",Vila do Conde,41.299667,-8.705062
