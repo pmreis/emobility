@@ -1,2 +1,8 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-TVD-00060,MOT,Mota-Engil Renewing,Torres Vedras,39.022476,-9.319945
+ACH-00040,EDP,EDP Comercial,Alcochete,38.75073,-8.96071
+ACH-00041,EDP,EDP Comercial,Alcochete,38.75073,-8.960697
+AGD-00037,ATL,"Atlante Infra Portugal, S.A",Águeda,40.590553,-8.457343
+ASL-00036,EDP,EDP Comercial,Alcácer do Sal,38.38047,-8.51217
+GDL-00060,EDP,EDP Comercial,Grândola,38.189022,-8.565676
+TVD-00045,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Torres Vedras,39.091705,-9.339153
+TVD-00064,MOT,Mota-Engil Renewing,Torres Vedras,39.100555,-9.286191
