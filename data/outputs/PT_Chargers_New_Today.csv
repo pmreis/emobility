@@ -1,32 +1,7 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-FND-00031,DTE,"DTE, Instalacoes Especiais",Fundão,40.13477,-7.502782
-LSB-00757,MAK,Maksu,Lisboa,38.710785,-9.143195
-LSB-00758,MAK,Maksu,Lisboa,38.710785,-9.143195
-LSB-00759,MAK,Maksu,Lisboa,38.710785,-9.143195
-LSB-00760,MAK,Maksu,Lisboa,38.710785,-9.143195
-LSB-00761,MAK,Maksu,Lisboa,38.710785,-9.143195
-LSB-00762,MAK,Maksu,Lisboa,38.710785,-9.143195
-LSB-00763,MAK,Maksu,Lisboa,38.710785,-9.143195
-LSB-00764,MAK,Maksu,Lisboa,38.710785,-9.143195
-LSB-00765,MAK,Maksu,Lisboa,38.710785,-9.143195
-LSB-00991,EDP,EDP Comercial,Lisboa,38.747353,-9.206682
-LSB-01033,EDP,EDP Comercial,Lisboa,38.749012,-9.20098
-LSB-01052,EDP,EDP Comercial,Lisboa,38.75403,-9.199192
-LSB-01055,EDP,EDP Comercial,Lisboa,38.754204,-9.202087
-LSB-01056,EDP,EDP Comercial,Lisboa,38.74507,-9.202658
-LSB-01058,EDP,EDP Comercial,Lisboa,38.756546,-9.198214
-LSB-01059,EDP,EDP Comercial,Lisboa,38.7514,-9.198402
-LSB-01064,EDP,EDP Comercial,Lisboa,38.74853,-9.198908
-LSB-01067,EDP,EDP Comercial,Lisboa,38.750275,-9.193189
-LSB-01068,EDP,EDP Comercial,Lisboa,38.75135,-9.201273
-LSB-01109,GLP,Galp Power OPC,Lisboa,38.739616,-9.124202
-LSB-01113,GLP,Galp Power OPC,Lisboa,38.739616,-9.124202
-PLM-00059,EDP,EDP Comercial,Palmela,38.572147,-8.902832
-PLM-00067,EDP,EDP Comercial,Palmela,38.57093,-8.885827
-PMS-00016,HRZ,"Powerdot, S.A",Porto de Mós,39.60185,-8.857011
-PMS-00017,HRZ,"Powerdot, S.A",Porto de Mós,39.60185,-8.857011
-PRT-00335,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Porto,41.18107,-8.618555
-VFX-00125,GLP,Galp Power OPC,Vila Franca de Xira,38.99717,-8.972311
-VFX-00130,GLP,Galp Power OPC,Vila Franca de Xira,38.9494,-8.99107
-VFX-00131,GLP,Galp Power OPC,Vila Franca de Xira,38.9494,-8.99107
-VFX-00132,GLP,Galp Power OPC,Vila Franca de Xira,38.9494,-8.99107
+LLE-00249,GLP,Galp Power OPC,Loulé,37.09072,-8.129917
+LSB-01118,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.715145,-9.168861
+LSB-01119,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.715145,-9.168861
+MGR-00025,ECI,ECOINSIDE,Marinha Grande,39.743694,-8.936806
+MMV-00010,BEL,Bel Mobility,Montemor-o-Velho,40.17373,-8.68172
+PDL-00024,SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,Ponta Delgada,37.744213,-25.673018
