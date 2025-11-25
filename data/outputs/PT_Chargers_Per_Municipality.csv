@@ -12,21 +12,21 @@ Loures,118
 Vila Franca de Xira,116
 Braga,113
 Guimarães,111
-Leiria,98
+Leiria,99
+Viseu,96
 Coimbra,95
 Montijo,95
-Viseu,95
 Almada,78
 Santa Maria da Feira,77
 Albufeira,74
-Setúbal,69
+Setúbal,70
 Amadora,62
 Portimão,62
 Aveiro,61
 Seixal,61
+Torres Vedras,60
 Faro,59
 Vila do Conde,59
-Torres Vedras,58
 Beja,55
 Funchal,50
 Grândola,50
@@ -37,11 +37,11 @@ Maia,46
 Gondomar,45
 Santarém,45
 Penafiel,44
+Mafra,42
 São João da Madeira,42
 Guarda,41
 Palmela,41
 Covilhã,40
-Mafra,40
 Valongo,40
 Tomar,39
 Castelo Branco,38
@@ -56,12 +56,12 @@ Barcelos,31
 Nazaré,31
 Ílhavo,31
 Alcobaça,30
+Alcochete,30
 "Lagoa, Faro",30
 Odivelas,30
 Silves,30
 Lagos,29
 Vila Real,29
-Alcochete,28
 Caldas da Rainha,28
 Anadia,26
 Cantanhede,26
@@ -101,7 +101,6 @@ Oliveira do Hospital,15
 Ribeira Grande,15
 Santiago do Cacém,15
 Vale de Cambra,15
-Alcácer do Sal,14
 Azambuja,14
 Machico,14
 Marco de Canaveses,14
@@ -110,6 +109,7 @@ Seia,14
 Sesimbra,14
 Tondela,14
 Trofa,14
+Alcácer do Sal,13
 Angra do Heroísmo,13
 Benavente,13
 Porto Santo,13
@@ -126,18 +126,18 @@ Rio Maior,11
 Salvaterra de Magos,11
 Santa Comba Dão,11
 Sines,11
+Vila Real de Santo António,11
 Batalha,10
 Bombarral,10
+Condeixa-a-Nova,10
 Lousã,10
 Mangualde,10
 Monção,10
 Odemira,10
 Castro Marim,9
-Condeixa-a-Nova,9
 Ponte de Sôr,9
 Terras de Bouro,9
 Vendas Novas,9
-Vila Real de Santo António,9
 Alcanena,8
 Aljustrel,8
 Almeida,8
@@ -174,6 +174,7 @@ São Pedro do Sul,6
 Valença,6
 Viana do Alentejo,6
 Vila Franca do Campo,6
+Vila Nova de Foz Côa,6
 Aljezur,5
 Alvaiázere,5
 Cartaxo,5
@@ -184,10 +185,10 @@ Coruche,5
 Macedo de Cavaleiros,5
 Manteigas,5
 Miranda do Corvo,5
+Moimenta da Beira,5
 Peso da Régua,5
 Sertã,5
 São Vicente,5
-Vila Nova de Foz Côa,5
 Vouzela,5
 Almodôvar,4
 Alvito,4
@@ -197,6 +198,7 @@ Armamar,4
 Arouca,4
 Arraiolos,4
 "Calheta, Madeira",4
+Campo Maior,4
 Carregal do Sal,4
 Câmara de Lobos,4
 Ferreira do Zêzere,4
@@ -226,7 +228,6 @@ Castelo de Paiva,3
 Castelo de Vide,3
 Crato,3
 Figueiró dos Vinhos,3
-Moimenta da Beira,3
 Mora,3
 Moura,3
 Mourão,3
@@ -250,7 +251,6 @@ Vimioso,3
 Alfândega da Fé,2
 Cadaval,2
 "Calheta, Azores",2
-Campo Maior,2
 Castanheira de Pêra,2
 Castro Daire,2
 Constância,2
