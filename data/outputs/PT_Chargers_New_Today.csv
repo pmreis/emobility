@@ -1,12 +1,44 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-CDN-00011,EDP,EDP Comercial,Condeixa-a-Nova,40.11402,-8.513898
-CMR-00004,EDP,EDP Comercial,Campo Maior,39.020416,-7.066526
-LRA-00177,HLX,"Helexia II Energy Services, Lda.",Leiria,39.774586,-8.780123
-MBR-00005,EDP,EDP Comercial,Moimenta da Beira,40.986156,-7.621719
-MFR-00051,EDP,EDP Comercial,Mafra,38.92745,-9.331945
-MFR-00052,EDP,EDP Comercial,Mafra,38.92745,-9.331945
-TVD-00087,EDP,EDP Comercial,Torres Vedras,39.0843,-9.260658
-TVD-00088,EDP,EDP Comercial,Torres Vedras,39.0843,-9.260658
-VIS-00128,EDP,EDP Comercial,Viseu,40.66516,-7.896124
-VRS-00015,EDP,EDP Comercial,Vila Real de Santo António,37.19005,-7.420096
-VRS-00016,EDP,EDP Comercial,Vila Real de Santo António,37.19201,-7.420096
+ABF-00122,EDP,EDP Comercial,Albufeira,37.078094,-8.292776
+ABF-00133,EDP,EDP Comercial,Albufeira,37.09398,-8.19347
+ABF-00137,EDP,EDP Comercial,Albufeira,37.08341,-8.31181
+ABF-00138,EDP,EDP Comercial,Albufeira,37.09555,-8.240127
+ABF-00139,EDP,EDP Comercial,Albufeira,37.09521,-8.24687
+ABF-00147,EDP,EDP Comercial,Albufeira,37.09191,-8.242693
+ABF-00151,EDP,EDP Comercial,Albufeira,37.083786,-8.313009
+ABF-00153,EDP,EDP Comercial,Albufeira,37.09069,-8.235326
+ABF-00156,EDP,EDP Comercial,Albufeira,37.175884,-8.203302
+ABF-00161,EDP,EDP Comercial,Albufeira,37.09131,-8.222027
+ABF-00165,GLP,Galp Power OPC,Albufeira,37.086105,-8.243799
+ABF-00166,GLP,Galp Power OPC,Albufeira,37.086105,-8.243799
+ABF-00167,EDP,EDP Comercial,Albufeira,37.09548,-8.231424
+ASL-00022,EDP,EDP Comercial,Alcácer do Sal,38.370213,-8.500814
+ASL-00023,EDP,EDP Comercial,Alcácer do Sal,38.370213,-8.500814
+AZB-00017,EDP,EDP Comercial,Azambuja,39.067616,-8.870324
+AZB-00018,EDP,EDP Comercial,Azambuja,39.067616,-8.870324
+CBR-00147,EDP,EDP Comercial,Coimbra,40.20893,-8.403992
+CBR-00148,EDP,EDP Comercial,Coimbra,40.208878,-8.403881
+CDN-00010,EDP,EDP Comercial,Condeixa-a-Nova,40.11402,-8.513898
+CHM-00007,EDP,EDP Comercial,Chamusca,39.357563,-8.474399
+CHM-00008,EDP,EDP Comercial,Chamusca,39.357563,-8.474399
+CRZ-00002,EDP,EDP Comercial,Carrazeda de Ansiães,41.24606,-7.306276
+CRZ-00003,EDP,EDP Comercial,Carrazeda de Ansiães,41.24606,-7.306276
+GLG-00004,EDP,EDP Comercial,Golegã,39.402763,-8.488921
+GLG-00005,EDP,EDP Comercial,Golegã,39.402763,-8.488921
+LRA-00179,CON,"ConectaMais, Lda",Leiria,39.751007,-8.805605
+MAI-00088,PRI,"Prio.E Mobility Solutions, Lda",Maia,41.211105,-8.5648
+MAI-00089,PRI,"Prio.E Mobility Solutions, Lda",Maia,41.21099,-8.5648365
+MDR-00008,GLP,Galp Power OPC,Miranda do Douro,41.49803,-6.272261
+OHP-00023,EDP,EDP Comercial,Oliveira do Hospital,40.362053,-7.858777
+OHP-00024,EDP,EDP Comercial,Oliveira do Hospital,40.362053,-7.858777
+ORM-00038,ATL,"Atlante Infra Portugal, S.A",Ourém,39.65678,-8.57427
+PSR-00019,EDP,EDP Comercial,Ponte de Sôr,39.252567,-8.017149
+PSR-00020,EDP,EDP Comercial,Ponte de Sôr,39.252567,-8.017149
+TVR-00028,EDP,EDP Comercial,Tavira,37.13752,-7.62747
+TVR-00029,EDP,EDP Comercial,Tavira,37.13752,-7.62747
+VLP-00005,EDP,EDP Comercial,Valpaços,41.610294,-7.308304
+VLP-00006,EDP,EDP Comercial,Valpaços,41.60965,-7.309128
+VNB-00003,EDP,EDP Comercial,Vila Nova da Barquinha,39.46516,-8.439379
+VNB-00004,EDP,EDP Comercial,Vila Nova da Barquinha,39.46516,-8.439379
+VVC-00005,EDP,EDP Comercial,Vila Viçosa,38.77033,-7.415635
+VVC-00006,EDP,EDP Comercial,Vila Viçosa,38.77033,-7.415635
