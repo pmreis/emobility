@@ -1,5 +1,5 @@
 City,Qty
-Lisboa,919
+Lisboa,921
 Cascais,424
 Porto,247
 Oeiras,177
@@ -13,12 +13,12 @@ Vila Franca de Xira,118
 Guimarães,115
 Braga,113
 Leiria,100
-Coimbra,97
+Coimbra,98
 Viseu,96
 Montijo,95
 Albufeira,87
 Almada,78
-Santa Maria da Feira,77
+Santa Maria da Feira,78
 Setúbal,72
 Portimão,64
 Amadora,62
@@ -67,12 +67,12 @@ Anadia,26
 Cantanhede,26
 Figueira da Foz,26
 Ourém,26
+Fundão,24
 Albergaria-a-Velha,23
 Chaves,23
-Fundão,23
 Torres Novas,23
 Caminha,22
-Felgueiras,21
+Felgueiras,22
 Ponta Delgada,21
 Bragança,20
 Estarreja,20
@@ -178,6 +178,7 @@ Valença,6
 Viana do Alentejo,6
 Vila Franca do Campo,6
 Vila Nova de Foz Côa,6
+Vila Nova de Paiva,6
 Aljezur,5
 Alvaiázere,5
 Cartaxo,5
@@ -190,6 +191,7 @@ Peso da Régua,5
 Sertã,5
 São Vicente,5
 Tarouca,5
+Torre de Moncorvo,5
 Valpaços,5
 Vouzela,5
 Almodôvar,4
@@ -208,6 +210,7 @@ Golegã,4
 Gouveia,4
 Mondim de Basto,4
 Montalegre,4
+Mortágua,4
 Murtosa,4
 Ourique,4
 Porto Moniz,4
@@ -217,9 +220,7 @@ Santa Cruz da Graciosa,4
 Sernancelhe,4
 Serpa,4
 Sátão,4
-Torre de Moncorvo,4
 Vila Nova da Barquinha,4
-Vila Nova de Paiva,4
 Vila Viçosa,4
 Vila do Porto,4
 Aguiar da Beira,3
@@ -234,6 +235,7 @@ Castelo de Vide,3
 Crato,3
 Figueiró dos Vinhos,3
 Góis,3
+Mogadouro,3
 Mora,3
 Moura,3
 Mourão,3
@@ -265,9 +267,7 @@ Ferreira do Alentejo,2
 Figueira de Castelo Rodrigo,2
 Freixo de Espada à Cinta,2
 Marvão,2
-Mogadouro,2
 Monchique,2
-Mortágua,2
 Murça,2
 Mértola,2
 Mêda,2
