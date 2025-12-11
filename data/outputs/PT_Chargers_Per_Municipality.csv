@@ -4,7 +4,7 @@ Cascais,425
 Porto,247
 Oeiras,178
 Vila Nova de Gaia,169
-Loulé,161
+Loulé,162
 Sintra,152
 Barreiro,126
 Matosinhos,121
@@ -12,8 +12,8 @@ Vila Franca de Xira,119
 Loures,118
 Guimarães,115
 Braga,113
+Coimbra,101
 Leiria,100
-Coimbra,98
 Viseu,96
 Montijo,95
 Albufeira,87
@@ -25,7 +25,7 @@ Amadora,62
 Aveiro,61
 Seixal,61
 Torres Vedras,61
-Vila do Conde,60
+Vila do Conde,61
 Faro,59
 Beja,55
 Grândola,51
@@ -147,6 +147,7 @@ Cabeceiras de Basto,8
 Celorico da Beira,8
 Entroncamento,8
 Horta,8
+Moimenta da Beira,8
 Nelas,8
 Praia da Vitória,8
 Tábua,8
@@ -186,7 +187,6 @@ Castro Verde,5
 Celorico de Basto,5
 Macedo de Cavaleiros,5
 Miranda do Corvo,5
-Moimenta da Beira,5
 Peso da Régua,5
 Sertã,5
 São Vicente,5

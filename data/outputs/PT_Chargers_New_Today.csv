@@ -1,4 +1,9 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-CSC-00517,REP,REPSOL PORTUGUESA LDA,Cascais,38.714382,-9.389923
-OER-00278,VIA,"Via Verde Transição Energética, S.A.",Oeiras,38.714653,-9.286216
-VFX-00137,REP,REPSOL PORTUGUESA LDA,Vila Franca de Xira,38.942585,-8.945406
+CBR-00144,MAK,Maksu,Coimbra,40.215454,-8.414072
+CBR-00145,MAK,Maksu,Coimbra,40.215454,-8.414072
+CBR-00146,MAK,Maksu,Coimbra,40.215454,-8.414072
+LLE-00245,EDP,EDP Comercial,Loulé,37.067204,-8.097653
+MBR-00006,GLP,Galp Power OPC,Moimenta da Beira,40.985317,-7.61566
+MBR-00007,GLP,Galp Power OPC,Moimenta da Beira,40.97296,-7.611674
+MBR-00008,GLP,Galp Power OPC,Moimenta da Beira,40.978844,-7.61321
+VCD-00065,HLX,"Helexia II Energy Services, Lda.",Vila do Conde,41.350437,-8.73624
