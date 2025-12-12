@@ -1,5 +1,5 @@
 City,Qty
-Lisboa,921
+Lisboa,924
 Cascais,425
 Porto,247
 Oeiras,178
@@ -14,8 +14,8 @@ Guimarães,115
 Braga,113
 Coimbra,101
 Leiria,100
+Montijo,96
 Viseu,96
-Montijo,95
 Albufeira,87
 Almada,78
 Santa Maria da Feira,78
@@ -135,7 +135,6 @@ Lousã,10
 Mangualde,10
 Monção,10
 Odemira,10
-Castro Marim,9
 Miranda do Douro,9
 Terras de Bouro,9
 Vendas Novas,9
@@ -144,6 +143,7 @@ Aljustrel,8
 Almeida,8
 Alter do Chão,8
 Cabeceiras de Basto,8
+Castro Marim,8
 Celorico da Beira,8
 Entroncamento,8
 Horta,8
@@ -219,6 +219,7 @@ Resende,4
 Santa Cruz da Graciosa,4
 Sernancelhe,4
 Serpa,4
+Soure,4
 Sátão,4
 Vila Nova da Barquinha,4
 Vila Viçosa,4
@@ -249,7 +250,6 @@ Santa Marta de Penaguião,3
 Santana,3
 Sever do Vouga,3
 Sobral de Monte Agraço,3
-Soure,3
 São João da Pesqueira,3
 Tabuaço,3
 Trancoso,3
