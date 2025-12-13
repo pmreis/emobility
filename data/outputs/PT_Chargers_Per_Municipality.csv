@@ -1,6 +1,6 @@
 City,Qty
-Lisboa,924
-Cascais,425
+Lisboa,923
+Cascais,426
 Porto,247
 Oeiras,178
 Vila Nova de Gaia,169
@@ -49,10 +49,10 @@ Santo Tirso,38
 Vila Nova de Famalicão,38
 Mealhada,37
 Esposende,34
-Alcobaça,33
 Olhão,33
 Paredes,33
 Póvoa de Varzim,33
+Alcobaça,32
 Barcelos,31
 Nazaré,31
 Ílhavo,31
@@ -182,6 +182,7 @@ Vila Nova de Foz Côa,6
 Vila Nova de Paiva,6
 Aljezur,5
 Alvaiázere,5
+Arouca,5
 Cartaxo,5
 Castro Verde,5
 Celorico de Basto,5
@@ -199,7 +200,6 @@ Alvito,4
 Ansião,4
 Arganil,4
 Armamar,4
-Arouca,4
 Arraiolos,4
 "Calheta, Madeira",4
 Campo Maior,4
