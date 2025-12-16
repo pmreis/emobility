@@ -8,10 +8,10 @@ Loulé,162
 Sintra,152
 Barreiro,126
 Matosinhos,121
-Vila Franca de Xira,119
 Loures,118
 Guimarães,115
 Braga,113
+Vila Franca de Xira,111
 Coimbra,101
 Leiria,100
 Montijo,96
@@ -34,8 +34,8 @@ Maia,50
 Viana do Castelo,50
 Évora,50
 Ovar,48
-Gondomar,45
 Santarém,45
+Gondomar,44
 Penafiel,44
 Mafra,42
 São João da Madeira,42
@@ -48,13 +48,12 @@ Castelo Branco,38
 Santo Tirso,38
 Vila Nova de Famalicão,38
 Mealhada,37
+Alcobaça,35
 Esposende,34
 Olhão,33
 Paredes,33
 Póvoa de Varzim,33
-Alcobaça,32
 Barcelos,31
-Nazaré,31
 Ílhavo,31
 Alcochete,30
 "Lagoa, Faro",30
@@ -63,6 +62,7 @@ Silves,30
 Lagos,29
 Vila Real,29
 Caldas da Rainha,28
+Nazaré,28
 Anadia,26
 Cantanhede,26
 Figueira da Foz,26
@@ -81,6 +81,7 @@ Ponte de Lima,20
 Tavira,20
 Abrantes,19
 Alenquer,19
+Aljustrel,19
 Amarante,19
 Fafe,19
 Pombal,19
@@ -139,7 +140,6 @@ Miranda do Douro,9
 Terras de Bouro,9
 Vendas Novas,9
 Alcanena,8
-Aljustrel,8
 Almeida,8
 Alter do Chão,8
 Cabeceiras de Basto,8
