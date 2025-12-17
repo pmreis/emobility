@@ -1,7 +1,7 @@
 City,Qty
 Lisboa,923
-Cascais,426
-Porto,247
+Cascais,430
+Porto,254
 Oeiras,178
 Vila Nova de Gaia,169
 Loulé,162
@@ -9,10 +9,10 @@ Sintra,152
 Barreiro,126
 Matosinhos,121
 Loures,118
+Braga,115
 Guimarães,115
-Braga,113
 Vila Franca de Xira,111
-Coimbra,101
+Coimbra,103
 Leiria,100
 Montijo,96
 Viseu,96
@@ -30,16 +30,16 @@ Faro,59
 Beja,55
 Grândola,51
 Funchal,50
-Maia,50
 Viana do Castelo,50
 Évora,50
+Maia,48
 Ovar,48
 Santarém,45
 Gondomar,44
 Penafiel,44
-Mafra,42
 São João da Madeira,42
 Guarda,41
+Mafra,41
 Palmela,41
 Tomar,41
 Covilhã,40
@@ -47,10 +47,10 @@ Valongo,40
 Castelo Branco,38
 Santo Tirso,38
 Vila Nova de Famalicão,38
-Mealhada,37
 Alcobaça,35
+Mealhada,35
+Olhão,35
 Esposende,34
-Olhão,33
 Paredes,33
 Póvoa de Varzim,33
 Barcelos,31
@@ -63,10 +63,11 @@ Lagos,29
 Vila Real,29
 Caldas da Rainha,28
 Nazaré,28
+Cantanhede,27
 Anadia,26
-Cantanhede,26
 Figueira da Foz,26
 Ourém,26
+Alcácer do Sal,24
 Fundão,24
 Albergaria-a-Velha,23
 Chaves,23
@@ -104,7 +105,6 @@ Oliveira do Bairro,15
 Ribeira Grande,15
 Santiago do Cacém,15
 Vale de Cambra,15
-Alcácer do Sal,14
 Machico,14
 Marco de Canaveses,14
 Porto de Mós,14
@@ -129,13 +129,13 @@ Rio Maior,11
 Salvaterra de Magos,11
 Santa Comba Dão,11
 Sines,11
-Vila Real de Santo António,11
 Batalha,10
 Bombarral,10
 Lousã,10
 Mangualde,10
 Monção,10
 Odemira,10
+Vila Real de Santo António,10
 Miranda do Douro,9
 Terras de Bouro,9
 Vendas Novas,9
@@ -160,6 +160,7 @@ Coruche,7
 Manteigas,7
 Melgaço,7
 Oliveira de Frades,7
+Peso da Régua,7
 Proença-a-Nova,7
 São Brás de Alportel,7
 São Pedro do Sul,7
@@ -188,10 +189,8 @@ Castro Verde,5
 Celorico de Basto,5
 Macedo de Cavaleiros,5
 Miranda do Corvo,5
-Peso da Régua,5
 Sertã,5
 São Vicente,5
-Tarouca,5
 Torre de Moncorvo,5
 Valpaços,5
 Vouzela,5
@@ -221,6 +220,7 @@ Sernancelhe,4
 Serpa,4
 Soure,4
 Sátão,4
+Tarouca,4
 Vila Nova da Barquinha,4
 Vila Viçosa,4
 Vila do Porto,4
