@@ -1,19 +1,19 @@
 City,Qty
-Lisboa,929
+Lisboa,930
 Cascais,430
-Porto,259
+Porto,258
 Oeiras,178
-Vila Nova de Gaia,169
+Vila Nova de Gaia,170
 Loulé,164
-Sintra,152
+Sintra,153
 Barreiro,126
 Matosinhos,121
 Loures,118
 Guimarães,117
 Braga,115
-Vila Franca de Xira,112
+Vila Franca de Xira,113
 Coimbra,103
-Leiria,100
+Leiria,101
 Montijo,96
 Viseu,96
 Albufeira,87
@@ -42,11 +42,11 @@ Mafra,43
 São João da Madeira,42
 Guarda,41
 Tomar,41
-Covilhã,40
 Valongo,40
+Covilhã,39
+Vila Nova de Famalicão,39
 Castelo Branco,38
 Santo Tirso,38
-Vila Nova de Famalicão,38
 Mealhada,36
 Alcobaça,35
 Olhão,35
@@ -63,11 +63,11 @@ Silves,30
 Lagos,29
 Vila Real,29
 Nazaré,28
+Alcácer do Sal,27
 Cantanhede,27
-Alcácer do Sal,26
 Anadia,26
 Figueira da Foz,26
-Ourém,25
+Ourém,26
 Fundão,24
 Torres Novas,24
 Albergaria-a-Velha,23
@@ -76,21 +76,21 @@ Caminha,22
 Felgueiras,22
 Estarreja,21
 Ponta Delgada,21
+Amarante,20
 Bragança,20
 Peniche,20
-Pombal,20
 Ponte de Lima,20
 Tavira,20
 Abrantes,19
 Alenquer,19
 Aljustrel,19
-Amarante,19
 Fafe,19
 Portalegre,19
 Santa Cruz,19
 Lamego,18
 Lourinhã,18
 Marinha Grande,18
+Pombal,18
 Óbidos,18
 Oliveira do Hospital,17
 Paços de Ferreira,17
@@ -162,7 +162,6 @@ Melgaço,7
 Oliveira de Frades,7
 Peso da Régua,7
 Proença-a-Nova,7
-São Brás de Alportel,7
 São Pedro do Sul,7
 Vagos,7
 Vila Nova de Cerveira,7
@@ -176,6 +175,7 @@ Penalva do Castelo,6
 Póvoa de Lanhoso,6
 Reguengos de Monsaraz,6
 Sabugal,6
+São Brás de Alportel,6
 Valença,6
 Viana do Alentejo,6
 Vila Franca do Campo,6
