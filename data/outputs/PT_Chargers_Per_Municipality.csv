@@ -1,7 +1,7 @@
 City,Qty
 Lisboa,930
-Cascais,430
-Porto,258
+Cascais,431
+Porto,256
 Oeiras,178
 Vila Nova de Gaia,170
 Loulé,164
@@ -9,25 +9,25 @@ Sintra,153
 Barreiro,126
 Matosinhos,121
 Loures,118
-Guimarães,117
+Guimarães,116
 Braga,115
 Vila Franca de Xira,113
 Coimbra,103
 Leiria,101
+Albufeira,98
 Montijo,96
 Viseu,96
-Albufeira,87
 Almada,78
 Santa Maria da Feira,78
 Setúbal,72
-Portimão,64
+Portimão,63
 Amadora,62
 Aveiro,61
 Seixal,61
 Torres Vedras,61
 Vila do Conde,61
 Faro,59
-Beja,55
+Beja,56
 Viana do Castelo,53
 Grândola,51
 Funchal,50
@@ -36,9 +36,9 @@ Maia,48
 Ovar,48
 Palmela,47
 Santarém,46
-Gondomar,44
-Penafiel,44
+Gondomar,43
 Mafra,43
+Penafiel,43
 São João da Madeira,42
 Guarda,41
 Tomar,41
@@ -76,15 +76,15 @@ Caminha,22
 Felgueiras,22
 Estarreja,21
 Ponta Delgada,21
-Amarante,20
 Bragança,20
 Peniche,20
-Ponte de Lima,20
 Tavira,20
 Abrantes,19
 Alenquer,19
 Aljustrel,19
+Amarante,19
 Fafe,19
+Ponte de Lima,19
 Portalegre,19
 Santa Cruz,19
 Lamego,18
@@ -94,11 +94,11 @@ Pombal,18
 Óbidos,18
 Oliveira do Hospital,17
 Paços de Ferreira,17
-Vila Verde,17
 Azambuja,16
 Estremoz,16
 Lousada,16
 Tondela,16
+Vila Verde,16
 Moita,15
 Oliveira de Azeméis,15
 Oliveira do Bairro,15
@@ -106,13 +106,13 @@ Ribeira Grande,15
 Santiago do Cacém,15
 Vale de Cambra,15
 Machico,14
-Marco de Canaveses,14
 Porto de Mós,14
 Seia,14
 Sesimbra,14
 Trofa,14
 Angra do Heroísmo,13
 Benavente,13
+Marco de Canaveses,13
 Porto Santo,13
 Vila do Bispo,13
 Águeda,13
@@ -133,7 +133,6 @@ Batalha,10
 Bombarral,10
 Lousã,10
 Mangualde,10
-Monção,10
 Odemira,10
 Terras de Bouro,10
 Vila Real de Santo António,10
@@ -148,6 +147,7 @@ Celorico da Beira,8
 Entroncamento,8
 Horta,8
 Moimenta da Beira,8
+Monção,8
 Nelas,8
 Praia da Vitória,8
 Tábua,8
@@ -267,7 +267,6 @@ Ferreira do Alentejo,2
 Figueira de Castelo Rodrigo,2
 Freixo de Espada à Cinta,2
 Marvão,2
-Monchique,2
 Murça,2
 Mértola,2
 Mêda,2
@@ -300,6 +299,7 @@ Lajes do Pico,1
 Madalena,1
 Mação,1
 Mesão Frio,1
+Monchique,1
 Monforte,1
 Paredes de Coura,1
 Ponta do Sol,1
