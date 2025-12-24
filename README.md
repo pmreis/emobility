@@ -142,7 +142,7 @@ https://napcore.eu/description-naps/national-access-point/
 #### Notes on Mobi.e :
 During the transition period (until December 31, 2026), Mobi.e will provide data to the official National Access Point (IMT).
 
-Mobi.e's reach and responsibilities extend beyond a NAP, namely it is responsible for activation and finantial flows of the charging infrastructure. Mobi.e is a monopoly established by law, as recognized by the national energy regulator ERSE and also a mandatory roaming platform.
+Mobi.e's reach and responsibilities extend beyond a NAP, namely it is responsible for activation and financial flows of the charging infrastructure. Mobi.e is a monopoly established by law, as recognized by the national energy regulator ERSE and also a mandatory roaming platform.
 
  | ![mobie=monopoly](legal/ERSE_Mobie_Monopoly.png) |
  |:--:|
