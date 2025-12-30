@@ -1,7 +1,7 @@
 City,Qty
-Lisboa,930
-Cascais,431
-Porto,256
+Lisboa,931
+Cascais,434
+Porto,258
 Oeiras,178
 Vila Nova de Gaia,170
 Loulé,164
@@ -20,20 +20,20 @@ Viseu,96
 Almada,78
 Santa Maria da Feira,78
 Setúbal,71
+Seixal,65
 Portimão,63
 Amadora,62
+Torres Vedras,62
 Aveiro,61
-Seixal,61
-Torres Vedras,61
 Vila do Conde,61
 Faro,59
 Beja,56
 Viana do Castelo,53
 Grândola,51
+Ovar,51
 Évora,51
 Funchal,50
-Maia,48
-Ovar,48
+Maia,49
 Palmela,47
 Santarém,46
 Mafra,44
@@ -43,13 +43,13 @@ São João da Madeira,42
 Guarda,41
 Tomar,41
 Valongo,40
+Vila Nova de Famalicão,40
 Covilhã,39
-Vila Nova de Famalicão,39
 Castelo Branco,38
 Santo Tirso,38
+Olhão,37
 Mealhada,36
 Alcobaça,35
-Olhão,35
 Esposende,34
 Paredes,33
 Póvoa de Varzim,33
@@ -62,9 +62,9 @@ Odivelas,30
 Silves,30
 Lagos,29
 Vila Real,29
+Cantanhede,28
 Nazaré,28
 Alcácer do Sal,27
-Cantanhede,27
 Anadia,26
 Figueira da Foz,26
 Ourém,26
@@ -74,15 +74,16 @@ Albergaria-a-Velha,23
 Chaves,23
 Caminha,22
 Felgueiras,22
+Moita,22
 Estarreja,21
 Ponta Delgada,21
+Aljustrel,20
 Bragança,20
 Peniche,20
 Ponte de Lima,20
 Tavira,20
 Abrantes,19
 Alenquer,19
-Aljustrel,19
 Amarante,19
 Fafe,19
 Portalegre,19
@@ -99,7 +100,6 @@ Estremoz,16
 Lousada,16
 Tondela,16
 Vila Verde,16
-Moita,15
 Oliveira de Azeméis,15
 Oliveira do Bairro,15
 Ribeira Grande,15
@@ -107,6 +107,7 @@ Santiago do Cacém,15
 Vale de Cambra,15
 Machico,14
 Porto de Mós,14
+Salvaterra de Magos,14
 Seia,14
 Sesimbra,14
 Trofa,14
@@ -126,7 +127,6 @@ Mirandela,11
 Montemor-o-Velho,11
 Ponte de Sôr,11
 Rio Maior,11
-Salvaterra de Magos,11
 Santa Comba Dão,11
 Sines,11
 Batalha,10
