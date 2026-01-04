@@ -8,7 +8,7 @@ import os.path as osp
 projRootPath = Path(__file__).resolve().parent.parent
 
 results = []
-for year in range(2004, 2026):
+for year in range(2004, 2027):
     response = requests.get(f"https://www.euro-millions.com/results-history-{year}")
     soup = BeautifulSoup(response.text, 'html.parser')
 
