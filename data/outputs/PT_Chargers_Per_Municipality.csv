@@ -1,10 +1,10 @@
 City,Qty
-Lisboa,932
+Lisboa,934
 Cascais,434
 Porto,259
 Oeiras,178
 Vila Nova de Gaia,170
-Loulé,164
+Loulé,163
 Sintra,151
 Barreiro,126
 Matosinhos,121
@@ -12,7 +12,7 @@ Loures,117
 Guimarães,116
 Braga,115
 Vila Franca de Xira,113
-Coimbra,105
+Coimbra,104
 Leiria,101
 Albufeira,99
 Montijo,96
@@ -25,7 +25,7 @@ Portimão,63
 Amadora,62
 Torres Vedras,62
 Vila do Conde,62
-Aveiro,61
+Aveiro,59
 Faro,59
 Beja,56
 Viana do Castelo,53
@@ -65,8 +65,8 @@ Vila Real,29
 Cantanhede,28
 Nazaré,28
 Alcácer do Sal,27
-Figueira da Foz,27
 Anadia,26
+Figueira da Foz,26
 Ourém,26
 Fundão,24
 Torres Novas,24
@@ -90,16 +90,16 @@ Portalegre,19
 Santa Cruz,19
 Lamego,18
 Lourinhã,18
-Marinha Grande,18
 Oliveira do Hospital,18
 Pombal,18
 Óbidos,18
+Marinha Grande,17
 Paços de Ferreira,17
 Azambuja,16
-Estremoz,16
 Lousada,16
 Tondela,16
 Vila Verde,16
+Estremoz,15
 Oliveira de Azeméis,15
 Oliveira do Bairro,15
 Ribeira Grande,15
@@ -152,7 +152,6 @@ Nelas,8
 Praia da Vitória,8
 Tábua,8
 Vila Pouca de Aguiar,8
-Almeirim,7
 Baião,7
 Chamusca,7
 Cinfães,7
@@ -167,6 +166,7 @@ Vagos,7
 Vila Nova de Cerveira,7
 Vila Velha de Ródão,7
 Vizela,7
+Almeirim,6
 Amares,6
 Idanha-a-Nova,6
 Mira,6
@@ -219,7 +219,6 @@ Santa Cruz da Graciosa,4
 Sernancelhe,4
 Serpa,4
 Soure,4
-Sátão,4
 Tarouca,4
 Vila Nova da Barquinha,4
 Vila Viçosa,4
@@ -250,10 +249,11 @@ Santa Marta de Penaguião,3
 Santana,3
 Sever do Vouga,3
 Sobral de Monte Agraço,3
+Sátão,3
 São João da Pesqueira,3
 Tabuaço,3
-Trancoso,3
 Vieira do Minho,3
+Vila Flor,3
 Vimioso,3
 Alfândega da Fé,2
 Cadaval,2
@@ -280,9 +280,9 @@ Ponte da Barca,2
 Sabrosa,2
 Sardoal,2
 Sousel,2
+Trancoso,2
 Velas,2
 Vidigueira,2
-Vila Flor,2
 Vila de Rei,2
 Vinhais,2
 Alandroal,1
