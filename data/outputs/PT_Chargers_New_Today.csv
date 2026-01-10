@@ -1,4 +1,7 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-PTL-00038,HRZ,"Powerdot, S.A",Ponte de Lima,41.755016,-8.585431
-PTM-00076,ATL,"Atlante Infra Portugal, S.A",Portimão,37.14684,-8.54953
-PTM-00077,ATL,"Atlante Infra Portugal, S.A",Portimão,37.14684,-8.54953
+GRD-00036,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Guarda,40.534645,-7.2432256
+PRT-00360,HRZ,"Powerdot, S.A",Porto,41.174557,-8.610011
+PTL-00034,GLD,Gold Energy,Ponte de Lima,41.652573,-8.6049795
+PTL-00035,GLD,Gold Energy,Ponte de Lima,41.65224,-8.6052265
+PTL-00036,GLD,Gold Energy,Ponte de Lima,41.65224,-8.6052265
+VNB-00006,REM,MOTA-ENGIL REMO CHARGING S.A,Vila Nova da Barquinha,39.461544,-8.452
