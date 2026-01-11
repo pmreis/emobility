@@ -148,7 +148,7 @@ def insert_operators(conn, data):
     conn.commit()
 
 # Insert temp chargers (only IDs)
-def insert_tmp_chargers(conn, data):
+def tmp_chargers_deltas(conn, data):
     cursor = conn.cursor()
 
     cursor.execute('''
@@ -163,6 +163,26 @@ def insert_tmp_chargers(conn, data):
             values (?);
         ''', (charger['ChargerId'],))
 
+    # Output Removed Delta
+    data = pd.read_sql_query('''
+        select c.ChargerId,
+            c.OperatorAbb,
+            o.OperatorName,
+            c.City,
+            c.Lat,
+            c.Lon
+        from Chargers c
+        join Operators o on o.OperatorAbb = c.OperatorAbb
+        where Country = 'PT'
+            and Status = 'Present'
+            and ChargerId not in (
+            select ChargerId
+            from TempChargers
+        );
+    ''', conn)
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Removed_Today.csv')
+    data.to_csv(filepath, sep=",", index=None, mode="w")
+
     cursor.execute('''
         update Chargers
         set Status = 'Removed'
@@ -172,14 +192,25 @@ def insert_tmp_chargers(conn, data):
         );
     ''')
 
-    cursor.execute('''
-        update Chargers
-        set Status = 'Present'
-        where ChargerId in (
+    # Output Readded Delta
+    data = pd.read_sql_query('''
+        select c.ChargerId,
+            c.OperatorAbb,
+            o.OperatorName,
+            c.City,
+            c.Lat,
+            c.Lon
+        from Chargers c
+        join Operators o on o.OperatorAbb = c.OperatorAbb
+        where Country = 'PT'
+            and Status = 'Removed'
+            and ChargerId in (
             select ChargerId
             from TempChargers
         );
-    ''')
+    ''', conn)
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Readded_Today.csv')
+    data.to_csv(filepath, sep=",", index=None, mode="w")
 
     cursor.execute('''
         update Chargers
@@ -400,7 +431,7 @@ def main():
     data = parse_datex(xml_file)
     insert_operators(conn, data)
     insert_or_update_chargers(conn, data)
-    insert_tmp_chargers(conn, data)
+    tmp_chargers_deltas(conn, data)
     insert_plugs(conn, data)
     generate_output_csvs(conn)
 
