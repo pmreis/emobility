@@ -180,7 +180,7 @@ def tmp_chargers_deltas(conn, data):
             from TempChargers
         );
     ''', conn)
-    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Removed_Today.csv')
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Today_Removed.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
     cursor.execute('''
@@ -209,7 +209,7 @@ def tmp_chargers_deltas(conn, data):
             from TempChargers
         );
     ''', conn)
-    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Readded_Today.csv')
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Today_Readded.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
     cursor.execute('''
@@ -372,7 +372,7 @@ def generate_output_csvs(conn):
             and c.Country = 'PT'
         order by ChargerId;
     ''', conn)
-    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_New_Today.csv')
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Today_New.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
     # Output Chargers per Municipality
