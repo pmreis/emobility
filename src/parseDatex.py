@@ -176,9 +176,9 @@ def tmp_chargers_deltas(conn, data):
         where Country = 'PT'
             and Status = 'Present'
             and ChargerId not in (
-            select ChargerId
-            from TempChargers
-        );
+                select ChargerId
+                from TempChargers
+            );
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Today_Removed.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
@@ -205,9 +205,9 @@ def tmp_chargers_deltas(conn, data):
         where Country = 'PT'
             and Status = 'Removed'
             and ChargerId in (
-            select ChargerId
-            from TempChargers
-        );
+                select ChargerId
+                from TempChargers
+            );
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Today_Readded.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
