@@ -12,7 +12,7 @@ Loures,117
 Guimarães,116
 Braga,115
 Vila Franca de Xira,113
-Coimbra,105
+Coimbra,107
 Leiria,101
 Albufeira,99
 Montijo,96
@@ -36,10 +36,10 @@ Grândola,50
 Maia,49
 Palmela,47
 Santarém,46
-Mafra,43
 Penafiel,43
 Gondomar,42
 Guarda,42
+Mafra,42
 São João da Madeira,42
 Tomar,41
 Covilhã,40
@@ -74,6 +74,7 @@ Torres Novas,24
 Albergaria-a-Velha,23
 Chaves,23
 Moita,23
+Azambuja,22
 Caminha,22
 Felgueiras,22
 Estarreja,21
@@ -95,7 +96,7 @@ Pombal,18
 Óbidos,18
 Marinha Grande,17
 Paços de Ferreira,17
-Azambuja,16
+Elvas,16
 Lousada,16
 Tondela,16
 Vila Verde,16
@@ -121,7 +122,6 @@ Arruda dos Vinhos,12
 Montemor-o-Novo,12
 Arcos de Valdevez,11
 Condeixa-a-Nova,11
-Elvas,11
 Espinho,11
 Mirandela,11
 Montemor-o-Velho,11
@@ -144,6 +144,7 @@ Alter do Chão,8
 Cabeceiras de Basto,8
 Castro Marim,8
 Celorico da Beira,8
+Cinfães,8
 Entroncamento,8
 Horta,8
 Moimenta da Beira,8
@@ -154,7 +155,6 @@ Tábua,8
 Vila Pouca de Aguiar,8
 Baião,7
 Chamusca,7
-Cinfães,7
 Coruche,7
 Manteigas,7
 Melgaço,7
@@ -170,6 +170,7 @@ Almeirim,6
 Amares,6
 Idanha-a-Nova,6
 Mira,6
+Miranda do Corvo,6
 Penacova,6
 Penalva do Castelo,6
 Póvoa de Lanhoso,6
@@ -187,7 +188,6 @@ Arouca,5
 Castro Verde,5
 Celorico de Basto,5
 Macedo de Cavaleiros,5
-Miranda do Corvo,5
 Sertã,5
 São Vicente,5
 Torre de Moncorvo,5
@@ -226,6 +226,7 @@ Vila do Porto,4
 Aguiar da Beira,3
 Alcoutim,3
 Alijó,3
+Alpiarça,3
 Avis,3
 Belmonte,3
 Borba,3
@@ -286,7 +287,6 @@ Vidigueira,2
 Vila de Rei,2
 Vinhais,2
 Alandroal,1
-Alpiarça,1
 Arronches,1
 Barrancos,1
 Boticas,1
