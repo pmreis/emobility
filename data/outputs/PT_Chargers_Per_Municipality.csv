@@ -1,5 +1,5 @@
 City,Qty
-Lisboa,934
+Lisboa,935
 Cascais,434
 Porto,259
 Oeiras,178
@@ -22,9 +22,9 @@ Santa Maria da Feira,77
 Setúbal,73
 Portimão,65
 Seixal,65
+Vila do Conde,64
 Amadora,62
 Torres Vedras,62
-Vila do Conde,62
 Aveiro,59
 Faro,59
 Beja,56
@@ -70,6 +70,7 @@ Figueira da Foz,26
 Ourém,26
 Fundão,24
 Ponte de Lima,24
+Tavira,24
 Torres Novas,24
 Albergaria-a-Velha,23
 Chaves,23
@@ -77,7 +78,6 @@ Moita,23
 Azambuja,22
 Caminha,22
 Felgueiras,22
-Tavira,22
 Estarreja,21
 Ponta Delgada,21
 Aljustrel,20
@@ -254,7 +254,6 @@ Sátão,3
 São João da Pesqueira,3
 Tabuaço,3
 Vieira do Minho,3
-Vila Flor,3
 Vimioso,3
 Alfândega da Fé,2
 Cadaval,2
@@ -268,6 +267,7 @@ Ferreira do Alentejo,2
 Figueira de Castelo Rodrigo,2
 Freixo de Espada à Cinta,2
 Marvão,2
+Monchique,2
 Murça,2
 Mértola,2
 Mêda,2
@@ -284,6 +284,7 @@ Sousel,2
 Trancoso,2
 Velas,2
 Vidigueira,2
+Vila Flor,2
 Vila de Rei,2
 Vinhais,2
 Alandroal,1
@@ -299,7 +300,6 @@ Lajes do Pico,1
 Madalena,1
 Mação,1
 Mesão Frio,1
-Monchique,1
 Monforte,1
 Paredes de Coura,1
 Ponta do Sol,1
