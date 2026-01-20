@@ -1,6 +1,6 @@
 City,Qty
-Lisboa,935
-Cascais,434
+Lisboa,936
+Cascais,437
 Porto,259
 Oeiras,178
 Vila Nova de Gaia,169
@@ -13,7 +13,7 @@ Guimarães,116
 Braga,115
 Vila Franca de Xira,113
 Coimbra,107
-Leiria,100
+Leiria,103
 Albufeira,99
 Montijo,96
 Viseu,96
@@ -56,7 +56,6 @@ Póvoa de Varzim,33
 Barcelos,31
 Ílhavo,31
 Caldas da Rainha,30
-"Lagoa, Faro",30
 Odivelas,30
 Silves,30
 Lagos,29
@@ -65,6 +64,7 @@ Alcochete,28
 Cantanhede,28
 Nazaré,28
 Alcácer do Sal,27
+"Lagoa, Faro",27
 Anadia,26
 Figueira da Foz,26
 Ourém,26
@@ -82,6 +82,7 @@ Estarreja,21
 Ponta Delgada,21
 Aljustrel,20
 Bragança,20
+Lamego,20
 Peniche,20
 Abrantes,19
 Alenquer,19
@@ -89,7 +90,6 @@ Amarante,19
 Fafe,19
 Portalegre,19
 Santa Cruz,19
-Lamego,18
 Lourinhã,18
 Oliveira do Hospital,18
 Pombal,18
@@ -134,10 +134,10 @@ Bombarral,10
 Castro Marim,10
 Lousã,10
 Mangualde,10
-Odemira,10
 Terras de Bouro,10
 Vila Real de Santo António,10
 Miranda do Douro,9
+Odemira,9
 Vendas Novas,9
 Alcanena,8
 Almeida,8
@@ -151,6 +151,7 @@ Moimenta da Beira,8
 Monção,8
 Nelas,8
 Praia da Vitória,8
+Póvoa de Lanhoso,8
 Tábua,8
 Vila Pouca de Aguiar,8
 Baião,7
@@ -172,7 +173,6 @@ Mira,6
 Miranda do Corvo,6
 Penacova,6
 Penalva do Castelo,6
-Póvoa de Lanhoso,6
 Reguengos de Monsaraz,6
 Sabugal,6
 São Brás de Alportel,6
