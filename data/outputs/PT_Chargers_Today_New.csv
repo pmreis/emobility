@@ -1,9 +1,4 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-AZB-00022,GLP,Galp Power OPC,Azambuja,39.122715,-8.907596
-AZB-00023,GLP,Galp Power OPC,Azambuja,39.122715,-8.907596
-AZB-00024,GLP,Galp Power OPC,Azambuja,39.122715,-8.907596
-AZB-00025,GLP,Galp Power OPC,Azambuja,39.122715,-8.907596
-AZB-00026,GLP,Galp Power OPC,Azambuja,39.122715,-8.907596
-AZB-00027,GLP,Galp Power OPC,Azambuja,39.122715,-8.907596
-LSB-01123,GLP,Galp Power OPC,Lisboa,38.723045,-9.167977
-MLD-00051,EDP,EDP Comercial,Mealhada,40.38785,-8.450424
+AMD-00115,MOA,"MOBI A - Mobilidade e Ambiente, Lda",Amadora,38.77077,-9.24521
+AMD-00116,MOA,"MOBI A - Mobilidade e Ambiente, Lda",Amadora,38.77077,-9.24521
+SSB-00020,GLP,Galp Power OPC,Sesimbra,38.56574,-9.037391

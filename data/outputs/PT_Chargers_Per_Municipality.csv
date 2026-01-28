@@ -1,5 +1,5 @@
 City,Qty
-Lisboa,935
+Lisboa,931
 Cascais,436
 Porto,259
 Oeiras,178
@@ -22,8 +22,8 @@ Santa Maria da Feira,77
 Setúbal,73
 Portimão,65
 Seixal,65
+Amadora,64
 Vila do Conde,64
-Amadora,62
 Torres Vedras,62
 Aveiro,59
 Faro,58
@@ -45,8 +45,8 @@ São João da Madeira,41
 Tomar,41
 Valongo,40
 Vila Nova de Famalicão,40
-Castelo Branco,38
 Santo Tirso,38
+Castelo Branco,37
 Mealhada,37
 Olhão,37
 Alcobaça,35
@@ -61,7 +61,6 @@ Silves,30
 Lagos,29
 Vila Real,29
 Alcochete,28
-Azambuja,28
 Cantanhede,28
 Nazaré,28
 Alcácer do Sal,27
@@ -69,6 +68,7 @@ Alcácer do Sal,27
 Anadia,26
 Figueira da Foz,26
 Ourém,26
+Azambuja,25
 Fundão,24
 Ponte de Lima,24
 Tavira,24
@@ -100,31 +100,31 @@ Elvas,16
 Lousada,16
 Tondela,16
 Vila Verde,16
-Estremoz,15
 Oliveira do Bairro,15
 Ribeira Grande,15
 Santiago do Cacém,15
+Sesimbra,15
 Vale de Cambra,15
 Machico,14
 Oliveira de Azeméis,14
 Porto de Mós,14
 Salvaterra de Magos,14
 Seia,14
-Sesimbra,14
 Trofa,14
 Angra do Heroísmo,13
 Benavente,13
+Estremoz,13
 Marco de Canaveses,13
 Porto Santo,13
 Vila do Bispo,13
 Águeda,13
 Arruda dos Vinhos,12
 Batalha,12
-Montemor-o-Novo,12
 Arcos de Valdevez,11
 Condeixa-a-Nova,11
 Espinho,11
 Mirandela,11
+Montemor-o-Novo,11
 Montemor-o-Velho,11
 Ponte de Sôr,11
 Rio Maior,11
@@ -158,7 +158,6 @@ Baião,7
 Chamusca,7
 Coruche,7
 Manteigas,7
-Melgaço,7
 Oliveira de Frades,7
 Peso da Régua,7
 Proença-a-Nova,7
@@ -169,6 +168,7 @@ Vizela,7
 Almeirim,6
 Amares,6
 Idanha-a-Nova,6
+Melgaço,6
 Mira,6
 Miranda do Corvo,6
 Penacova,6
