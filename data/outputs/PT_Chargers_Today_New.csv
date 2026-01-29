@@ -1,4 +1,7 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-AMD-00115,MOA,"MOBI A - Mobilidade e Ambiente, Lda",Amadora,38.77077,-9.24521
-AMD-00116,MOA,"MOBI A - Mobilidade e Ambiente, Lda",Amadora,38.77077,-9.24521
-SSB-00020,GLP,Galp Power OPC,Sesimbra,38.56574,-9.037391
+LSB-01142,EDP,EDP Comercial,Lisboa,38.76906,-9.166949
+LSB-01143,EDP,EDP Comercial,Lisboa,38.76906,-9.166949
+PRT-00337,GLP,Galp Power OPC,Porto,41.160122,-8.640706
+PRT-00338,GLP,Galp Power OPC,Porto,41.160122,-8.640706
+VND-00016,EDP,EDP Comercial,Vendas Novas,38.694496,-8.857
+VND-00019,EDP,EDP Comercial,Vendas Novas,37.19787,-8.625054
