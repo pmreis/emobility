@@ -12,8 +12,8 @@ Loures,117
 Braga,116
 Guimarães,116
 Vila Franca de Xira,113
-Coimbra,107
-Leiria,103
+Coimbra,105
+Leiria,104
 Albufeira,99
 Montijo,96
 Viseu,96
@@ -25,7 +25,7 @@ Seixal,65
 Amadora,64
 Vila do Conde,64
 Torres Vedras,62
-Aveiro,59
+Aveiro,60
 Faro,57
 Beja,56
 Viana do Castelo,53
@@ -54,32 +54,32 @@ Esposende,33
 Paredes,33
 Póvoa de Varzim,33
 Barcelos,31
+Caldas da Rainha,31
 Ílhavo,31
-Caldas da Rainha,30
+Alcochete,30
 Odivelas,30
 Silves,30
 Lagos,29
 Vila Real,29
-Alcochete,28
 Cantanhede,28
 Nazaré,28
 Alcácer do Sal,27
 "Lagoa, Faro",27
 Anadia,26
 Figueira da Foz,26
-Ourém,26
 Azambuja,25
+Ourém,25
 Fundão,24
 Ponte de Lima,24
-Tavira,24
 Torres Novas,24
 Albergaria-a-Velha,23
 Chaves,23
 Moita,23
+Tavira,23
 Caminha,22
 Felgueiras,22
+Lamego,22
 Estarreja,21
-Lamego,21
 Ponta Delgada,21
 Aljustrel,20
 Bragança,20
@@ -147,6 +147,7 @@ Celorico da Beira,8
 Cinfães,8
 Entroncamento,8
 Horta,8
+Idanha-a-Nova,8
 Moimenta da Beira,8
 Monção,8
 Nelas,8
@@ -167,7 +168,6 @@ Vila Velha de Ródão,7
 Vizela,7
 Almeirim,6
 Amares,6
-Idanha-a-Nova,6
 Melgaço,6
 Mira,6
 Miranda do Corvo,6
