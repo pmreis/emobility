@@ -1,7 +1,4 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-LSB-01142,EDP,EDP Comercial,Lisboa,38.76906,-9.166949
-LSB-01143,EDP,EDP Comercial,Lisboa,38.76906,-9.166949
-PRT-00337,GLP,Galp Power OPC,Porto,41.160122,-8.640706
-PRT-00338,GLP,Galp Power OPC,Porto,41.160122,-8.640706
-VND-00016,EDP,EDP Comercial,Vendas Novas,38.694496,-8.857
-VND-00019,EDP,EDP Comercial,Vendas Novas,37.19787,-8.625054
+IDN-00007,ATL,"Atlante Infra Portugal, S.A",Idanha-a-Nova,40.015175,-7.32115
+IDN-00008,ATL,"Atlante Infra Portugal, S.A",Idanha-a-Nova,40.015175,-7.32115
+LMG-00020,EDP,EDP Comercial,Lamego,41.096157,-7.817321
