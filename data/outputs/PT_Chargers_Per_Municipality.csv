@@ -1,15 +1,15 @@
 City,Qty
-Lisboa,933
+Lisboa,932
 Cascais,437
 Porto,261
 Oeiras,178
 Vila Nova de Gaia,169
 Loulé,163
-Sintra,150
+Sintra,154
 Barreiro,126
 Matosinhos,121
+Braga,117
 Loures,117
-Braga,116
 Guimarães,116
 Vila Franca de Xira,113
 Albufeira,105
@@ -17,7 +17,7 @@ Coimbra,105
 Leiria,104
 Montijo,96
 Viseu,96
-Almada,79
+Almada,80
 Santa Maria da Feira,77
 Setúbal,73
 Portimão,65
@@ -28,16 +28,16 @@ Torres Vedras,62
 Aveiro,60
 Faro,58
 Beja,56
+Ovar,54
 Viana do Castelo,53
 Grândola,52
-Ovar,51
 Évora,51
 Funchal,50
 Maia,49
 Palmela,48
 Santarém,47
+Gondomar,43
 Penafiel,43
-Gondomar,42
 Mafra,42
 Covilhã,41
 Guarda,41
@@ -53,6 +53,7 @@ Alcobaça,35
 Esposende,33
 Paredes,33
 Póvoa de Varzim,33
+Moita,32
 Barcelos,31
 Caldas da Rainha,31
 Ílhavo,31
@@ -67,7 +68,6 @@ Alcácer do Sal,27
 "Lagoa, Faro",27
 Anadia,26
 Figueira da Foz,26
-Moita,26
 Azambuja,25
 Ourém,25
 Fundão,24
@@ -92,10 +92,10 @@ Portalegre,19
 Santa Cruz,19
 Lourinhã,18
 Oliveira do Hospital,18
+Paços de Ferreira,18
 Pombal,18
 Óbidos,18
 Marinha Grande,17
-Paços de Ferreira,17
 Elvas,16
 Lousada,16
 Tondela,16
@@ -121,6 +121,7 @@ Vila do Bispo,13
 Arruda dos Vinhos,12
 Batalha,12
 Peso da Régua,12
+Vila Real de Santo António,12
 Arcos de Valdevez,11
 Condeixa-a-Nova,11
 Espinho,11
@@ -137,7 +138,6 @@ Castro Marim,10
 Lousã,10
 Mangualde,10
 Terras de Bouro,10
-Vila Real de Santo António,10
 Miranda do Douro,9
 Odemira,9
 Alcanena,8
