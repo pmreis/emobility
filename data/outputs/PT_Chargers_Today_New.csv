@@ -1,9 +1,6 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ABF-00177,EDP,EDP Comercial,Albufeira,37.095703,-8.309781
-ABF-00178,EDP,EDP Comercial,Albufeira,37.095703,-8.309781
-MLG-00013,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Melgaço,42.106895,-8.28215
-MLG-00014,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Melgaço,42.106895,-8.28215
-RMZ-00010,ATL,"Atlante Infra Portugal, S.A",Reguengos de Monsaraz,38.429893,-7.532975
-RMZ-00011,ATL,"Atlante Infra Portugal, S.A",Reguengos de Monsaraz,38.429893,-7.532975
-SLV-00038,EDP,EDP Comercial,Silves,37.193348,-8.435946
-SLV-00039,EDP,EDP Comercial,Silves,37.193348,-8.435946
+LGS-00042,EDP,EDP Comercial,Lagos,37.10687,-8.687238
+LGS-00043,EDP,EDP Comercial,Lagos,37.10687,-8.687238
+MGR-00028,CON,"ConectaMais, Lda",Marinha Grande,39.728287,-8.928942
+ODV-00058,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Odivelas,38.7859,-9.2083
+VCD-00066,EDP,EDP Comercial,Vila do Conde,41.278385,-8.67208
