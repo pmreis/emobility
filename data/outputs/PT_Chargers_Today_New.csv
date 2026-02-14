@@ -1,10 +1,6 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-MAI-00091,EDP,EDP Comercial,Maia,41.246773,-8.664789
-MAI-00092,EDP,EDP Comercial,Maia,41.246212,-8.664567
-MAI-00093,EDP,EDP Comercial,Maia,41.246845,-8.660422
-MAI-00094,EDP,EDP Comercial,Maia,41.248108,-8.660514
-MTA-00066,TRK,WOWPLUG,Moita,38.647682,-8.986808
-MTA-00071,TRK,WOWPLUG,Moita,38.66519,-9.045178
-MTS-00194,GLP,Galp Power OPC,Matosinhos,41.200394,-8.651396
-SNT-00231,EDP,EDP Comercial,Sintra,38.751534,-9.311779
-VCT-00059,GLP,Galp Power OPC,Viana do Castelo,41.652576,-8.717351
+AGD-00038,GLP,Galp Power OPC,Águeda,40.572414,-8.440548
+AMT-00037,PRI,"Prio.E Mobility Solutions, Lda",Amarante,41.26257,-8.062613
+LSB-01047,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Lisboa,38.762665,-9.15288
+MBR-00009,HRZ,"Powerdot, S.A",Moimenta da Beira,40.977493,-7.6132827
+VNG-00230,PRI,"Prio.E Mobility Solutions, Lda",Vila Nova de Gaia,41.043648,-8.563325
