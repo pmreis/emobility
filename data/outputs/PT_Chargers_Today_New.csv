@@ -1,2 +1,6 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-VNF-00064,PRI,"Prio.E Mobility Solutions, Lda",Vila Nova de Famalicão,41.428085,-8.43048
+LSB-01180,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.721886,-9.1403
+MAI-00083,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Maia,41.2373,-8.653
+MAI-00084,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Maia,41.2373,-8.653
+STR-00068,HRZ,"Powerdot, S.A",Santarém,39.259937,-8.702848
+STR-00069,HRZ,"Powerdot, S.A",Santarém,39.259937,-8.702848
