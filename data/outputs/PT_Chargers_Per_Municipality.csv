@@ -1,27 +1,27 @@
 City,Qty
-Lisboa,946
+Lisboa,947
 Cascais,434
 Porto,261
 Oeiras,179
 Vila Nova de Gaia,170
 Loulé,162
-Sintra,156
+Sintra,157
 Barreiro,126
 Matosinhos,122
 Braga,117
 Loures,117
 Guimarães,116
 Vila Franca de Xira,113
-Albufeira,108
+Albufeira,107
 Coimbra,104
 Leiria,104
 Montijo,96
 Viseu,96
-Almada,78
+Almada,77
 Santa Maria da Feira,77
 Setúbal,73
+Aveiro,66
 Vila do Conde,66
-Aveiro,65
 Seixal,65
 Amadora,64
 Portimão,64
@@ -61,10 +61,10 @@ Barcelos,31
 Caldas da Rainha,31
 Lagos,31
 Ílhavo,31
+Nazaré,30
 Vila Real,29
 Alcácer do Sal,28
 Cantanhede,28
-Nazaré,28
 "Lagoa, Faro",27
 Anadia,26
 Figueira da Foz,26
@@ -74,14 +74,14 @@ Ponte de Lima,24
 Torres Novas,24
 Albergaria-a-Velha,23
 Chaves,23
+Estarreja,23
+Tavira,23
 Caminha,22
 Felgueiras,22
 Lamego,22
 Paços de Ferreira,22
-Tavira,22
 Amarante,21
 Azambuja,21
-Estarreja,21
 Ponta Delgada,21
 Sesimbra,21
 Aljustrel,20
@@ -124,6 +124,7 @@ Peso da Régua,12
 Sines,12
 Vila Real de Santo António,12
 Arcos de Valdevez,11
+Castro Marim,11
 Condeixa-a-Nova,11
 Espinho,11
 Mirandela,11
@@ -134,7 +135,6 @@ Rio Maior,11
 Santa Comba Dão,11
 Vendas Novas,11
 Bombarral,10
-Castro Marim,10
 Lousã,10
 Mangualde,10
 Terras de Bouro,10
@@ -221,6 +221,7 @@ Santa Cruz da Graciosa,4
 Sernancelhe,4
 Serpa,4
 Soure,4
+Sátão,4
 Tarouca,4
 Vila do Porto,4
 Aguiar da Beira,3
@@ -250,7 +251,6 @@ Santa Marta de Penaguião,3
 Santana,3
 Sever do Vouga,3
 Sobral de Monte Agraço,3
-Sátão,3
 São João da Pesqueira,3
 Tabuaço,3
 Vieira do Minho,3
