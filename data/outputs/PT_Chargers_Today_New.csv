@@ -1,4 +1,24 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-AMT-00041,ATL,"Atlante Infra Portugal, S.A",Amarante,41.248043,-8.175127
-CSC-00520,EDP,EDP Comercial,Cascais,38.7251,-9.442547
-MTJ-00018,GLG,Galpgeste,Montijo,38.72585,-8.67048
+AGD-00039,PAR,Parinox Energia,Águeda,40.58769,-8.4668
+AGD-00040,PAR,Parinox Energia,Águeda,40.58769,-8.4668
+ALM-00109,MOT,Mota-Engil Renewing,Almada,38.640446,-9.235906
+ALM-00115,MOT,Mota-Engil Renewing,Almada,38.668198,-9.186827
+ALM-00152,MOT,Mota-Engil Renewing,Almada,38.64037,-9.235903
+ALM-00153,MOT,Mota-Engil Renewing,Almada,38.66803,-9.186806
+AMT-00043,REM,MOTA-ENGIL REMO CHARGING S.A,Amarante,41.334766,-8.1525135
+AVR-00097,PRI,"Prio.E Mobility Solutions, Lda",Aveiro,40.60966,-8.616111
+BRR-00158,GLP,Galp Power OPC,Barreiro,38.588436,-9.021288
+CTB-00070,HRZ,"Powerdot, S.A",Castelo Branco,39.804913,-7.512047
+CTB-00071,HRZ,"Powerdot, S.A",Castelo Branco,39.804913,-7.512047
+ELV-00023,EDP,EDP Comercial,Elvas,38.880642,-7.16713
+LSB-00927,EDP,EDP Comercial,Lisboa,38.751167,-9.159462
+LSB-00928,EDP,EDP Comercial,Lisboa,38.750942,-9.159496
+LSB-00929,EDP,EDP Comercial,Lisboa,38.750942,-9.159496
+LSB-00930,EDP,EDP Comercial,Lisboa,38.750942,-9.159496
+LSB-00931,EDP,EDP Comercial,Lisboa,38.750942,-9.159496
+LSB-00932,EDP,EDP Comercial,Lisboa,38.750942,-9.159495
+LSB-01076,TRK,WOWPLUG,Lisboa,38.774452,-9.096803
+MGD-00003,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Mogadouro,41.353355,-6.708116
+MNC-00016,PRI,"Prio.E Mobility Solutions, Lda",Monção,42.056717,-8.53095
+PNF-00062,PRI,"Prio.E Mobility Solutions, Lda",Penafiel,41.167458,-8.308777
+VFR-00099,PRI,"Prio.E Mobility Solutions, Lda",Santa Maria da Feira,40.915455,-8.4960375

@@ -1,55 +1,55 @@
 City,Qty
-Lisboa,947
-Cascais,436
+Lisboa,950
+Cascais,437
 Porto,261
-Oeiras,179
-Vila Nova de Gaia,170
+Oeiras,178
+Vila Nova de Gaia,169
 Loulé,162
 Sintra,157
-Barreiro,126
+Barreiro,127
 Matosinhos,122
-Braga,117
-Loures,117
+Braga,116
 Guimarães,116
-Vila Franca de Xira,113
+Loures,116
+Vila Franca de Xira,112
 Albufeira,107
-Coimbra,105
-Leiria,104
+Coimbra,104
+Leiria,102
 Montijo,97
 Viseu,96
-Almada,77
-Santa Maria da Feira,77
-Setúbal,73
-Aveiro,66
+Almada,81
+Santa Maria da Feira,78
+Setúbal,72
+Aveiro,67
 Vila do Conde,66
 Seixal,65
-Amadora,64
-Portimão,64
+Amadora,63
+Portimão,63
 Torres Vedras,62
 Faro,59
 Beja,56
-Maia,55
+Maia,54
 Ovar,54
-Viana do Castelo,54
-Évora,53
 Grândola,52
+Viana do Castelo,52
+Évora,52
 Funchal,50
 Santarém,50
 Palmela,48
-Moita,44
+Penafiel,44
 Gondomar,43
 Guarda,43
-Penafiel,43
+Moita,43
 Vila Nova de Famalicão,43
 Mafra,42
 Covilhã,41
 São João da Madeira,41
 Tomar,41
 Valongo,40
-Santo Tirso,38
-Castelo Branco,37
+Castelo Branco,38
 Mealhada,37
 Olhão,37
+Santo Tirso,37
 Alcobaça,35
 Odivelas,34
 Esposende,33
@@ -62,26 +62,26 @@ Caldas da Rainha,31
 Lagos,31
 Ílhavo,31
 Nazaré,30
-Vila Real,29
 Alcácer do Sal,28
 Cantanhede,28
+Vila Real,28
 "Lagoa, Faro",27
 Anadia,26
 Figueira da Foz,26
-Ourém,26
+Ourém,25
 Fundão,24
 Ponte de Lima,24
 Torres Novas,24
 Albergaria-a-Velha,23
+Amarante,23
+Azambuja,23
 Chaves,23
 Estarreja,23
 Tavira,23
-Amarante,22
 Caminha,22
 Felgueiras,22
 Lamego,22
 Paços de Ferreira,22
-Azambuja,21
 Ponta Delgada,21
 Sesimbra,21
 Aljustrel,20
@@ -97,14 +97,14 @@ Marinha Grande,18
 Oliveira do Hospital,18
 Pombal,18
 Óbidos,18
-Elvas,16
+Elvas,17
 Tondela,16
 Vila Verde,16
 Lousada,15
 Oliveira do Bairro,15
 Ribeira Grande,15
 Santiago do Cacém,15
-Vale de Cambra,15
+Águeda,15
 Machico,14
 Marco de Canaveses,14
 Oliveira de Azeméis,14
@@ -112,12 +112,12 @@ Porto de Mós,14
 Salvaterra de Magos,14
 Seia,14
 Trofa,14
-Angra do Heroísmo,13
+Vale de Cambra,14
 Benavente,13
 Estremoz,13
 Porto Santo,13
 Vila do Bispo,13
-Águeda,13
+Angra do Heroísmo,12
 Arruda dos Vinhos,12
 Batalha,12
 Peso da Régua,12
@@ -129,7 +129,6 @@ Condeixa-a-Nova,11
 Espinho,11
 Mirandela,11
 Montemor-o-Novo,11
-Montemor-o-Velho,11
 Ponte de Sôr,11
 Rio Maior,11
 Santa Comba Dão,11
@@ -137,9 +136,11 @@ Vendas Novas,11
 Bombarral,10
 Lousã,10
 Mangualde,10
+Montemor-o-Velho,10
 Terras de Bouro,10
 Miranda do Douro,9
 Moimenta da Beira,9
+Monção,9
 Odemira,9
 Alcanena,8
 Almeida,8
@@ -151,7 +152,6 @@ Entroncamento,8
 Horta,8
 Idanha-a-Nova,8
 Melgaço,8
-Monção,8
 Nelas,8
 Praia da Vitória,8
 Póvoa de Lanhoso,8
@@ -209,6 +209,7 @@ Câmara de Lobos,4
 Ferreira do Zêzere,4
 Golegã,4
 Gouveia,4
+Mogadouro,4
 Mondim de Basto,4
 Montalegre,4
 Mortágua,4
@@ -237,7 +238,6 @@ Castelo de Vide,3
 Crato,3
 Figueiró dos Vinhos,3
 Góis,3
-Mogadouro,3
 Mora,3
 Moura,3
 Mourão,3
@@ -278,7 +278,6 @@ Penamacor,2
 Penedono,2
 Pinhel,2
 Ponte da Barca,2
-Sabrosa,2
 Sardoal,2
 Sousel,2
 Trancoso,2
@@ -304,6 +303,7 @@ Monforte,1
 Paredes de Coura,1
 Ponta do Sol,1
 Portel,1
+Sabrosa,1
 Santa Cruz das Flores,1
 São Roque do Pico,1
 Vila Nova de Poiares,1
