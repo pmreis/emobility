@@ -1,6 +1,6 @@
 City,Qty
 Lisboa,950
-Cascais,437
+Cascais,439
 Porto,261
 Oeiras,178
 Vila Nova de Gaia,169
@@ -13,7 +13,7 @@ Guimarães,116
 Loures,116
 Vila Franca de Xira,112
 Albufeira,107
-Coimbra,104
+Coimbra,103
 Leiria,102
 Montijo,97
 Viseu,96
@@ -35,11 +35,11 @@ Viana do Castelo,52
 Évora,52
 Funchal,50
 Santarém,50
+Moita,48
 Palmela,48
 Penafiel,44
 Gondomar,43
 Guarda,43
-Moita,43
 Vila Nova de Famalicão,43
 Mafra,42
 Covilhã,41
@@ -105,6 +105,7 @@ Oliveira do Bairro,15
 Ribeira Grande,15
 Santiago do Cacém,15
 Águeda,15
+Estremoz,14
 Machico,14
 Marco de Canaveses,14
 Oliveira de Azeméis,14
@@ -114,13 +115,12 @@ Seia,14
 Trofa,14
 Vale de Cambra,14
 Benavente,13
-Estremoz,13
+Peso da Régua,13
 Porto Santo,13
 Vila do Bispo,13
 Angra do Heroísmo,12
 Arruda dos Vinhos,12
 Batalha,12
-Peso da Régua,12
 Sines,12
 Vila Real de Santo António,12
 Arcos de Valdevez,11
@@ -168,10 +168,12 @@ Proença-a-Nova,7
 São Pedro do Sul,7
 Vila Nova de Cerveira,7
 Vila Velha de Ródão,7
+Aljezur,6
 Almeirim,6
 Amares,6
 Mira,6
 Miranda do Corvo,6
+Ourique,6
 Penacova,6
 Penalva do Castelo,6
 Sabugal,6
@@ -182,7 +184,6 @@ Viana do Alentejo,6
 Vila Franca do Campo,6
 Vila Nova de Foz Côa,6
 Vila Nova de Paiva,6
-Aljezur,5
 Alvaiázere,5
 Arouca,5
 Castro Verde,5
@@ -214,7 +215,6 @@ Mondim de Basto,4
 Montalegre,4
 Mortágua,4
 Murtosa,4
-Ourique,4
 Porto Moniz,4
 Redondo,4
 Resende,4
