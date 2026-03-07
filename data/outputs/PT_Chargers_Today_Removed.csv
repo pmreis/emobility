@@ -1,2 +1,21 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-LOU-00010,REP,REPSOL PORTUGUESA LDA,Lousada,41.239,-8.3063
+AJT-00019,GLP,Galp Power OPC,Aljustrel,37.92355,-8.24334
+AJT-00020,GLP,Galp Power OPC,Aljustrel,37.92355,-8.24334
+AJT-00021,GLP,Galp Power OPC,Aljustrel,37.92365,-8.24207
+AMD-00025,GLG,Galpgeste,Amadora,38.733604,-9.223703
+AVR-00058,ATL,"Atlante Infra Portugal, S.A",Aveiro,40.661957,-8.612366
+CSC-00080,GLG,Galpgeste,Cascais,38.71973,-9.44139
+LSB-00279,GLG,Galpgeste,Lisboa,38.7675,-9.17084
+LSB-00280,GLG,Galpgeste,Lisboa,38.74911,-9.130222
+LSB-00282,GLG,Galpgeste,Lisboa,38.763058,-9.108889
+LSB-00301,GLG,Galpgeste,Lisboa,38.71028,-9.20445
+LSB-01536,GLP,Galp Power OPC,Lisboa,38.768417,-9.097083
+LSB-01537,GLP,Galp Power OPC,Lisboa,38.768417,-9.097083
+LSB-80532,GLP,Galp Power OPC,Lisboa,38.72916,-9.123114
+ODV-00044,ENB,"Enable Mobility Solutions, S.A.",Odivelas,38.81441,-9.187879
+OER-00117,GLG,Galpgeste,Oeiras,38.71631,-9.2404
+AJT-00022,GLP,Galp Power OPC,Aljustrel,37.92365,-8.24207
+AJZ-00007,GLP,Galp Power OPC,Aljezur,37.31857,-8.798404
+LSB-00996,GLP,Galp Power OPC,Lisboa,38.76306,-9.10889
+SNT-00190,ENB,"Enable Mobility Solutions, S.A.",Sintra,38.77129,-9.346688
+SNT-00191,ENB,"Enable Mobility Solutions, S.A.",Sintra,38.771267,-9.346738
