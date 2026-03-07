@@ -1,18 +1,18 @@
 City,Qty
-Lisboa,953
-Cascais,438
+Lisboa,945
+Cascais,437
 Porto,261
-Oeiras,178
+Oeiras,177
 Vila Nova de Gaia,169
 Loulé,162
-Sintra,156
+Sintra,154
 Barreiro,127
 Matosinhos,122
 Braga,116
 Guimarães,116
 Loures,114
-Vila Franca de Xira,112
-Albufeira,107
+Vila Franca de Xira,113
+Albufeira,108
 Coimbra,103
 Leiria,102
 Montijo,97
@@ -23,20 +23,20 @@ Setúbal,72
 Aveiro,67
 Vila do Conde,66
 Seixal,65
-Amadora,63
 Portimão,63
+Amadora,62
 Torres Vedras,62
 Faro,59
 Beja,56
+Maia,55
 Ovar,55
-Maia,54
+Évora,54
 Grândola,52
 Viana do Castelo,52
-Évora,52
 Funchal,50
+Palmela,50
 Santarém,50
 Moita,48
-Palmela,48
 Penafiel,46
 Gondomar,43
 Guarda,43
@@ -60,8 +60,8 @@ Silves,32
 Barcelos,31
 Caldas da Rainha,31
 Lagos,31
+Nazaré,31
 Ílhavo,31
-Nazaré,30
 Alcácer do Sal,28
 Cantanhede,28
 Vila Real,28
@@ -77,14 +77,13 @@ Albergaria-a-Velha,23
 Azambuja,23
 Chaves,23
 Estarreja,23
+Felgueiras,23
 Tavira,23
 Caminha,22
-Felgueiras,22
 Lamego,22
 Paços de Ferreira,22
 Ponta Delgada,21
 Sesimbra,21
-Aljustrel,20
 Bragança,20
 Peniche,20
 Abrantes,19
@@ -99,6 +98,7 @@ Pombal,18
 Óbidos,18
 Elvas,17
 Vila Verde,17
+Aljustrel,16
 Tondela,16
 Lousada,15
 Oliveira do Bairro,15
@@ -168,7 +168,6 @@ Proença-a-Nova,7
 São Pedro do Sul,7
 Vila Nova de Cerveira,7
 Vila Velha de Ródão,7
-Aljezur,6
 Almeirim,6
 Amares,6
 Mira,6
@@ -184,6 +183,7 @@ Viana do Alentejo,6
 Vila Franca do Campo,6
 Vila Nova de Foz Côa,6
 Vila Nova de Paiva,6
+Aljezur,5
 Alvaiázere,5
 Arouca,5
 Castro Verde,5
