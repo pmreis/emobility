@@ -1,5 +1,10 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-LRA-00185,GLP,Galp Power OPC,Leiria,39.744083,-8.818495
-LRA-00186,GLP,Galp Power OPC,Leiria,39.744083,-8.818495
-LRA-00187,GLP,Galp Power OPC,Leiria,39.744083,-8.818495
-PLM-00071,EDP,EDP Comercial,Palmela,38.625996,-8.911085
+CBR-00127,EDP,EDP Comercial,Coimbra,40.197086,-8.411164
+CBR-00128,EDP,EDP Comercial,Coimbra,40.197086,-8.411164
+LSB-00946,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.77632,-9.159436
+LSB-00947,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.77632,-9.159436
+LSB-00948,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.77632,-9.159436
+LSB-00949,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.77632,-9.159436
+VCD-00079,EDP,EDP Comercial,Vila do Conde,41.400593,-8.682691
+VRL-00054,HRZ,"Powerdot, S.A",Vila Real,41.2974,-7.735191
+VRL-00055,HRZ,"Powerdot, S.A",Vila Real,41.2974,-7.735191
