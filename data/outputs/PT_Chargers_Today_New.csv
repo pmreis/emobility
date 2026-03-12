@@ -1,10 +1,6 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-CBR-00127,EDP,EDP Comercial,Coimbra,40.197086,-8.411164
-CBR-00128,EDP,EDP Comercial,Coimbra,40.197086,-8.411164
-LSB-00946,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.77632,-9.159436
-LSB-00947,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.77632,-9.159436
-LSB-00948,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.77632,-9.159436
-LSB-00949,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.77632,-9.159436
-VCD-00079,EDP,EDP Comercial,Vila do Conde,41.400593,-8.682691
-VRL-00054,HRZ,"Powerdot, S.A",Vila Real,41.2974,-7.735191
-VRL-00055,HRZ,"Powerdot, S.A",Vila Real,41.2974,-7.735191
+BRG-00146,HLX,"Helexia II Energy Services, Lda.",Braga,41.54638,-8.398511
+VRL-00056,HRZ,"Powerdot, S.A",Vila Real,41.2974,-7.735191
+VRL-00057,HRZ,"Powerdot, S.A",Vila Real,41.2974,-7.735191
+VRL-00058,HRZ,"Powerdot, S.A",Vila Real,41.2974,-7.735191
+VRL-00059,HRZ,"Powerdot, S.A",Vila Real,41.2974,-7.735191
