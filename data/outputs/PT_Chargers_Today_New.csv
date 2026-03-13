@@ -1,6 +1,2 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-BRG-00146,HLX,"Helexia II Energy Services, Lda.",Braga,41.54638,-8.398511
-VRL-00056,HRZ,"Powerdot, S.A",Vila Real,41.2974,-7.735191
-VRL-00057,HRZ,"Powerdot, S.A",Vila Real,41.2974,-7.735191
-VRL-00058,HRZ,"Powerdot, S.A",Vila Real,41.2974,-7.735191
-VRL-00059,HRZ,"Powerdot, S.A",Vila Real,41.2974,-7.735191
+SLV-00040,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Silves,37.11988,-8.350078
