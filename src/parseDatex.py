@@ -337,6 +337,8 @@ def generate_output_csvs(conn):
         from Plugs p
         join Chargers c on c.ChargerId = p.ChargerId
         join Operators o on o.OperatorAbb = c.OperatorAbb
+        where o.CountryIso = 'PT'
+            and c.Status = 'Present'
         group by o.OperatorAbb, o.OperatorName
         order by sum(p.MaxPower) desc;
     ''', conn)
@@ -352,6 +354,8 @@ def generate_output_csvs(conn):
             join Chargers c on c.ChargerId = p.ChargerId
             join Operators o on o.OperatorAbb = c.OperatorAbb
             where o.OperatorAbb in ('GLP', 'GLG', 'MLT')
+                and o.CountryIso = 'PT'
+                and c.Status = 'Present'
         ),
         allDataExpectGalp as (
             select o.OperatorAbb, o.OperatorName, sum(p.MaxPower)/1000 total
@@ -359,6 +363,8 @@ def generate_output_csvs(conn):
             join Chargers c on c.ChargerId = p.ChargerId
             join Operators o on o.OperatorAbb = c.OperatorAbb
             where o.OperatorAbb not in ('GLP', 'GLG', 'MLT')
+                and o.CountryIso = 'PT'
+                and c.Status = 'Present'
             group by o.OperatorAbb, o.OperatorName
         )
         select OperatorAbb, OperatorName, total 'Total Power (kW)'
