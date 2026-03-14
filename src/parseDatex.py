@@ -328,8 +328,47 @@ def generate_output_csvs(conn):
         sum(MarketShare) over (order by Rank) 'CumulativeMarketShare'
         from cte2;
     ''', conn)
-
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Market_Share_Analysis.csv')
+    data.to_csv(filepath, sep=",", index=None, mode="w")
+
+    # Output installed power per Operator as CSV
+    data = pd.read_sql_query('''
+        select o.OperatorAbb, o.OperatorName, sum(p.MaxPower)/1000 'Total Power (kW)'
+        from Plugs p
+        join Chargers c on c.ChargerId = p.ChargerId
+        join Operators o on o.OperatorAbb = c.OperatorAbb
+        group by o.OperatorAbb, o.OperatorName
+        order by sum(p.MaxPower) desc;
+    ''', conn)
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Market_PowerShare_Analysis.csv')
+    data.to_csv(filepath, sep=",", index=None, mode="w")
+
+    # Output installed power per Operator aggregating Galp OPCs as CSV
+    data = pd.read_sql_query('''
+        with
+        galpGroupData as (
+            select 'GRG' OperatorAbb, 'Grupo Galp (GLP+GLG+MLT)' OperatorName, sum(p.MaxPower)/1000 total
+            from Plugs p
+            join Chargers c on c.ChargerId = p.ChargerId
+            join Operators o on o.OperatorAbb = c.OperatorAbb
+            where o.OperatorAbb in ('GLP', 'GLG', 'MLT')
+        ),
+        allDataExpectGalp as (
+            select o.OperatorAbb, o.OperatorName, sum(p.MaxPower)/1000 total
+            from Plugs p
+            join Chargers c on c.ChargerId = p.ChargerId
+            join Operators o on o.OperatorAbb = c.OperatorAbb
+            where o.OperatorAbb not in ('GLP', 'GLG', 'MLT')
+            group by o.OperatorAbb, o.OperatorName
+        )
+        select OperatorAbb, OperatorName, total 'Total Power (kW)'
+        from galpGroupData
+        union
+        select OperatorAbb, OperatorName, total 'Total Power (kW)'
+        from allDataExpectGalp
+        order by total desc;
+    ''', conn)
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Market_PowerShareAgg_Analysis.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
     # Output Operators as CSV
@@ -384,6 +423,7 @@ def generate_output_csvs(conn):
         group by City
         order by Qty desc, City asc;
     ''', conn)
+
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Per_Municipality.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
@@ -401,7 +441,7 @@ def generate_output_csvs(conn):
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Per_District.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
-    # Output Plugs Pt1 and Pt2
+    # Output Plugs Pt1
     data = pd.read_sql_query('''
         select p.ChargerId, p.PlugId, p.MaxPower
         from Plugs p
@@ -412,6 +452,7 @@ def generate_output_csvs(conn):
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Plugs_NonChademo_1.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
+    # Output Plugs Pt2
     data = pd.read_sql_query('''
         select p.ChargerId, p.PlugId, p.MaxPower
         from Plugs p
