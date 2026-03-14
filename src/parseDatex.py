@@ -331,6 +331,62 @@ def generate_output_csvs(conn):
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Market_Share_Analysis.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
+    # Output Market Share data aggregating Galp OPCs
+    data = pd.read_sql_query('''
+        with
+        countAllChargers as (
+            select count(1) total
+            from Chargers
+            where Country = 'PT'
+                and Status = 'Present'
+        ),
+        galpGroupData as (
+            select
+                'GRG' as 'OperatorAbb',
+                'Grupo Galp (GLP+GLG+MLT)' as 'OperatorName',
+                count(c.ChargerId) as 'Qty'
+            from Chargers c
+            join Operators o on o.OperatorAbb = c.OperatorAbb
+            where c.OperatorAbb in ('GLP', 'GLG', 'MLT')
+                and o.CountryIso = 'PT'
+                and c.Status = 'Present'
+        ),
+        allDataExpectGalp as (
+            select
+                o.OperatorAbb,
+                o.OperatorName,
+                count(c.OperatorAbb) as 'Qty'
+            from Operators o
+            left join Chargers c on c.OperatorAbb = o.OperatorAbb
+                and o.CountryIso = 'PT'
+                and c.Status = 'Present'
+            where o.OperatorAbb not in ('GLP', 'GLG', 'MLT')
+            group by o.OperatorAbb
+        ),
+        allData as (
+            select OperatorAbb, OperatorName, Qty
+            from galpGroupData
+            union
+            select OperatorAbb, OperatorName, Qty
+            from allDataExpectGalp
+            order by Qty desc
+        ),
+        cte2 as (
+            select
+            row_number() over() 'Rank',
+            allData.*,
+            cast(allData.Qty as real) / cast(countAllChargers.total as real) 'MarketShare'
+            from allData, countAllChargers
+        )
+        select
+        cte2.*,
+        sum(MarketShare) over (order by Rank) 'CumulativeMarketShare'
+        from cte2;
+    ''', conn)
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Market_ShareAgg_Analysis.csv')
+    data.to_csv(filepath, sep=",", index=None, mode="w")
+
+
     # Output installed power per Operator as CSV
     data = pd.read_sql_query('''
         select o.OperatorAbb, o.OperatorName, sum(p.MaxPower)/1000 'Total Power (kW)'
@@ -344,6 +400,7 @@ def generate_output_csvs(conn):
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Market_PowerShare_Analysis.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
+
 
     # Output installed power per Operator aggregating Galp OPCs as CSV
     data = pd.read_sql_query('''
@@ -377,6 +434,7 @@ def generate_output_csvs(conn):
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Market_PowerShareAgg_Analysis.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
+
     # Output Operators as CSV
     data = pd.read_sql_query('''
         select *
@@ -386,6 +444,7 @@ def generate_output_csvs(conn):
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Operators.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
+
 
     # Output Chargers as CSV
     data = pd.read_sql_query('''
@@ -402,6 +461,7 @@ def generate_output_csvs(conn):
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
+
 
     # Output Today's New Chargers as CSV
     data = pd.read_sql_query('''
@@ -420,6 +480,7 @@ def generate_output_csvs(conn):
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Today_New.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
+
     # Output Chargers per Municipality
     data = pd.read_sql_query('''
         select City, count(1) Qty
@@ -432,6 +493,7 @@ def generate_output_csvs(conn):
 
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Per_Municipality.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
+
 
     # Output Chargers per District
     data = pd.read_sql_query('''
@@ -447,6 +509,7 @@ def generate_output_csvs(conn):
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Per_District.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
+
     # Output Plugs Pt1
     data = pd.read_sql_query('''
         select p.ChargerId, p.PlugId, p.MaxPower
@@ -457,6 +520,7 @@ def generate_output_csvs(conn):
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Plugs_NonChademo_1.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
+
 
     # Output Plugs Pt2
     data = pd.read_sql_query('''
