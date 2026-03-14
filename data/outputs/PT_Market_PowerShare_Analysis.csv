@@ -1,81 +1,81 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,209016
-GLP,Galp Power OPC,166983
-HRZ,"Powerdot, S.A",130315
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",88600
-ATL,"Atlante Infra Portugal, S.A",60219
+EDP,EDP Comercial,205730
+GLP,Galp Power OPC,162300
+HRZ,"Powerdot, S.A",126547
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",87360
+ATL,"Atlante Infra Portugal, S.A",59708
 IOY,IONITY GmbH,28100
 TRK,WOWPLUG,27721
-GLG,Galpgeste,25698
-REP,REPSOL PORTUGUESA LDA,23840
+GLG,Galpgeste,22396
+REP,REPSOL PORTUGUESA LDA,21936
 PRI,"Prio.E Mobility Solutions, Lda",21384
-HLX,"Helexia II Energy Services, Lda.",19894
-KLS,"Kilometer Low Cost II Serviços, SA",19724
-MOT,Mota-Engil Renewing,14172
+HLX,"Helexia II Energy Services, Lda.",19409
+MOT,Mota-Engil Renewing,13872
 CPS,Cepsa Portuguesa Petroleos,13550
-MLT,Mobiletric,11447
+MLT,Mobiletric,10803
 MAK,Maksu,9668
-ENB,"Enable Mobility Solutions, S.A.",8570
-IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8310
+ENB,"Enable Mobility Solutions, S.A.",8206
+IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8122
 DTE,"DTE, Instalacoes Especiais",6720
-ITV,Instavolt Portugal Lda.,4557
+ITV,Instavolt Portugal Lda.,4422
 REM,MOTA-ENGIL REMO CHARGING S.A,4260
-EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4144
 VIA,"Via Verde Transição Energética, S.A.",4062
+EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4044
 ECI,ECOINSIDE,3632
-MOO,Siva - Sociedade de Importação de Veículos Automóveis,3186
+MOO,Siva - Sociedade de Importação de Veículos Automóveis,3077
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2677
-EVP,"EVpower, Charging Solutions Lda",2143
+KLS,"Kilometer Low Cost II Serviços, SA",2119
 EVI,EVIO - Electrical Mobility,2096
+EVP,"EVpower, Charging Solutions Lda",1949
 FAC,FactorENERGIA,1936
-EVC,"EVCE POWER, LDA. / MOBISMART",1878
+EVC,"EVCE POWER, LDA. / MOBISMART",1856
 NRG,"NRG - Sistemas de Energia Renováveis, Lda.",1818
 LCG,"Loulé Concelho Global, EM",1791
 CAB,Cable Exanergia Portugal,1488
 LOG,uCharge,1453
 EMA,"EMACOM - Telecomunicações da Madeira, Unipessoal, Lda",1422
 CAP,"Capwatt Services, S.A.",1364
-VEI,Veimonte Lda,1210
-PLG,"e-Plug, Lda",1154
+VEI,Veimonte Lda,1122
+PLG,"e-Plug, Lda",1110
 HEX,"HEXAGONAL OCEAN, LDA",1091
 CIR,"Circuitos Energy Solutions, Lda.",604
 ALF,Alfa Energia,586
 GEN,Generation Journey Lda,572
 HGP,"High Green Power, Unipessoal Lda.",555
 BEL,Bel Mobility,542
-BLU,"Bluecharge, Lda",528
 IHM,iHome Lda,504
 VIS,VISACASA - SERVIÇOS DE ASSISTÊNCIA E MANUTENÇÃO GLOBAL S.A.,460
 CEV,CEVE - Cooperativa Eléctrica do Vale D’Este C.R.L.,428
 LUZ,"LUSIADAENERGIA, S.A.",416
-GRN,"GREEN CHARGE - MOBILIDADE ELÉTRICA, LDA",396
 SGM,"Superguimarães - Supermercados,lda",384
-GRC,"Grcapp, Unipessoal Lda",364
+GRN,"GREEN CHARGE - MOBILIDADE ELÉTRICA, LDA",374
+BLU,"Bluecharge, Lda",352
 CSC,Cascais Próxima,352
 EVA,"EVAZ Energy, LDA",350
 CME,CME,332
 SFF,"Superfafe- supermercados,lda",324
 PRP,"PROPEL - PRODUTOS DE PETRÓLEO, LDA",286
 SDB,SodiBraga - Supermercados Lda,284
-CGG,Cargga Inteligente,264
+GRC,"Grcapp, Unipessoal Lda",276
 PTE,"PETROTERMICA ENERGIA, S.A.",240
-MOB,MOBIE,238
 GLD,Gold Energy,225
 MOA,"MOBI A - Mobilidade e Ambiente, Lda",220
 GSF,"GASFOMENTO - Sistemas e Instalações de Gás, S.A.",219
+MOB,MOBIE,216
 FRR,"FRONTROW, LDA",216
 IMG,"Image4all - Eficiência Energética, Comunicação e Imagem",187
-PFU,Plug Four the WorldLda,183
+CGG,Cargga Inteligente,176
 NEU,"Neureifen - Electric Mobility, Lda",176
+PFU,Plug Four the WorldLda,176
 ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",172
 EZC,"EZ - CHARG3, Lda",165
 BRI,Brightcity S.A.,164
 EZU,Ezu Energia,154
 IVP,Intervilapraia,142
 SAR,"Superareosa Supermercados, Lda",142
-SLX,SOLX,124
 KPM,"KPM Serviços de Engenheria, Unip Lda",122
 EPO,EPOCH,110
+SLX,SOLX,102
 EGR,"Green Evolut, LDA",88
 EMT,"Emobtec - Tec. Mobilidade Elétrica, unipessoal Lda",88
 SLV,Silver Ridge - Asset Management,84
@@ -84,7 +84,6 @@ SCR,Município de Santa Cruz,66
 PAR,Parinox Energia,52
 ZND,"Grupo Easycharger, SL",46
 CON,"ConectaMais, Lda",44
-DOU,"Douromobe  - Comercializadora de Energia, S.A.",44
 FRI,"Distrifrio Supermercados, Lda",44
 INT,"Bluint - Engenharia e Tecnologias Integradas, Unipessoal, Lda",44
 MEO,"MEO Energia - Comercialização de Energia, SA",44
