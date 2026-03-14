@@ -1,2 +1,7 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-SLV-00040,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Silves,37.11988,-8.350078
+AMT-00033,GLP,Galp Power OPC,Amarante,41.27983,-8.082578
+GLG-00006,HLX,"Helexia II Energy Services, Lda.",Golegã,39.4029,-8.488134
+GLG-00007,HLX,"Helexia II Energy Services, Lda.",Golegã,39.402836,-8.488134
+LMG-00022,EDP,EDP Comercial,Lamego,41.127686,-7.802745
+PNI-00021,GLP,Galp Power OPC,Peniche,39.3623,-9.391222
+PNI-00022,GLP,Galp Power OPC,Peniche,39.360565,-9.383356
