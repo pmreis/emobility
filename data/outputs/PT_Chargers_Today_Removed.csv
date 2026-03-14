@@ -1,4 +1,5 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-LRS-00056,EDP,EDP Comercial,Loures,38.859554,-9.161408
-LRS-00057,EDP,EDP Comercial,Loures,38.859756,-9.161636
-VFX-00114,HLX,"Helexia II Energy Services, Lda.",Vila Franca de Xira,39.000366,-8.963646
+ASL-00007,GLG,Galpgeste,Alcácer do Sal,38.515465,-8.583971
+TNV-00007,REP,REPSOL PORTUGUESA LDA,Torres Novas,39.477676,-8.622878
+VFX-00016,HRZ,"Powerdot, S.A",Vila Franca de Xira,38.977207,-8.985109
+VRL-00008,HRZ,"Powerdot, S.A",Vila Real,41.2974,-7.735191
