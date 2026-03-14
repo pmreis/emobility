@@ -238,3 +238,93 @@ where
     cast(substr(k.ChargerId, 5, 5) as integer) < cast(substr(g.ChargerId, 5, 5) as integer)
     and substr(g.ChargerId, 5, 1) <> '9'
 order by k.ChargerId;
+
+-- Installed power per Operator
+select o.OperatorAbb, o.OperatorName, sum(p.MaxPower)/1000 'Total Power (kW)'
+from Plugs p
+join Chargers c on c.ChargerId = p.ChargerId
+join Operators o on o.OperatorAbb = c.OperatorAbb
+where o.CountryIso = 'PT'
+    and c.Status = 'Present'
+group by o.OperatorAbb, o.OperatorName
+order by sum(p.MaxPower) desc;
+
+-- Installed power per Operator aggregating Galp OPCs
+with
+galpGroupData as (
+    select 'GRG' OperatorAbb, 'Grupo Galp (GLP+GLG+MLT)' OperatorName, sum(p.MaxPower)/1000 total
+    from Plugs p
+    join Chargers c on c.ChargerId = p.ChargerId
+    join Operators o on o.OperatorAbb = c.OperatorAbb
+    where o.OperatorAbb in ('GLP', 'GLG', 'MLT')
+        and o.CountryIso = 'PT'
+        and c.Status = 'Present'
+),
+allDataExpectGalp as (
+    select o.OperatorAbb, o.OperatorName, sum(p.MaxPower)/1000 total
+    from Plugs p
+    join Chargers c on c.ChargerId = p.ChargerId
+    join Operators o on o.OperatorAbb = c.OperatorAbb
+    where o.OperatorAbb not in ('GLP', 'GLG', 'MLT')
+        and o.CountryIso = 'PT'
+        and c.Status = 'Present'
+    group by o.OperatorAbb, o.OperatorName
+)
+select OperatorAbb, OperatorName, total 'Total Power (kW)'
+from galpGroupData
+union
+select OperatorAbb, OperatorName, total 'Total Power (kW)'
+from allDataExpectGalp
+order by total desc;
+
+
+-- Active chargers per Operator aggregating Galp OPCs
+with
+countAllChargers as (
+    select count(1) total
+    from Chargers
+    where Country = 'PT'
+        and Status = 'Present'
+),
+galpGroupData as (
+    select
+        'GRG' as 'OperatorAbb',
+        'Grupo Galp (GLP+GLG+MLT)' as 'OperatorName',
+        count(c.ChargerId) as 'Qty'
+    from Chargers c
+    join Operators o on o.OperatorAbb = c.OperatorAbb
+    where c.OperatorAbb in ('GLP', 'GLG', 'MLT')
+        and o.CountryIso = 'PT'
+        and c.Status = 'Present'
+),
+allDataExpectGalp as (
+    select
+        o.OperatorAbb,
+        o.OperatorName,
+        count(c.OperatorAbb) as 'Qty'
+    from Operators o
+    left join Chargers c on c.OperatorAbb = o.OperatorAbb
+        and o.CountryIso = 'PT'
+        and c.Status = 'Present'
+    where o.OperatorAbb not in ('GLP', 'GLG', 'MLT')
+    group by o.OperatorAbb
+),
+allData as (
+    select OperatorAbb, OperatorName, Qty
+    from galpGroupData
+    union
+    select OperatorAbb, OperatorName, Qty
+    from allDataExpectGalp
+    order by Qty desc
+),
+cte2 as (
+    select
+    row_number() over() 'Rank',
+    allData.*,
+    cast(allData.Qty as real) / cast(countAllChargers.total as real) 'MarketShare'
+    from allData, countAllChargers
+)
+select
+cte2.*,
+sum(MarketShare) over (order by Rank) 'CumulativeMarketShare'
+from cte2;
