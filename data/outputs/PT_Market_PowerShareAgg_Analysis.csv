@@ -1,18 +1,18 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,206530
-GRG,Grupo Galp (GLP+GLG+MLT),195500
-HRZ,"Powerdot, S.A",126547
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",87360
-ATL,"Atlante Infra Portugal, S.A",59708
+EDP,EDP Comercial,206775
+GRG,Grupo Galp (GLP+GLG+MLT),195544
+HRZ,"Powerdot, S.A",126635
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",87860
+ATL,"Atlante Infra Portugal, S.A",59758
 IOY,IONITY GmbH,28100
 TRK,WOWPLUG,27721
 REP,REPSOL PORTUGUESA LDA,21936
 PRI,"Prio.E Mobility Solutions, Lda",21384
-HLX,"Helexia II Energy Services, Lda.",19409
+HLX,"Helexia II Energy Services, Lda.",19552
 MOT,Mota-Engil Renewing,13872
 CPS,Cepsa Portuguesa Petroleos,13550
 MAK,Maksu,9668
-ENB,"Enable Mobility Solutions, S.A.",8206
+ENB,"Enable Mobility Solutions, S.A.",8450
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8122
 DTE,"DTE, Instalacoes Especiais",6720
 ITV,Instavolt Portugal Lda.,4422
@@ -20,7 +20,7 @@ REM,MOTA-ENGIL REMO CHARGING S.A,4260
 VIA,"Via Verde Transição Energética, S.A.",4062
 EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4044
 ECI,ECOINSIDE,3632
-MOO,Siva - Sociedade de Importação de Veículos Automóveis,3077
+MOO,Siva - Sociedade de Importação de Veículos Automóveis,2979
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2677
 KLS,"Kilometer Low Cost II Serviços, SA",2119
 EVI,EVIO - Electrical Mobility,2096
