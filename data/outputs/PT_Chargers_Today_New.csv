@@ -1,1 +1,6 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
+LRS-00195,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Loures,38.822807,-9.088057
+OER-00281,GLP,Galp Power OPC,Oeiras,38.719,-9.263002
+TMC-00004,DTE,"DTE, Instalacoes Especiais",Torre de Moncorvo,41.174797,-7.052753
+VNG-00235,HRZ,"Powerdot, S.A",Vila Nova de Gaia,41.054325,-8.566897
+VNG-00237,EDP,EDP Comercial,Vila Nova de Gaia,41.10149,-8.59822

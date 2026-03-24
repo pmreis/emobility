@@ -1,13 +1,13 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,209937
-GLP,Galp Power OPC,162730
-HRZ,"Powerdot, S.A",126017
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",88080
+EDP,EDP Comercial,210700
+GLP,Galp Power OPC,163090
+HRZ,"Powerdot, S.A",126417
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",88180
 ATL,"Atlante Infra Portugal, S.A",60068
 TRK,WOWPLUG,28205
 IOY,IONITY GmbH,28100
+REP,REPSOL PORTUGUESA LDA,23057
 GLG,Galpgeste,22396
-REP,REPSOL PORTUGUESA LDA,22079
 PRI,"Prio.E Mobility Solutions, Lda",21684
 HLX,"Helexia II Energy Services, Lda.",19552
 MOT,Mota-Engil Renewing,13872
@@ -16,7 +16,7 @@ MLT,Mobiletric,10583
 MAK,Maksu,9778
 ENB,"Enable Mobility Solutions, S.A.",8450
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8122
-DTE,"DTE, Instalacoes Especiais",7052
+DTE,"DTE, Instalacoes Especiais",7172
 ITV,Instavolt Portugal Lda.,4422
 REM,MOTA-ENGIL REMO CHARGING S.A,4260
 VIA,"Via Verde Transição Energética, S.A.",4062
@@ -24,8 +24,8 @@ EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.
 ECI,ECOINSIDE,3632
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3077
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2677
-KLS,"Kilometer Low Cost II Serviços, SA",2119
 EVI,EVIO - Electrical Mobility,2096
+KLS,"Kilometer Low Cost II Serviços, SA",2075
 EVP,"EVpower, Charging Solutions Lda",1949
 FAC,FactorENERGIA,1936
 EVC,"EVCE POWER, LDA. / MOBISMART",1856
