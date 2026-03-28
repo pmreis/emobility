@@ -1,13 +1,13 @@
 OperatorAbb,OperatorName,Total Power (kW)
 EDP,EDP Comercial,213881
-GLP,Galp Power OPC,163298
+GLP,Galp Power OPC,163072
 HRZ,"Powerdot, S.A",127327
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",89480
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",88560
 ATL,"Atlante Infra Portugal, S.A",60308
 TRK,WOWPLUG,28425
 IOY,IONITY GmbH,28100
 REP,REPSOL PORTUGUESA LDA,23047
-GLG,Galpgeste,22396
+GLG,Galpgeste,22253
 PRI,"Prio.E Mobility Solutions, Lda",21684
 HLX,"Helexia II Energy Services, Lda.",19552
 MOT,Mota-Engil Renewing,13872
@@ -31,30 +31,30 @@ FAC,FactorENERGIA,1936
 EVC,"EVCE POWER, LDA. / MOBISMART",1856
 NRG,"NRG - Sistemas de Energia Renováveis, Lda.",1818
 LCG,"Loulé Concelho Global, EM",1791
-CAB,Cable Exanergia Portugal,1488
 LOG,uCharge,1453
 EMA,"EMACOM - Telecomunicações da Madeira, Unipessoal, Lda",1422
 CAP,"Capwatt Services, S.A.",1364
 VEI,Veimonte Lda,1122
 PLG,"e-Plug, Lda",1110
 HEX,"HEXAGONAL OCEAN, LDA",1091
+CAB,Cable Exanergia Portugal,1016
+ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",644
 CIR,"Circuitos Energy Solutions, Lda.",604
 ALF,Alfa Energia,586
 GEN,Generation Journey Lda,572
 HGP,"High Green Power, Unipessoal Lda.",555
 BEL,Bel Mobility,542
 IHM,iHome Lda,504
-ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",469
 VIS,VISACASA - SERVIÇOS DE ASSISTÊNCIA E MANUTENÇÃO GLOBAL S.A.,460
 CEV,CEVE - Cooperativa Eléctrica do Vale D’Este C.R.L.,428
 LUZ,"LUSIADAENERGIA, S.A.",416
 SGM,"Superguimarães - Supermercados,lda",384
 GRN,"GREEN CHARGE - MOBILIDADE ELÉTRICA, LDA",374
-BLU,"Bluecharge, Lda",352
 CSC,Cascais Próxima,352
 EVA,"EVAZ Energy, LDA",350
 CME,CME,332
 SFF,"Superfafe- supermercados,lda",324
+BLU,"Bluecharge, Lda",308
 PRP,"PROPEL - PRODUTOS DE PETRÓLEO, LDA",286
 SDB,SodiBraga - Supermercados Lda,284
 GRC,"Grcapp, Unipessoal Lda",276
