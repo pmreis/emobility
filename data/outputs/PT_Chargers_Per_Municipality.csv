@@ -3,7 +3,7 @@ Lisboa,955
 Cascais,438
 Porto,261
 Oeiras,178
-Vila Nova de Gaia,173
+Vila Nova de Gaia,174
 Loulé,163
 Sintra,157
 Barreiro,127
@@ -11,14 +11,14 @@ Matosinhos,122
 Braga,116
 Guimarães,116
 Loures,113
+Albufeira,112
 Vila Franca de Xira,109
-Albufeira,108
 Coimbra,105
 Leiria,105
 Montijo,97
 Viseu,96
 Almada,81
-Santa Maria da Feira,78
+Santa Maria da Feira,81
 Setúbal,72
 Aveiro,67
 Vila do Conde,67
@@ -50,10 +50,11 @@ Olhão,38
 Valongo,38
 Mealhada,37
 Santo Tirso,37
+Vila Real,36
 Alcobaça,35
 Esposende,34
 Odivelas,34
-Vila Real,34
+Lagos,33
 Nazaré,33
 Paredes,33
 Póvoa de Varzim,33
@@ -61,7 +62,6 @@ Silves,33
 Alcochete,32
 Barcelos,31
 Caldas da Rainha,31
-Lagos,31
 Ílhavo,31
 Cantanhede,28
 Alcácer do Sal,27
@@ -178,6 +178,7 @@ Ourique,6
 Penacova,6
 Penalva do Castelo,6
 Sabugal,6
+Sertã,6
 São Brás de Alportel,6
 Torre de Moncorvo,6
 Vagos,6
@@ -192,7 +193,6 @@ Arouca,5
 Castro Verde,5
 Celorico de Basto,5
 Macedo de Cavaleiros,5
-Sertã,5
 São Vicente,5
 Valpaços,5
 Vila Nova da Barquinha,5
@@ -214,6 +214,7 @@ Mogadouro,4
 Mondim de Basto,4
 Montalegre,4
 Mortágua,4
+Moura,4
 Murtosa,4
 Porto Moniz,4
 Redondo,4
@@ -240,7 +241,6 @@ Crato,3
 Figueiró dos Vinhos,3
 Góis,3
 Mora,3
-Moura,3
 Mourão,3
 Oleiros,3
 Pedrógão Grande,3
