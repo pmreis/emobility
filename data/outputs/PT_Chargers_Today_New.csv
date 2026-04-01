@@ -1,10 +1,15 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-FND-00033,DTE,"DTE, Instalacoes Especiais",Fundão,40.143505,-7.502319
-FND-00034,DTE,"DTE, Instalacoes Especiais",Fundão,40.13915,-7.502525
-GDL-00061,EDP,EDP Comercial,Grândola,38.176796,-8.571321
-GDL-00062,EDP,EDP Comercial,Grândola,38.176796,-8.571321
-LOU-00017,HLX,"Helexia II Energy Services, Lda.",Lousada,41.322735,-8.316036
-MTA-00046,TRK,WOWPLUG,Moita,38.66644,-8.986292
-PTM-00080,MAK,Maksu,Portimão,37.139023,-8.5385685
-PTM-00081,MAK,Maksu,Portimão,37.139023,-8.5385685
-PTM-00082,MAK,Maksu,Portimão,37.139023,-8.5385685
+ABF-00121,EDP,EDP Comercial,Albufeira,37.089832,-8.168724
+ABF-00140,EDP,EDP Comercial,Albufeira,37.108093,-8.231111
+ABF-00144,EDP,EDP Comercial,Albufeira,37.081146,-8.314792
+ABF-00173,EDP,EDP Comercial,Albufeira,37.092922,-8.233066
+LGS-00046,ATL,"Atlante Infra Portugal, S.A",Lagos,37.10725,-8.67927
+LGS-00047,ATL,"Atlante Infra Portugal, S.A",Lagos,37.11313,-8.67604
+MRA-00006,PRI,"Prio.E Mobility Solutions, Lda",Moura,38.140156,-7.447572
+SRT-00005,PRI,"Prio.E Mobility Solutions, Lda",Sertã,39.911453,-8.129701
+VFR-00101,HRZ,"Powerdot, S.A",Santa Maria da Feira,40.939648,-8.540702
+VFR-00102,HRZ,"Powerdot, S.A",Santa Maria da Feira,40.939648,-8.540702
+VFR-00103,HRZ,"Powerdot, S.A",Santa Maria da Feira,40.939648,-8.540702
+VNG-00240,EDP,EDP Comercial,Vila Nova de Gaia,41.10094,-8.598651
+VRL-00046,EDP,EDP Comercial,Vila Real,41.304096,-7.745012
+VRL-00047,EDP,EDP Comercial,Vila Real,41.304096,-7.745012
