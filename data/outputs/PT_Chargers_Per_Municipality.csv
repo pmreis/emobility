@@ -3,22 +3,22 @@ Lisboa,955
 Cascais,438
 Porto,261
 Oeiras,178
-Vila Nova de Gaia,174
+Vila Nova de Gaia,176
 Loulé,163
 Sintra,157
 Barreiro,127
 Matosinhos,122
 Braga,116
 Guimarães,116
+Albufeira,113
 Loures,113
-Albufeira,112
 Vila Franca de Xira,109
 Coimbra,105
 Leiria,105
 Montijo,97
 Viseu,96
 Almada,81
-Santa Maria da Feira,81
+Santa Maria da Feira,79
 Setúbal,72
 Aveiro,67
 Vila do Conde,67
@@ -62,6 +62,7 @@ Silves,33
 Alcochete,32
 Barcelos,31
 Caldas da Rainha,31
+Ourém,31
 Ílhavo,31
 Cantanhede,28
 Alcácer do Sal,27
@@ -71,7 +72,6 @@ Figueira da Foz,26
 Fundão,26
 Sesimbra,26
 Anadia,25
-Ourém,25
 Ponte de Lima,25
 Albergaria-a-Velha,23
 Azambuja,23
@@ -80,10 +80,10 @@ Estarreja,23
 Felgueiras,23
 Lamego,23
 Tavira,23
+Torres Novas,23
 Caminha,22
 Paços de Ferreira,22
 Peniche,22
-Torres Novas,22
 Ponta Delgada,21
 Alenquer,20
 Bragança,20
@@ -100,10 +100,10 @@ Elvas,17
 Vila Verde,17
 Aljustrel,16
 Lousada,16
+Oliveira do Bairro,16
 Tondela,16
 Trofa,16
 Oliveira de Azeméis,15
-Oliveira do Bairro,15
 Ribeira Grande,15
 Santiago do Cacém,15
 Águeda,15
@@ -122,9 +122,9 @@ Vendas Novas,13
 Vila do Bispo,13
 Angra do Heroísmo,12
 Batalha,12
+Castro Marim,12
 Vila Real de Santo António,12
 Arcos de Valdevez,11
-Castro Marim,11
 Condeixa-a-Nova,11
 Espinho,11
 Mirandela,11
