@@ -1,12 +1,12 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,215863
+EDP,EDP Comercial,215723
 GRG,Grupo Galp (GLP+GLG+MLT),196155
 HRZ,"Powerdot, S.A",131637
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",91628
-ATL,"Atlante Infra Portugal, S.A",60874
+ATL,"Atlante Infra Portugal, S.A",60794
 TRK,WOWPLUG,28469
 IOY,IONITY GmbH,28100
-REP,REPSOL PORTUGUESA LDA,23129
+REP,REPSOL PORTUGUESA LDA,22151
 PRI,"Prio.E Mobility Solutions, Lda",21772
 HLX,"Helexia II Energy Services, Lda.",19792
 MOT,Mota-Engil Renewing,13872
@@ -14,10 +14,10 @@ CPS,Cepsa Portuguesa Petroleos,13550
 MAK,Maksu,9910
 ENB,"Enable Mobility Solutions, S.A.",8450
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8122
+VIA,"Via Verde Transição Energética, S.A.",7457
 DTE,"DTE, Instalacoes Especiais",7436
 ITV,Instavolt Portugal Lda.,4422
 REM,MOTA-ENGIL REMO CHARGING S.A,4260
-VIA,"Via Verde Transição Energética, S.A.",4062
 EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4044
 ECI,ECOINSIDE,3632
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3077
@@ -78,10 +78,10 @@ EGR,"Green Evolut, LDA",88
 EMT,"Emobtec - Tec. Mobilidade Elétrica, unipessoal Lda",88
 SLV,Silver Ridge - Asset Management,84
 AUC,Auchan Retail Portugal S.A,66
+CON,"ConectaMais, Lda",66
 SCR,Município de Santa Cruz,66
 PAR,Parinox Energia,52
 ZND,"Grupo Easycharger, SL",46
-CON,"ConectaMais, Lda",44
 FRI,"Distrifrio Supermercados, Lda",44
 INT,"Bluint - Engenharia e Tecnologias Integradas, Unipessoal, Lda",44
 MEO,"MEO Energia - Comercialização de Energia, SA",44
