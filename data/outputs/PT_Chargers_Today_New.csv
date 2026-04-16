@@ -1,3 +1,7 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-LSB-01179,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75998,-9.19844
-NLS-00011,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Nelas,40.538616,-7.856624
+AVR-00107,HLX,"Helexia II Energy Services, Lda.",Aveiro,40.647675,-8.607863
+CTX-00009,PRI,"Prio.E Mobility Solutions, Lda",Cartaxo,39.170074,-8.776967
+GDM-00066,PRI,"Prio.E Mobility Solutions, Lda",Gondomar,41.181202,-8.535851
+SNS-00022,GLP,Galp Power OPC,Sines,37.85469,-8.787543
+TVD-00065,MOT,Mota-Engil Renewing,Torres Vedras,39.08329,-9.255547
+VIS-00132,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Viseu,40.67102,-7.889267

@@ -16,17 +16,17 @@ Vila Franca de Xira,109
 Coimbra,105
 Leiria,105
 Montijo,97
-Viseu,96
+Viseu,97
 Almada,81
 Santa Maria da Feira,79
 Setúbal,72
 Moita,69
-Aveiro,67
-Portimão,66
+Aveiro,68
 Seixal,65
+Portimão,64
 Vila do Conde,64
+Torres Vedras,63
 Amadora,62
-Torres Vedras,62
 Faro,59
 Beja,57
 Maia,56
@@ -39,7 +39,7 @@ Funchal,50
 Santarém,50
 Covilhã,49
 Penafiel,46
-Gondomar,44
+Gondomar,45
 Vila Nova de Famalicão,43
 Guarda,42
 Mafra,42
@@ -123,6 +123,7 @@ Vila do Bispo,13
 Angra do Heroísmo,12
 Batalha,12
 Castro Marim,12
+Sines,12
 Vila Real de Santo António,12
 Arcos de Valdevez,11
 Condeixa-a-Nova,11
@@ -132,7 +133,6 @@ Montemor-o-Novo,11
 Ponte de Sôr,11
 Rio Maior,11
 Santa Comba Dão,11
-Sines,11
 Bombarral,10
 Lousã,10
 Mangualde,10
@@ -190,6 +190,7 @@ Vila Viçosa,6
 Aljezur,5
 Alvaiázere,5
 Arouca,5
+Cartaxo,5
 Castro Verde,5
 Celorico de Basto,5
 Macedo de Cavaleiros,5
@@ -206,7 +207,6 @@ Arraiolos,4
 "Calheta, Madeira",4
 Campo Maior,4
 Carregal do Sal,4
-Cartaxo,4
 Câmara de Lobos,4
 Ferreira do Zêzere,4
 Gouveia,4
