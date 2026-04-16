@@ -1,21 +1,21 @@
 OperatorAbb,OperatorName,Total Power (kW)
 EDP,EDP Comercial,215899
-GLP,Galp Power OPC,163418
+GLP,Galp Power OPC,163462
 HRZ,"Powerdot, S.A",131737
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",93528
 ATL,"Atlante Infra Portugal, S.A",60602
 TRK,WOWPLUG,28865
 IOY,IONITY GmbH,28100
 GLG,Galpgeste,22253
-REP,REPSOL PORTUGUESA LDA,22151
-PRI,"Prio.E Mobility Solutions, Lda",21772
-HLX,"Helexia II Energy Services, Lda.",20680
-MOT,Mota-Engil Renewing,13872
+REP,REPSOL PORTUGUESA LDA,22181
+PRI,"Prio.E Mobility Solutions, Lda",22132
+HLX,"Helexia II Energy Services, Lda.",20880
+MOT,Mota-Engil Renewing,13992
 CPS,Cepsa Portuguesa Petroleos,13550
 MLT,Mobiletric,10605
 MAK,Maksu,10020
 ENB,"Enable Mobility Solutions, S.A.",8450
-IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8122
+IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8166
 VIA,"Via Verde Transição Energética, S.A.",7457
 DTE,"DTE, Instalacoes Especiais",7436
 REM,MOTA-ENGIL REMO CHARGING S.A,4500
@@ -54,12 +54,12 @@ CSC,Cascais Próxima,352
 EVA,"EVAZ Energy, LDA",350
 CME,CME,332
 SFF,"Superfafe- supermercados,lda",324
-BLU,"Bluecharge, Lda",308
 PRP,"PROPEL - PRODUTOS DE PETRÓLEO, LDA",286
 SDB,SodiBraga - Supermercados Lda,284
 GRC,"Grcapp, Unipessoal Lda",276
 PTE,"PETROTERMICA ENERGIA, S.A.",240
 GLD,Gold Energy,225
+BLU,"Bluecharge, Lda",220
 MOA,"MOBI A - Mobilidade e Ambiente, Lda",220
 GSF,"GASFOMENTO - Sistemas e Instalações de Gás, S.A.",219
 MOB,MOBIE,216
