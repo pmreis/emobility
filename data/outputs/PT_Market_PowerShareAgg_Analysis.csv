@@ -1,12 +1,12 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,215899
-GRG,Grupo Galp (GLP+GLG+MLT),196321
-HRZ,"Powerdot, S.A",131737
+EDP,EDP Comercial,216068
+GRG,Grupo Galp (GLP+GLG+MLT),196199
+HRZ,"Powerdot, S.A",132559
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",93528
 ATL,"Atlante Infra Portugal, S.A",60602
 TRK,WOWPLUG,28865
 IOY,IONITY GmbH,28100
-REP,REPSOL PORTUGUESA LDA,22181
+REP,REPSOL PORTUGUESA LDA,22421
 PRI,"Prio.E Mobility Solutions, Lda",22132
 HLX,"Helexia II Energy Services, Lda.",20880
 MOT,Mota-Engil Renewing,13992
@@ -23,12 +23,12 @@ ECI,ECOINSIDE,3632
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3077
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2677
 EVI,EVIO - Electrical Mobility,2096
-KLS,"Kilometer Low Cost II Serviços, SA",2075
 EVP,"EVpower, Charging Solutions Lda",1949
 FAC,FactorENERGIA,1936
 EVC,"EVCE POWER, LDA. / MOBISMART",1856
 NRG,"NRG - Sistemas de Energia Renováveis, Lda.",1818
 LCG,"Loulé Concelho Global, EM",1791
+KLS,"Kilometer Low Cost II Serviços, SA",1630
 LOG,uCharge,1453
 EMA,"EMACOM - Telecomunicações da Madeira, Unipessoal, Lda",1422
 CAP,"Capwatt Services, S.A.",1364
@@ -74,11 +74,11 @@ SAR,"Superareosa Supermercados, Lda",142
 KPM,"KPM Serviços de Engenheria, Unip Lda",122
 EPO,EPOCH,110
 SLX,SOLX,102
+CON,"ConectaMais, Lda",88
 EGR,"Green Evolut, LDA",88
 EMT,"Emobtec - Tec. Mobilidade Elétrica, unipessoal Lda",88
 SLV,Silver Ridge - Asset Management,84
 AUC,Auchan Retail Portugal S.A,66
-CON,"ConectaMais, Lda",66
 SCR,Município de Santa Cruz,66
 PAR,Parinox Energia,52
 ZND,"Grupo Easycharger, SL",46

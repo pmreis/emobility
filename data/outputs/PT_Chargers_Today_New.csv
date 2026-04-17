@@ -1,7 +1,4 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-AVR-00107,HLX,"Helexia II Energy Services, Lda.",Aveiro,40.647675,-8.607863
-CTX-00009,PRI,"Prio.E Mobility Solutions, Lda",Cartaxo,39.170074,-8.776967
-GDM-00066,PRI,"Prio.E Mobility Solutions, Lda",Gondomar,41.181202,-8.535851
-SNS-00022,GLP,Galp Power OPC,Sines,37.85469,-8.787543
-TVD-00065,MOT,Mota-Engil Renewing,Torres Vedras,39.08329,-9.255547
-VIS-00132,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Viseu,40.67102,-7.889267
+CVL-00057,REP,REPSOL PORTUGUESA LDA,Covilhã,40.26658,-7.500167
+EVR-00081,HRZ,"Powerdot, S.A",Évora,38.559093,-7.9184713
+PLM-00055,EDP,EDP Comercial,Palmela,38.56659,-8.900403
