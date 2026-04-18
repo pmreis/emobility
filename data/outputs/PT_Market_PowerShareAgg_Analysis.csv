@@ -1,14 +1,14 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,216068
-GRG,Grupo Galp (GLP+GLG+MLT),196199
+EDP,EDP Comercial,216075
+GRG,Grupo Galp (GLP+GLG+MLT),196627
 HRZ,"Powerdot, S.A",132559
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",93528
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",92328
 ATL,"Atlante Infra Portugal, S.A",60602
 TRK,WOWPLUG,28865
 IOY,IONITY GmbH,28100
 REP,REPSOL PORTUGUESA LDA,22421
 PRI,"Prio.E Mobility Solutions, Lda",22132
-HLX,"Helexia II Energy Services, Lda.",20880
+HLX,"Helexia II Energy Services, Lda.",21080
 MOT,Mota-Engil Renewing,13992
 CPS,Cepsa Portuguesa Petroleos,13550
 MAK,Maksu,10020
@@ -18,7 +18,7 @@ VIA,"Via Verde Transição Energética, S.A.",7457
 DTE,"DTE, Instalacoes Especiais",7436
 REM,MOTA-ENGIL REMO CHARGING S.A,4500
 ITV,Instavolt Portugal Lda.,4422
-EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4059
+EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4103
 ECI,ECOINSIDE,3632
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3077
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2677
@@ -64,6 +64,7 @@ FRR,"FRONTROW, LDA",216
 MOB,MOBIE,216
 IMG,"Image4all - Eficiência Energética, Comunicação e Imagem",187
 CGG,Cargga Inteligente,176
+EGR,"Green Evolut, LDA",176
 NEU,"Neureifen - Electric Mobility, Lda",176
 PFU,Plug Four the WorldLda,176
 EZC,"EZ - CHARG3, Lda",165
@@ -75,7 +76,6 @@ KPM,"KPM Serviços de Engenheria, Unip Lda",122
 EPO,EPOCH,110
 SLX,SOLX,102
 CON,"ConectaMais, Lda",88
-EGR,"Green Evolut, LDA",88
 EMT,"Emobtec - Tec. Mobilidade Elétrica, unipessoal Lda",88
 SLV,Silver Ridge - Asset Management,84
 AUC,Auchan Retail Portugal S.A,66
