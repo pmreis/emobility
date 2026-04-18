@@ -1,5 +1,5 @@
 City,Qty
-Lisboa,957
+Lisboa,958
 Cascais,440
 Porto,261
 Oeiras,181
@@ -7,12 +7,12 @@ Vila Nova de Gaia,175
 Loulé,164
 Sintra,157
 Barreiro,127
+Braga,122
 Matosinhos,122
-Braga,116
 Guimarães,116
 Loures,114
 Vila Franca de Xira,109
-Coimbra,105
+Coimbra,107
 Leiria,105
 Albufeira,104
 Montijo,97
@@ -106,6 +106,7 @@ Trofa,16
 Oliveira de Azeméis,15
 Ribeira Grande,15
 Santiago do Cacém,15
+Seia,15
 Águeda,15
 Estremoz,14
 Machico,14
@@ -113,7 +114,6 @@ Marco de Canaveses,14
 Peso da Régua,14
 Porto de Mós,14
 Salvaterra de Magos,14
-Seia,14
 Vale de Cambra,14
 Arruda dos Vinhos,13
 Benavente,13
@@ -221,7 +221,6 @@ Redondo,4
 Resende,4
 Santa Cruz da Graciosa,4
 Sernancelhe,4
-Serpa,4
 Sever do Vouga,4
 Soure,4
 Sátão,4
@@ -250,6 +249,7 @@ Ribeira Brava,3
 Ribeira de Pena,3
 Santa Marta de Penaguião,3
 Santana,3
+Serpa,3
 Sobral de Monte Agraço,3
 São João da Pesqueira,3
 Tabuaço,3
