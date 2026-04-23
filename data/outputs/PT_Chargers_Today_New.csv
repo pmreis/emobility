@@ -1,14 +1,5 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-AMD-00119,ATL,"Atlante Infra Portugal, S.A",Amadora,38.75489,-9.21694
-BRG-00154,HRZ,"Powerdot, S.A",Braga,41.557724,-8.407076
-BRG-00155,HRZ,"Powerdot, S.A",Braga,41.557724,-8.407076
-GDL-00063,EDP,EDP Comercial,Grândola,38.167507,-8.491054
-LLE-00257,HLX,"Helexia II Energy Services, Lda.",Loulé,37.075146,-8.11429
-LMG-00027,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Lamego,41.101887,-7.7981725
-LSB-01184,MAK,Maksu,Lisboa,38.731903,-9.146564
-LSB-01185,MAK,Maksu,Lisboa,38.731903,-9.146564
-LSB-01186,MAK,Maksu,Lisboa,38.731903,-9.146564
-LSB-01320,GLP,Galp Power OPC,Lisboa,38.784702,-9.167385
-VNG-00241,HRZ,"Powerdot, S.A",Vila Nova de Gaia,41.057354,-8.567536
-VVC-00009,DTE,"DTE, Instalacoes Especiais",Vila Viçosa,38.77623,-7.31723
-VVC-00010,DTE,"DTE, Instalacoes Especiais",Vila Viçosa,38.721706,-7.399787
+MCQ-00007,GLP,Galp Power OPC,Monchique,37.280327,-8.551611
+MCQ-00008,GLP,Galp Power OPC,Monchique,37.280327,-8.551611
+STR-00072,HRZ,"Powerdot, S.A",Santarém,39.246716,-8.694146
+VNG-00242,HRZ,"Powerdot, S.A",Vila Nova de Gaia,41.057354,-8.567536
