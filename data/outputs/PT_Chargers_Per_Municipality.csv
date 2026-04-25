@@ -1,7 +1,7 @@
 City,Qty
-Lisboa,963
+Lisboa,970
 Cascais,440
-Porto,261
+Porto,263
 Oeiras,181
 Vila Nova de Gaia,177
 Loulé,165
@@ -10,7 +10,7 @@ Barreiro,127
 Braga,124
 Matosinhos,122
 Guimarães,116
-Loures,114
+Loures,115
 Vila Franca de Xira,109
 Coimbra,108
 Albufeira,105
@@ -57,17 +57,17 @@ Esposende,34
 Lagos,34
 Paredes,33
 Póvoa de Varzim,33
-Silves,33
 Alcochete,32
 Barcelos,32
+Silves,32
 Caldas da Rainha,31
 Nazaré,31
 Ourém,31
 Ílhavo,31
 Figueira da Foz,30
 Cantanhede,28
-"Lagoa, Faro",28
 Alcácer do Sal,27
+"Lagoa, Faro",27
 Amarante,26
 Fundão,26
 Sesimbra,26
@@ -217,6 +217,7 @@ Montalegre,4
 Mortágua,4
 Moura,4
 Murtosa,4
+Ponte da Barca,4
 Porto Moniz,4
 Redondo,4
 Resende,4
@@ -277,7 +278,6 @@ Pampilhosa da Serra,2
 Penamacor,2
 Penedono,2
 Pinhel,2
-Ponte da Barca,2
 Sardoal,2
 Sousel,2
 Trancoso,2

@@ -1,17 +1,17 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,216927
-GRG,Grupo Galp (GLP+GLG+MLT),198555
-HRZ,"Powerdot, S.A",133847
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",90728
+EDP,EDP Comercial,217015
+GRG,Grupo Galp (GLP+GLG+MLT),198882
+HRZ,"Powerdot, S.A",134557
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",91108
 ATL,"Atlante Infra Portugal, S.A",60782
 TRK,WOWPLUG,28865
 IOY,IONITY GmbH,28100
-REP,REPSOL PORTUGUESA LDA,22421
+REP,REPSOL PORTUGUESA LDA,22339
 PRI,"Prio.E Mobility Solutions, Lda",22132
 HLX,"Helexia II Energy Services, Lda.",21546
 MOT,Mota-Engil Renewing,13992
 CPS,Cepsa Portuguesa Petroleos,13550
-MAK,Maksu,10108
+MAK,Maksu,10240
 ENB,"Enable Mobility Solutions, S.A.",8450
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8266
 DTE,"DTE, Instalacoes Especiais",7524
@@ -22,7 +22,7 @@ EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.
 ECI,ECOINSIDE,3632
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3077
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2677
-EVI,EVIO - Electrical Mobility,2096
+EVI,EVIO - Electrical Mobility,2110
 EVP,"EVpower, Charging Solutions Lda",1949
 FAC,FactorENERGIA,1936
 EVC,"EVCE POWER, LDA. / MOBISMART",1856
@@ -45,7 +45,7 @@ BEL,Bel Mobility,542
 IHM,iHome Lda,504
 VIS,VISACASA - SERVIÇOS DE ASSISTÊNCIA E MANUTENÇÃO GLOBAL S.A.,460
 CEV,CEVE - Cooperativa Eléctrica do Vale D’Este C.R.L.,428
-LUZ,"LUSIADAENERGIA, S.A.",416
+LUZ,"LUSIADAENERGIA, S.A.",401
 SGM,"Superguimarães - Supermercados,lda",384
 GRN,"GREEN CHARGE - MOBILIDADE ELÉTRICA, LDA",374
 CSC,Cascais Próxima,352
