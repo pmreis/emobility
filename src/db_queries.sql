@@ -46,9 +46,18 @@ join cte on cte.OperatorAbb = o.OperatorAbb
 order by cte.qnt, o.OperatorAbb;
 
 
-select strftime('%Y', DeployDate), count(1)
+select strftime('%Y', InsertedDate), count(1)
 from Chargers
-group by strftime('%Y', DeployDate);
+group by strftime('%Y', InsertedDate);
+
+
+select
+    strftime('%m', InsertedDate) as Month,
+    count(1) as Qty
+from Chargers
+where strftime('%Y', InsertedDate) = '2026'
+group by month
+order by month;
 
 
 select p.*
