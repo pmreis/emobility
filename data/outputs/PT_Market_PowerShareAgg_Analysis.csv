@@ -1,9 +1,9 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,217015
-GRG,Grupo Galp (GLP+GLG+MLT),198882
-HRZ,"Powerdot, S.A",134557
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",91108
-ATL,"Atlante Infra Portugal, S.A",60782
+EDP,EDP Comercial,217199
+GRG,Grupo Galp (GLP+GLG+MLT),199024
+HRZ,"Powerdot, S.A",134524
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",99028
+ATL,"Atlante Infra Portugal, S.A",60104
 TRK,WOWPLUG,28865
 IOY,IONITY GmbH,28100
 REP,REPSOL PORTUGUESA LDA,22339
@@ -31,12 +31,12 @@ LCG,"Loulé Concelho Global, EM",1791
 KLS,"Kilometer Low Cost II Serviços, SA",1630
 LOG,uCharge,1453
 EMA,"EMACOM - Telecomunicações da Madeira, Unipessoal, Lda",1422
+ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",1388
 CAP,"Capwatt Services, S.A.",1364
 VEI,Veimonte Lda,1122
 PLG,"e-Plug, Lda",1110
 HEX,"HEXAGONAL OCEAN, LDA",1091
 CAB,Cable Exanergia Portugal,1016
-ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",644
 CIR,"Circuitos Energy Solutions, Lda.",604
 ALF,Alfa Energia,586
 GEN,Generation Journey Lda,572
