@@ -1,1 +1,10 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
+BRG-00032,HRZ,"Powerdot, S.A",Braga,41.556778,-8.406444
+BRG-00033,HRZ,"Powerdot, S.A",Braga,41.556988,-8.406372
+CLD-00010,HRZ,"Powerdot, S.A",Caldas da Rainha,39.400894,-9.136826
+CTM-00007,ATL,"Atlante Infra Portugal, S.A",Castro Marim,37.18026,-7.49845
+LGS-00029,ATL,"Atlante Infra Portugal, S.A",Lagos,37.11313,-8.67604
+LSB-00665,ATL,"Atlante Infra Portugal, S.A",Lisboa,38.715893,-9.163125
+OBR-00013,GLP,Galp Power OPC,Oliveira do Bairro,40.499935,-8.587523
+ODV-00021,ATL,"Atlante Infra Portugal, S.A",Odivelas,38.813957,-9.188558
+OER-00190,ATL,"Atlante Infra Portugal, S.A",Oeiras,38.71518,-9.24051

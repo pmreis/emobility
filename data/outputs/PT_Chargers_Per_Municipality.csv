@@ -1,20 +1,20 @@
 City,Qty
-Lisboa,970
+Lisboa,969
 Cascais,440
 Porto,263
-Oeiras,181
+Oeiras,180
 Vila Nova de Gaia,177
 Loulé,165
 Sintra,157
 Barreiro,127
-Braga,124
+Braga,122
 Matosinhos,122
 Guimarães,116
 Loures,115
 Vila Franca de Xira,109
 Coimbra,108
+Leiria,106
 Albufeira,105
-Leiria,105
 Montijo,97
 Viseu,97
 Almada,81
@@ -23,8 +23,8 @@ Setúbal,72
 Moita,69
 Aveiro,68
 Seixal,65
+Vila do Conde,65
 Portimão,64
-Vila do Conde,64
 Amadora,63
 Torres Vedras,63
 Faro,59
@@ -45,25 +45,25 @@ Guarda,42
 Mafra,42
 São João da Madeira,41
 Tomar,41
+Vila Real,40
 Castelo Branco,38
+Nazaré,38
 Olhão,38
 Valongo,38
 Mealhada,37
 Santo Tirso,37
-Vila Real,36
 Alcobaça,35
-Odivelas,35
 Esposende,34
-Lagos,34
+Odivelas,34
+Lagos,33
 Paredes,33
 Póvoa de Varzim,33
 Alcochete,32
 Barcelos,32
 Silves,32
-Caldas da Rainha,31
-Nazaré,31
 Ourém,31
 Ílhavo,31
+Caldas da Rainha,30
 Figueira da Foz,30
 Cantanhede,28
 Alcácer do Sal,27
@@ -74,6 +74,7 @@ Sesimbra,26
 Anadia,25
 Ponte de Lima,25
 Albergaria-a-Velha,24
+Caminha,24
 Lamego,24
 Azambuja,23
 Chaves,23
@@ -81,7 +82,6 @@ Estarreja,23
 Felgueiras,23
 Tavira,23
 Torres Novas,23
-Caminha,22
 Paços de Ferreira,22
 Peniche,22
 Ponta Delgada,21
@@ -100,10 +100,10 @@ Elvas,17
 Vila Verde,17
 Aljustrel,16
 Lousada,16
-Oliveira do Bairro,16
 Tondela,16
 Trofa,16
 Oliveira de Azeméis,15
+Oliveira do Bairro,15
 Ribeira Grande,15
 Santiago do Cacém,15
 Seia,15
@@ -121,11 +121,11 @@ Porto Santo,13
 Vendas Novas,13
 Vila do Bispo,13
 Angra do Heroísmo,12
-Castro Marim,12
 Sines,12
 Vila Real de Santo António,12
 Arcos de Valdevez,11
 Batalha,11
+Castro Marim,11
 Condeixa-a-Nova,11
 Espinho,11
 Mirandela,11
