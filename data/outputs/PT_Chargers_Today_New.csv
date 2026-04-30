@@ -1,3 +1,9 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ETZ-00029,EVI,EVIO - Electrical Mobility,Estremoz,38.846947,-7.5818143
-ETZ-00030,EVI,EVIO - Electrical Mobility,Estremoz,38.846947,-7.5818143
+ALM-00165,EDP,EDP Comercial,Almada,38.64563,-9.236897
+ALM-00166,EDP,EDP Comercial,Almada,38.645382,-9.236759
+LRS-00228,EDP,EDP Comercial,Loures,38.866188,-9.149564
+LRS-00229,EDP,EDP Comercial,Loures,38.866188,-9.149564
+LRS-00230,EDP,EDP Comercial,Loures,38.859554,-9.161408
+LRS-00231,EDP,EDP Comercial,Loures,38.859554,-9.161408
+SNT-00228,EDP,EDP Comercial,Sintra,38.83946,-9.380054
+SNT-00229,EDP,EDP Comercial,Sintra,38.80539,-9.380054
