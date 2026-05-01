@@ -11,10 +11,10 @@ Braga,122
 Matosinhos,122
 Loures,120
 Guimarães,116
+Albufeira,109
 Vila Franca de Xira,109
 Coimbra,108
 Leiria,106
-Albufeira,104
 Montijo,97
 Viseu,97
 Almada,83
@@ -44,15 +44,15 @@ Vila Nova de Famalicão,43
 Guarda,42
 Mafra,42
 São João da Madeira,41
-Tomar,41
-Castelo Branco,38
+Tomar,40
+Valongo,40
+Castelo Branco,39
 Olhão,38
-Valongo,38
 Mealhada,37
 Santo Tirso,37
+Nazaré,36
 Vila Real,36
 Alcobaça,35
-Nazaré,35
 Esposende,34
 Odivelas,34
 Lagos,33
@@ -76,6 +76,7 @@ Ponte de Lima,25
 Albergaria-a-Velha,24
 Caminha,24
 Lamego,24
+Pombal,24
 Azambuja,23
 Chaves,23
 Estarreja,23
@@ -94,15 +95,14 @@ Portalegre,19
 Santa Cruz,19
 Lourinhã,18
 Oliveira do Hospital,18
-Pombal,18
 Óbidos,18
 Elvas,17
+Trofa,17
 Vila Verde,17
 Aljustrel,16
 Estremoz,16
 Lousada,16
 Tondela,16
-Trofa,16
 Oliveira de Azeméis,15
 Oliveira do Bairro,15
 Ribeira Grande,15
@@ -110,6 +110,7 @@ Santiago do Cacém,15
 Seia,15
 Águeda,15
 Machico,14
+Mangualde,14
 Marco de Canaveses,14
 Peso da Régua,14
 Porto de Mós,14
@@ -135,7 +136,6 @@ Rio Maior,11
 Santa Comba Dão,11
 Bombarral,10
 Lousã,10
-Mangualde,10
 Montemor-o-Velho,10
 Terras de Bouro,10
 Melgaço,9
@@ -160,7 +160,6 @@ Póvoa de Lanhoso,8
 Reguengos de Monsaraz,8
 Tábua,8
 Valença,8
-Vila Viçosa,8
 Vizela,8
 Baião,7
 Chamusca,7
@@ -171,6 +170,7 @@ Proença-a-Nova,7
 São Pedro do Sul,7
 Vila Nova de Cerveira,7
 Vila Velha de Ródão,7
+Vila Viçosa,7
 Almeirim,6
 Amares,6
 Golegã,6
