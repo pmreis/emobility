@@ -61,9 +61,9 @@ Paredes,33
 Póvoa de Varzim,33
 Barcelos,32
 Silves,32
+Caldas da Rainha,31
 Ourém,31
 Ílhavo,31
-Caldas da Rainha,30
 Figueira da Foz,30
 Cantanhede,28
 Alcácer do Sal,27
@@ -76,7 +76,6 @@ Ponte de Lima,25
 Albergaria-a-Velha,24
 Caminha,24
 Lamego,24
-Pombal,24
 Azambuja,23
 Chaves,23
 Estarreja,23
@@ -85,6 +84,7 @@ Tavira,23
 Torres Novas,23
 Paços de Ferreira,22
 Peniche,22
+Pombal,22
 Ponta Delgada,21
 Alenquer,20
 Bragança,20
@@ -160,6 +160,7 @@ Póvoa de Lanhoso,8
 Reguengos de Monsaraz,8
 Tábua,8
 Valença,8
+Vila Viçosa,8
 Vizela,8
 Baião,7
 Chamusca,7
@@ -171,7 +172,6 @@ Proença-a-Nova,7
 São Pedro do Sul,7
 Vila Nova de Cerveira,7
 Vila Velha de Ródão,7
-Vila Viçosa,7
 Almeirim,6
 Amares,6
 Golegã,6
@@ -254,7 +254,6 @@ Santana,3
 Serpa,3
 Sobral de Monte Agraço,3
 São João da Pesqueira,3
-Tabuaço,3
 Vieira do Minho,3
 Vimioso,3
 Alfândega da Fé,2
@@ -280,6 +279,7 @@ Penedono,2
 Pinhel,2
 Sardoal,2
 Sousel,2
+Tabuaço,2
 Trancoso,2
 Velas,2
 Vidigueira,2
