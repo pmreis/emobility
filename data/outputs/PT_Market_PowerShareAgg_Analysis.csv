@@ -1,15 +1,15 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,219197
-GRG,Grupo Galp (GLP+GLG+MLT),203281
-HRZ,"Powerdot, S.A",134718
+EDP,EDP Comercial,219670
+GRG,Grupo Galp (GLP+GLG+MLT),203697
+HRZ,"Powerdot, S.A",135258
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",100300
-ATL,"Atlante Infra Portugal, S.A",60139
-TRK,WOWPLUG,28865
+ATL,"Atlante Infra Portugal, S.A",60259
+TRK,WOWPLUG,29481
 IOY,IONITY GmbH,28100
 REP,REPSOL PORTUGUESA LDA,22339
 PRI,"Prio.E Mobility Solutions, Lda",22132
 HLX,"Helexia II Energy Services, Lda.",21546
-MOT,Mota-Engil Renewing,13992
+MOT,Mota-Engil Renewing,14092
 CPS,Cepsa Portuguesa Petroleos,13700
 MAK,Maksu,10240
 ENB,"Enable Mobility Solutions, S.A.",8450
@@ -76,13 +76,13 @@ EPO,EPOCH,110
 SLX,SOLX,102
 CON,"ConectaMais, Lda",88
 EMT,"Emobtec - Tec. Mobilidade Elétrica, unipessoal Lda",88
+INT,"Bluint - Engenharia e Tecnologias Integradas, Unipessoal, Lda",88
 SLV,Silver Ridge - Asset Management,84
 AUC,Auchan Retail Portugal S.A,66
 SCR,Município de Santa Cruz,66
 PAR,Parinox Energia,52
 ZND,"Grupo Easycharger, SL",46
 FRI,"Distrifrio Supermercados, Lda",44
-INT,"Bluint - Engenharia e Tecnologias Integradas, Unipessoal, Lda",44
 MEO,"MEO Energia - Comercialização de Energia, SA",44
 WEN,WENEA SERVICES SPAIN S.L.,29
 JHO,JH Ornelas,14
