@@ -1,6 +1,6 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,219670
-GLP,Galp Power OPC,170981
+EDP,EDP Comercial,220514
+GLP,Galp Power OPC,171843
 HRZ,"Powerdot, S.A",135258
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",100300
 ATL,"Atlante Infra Portugal, S.A",60259
@@ -9,7 +9,7 @@ IOY,IONITY GmbH,28100
 REP,REPSOL PORTUGUESA LDA,22339
 PRI,"Prio.E Mobility Solutions, Lda",22132
 GLG,Galpgeste,22110
-HLX,"Helexia II Energy Services, Lda.",21546
+HLX,"Helexia II Energy Services, Lda.",21746
 MOT,Mota-Engil Renewing,14092
 CPS,Cepsa Portuguesa Petroleos,13700
 MLT,Mobiletric,10605
@@ -25,9 +25,9 @@ ECI,ECOINSIDE,3632
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3229
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2677
 EVI,EVIO - Electrical Mobility,2350
+EVC,"EVCE POWER, LDA. / MOBISMART",2032
 EVP,"EVpower, Charging Solutions Lda",1949
 FAC,FactorENERGIA,1936
-EVC,"EVCE POWER, LDA. / MOBISMART",1856
 NRG,"NRG - Sistemas de Energia Renováveis, Lda.",1818
 LCG,"Loulé Concelho Global, EM",1791
 KLS,"Kilometer Low Cost II Serviços, SA",1630
@@ -67,7 +67,6 @@ FRR,"FRONTROW, LDA",216
 IMG,"Image4all - Eficiência Energética, Comunicação e Imagem",187
 CGG,Cargga Inteligente,176
 NEU,"Neureifen - Electric Mobility, Lda",176
-PFU,Plug Four the WorldLda,176
 EZC,"EZ - CHARG3, Lda",165
 BRI,Brightcity S.A.,164
 EZU,Ezu Energia,154
