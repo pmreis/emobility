@@ -8,8 +8,8 @@ Loulé,165
 Sintra,159
 Barreiro,127
 Loures,123
+Matosinhos,123
 Braga,122
-Matosinhos,122
 Guimarães,120
 Albufeira,109
 Vila Franca de Xira,109
@@ -30,8 +30,8 @@ Torres Vedras,63
 Faro,59
 Beja,57
 Maia,57
+Palmela,57
 Ovar,55
-Palmela,55
 Évora,55
 Funchal,53
 Grândola,53
@@ -66,8 +66,8 @@ Ourém,31
 Ílhavo,31
 Figueira da Foz,30
 Cantanhede,28
+"Lagoa, Faro",28
 Alcácer do Sal,27
-"Lagoa, Faro",27
 Amarante,26
 Fundão,26
 Sesimbra,26
@@ -138,6 +138,7 @@ Terras de Bouro,11
 Bombarral,10
 Lousã,10
 Montemor-o-Velho,10
+Idanha-a-Nova,9
 Melgaço,9
 Miranda do Douro,9
 Moimenta da Beira,9
@@ -153,7 +154,6 @@ Celorico da Beira,8
 Cinfães,8
 Entroncamento,8
 Horta,8
-Idanha-a-Nova,8
 Miranda do Corvo,8
 Praia da Vitória,8
 Póvoa de Lanhoso,8
