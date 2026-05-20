@@ -1,4 +1,8 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-FNC-00078,REP,REPSOL PORTUGUESA LDA,Funchal,32.6711,-16.922495
-LMG-00028,HRZ,"Powerdot, S.A",Lamego,41.08898,-7.798372
-LMG-00029,HRZ,"Powerdot, S.A",Lamego,41.08898,-7.798372
+AGD-00025,DTE,"DTE, Instalacoes Especiais",Águeda,40.531822,-8.36708
+AGD-00027,DTE,"DTE, Instalacoes Especiais",Águeda,40.558132,-8.437836
+AGD-00030,DTE,"DTE, Instalacoes Especiais",Águeda,40.564583,-8.527639
+AGD-00034,DTE,"DTE, Instalacoes Especiais",Águeda,40.56208,-8.464181
+ENT-00012,HRZ,"Powerdot, S.A",Entroncamento,39.459126,-8.466026
+LSB-01183,MAK,Maksu,Lisboa,38.731903,-9.146564
+LSB-01230,MAK,Maksu,Lisboa,38.715347,-9.16668
