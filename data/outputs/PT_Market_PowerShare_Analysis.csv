@@ -1,8 +1,8 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,221909
-GLP,Galp Power OPC,172193
+EDP,EDP Comercial,222239
+GLP,Galp Power OPC,177037
 HRZ,"Powerdot, S.A",138744
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",102280
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",104360
 ATL,"Atlante Infra Portugal, S.A",60226
 IOY,IONITY GmbH,30850
 TRK,WOWPLUG,29481
@@ -15,8 +15,8 @@ CPS,Cepsa Portuguesa Petroleos,13700
 MAK,Maksu,10742
 MLT,Mobiletric,10605
 ENB,"Enable Mobility Solutions, S.A.",8450
+DTE,"DTE, Instalacoes Especiais",8390
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8354
-DTE,"DTE, Instalacoes Especiais",8248
 VIA,"Via Verde Transição Energética, S.A.",7457
 REM,MOTA-ENGIL REMO CHARGING S.A,5300
 ITV,Instavolt Portugal Lda.,4422
