@@ -1,11 +1,11 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,222239
-GRG,Grupo Galp (GLP+GLG+MLT),209753
-HRZ,"Powerdot, S.A",138744
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",104360
+EDP,EDP Comercial,222665
+GRG,Grupo Galp (GLP+GLG+MLT),209808
+HRZ,"Powerdot, S.A",138601
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",106960
 ATL,"Atlante Infra Portugal, S.A",60226
+TRK,WOWPLUG,31153
 IOY,IONITY GmbH,30850
-TRK,WOWPLUG,29481
 REP,REPSOL PORTUGUESA LDA,22889
 HLX,"Helexia II Energy Services, Lda.",22266
 PRI,"Prio.E Mobility Solutions, Lda",22176
@@ -54,8 +54,8 @@ SFF,"Superfafe- supermercados,lda",324
 PRP,"PROPEL - PRODUTOS DE PETRÓLEO, LDA",286
 SDB,SodiBraga - Supermercados Lda,284
 GRC,"Grcapp, Unipessoal Lda",276
+GLD,Gold Energy,269
 PTE,"PETROTERMICA ENERGIA, S.A.",240
-GLD,Gold Energy,225
 BLU,"Bluecharge, Lda",220
 EGR,"Green Evolut, LDA",220
 MOA,"MOBI A - Mobilidade e Ambiente, Lda",220
@@ -84,6 +84,7 @@ ZND,"Grupo Easycharger, SL",46
 FRI,"Distrifrio Supermercados, Lda",44
 MEO,"MEO Energia - Comercialização de Energia, SA",44
 WEN,WENEA SERVICES SPAIN S.L.,29
+ZUN,"Grupo Easycharger, SL",22
 JHO,JH Ornelas,14
 ENE,"Enercom, Vasconcelos e Almeida engenharia, lda",7
 PAC,"PACORP, LDA",7
