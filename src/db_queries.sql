@@ -337,3 +337,41 @@ select
 cte2.*,
 sum(MarketShare) over (order by Rank) 'CumulativeMarketShare'
 from cte2;
+
+
+
+select c.InsertedDate, p.*
+from Plugs p
+join Chargers c on c.ChargerId = p.ChargerId
+where 1=1
+    --and c.InsertedDate = '2026-05-23'
+    and c.ChargerId in (
+        'ALQ-00025',
+        'SMG-00013',
+        'STS-00026',
+        'TRF-00020',
+        'VNF-00045',
+        'VNF-00063'
+    )
+order by p.ChargerId, p.PlugId;
+
+
+select c.InsertedDate, p.*
+from Plugs p
+join Chargers c on c.ChargerId = p.ChargerId
+where 1=1
+    --and c.InsertedDate = '2026-05-23'
+    and c.ChargerId in (
+        'CDN-00008'
+    )
+order by p.ChargerId, p.PlugId;
+
+
+select c.ChargerId, count(p.PlugId)
+from Plugs p
+join Chargers c on c.ChargerId = p.ChargerId
+where 1=1
+and c.OperatorAbb = 'FCT'
+and c.ChargerId = 'CDN-00008'
+group by c.ChargerId
+order by count(p.PlugId) desc;
