@@ -2,11 +2,11 @@ OperatorAbb,OperatorName,Total Power (kW)
 EDP,EDP Comercial,222715
 GLP,Galp Power OPC,177014
 HRZ,"Powerdot, S.A",138601
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",109260
-ATL,"Atlante Infra Portugal, S.A",60526
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",107930
+ATL,"Atlante Infra Portugal, S.A",60626
 TRK,WOWPLUG,31175
 IOY,IONITY GmbH,30850
-REP,REPSOL PORTUGUESA LDA,22889
+REP,REPSOL PORTUGUESA LDA,23189
 HLX,"Helexia II Energy Services, Lda.",22266
 PRI,"Prio.E Mobility Solutions, Lda",22176
 GLG,Galpgeste,22110
@@ -14,9 +14,9 @@ MOT,Mota-Engil Renewing,14972
 CPS,Cepsa Portuguesa Petroleos,13700
 MAK,Maksu,10742
 MLT,Mobiletric,10605
+DTE,"DTE, Instalacoes Especiais",8510
 ENB,"Enable Mobility Solutions, S.A.",8450
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8398
-DTE,"DTE, Instalacoes Especiais",8390
 VIA,"Via Verde Transição Energética, S.A.",7457
 REM,MOTA-ENGIL REMO CHARGING S.A,5300
 ITV,Instavolt Portugal Lda.,4422
@@ -30,7 +30,7 @@ EVP,"EVpower, Charging Solutions Lda",1949
 FAC,FactorENERGIA,1936
 NRG,"NRG - Sistemas de Energia Renováveis, Lda.",1818
 LCG,"Loulé Concelho Global, EM",1791
-KLS,"Kilometer Low Cost II Serviços, SA",1630
+KLS,"Kilometer Low Cost II Serviços, SA",1740
 LOG,uCharge,1453
 EMA,"EMACOM - Telecomunicações da Madeira, Unipessoal, Lda",1422
 ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",1388

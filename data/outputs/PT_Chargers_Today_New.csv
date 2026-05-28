@@ -1,11 +1,14 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ABF-00158,EDP,EDP Comercial,Albufeira,37.08336,-8.314205
-ALM-00116,MOT,Mota-Engil Renewing,Almada,38.67265,-9.15553
-ALM-00151,MOT,Mota-Engil Renewing,Almada,38.67265,-9.15553
-LRS-00221,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Loures,38.8544,-9.146632
-LRS-00222,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Loures,38.8544,-9.146632
-LRS-00223,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Loures,38.8544,-9.146632
-LRS-00224,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Loures,38.8544,-9.146632
-TVD-00069,MOT,Mota-Engil Renewing,Torres Vedras,39.091053,-9.253288
-TVD-00074,MOT,Mota-Engil Renewing,Torres Vedras,39.08304,-9.264221
-VGS-00022,ATL,"Atlante Infra Portugal, S.A",Vagos,40.55228,-8.677539
+BGC-00028,ATL,"Atlante Infra Portugal, S.A",Bragança,41.788105,-6.780908
+LOU-00019,REP,REPSOL PORTUGUESA LDA,Lousada,41.263714,-8.286846
+TVD-00100,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
+TVD-00101,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
+TVD-00102,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
+TVD-00103,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
+TVD-00104,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
+TVD-00105,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
+TVD-00106,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
+TVD-00107,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
+TVD-00108,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
+TVD-00109,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
+VVC-00012,DTE,"DTE, Instalacoes Especiais",Vila Viçosa,38.776493,-7.419751
