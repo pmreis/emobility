@@ -1,14 +1,7 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-BGC-00028,ATL,"Atlante Infra Portugal, S.A",Bragança,41.788105,-6.780908
-LOU-00019,REP,REPSOL PORTUGUESA LDA,Lousada,41.263714,-8.286846
-TVD-00100,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
-TVD-00101,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
-TVD-00102,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
-TVD-00103,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
-TVD-00104,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
-TVD-00105,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
-TVD-00106,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
-TVD-00107,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
-TVD-00108,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
-TVD-00109,KLS,"Kilometer Low Cost II Serviços, SA",Torres Vedras,39.0974,-9.27805
-VVC-00012,DTE,"DTE, Instalacoes Especiais",Vila Viçosa,38.776493,-7.419751
+BRG-00170,REP,REPSOL PORTUGUESA LDA,Braga,41.56548,-8.450083
+FAR-00098,ATL,"Atlante Infra Portugal, S.A",Faro,37.02681,-7.94673
+FLG-00033,GLP,Galp Power OPC,Felgueiras,41.368607,-8.219265
+MTA-00024,HRZ,"Powerdot, S.A",Moita,38.642323,-8.999447
+OER-00279,REP,REPSOL PORTUGUESA LDA,Oeiras,38.732594,-9.279885
+VLG-00056,GLP,Galp Power OPC,Valongo,41.187374,-8.458927
