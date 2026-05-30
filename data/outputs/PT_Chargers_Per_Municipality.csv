@@ -7,14 +7,14 @@ Vila Nova de Gaia,177
 Loulé,165
 Sintra,158
 Barreiro,127
+Loures,126
+Braga,124
 Matosinhos,124
-Braga,123
-Loures,122
 Guimarães,120
 Albufeira,111
+Coimbra,110
 Vila Franca de Xira,110
-Coimbra,109
-Leiria,105
+Leiria,106
 Viseu,99
 Montijo,97
 Almada,86
@@ -23,15 +23,15 @@ Santa Maria da Feira,79
 Torres Vedras,76
 Setúbal,73
 Aveiro,68
-Seixal,66
+Seixal,68
 Vila do Conde,66
 Portimão,64
 Amadora,63
 Faro,60
+Évora,60
 Beja,59
 Maia,59
 Palmela,57
-Évora,56
 Ovar,55
 Funchal,53
 Grândola,53
@@ -43,13 +43,13 @@ Penafiel,46
 Gondomar,44
 Valongo,43
 Vila Nova de Famalicão,43
+Alcobaça,42
 Guarda,42
 Mafra,42
 São João da Madeira,41
+Tomar,41
 Olhão,40
-Tomar,40
 Castelo Branco,39
-Alcobaça,38
 Santo Tirso,38
 Mealhada,37
 Vila Real,37
@@ -76,6 +76,7 @@ Sesimbra,26
 Águeda,26
 Anadia,25
 Felgueiras,25
+Ponte de Lima,25
 Albergaria-a-Velha,24
 Caminha,24
 Azambuja,23
@@ -83,23 +84,23 @@ Chaves,23
 Estarreja,23
 Tavira,23
 Torres Novas,23
+Paços de Ferreira,22
 Peniche,22
-Ponte de Lima,22
 Bragança,21
 Ponta Delgada,21
 Alenquer,20
+Lousada,20
 Abrantes,19
 Fafe,19
-Paços de Ferreira,19
+Marinha Grande,19
 Portalegre,19
 Santa Cruz,19
+Óbidos,19
 Lourinhã,18
-Lousada,18
-Marinha Grande,18
 Oliveira do Hospital,18
-Óbidos,18
 Elvas,17
 Tondela,17
+Trofa,17
 Vila Verde,17
 Aljustrel,16
 Estremoz,16
@@ -108,7 +109,6 @@ Oliveira de Azeméis,15
 Ribeira Grande,15
 Santiago do Cacém,15
 Seia,15
-Trofa,15
 Arruda dos Vinhos,14
 Machico,14
 Mangualde,14
@@ -117,12 +117,12 @@ Peso da Régua,14
 Porto de Mós,14
 Salvaterra de Magos,14
 Vale de Cambra,14
+Benavente,13
 Castro Marim,13
 Porto Santo,13
 Vendas Novas,13
 Vila do Bispo,13
 Angra do Heroísmo,12
-Benavente,12
 Sines,12
 Vila Real de Santo António,12
 Arcos de Valdevez,11
@@ -139,6 +139,8 @@ Vila Viçosa,11
 Bombarral,10
 Lousã,10
 Montemor-o-Velho,10
+Cabeceiras de Basto,9
+Entroncamento,9
 Idanha-a-Nova,9
 Melgaço,9
 Miranda do Douro,9
@@ -150,10 +152,8 @@ Vila Pouca de Aguiar,9
 Alcanena,8
 Almeida,8
 Alter do Chão,8
-Cabeceiras de Basto,8
 Celorico da Beira,8
 Cinfães,8
-Entroncamento,8
 Horta,8
 Miranda do Corvo,8
 Praia da Vitória,8
