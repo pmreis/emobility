@@ -1,7 +1,7 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-BRG-00170,REP,REPSOL PORTUGUESA LDA,Braga,41.56548,-8.450083
-FAR-00098,ATL,"Atlante Infra Portugal, S.A",Faro,37.02681,-7.94673
-FLG-00033,GLP,Galp Power OPC,Felgueiras,41.368607,-8.219265
-MTA-00024,HRZ,"Powerdot, S.A",Moita,38.642323,-8.999447
-OER-00279,REP,REPSOL PORTUGUESA LDA,Oeiras,38.732594,-9.279885
-VLG-00056,GLP,Galp Power OPC,Valongo,41.187374,-8.458927
+CBC-00019,MOT,Mota-Engil Renewing,Cabeceiras de Basto,41.479416,-7.954476
+LOU-00020,HRZ,"Powerdot, S.A",Lousada,41.26454,-8.292319
+LOU-00021,HRZ,"Powerdot, S.A",Lousada,41.26454,-8.292319
+OBD-00026,ATL,"Atlante Infra Portugal, S.A",Óbidos,39.352478,-9.158637
+SXL-00093,ATL,"Atlante Infra Portugal, S.A",Seixal,38.594578,-9.146398
+SXL-00094,ATL,"Atlante Infra Portugal, S.A",Seixal,38.594578,-9.146398
