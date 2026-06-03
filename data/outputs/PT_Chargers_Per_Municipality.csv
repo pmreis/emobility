@@ -1,5 +1,5 @@
 City,Qty
-Lisboa,982
+Lisboa,984
 Cascais,452
 Porto,264
 Oeiras,181
@@ -11,7 +11,7 @@ Loures,126
 Braga,124
 Matosinhos,124
 Guimarães,120
-Albufeira,112
+Albufeira,111
 Coimbra,110
 Vila Franca de Xira,110
 Leiria,106
@@ -123,13 +123,13 @@ Porto Santo,13
 Vendas Novas,13
 Vila do Bispo,13
 Angra do Heroísmo,12
+Mirandela,12
 Sines,12
 Vila Real de Santo António,12
 Arcos de Valdevez,11
 Batalha,11
 Condeixa-a-Nova,11
 Espinho,11
-Mirandela,11
 Montemor-o-Novo,11
 Ponte de Sôr,11
 Rio Maior,11
@@ -263,7 +263,6 @@ Cadaval,2
 Castanheira de Pêra,2
 Castro Daire,2
 Constância,2
-Corvo,2
 Cuba,2
 Ferreira do Alentejo,2
 Figueira de Castelo Rodrigo,2
@@ -290,6 +289,7 @@ Alandroal,1
 Arronches,1
 Barrancos,1
 Boticas,1
+Corvo,1
 Fornos de Algodres,1
 Fronteira,1
 Gavião,1
