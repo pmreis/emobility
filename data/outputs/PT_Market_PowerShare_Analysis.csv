@@ -1,16 +1,16 @@
 OperatorAbb,OperatorName,Total Power (kW)
 EDP,EDP Comercial,221827
 GLP,Galp Power OPC,177309
-HRZ,"Powerdot, S.A",140573
+HRZ,"Powerdot, S.A",140623
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",111640
-ATL,"Atlante Infra Portugal, S.A",61586
+ATL,"Atlante Infra Portugal, S.A",61706
 IOY,IONITY GmbH,33250
 TRK,WOWPLUG,31439
 REP,REPSOL PORTUGUESA LDA,23624
 HLX,"Helexia II Energy Services, Lda.",22266
 PRI,"Prio.E Mobility Solutions, Lda",22176
 GLG,Galpgeste,22110
-MOT,Mota-Engil Renewing,15272
+MOT,Mota-Engil Renewing,15692
 CPS,Cepsa Portuguesa Petroleos,13700
 MAK,Maksu,10742
 MLT,Mobiletric,10605
@@ -30,7 +30,7 @@ EVP,"EVpower, Charging Solutions Lda",1949
 FAC,FactorENERGIA,1936
 NRG,"NRG - Sistemas de Energia Renováveis, Lda.",1818
 LCG,"Loulé Concelho Global, EM",1791
-KLS,"Kilometer Low Cost II Serviços, SA",1740
+KLS,"Kilometer Low Cost II Serviços, SA",1755
 LOG,uCharge,1453
 EMA,"EMACOM - Telecomunicações da Madeira, Unipessoal, Lda",1422
 ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",1388
@@ -53,6 +53,7 @@ CSC,Cascais Próxima,352
 EVA,"EVAZ Energy, LDA",350
 CME,CME,332
 SFF,"Superfafe- supermercados,lda",324
+FRR,"FRONTROW, LDA",316
 PRP,"PROPEL - PRODUTOS DE PETRÓLEO, LDA",286
 SDB,SodiBraga - Supermercados Lda,284
 GRC,"Grcapp, Unipessoal Lda",276
@@ -63,7 +64,6 @@ EGR,"Green Evolut, LDA",220
 MOA,"MOBI A - Mobilidade e Ambiente, Lda",220
 GSF,"GASFOMENTO - Sistemas e Instalações de Gás, S.A.",219
 MOB,MOBIE,216
-FRR,"FRONTROW, LDA",216
 IMG,"Image4all - Eficiência Energética, Comunicação e Imagem",187
 CGG,Cargga Inteligente,176
 NEU,"Neureifen - Electric Mobility, Lda",176
