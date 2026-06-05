@@ -1,7 +1,3 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-CNT-00038,FRR,"FRONTROW, LDA",Cantanhede,40.35769,-8.597757
-CTB-00077,KLS,"Kilometer Low Cost II Serviços, SA",Castelo Branco,39.97373,-7.347563
-CTB-00078,KLS,"Kilometer Low Cost II Serviços, SA",Castelo Branco,39.97373,-7.3475633
-FAF-00026,ATL,"Atlante Infra Portugal, S.A",Fafe,41.445663,-8.165417
-TVD-00054,MOT,Mota-Engil Renewing,Torres Vedras,39.18297,-9.326074
-TVD-00059,MOT,Mota-Engil Renewing,Torres Vedras,39.066883,-9.208223
+AMD-00121,REP,REPSOL PORTUGUESA LDA,Amadora,38.7435,-9.210911
+AMD-00122,REP,REPSOL PORTUGUESA LDA,Amadora,38.7435,-9.210911
