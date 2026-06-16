@@ -1,6 +1,6 @@
 City,Qty
-Lisboa,984
-Cascais,453
+Lisboa,987
+Cascais,458
 Porto,264
 Oeiras,178
 Vila Nova de Gaia,177
@@ -18,7 +18,7 @@ Leiria,106
 Viseu,99
 Montijo,97
 Almada,88
-Moita,85
+Moita,86
 Santa Maria da Feira,79
 Torres Vedras,78
 Setúbal,74
@@ -47,9 +47,9 @@ Alcobaça,42
 Guarda,42
 Mafra,42
 Castelo Branco,41
-São João da Madeira,41
 Tomar,41
 Olhão,40
+São João da Madeira,39
 Santo Tirso,38
 Mealhada,37
 Vila Real,37
@@ -69,11 +69,11 @@ Cantanhede,29
 "Lagoa, Faro",28
 Pombal,28
 Alcácer do Sal,27
+Águeda,27
 Amarante,26
 Fundão,26
 Lamego,26
 Sesimbra,26
-Águeda,26
 Anadia,25
 Felgueiras,25
 Ponte de Lima,25
@@ -253,6 +253,7 @@ Santa Marta de Penaguião,3
 Santana,3
 Serpa,3
 Sobral de Monte Agraço,3
+Sousel,3
 São João da Pesqueira,3
 Vieira do Minho,3
 Vimioso,3
@@ -278,7 +279,6 @@ Penamacor,2
 Penedono,2
 Pinhel,2
 Sardoal,2
-Sousel,2
 Tabuaço,2
 Trancoso,2
 Velas,2
