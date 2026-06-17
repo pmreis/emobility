@@ -2,11 +2,11 @@ OperatorAbb,OperatorName,Total Power (kW)
 EDP,EDP Comercial,222745
 GLP,Galp Power OPC,177955
 HRZ,"Powerdot, S.A",141545
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",113990
-ATL,"Atlante Infra Portugal, S.A",61876
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",114040
+ATL,"Atlante Infra Portugal, S.A",62168
 IOY,IONITY GmbH,33250
 TRK,WOWPLUG,32231
-REP,REPSOL PORTUGUESA LDA,24913
+REP,REPSOL PORTUGUESA LDA,25018
 HLX,"Helexia II Energy Services, Lda.",22266
 PRI,"Prio.E Mobility Solutions, Lda",22176
 GLG,Galpgeste,22110
@@ -30,7 +30,7 @@ EVP,"EVpower, Charging Solutions Lda",1949
 FAC,FactorENERGIA,1936
 NRG,"NRG - Sistemas de Energia Renováveis, Lda.",1818
 LCG,"Loulé Concelho Global, EM",1791
-KLS,"Kilometer Low Cost II Serviços, SA",1755
+KLS,"Kilometer Low Cost II Serviços, SA",1770
 LOG,uCharge,1453
 EMA,"EMACOM - Telecomunicações da Madeira, Unipessoal, Lda",1422
 ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",1388

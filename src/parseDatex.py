@@ -40,6 +40,8 @@ def parse_datex(xml_file):
 
     for site in root.findall('.//ns6:energyInfrastructureSite', ns):
         site_id = site.get('id')
+        if site_id.count('-') >= 2:
+            site_id = site_id.split('-', 1)[1] # Splits by dash, only once and gets the 2nd array value of the split. The first index of the array is 0.
 
         # Charger Location
         city = site.find('.//ns2:city/ns:values/ns:value[@lang="pt-pt"]', ns).text.strip()
@@ -64,7 +66,11 @@ def parse_datex(xml_file):
         operator_elem = site.find('.//ns4:operator', ns)
         operator_other_abb = operator_elem.find('.//ns4:nationalOrganisationNumber', ns).text.strip()
         operator_name = operator_elem.find('.//ns4:name/ns:values/ns:value[@lang="pt-pt"]', ns).text.strip()
-        operator_tin = operator_elem.find('.//ns4:vatIdentificationNumber', ns).text.replace(' ', '').strip()
+        operator_tin = (
+            vat.text.replace(' ', '').strip()
+            if (vat := operator_elem.find('.//ns4:vatIdentificationNumber', ns)) is not None
+            else ''
+        )
         operator_phone = operator_elem.find('.//ns4:telephoneNumber', ns).text.replace(' ', '').strip()
 
         charger = {
