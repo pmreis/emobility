@@ -174,7 +174,7 @@ def tmp_chargers_deltas(conn, data):
         from Chargers c
         join Operators o on o.OperatorAbb = c.OperatorAbb
         where Country = 'PT'
-            and Status = 'Present'
+            and Active = 'Yay'
             and ChargerId not in (
                 select ChargerId
                 from TempChargers
@@ -185,7 +185,7 @@ def tmp_chargers_deltas(conn, data):
 
     cursor.execute('''
         update Chargers
-        set Status = 'Removed'
+        set Active = 'Nay'
         where ChargerId not in (
             select ChargerId
             from TempChargers
@@ -203,7 +203,7 @@ def tmp_chargers_deltas(conn, data):
         from Chargers c
         join Operators o on o.OperatorAbb = c.OperatorAbb
         where Country = 'PT'
-            and Status = 'Removed'
+            and Active = 'Nay'
             and ChargerId in (
                 select ChargerId
                 from TempChargers
@@ -214,7 +214,7 @@ def tmp_chargers_deltas(conn, data):
 
     cursor.execute('''
         update Chargers
-        set Status = 'Present'
+        set Active = 'Yay'
         where ChargerId in (
             select ChargerId
             from TempChargers
@@ -302,7 +302,7 @@ def generate_output_csvs(conn):
             select count(1) total
             from Chargers
             where Country = 'PT'
-                and Status = 'Present'
+                and Active = 'Yay'
         ),
         cte1 as (
             select
@@ -312,7 +312,7 @@ def generate_output_csvs(conn):
             from Operators o
             left join Chargers c on c.OperatorAbb = o.OperatorAbb
                 and o.CountryIso = 'PT'
-                and c.Status = 'Present'
+                and c.Active = 'Yay'
             group by o.OperatorAbb
             order by Qty desc
         ),
@@ -338,7 +338,7 @@ def generate_output_csvs(conn):
             select count(1) total
             from Chargers
             where Country = 'PT'
-                and Status = 'Present'
+                and Active = 'Yay'
         ),
         galpGroupData as (
             select
@@ -349,7 +349,7 @@ def generate_output_csvs(conn):
             join Operators o on o.OperatorAbb = c.OperatorAbb
             where c.OperatorAbb in ('GLP', 'GLG', 'MLT')
                 and o.CountryIso = 'PT'
-                and c.Status = 'Present'
+                and c.Active = 'Yay'
         ),
         allDataExpectGalp as (
             select
@@ -359,7 +359,7 @@ def generate_output_csvs(conn):
             from Operators o
             left join Chargers c on c.OperatorAbb = o.OperatorAbb
                 and o.CountryIso = 'PT'
-                and c.Status = 'Present'
+                and c.Active = 'Yay'
             where o.OperatorAbb not in ('GLP', 'GLG', 'MLT')
             group by o.OperatorAbb
         ),
@@ -394,7 +394,7 @@ def generate_output_csvs(conn):
         join Chargers c on c.ChargerId = p.ChargerId
         join Operators o on o.OperatorAbb = c.OperatorAbb
         where o.CountryIso = 'PT'
-            and c.Status = 'Present'
+            and c.Active = 'Yay'
         group by o.OperatorAbb, o.OperatorName
         order by sum(p.MaxPower) desc;
     ''', conn)
@@ -412,7 +412,7 @@ def generate_output_csvs(conn):
             join Operators o on o.OperatorAbb = c.OperatorAbb
             where o.OperatorAbb in ('GLP', 'GLG', 'MLT')
                 and o.CountryIso = 'PT'
-                and c.Status = 'Present'
+                and c.Active = 'Yay'
         ),
         allDataExpectGalp as (
             select o.OperatorAbb, o.OperatorName, sum(p.MaxPower)/1000 total
@@ -421,7 +421,7 @@ def generate_output_csvs(conn):
             join Operators o on o.OperatorAbb = c.OperatorAbb
             where o.OperatorAbb not in ('GLP', 'GLG', 'MLT')
                 and o.CountryIso = 'PT'
-                and c.Status = 'Present'
+                and c.Active = 'Yay'
             group by o.OperatorAbb, o.OperatorName
         )
         select OperatorAbb, OperatorName, total 'Total Power (kW)'
@@ -452,7 +452,7 @@ def generate_output_csvs(conn):
             OperatorAbb,
             City,
             InsertedDate,
-            Status,
+            Active,
             Lat,
             Lon
         from Chargers
@@ -486,7 +486,7 @@ def generate_output_csvs(conn):
         select City, count(1) Qty
         from Chargers
         where Country = 'PT'
-            and Status = 'Present'
+            and Active = 'Yay'
         group by City
         order by Qty desc, City asc;
     ''', conn)
@@ -502,7 +502,7 @@ def generate_output_csvs(conn):
         join Concelhos cc on cc.Alias = c.City
         join Distritos d on d.Id = cc.Distrito
         where c.Country = 'PT'
-            and Status = 'Present'
+            and Active = 'Yay'
         group by d.Id
         order by Qty desc, d.Distrito asc;
     ''', conn)
