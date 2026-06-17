@@ -1,12 +1,9 @@
 name: Static Data
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
   schedule:
-    - cron:  '*/15 * * * *'
+    - cron:  '30 3,5,7 * * *'
 
 jobs:
   scheduled:
@@ -15,10 +12,10 @@ jobs:
       contents: write
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     - name: Setup python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v6
       with:
          python-version: 3.12.5
 
@@ -30,7 +27,7 @@ jobs:
 
     - name: Fetch data via curl
       run: |
-        curl -k -f https://pgm.mobie.pt/integration/nap/evChargingInfra -o ./data/sources/PT_NAP_Static.xml
+        curl -k -f https://pgm.mobie.pt/integration/nap/evChargingInfra | gzip > ./data/sources/PT_NAP_Static.xml.gz
 
     - name: Commit and push if the source data has changed
       run: |

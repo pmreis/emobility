@@ -4,8 +4,7 @@ import os.path as osp
 from datetime import datetime as dt
 from pathlib import Path
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+import gzip
 
 projRootPath = Path(__file__).resolve().parent.parent
 
@@ -15,11 +14,16 @@ def connect_db(db_name):
     conn = sqlite3.connect(dbpath)
     return conn
 
-# Parse Datex II file and return data structure with Chargers and Plugs
-def parse_datex(xml_file):
-    filepath = osp.normpath(f'{projRootPath}/data/sources/{xml_file}')
-    tree = et.parse(filepath)
-    root = tree.getroot()
+# Decompress gz file and obtain the Datex II content into memory
+def decompress_datex(xml_file):
+    filepath = osp.normpath(f'{projRootPath}/data/sources/{xml_file}.gz')
+    with gzip.open(filepath, "rt", encoding="utf-8") as f:
+        file_content_str = f.read()
+    return file_content_str
+
+# Parse Datex II in memory and return data structure with Chargers and Plugs
+def parse_datex(datexInMemory):
+    root = et.fromstring(datexInMemory)
 
     ns = {
         'ns' : 'http://datex2.eu/schema/3/common',
@@ -40,6 +44,8 @@ def parse_datex(xml_file):
 
     for site in root.findall('.//ns6:energyInfrastructureSite', ns):
         site_id = site.get('id')
+        if site_id.count('-') >= 2:
+            site_id = site_id.split('-', 1)[1] # Splits by dash, only once and gets the 2nd array value of the split. The first index of the array is 0.
 
         # Charger Location
         city = site.find('.//ns2:city/ns:values/ns:value[@lang="pt-pt"]', ns).text.strip()
@@ -64,7 +70,11 @@ def parse_datex(xml_file):
         operator_elem = site.find('.//ns4:operator', ns)
         operator_other_abb = operator_elem.find('.//ns4:nationalOrganisationNumber', ns).text.strip()
         operator_name = operator_elem.find('.//ns4:name/ns:values/ns:value[@lang="pt-pt"]', ns).text.strip()
-        operator_tin = operator_elem.find('.//ns4:vatIdentificationNumber', ns).text.replace(' ', '').strip()
+        operator_tin = (
+            vat.text.replace(' ', '').strip()
+            if (vat := operator_elem.find('.//ns4:vatIdentificationNumber', ns)) is not None
+            else ''
+        )
         operator_phone = operator_elem.find('.//ns4:telephoneNumber', ns).text.replace(' ', '').strip()
 
         charger = {
@@ -539,7 +549,8 @@ def main():
     xml_file = 'PT_NAP_Static.xml'
 
     conn = connect_db(db_name)
-    data = parse_datex(xml_file)
+    datex = decompress_datex(xml_file)
+    data = parse_datex(datex)
     insert_operators(conn, data)
     insert_or_update_chargers(conn, data)
     tmp_chargers_deltas(conn, data)
