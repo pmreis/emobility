@@ -15,7 +15,7 @@ jobs:
       contents: write
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     - name: Fetch data via curl
       run: |
