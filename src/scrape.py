@@ -4,14 +4,38 @@ from datetime import datetime as dt
 import csv
 from pathlib import Path
 import os.path as osp
+from dataclasses import dataclass
 
+@dataclass(frozen=True)
+class CsvRow:
+    date: str
+    numbers: str
+    stars: str
+    jackpot: str
+
+# Set path and file
 projRootPath = Path(__file__).resolve().parent.parent
 filepath = osp.normpath(f'{projRootPath}/data/outputs/results.csv')
 
+results = set()
 
+try:
+    with open(filepath, "r", encoding="utf-8") as f:
+        leitor = csv.DictReader(f)
+        for linha in leitor:
+            sourceRow = CsvRow(
+                date=linha["date"],
+                numbers=linha["numbers"],
+                stars=linha["stars"],
+                jackpot=linha["jackpot"]
+            )
+            results.add(sourceRow)
+except FileNotFoundError:
+    results = set()
 
-results = []
-for year in range(2026, 2027):
+latestYear = int(max(record.date.split('-', 1)[0] for record in results))
+
+for year in range(latestYear, latestYear+2):
     response = requests.get(f"https://www.euro-millions.com/results-history-{year}")
     soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -26,24 +50,21 @@ for year in range(2026, 2027):
             stars = [int(b.get_text()) for b in balls_elem if "lucky-star" in b["class"]]
             jackpot = jackpot_elem.get_text(strip=True).replace("€", "").replace(",", "").strip()
 
-            results.append({
-                "date": dt.strptime(data, "%A %d %B %Y").strftime("%Y-%m-%d"),
-                "numbers": numbers,
-                "stars": stars,
-                "jackpot": int(jackpot)
-            })
+            sourceRow = CsvRow(
+                date=dt.strptime(data, "%A %d %B %Y").strftime("%Y-%m-%d"),
+                numbers=" ".join(str(n) for n in numbers),
+                stars=" ".join(str(n) for n in stars),
+                jackpot=int(jackpot)
+            )
+            results.add(sourceRow)
 
-results.sort(key=lambda r: r["date"], reverse=True)
+resultsList = list(results)
+resultsList.sort(key=lambda row: row.date, reverse=True)
+columns = ["date", "numbers", "stars", "jackpot"]
 
-
-
-with open(filepath, "w", newline="", encoding="utf-8") as f:
-    writer = csv.DictWriter(f, fieldnames=["date", "numbers", "stars", "jackpot"])
-    writer.writeheader()
-    for r in results:
-        writer.writerow({
-            "date": r["date"],
-            "numbers": " ".join(map(str, r["numbers"])),
-            "stars": " ".join(map(str, r["stars"])),
-            "jackpot": r["jackpot"]
-        })
+if resultsList:
+    with open(filepath, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=columns)
+        writer.writeheader()
+        for row in resultsList:
+            writer.writerow(row.__dict__)
