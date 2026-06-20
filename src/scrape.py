@@ -54,7 +54,7 @@ for year in range(latestYear, latestYear+2):
                 date=dt.strptime(data, "%A %d %B %Y").strftime("%Y-%m-%d"),
                 numbers=" ".join(str(n) for n in numbers),
                 stars=" ".join(str(n) for n in stars),
-                jackpot=int(jackpot)
+                jackpot=jackpot
             )
             results.add(sourceRow)
 
