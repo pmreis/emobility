@@ -1,2 +1,8 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-STS-00062,REP,REPSOL PORTUGUESA LDA,Santo Tirso,41.33997,-8.48258
+LRS-00235,HRZ,"Powerdot, S.A",Loures,38.782574,-9.111204
+PTM-00084,HRZ,"Powerdot, S.A",Portimão,37.118286,-8.534819
+PTM-00085,HRZ,"Powerdot, S.A",Portimão,37.118286,-8.534819
+RGR-00015,SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,Ribeira Grande,37.819565,-25.520683
+SPS-00016,HLX,"Helexia II Energy Services, Lda.",São Pedro do Sul,40.738766,-8.08671
+SPS-00017,HLX,"Helexia II Energy Services, Lda.",São Pedro do Sul,40.75719,-8.06968
+SPS-00018,HLX,"Helexia II Energy Services, Lda.",São Pedro do Sul,40.75719,-8.06968
