@@ -6,9 +6,12 @@ from pathlib import Path
 import os.path as osp
 
 projRootPath = Path(__file__).resolve().parent.parent
+filepath = osp.normpath(f'{projRootPath}/data/outputs/results.csv')
+
+
 
 results = []
-for year in range(2004, 2027):
+for year in range(2026, 2027):
     response = requests.get(f"https://www.euro-millions.com/results-history-{year}")
     soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -32,7 +35,7 @@ for year in range(2004, 2027):
 
 results.sort(key=lambda r: r["date"], reverse=True)
 
-filepath = osp.normpath(f'{projRootPath}/data/outputs/results.csv')
+
 
 with open(filepath, "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=["date", "numbers", "stars", "jackpot"])
