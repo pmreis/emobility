@@ -1,9 +1,9 @@
 OperatorAbb,OperatorName,Total Power (kW)
 EDP,EDP Comercial,222789
 GLP,Galp Power OPC,177955
-HRZ,"Powerdot, S.A",141755
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",114560
-ATL,"Atlante Infra Portugal, S.A",62124
+HRZ,"Powerdot, S.A",141515
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",114660
+ATL,"Atlante Infra Portugal, S.A",62946
 IOY,IONITY GmbH,33250
 TRK,WOWPLUG,32231
 REP,REPSOL PORTUGUESA LDA,25258
@@ -16,14 +16,14 @@ MAK,Maksu,10742
 MLT,Mobiletric,10605
 DTE,"DTE, Instalacoes Especiais",8972
 ENB,"Enable Mobility Solutions, S.A.",8450
-IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8310
+IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8266
 REM,MOTA-ENGIL REMO CHARGING S.A,5300
 ITV,Instavolt Portugal Lda.,4422
 VIA,"Via Verde Transição Energética, S.A.",4194
 EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4147
 ECI,ECOINSIDE,3588
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3227
-SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2721
+SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2897
 EVI,EVIO - Electrical Mobility,2306
 EVC,"EVCE POWER, LDA. / MOBISMART",2032
 EVP,"EVpower, Charging Solutions Lda",1949

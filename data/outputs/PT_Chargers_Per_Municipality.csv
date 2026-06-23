@@ -1,15 +1,15 @@
 City,Qty
-Lisboa,988
+Lisboa,987
 Cascais,458
 Porto,264
 Oeiras,178
 Vila Nova de Gaia,177
 Loulé,169
 Sintra,158
+Matosinhos,128
 Barreiro,127
 Loures,127
 Braga,124
-Matosinhos,124
 Guimarães,120
 Vila Franca de Xira,112
 Albufeira,111
@@ -40,7 +40,7 @@ Santarém,51
 Covilhã,50
 Figueira da Foz,46
 Penafiel,46
-Gondomar,45
+Gondomar,43
 Valongo,43
 Vila Nova de Famalicão,43
 Alcobaça,42
@@ -118,11 +118,11 @@ Peso da Régua,14
 Porto de Mós,14
 Salvaterra de Magos,14
 Vale de Cambra,14
+Angra do Heroísmo,13
 Castro Marim,13
 Porto Santo,13
 Vendas Novas,13
 Vila do Bispo,13
-Angra do Heroísmo,12
 Mirandela,12
 Sines,12
 Vila Real de Santo António,12
@@ -211,6 +211,7 @@ Carregal do Sal,4
 Câmara de Lobos,4
 Ferreira do Zêzere,4
 Gouveia,4
+"Lagoa, Azores",4
 Mogadouro,4
 Monchique,4
 Mondim de Basto,4
@@ -293,7 +294,6 @@ Corvo,1
 Fornos de Algodres,1
 Fronteira,1
 Gavião,1
-"Lagoa, Azores",1
 Lajes das Flores,1
 Lajes do Pico,1
 Madalena,1
