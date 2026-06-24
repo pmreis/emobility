@@ -1,5 +1,5 @@
 City,Qty
-Lisboa,987
+Lisboa,989
 Cascais,458
 Porto,264
 Oeiras,178
@@ -30,12 +30,12 @@ Amadora,65
 Faro,60
 Évora,60
 Beja,59
-Maia,59
+Maia,57
 Palmela,57
-Ovar,55
-Grândola,54
-Funchal,53
+Funchal,54
+Ovar,54
 Viana do Castelo,53
+Grândola,52
 Santarém,51
 Covilhã,50
 Figueira da Foz,46
@@ -53,7 +53,7 @@ São João da Madeira,40
 Mealhada,37
 Santo Tirso,37
 Vila Real,37
-Nazaré,36
+Nazaré,35
 Esposende,34
 Odivelas,34
 Alcochete,33
@@ -79,11 +79,11 @@ Felgueiras,25
 Ponte de Lima,25
 Albergaria-a-Velha,24
 Caminha,24
+Torres Novas,24
 Azambuja,23
 Chaves,23
 Estarreja,23
 Tavira,23
-Torres Novas,23
 Paços de Ferreira,22
 Peniche,22
 Bragança,21
@@ -97,6 +97,7 @@ Marinha Grande,19
 Portalegre,19
 Santa Cruz,19
 Óbidos,19
+Oliveira do Bairro,18
 Oliveira do Hospital,18
 Elvas,17
 Tondela,17
@@ -105,14 +106,12 @@ Vila Verde,17
 Aljustrel,16
 Estremoz,16
 Oliveira de Azeméis,16
-Oliveira do Bairro,16
 Ribeira Grande,16
 Santiago do Cacém,15
 Seia,15
 Arruda dos Vinhos,14
 Benavente,14
 Machico,14
-Mangualde,14
 Marco de Canaveses,14
 Peso da Régua,14
 Porto de Mós,14
@@ -123,12 +122,12 @@ Castro Marim,13
 Porto Santo,13
 Vendas Novas,13
 Vila do Bispo,13
+Mangualde,12
 Mirandela,12
 Sines,12
 Vila Real de Santo António,12
 Arcos de Valdevez,11
 Batalha,11
-Condeixa-a-Nova,11
 Espinho,11
 Montemor-o-Novo,11
 Ponte de Sôr,11
@@ -138,6 +137,7 @@ Terras de Bouro,11
 Vila Viçosa,11
 Bombarral,10
 Cinfães,10
+Condeixa-a-Nova,10
 Idanha-a-Nova,10
 Lousã,10
 Montemor-o-Velho,10
@@ -157,6 +157,7 @@ Alter do Chão,8
 Celorico da Beira,8
 Horta,8
 Miranda do Corvo,8
+Ourique,8
 Praia da Vitória,8
 Póvoa de Lanhoso,8
 Reguengos de Monsaraz,8
@@ -176,7 +177,6 @@ Vila Velha de Ródão,7
 Almeirim,6
 Amares,6
 Golegã,6
-Ourique,6
 Penacova,6
 Penalva do Castelo,6
 Sabugal,6

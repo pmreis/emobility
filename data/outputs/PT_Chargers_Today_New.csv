@@ -1,9 +1,10 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-AGH-00015,SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,Angra do Heroísmo,38.656906,-27.231888
-LAG-00003,SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,"Lagoa, Azores",37.748306,-25.582773
-LAG-00005,SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,"Lagoa, Azores",37.72165,-25.51045
-LAG-00007,SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,"Lagoa, Azores",37.74201,-25.577337
-MTS-00203,ATL,"Atlante Infra Portugal, S.A",Matosinhos,41.174686,-8.687362
-MTS-00204,ATL,"Atlante Infra Portugal, S.A",Matosinhos,41.174686,-8.687362
-MTS-00205,ATL,"Atlante Infra Portugal, S.A",Matosinhos,41.174686,-8.687362
-MTS-00206,ATL,"Atlante Infra Portugal, S.A",Matosinhos,41.174686,-8.687362
+FNC-00080,HRZ,"Powerdot, S.A",Funchal,32.649445,-16.904385
+LSB-01334,MAK,Maksu,Lisboa,38.74297,-9.167006
+LSB-01335,MAK,Maksu,Lisboa,38.74297,-9.167006
+LSB-01336,MAK,Maksu,Lisboa,38.74297,-9.167006
+OBR-00021,GLP,Galp Power OPC,Oliveira do Bairro,40.5514,-8.544579
+OBR-00022,GLP,Galp Power OPC,Oliveira do Bairro,40.55063,-8.5444
+ORQ-00009,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Ourique,37.60107,-8.250555
+ORQ-00010,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Ourique,37.60107,-8.250555
+TNV-00031,ATL,"Atlante Infra Portugal, S.A",Torres Novas,39.482952,-8.631918
