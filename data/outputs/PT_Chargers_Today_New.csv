@@ -1,10 +1,15 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-FNC-00080,HRZ,"Powerdot, S.A",Funchal,32.649445,-16.904385
-LSB-01334,MAK,Maksu,Lisboa,38.74297,-9.167006
-LSB-01335,MAK,Maksu,Lisboa,38.74297,-9.167006
-LSB-01336,MAK,Maksu,Lisboa,38.74297,-9.167006
-OBR-00021,GLP,Galp Power OPC,Oliveira do Bairro,40.5514,-8.544579
-OBR-00022,GLP,Galp Power OPC,Oliveira do Bairro,40.55063,-8.5444
-ORQ-00009,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Ourique,37.60107,-8.250555
-ORQ-00010,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Ourique,37.60107,-8.250555
-TNV-00031,ATL,"Atlante Infra Portugal, S.A",Torres Novas,39.482952,-8.631918
+ABF-00188,EDP,EDP Comercial,Albufeira,37.09424,-8.25034
+CDN-00022,HRZ,"Powerdot, S.A",Condeixa-a-Nova,40.12263,-8.502941
+CSC-00341,TRK,WOWPLUG,Cascais,38.70242,-9.4221
+FNC-00076,HRZ,"Powerdot, S.A",Funchal,32.64772,-16.90306
+LSB-01174,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75998,-9.19844
+LSB-01175,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75998,-9.19844
+LSB-01176,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75998,-9.19844
+LSB-01177,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75998,-9.19844
+LSB-01178,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75998,-9.19844
+LSB-80055,GLP,Galp Power OPC,Lisboa,38.76457,-9.171567
+OER-00240,HRZ,"Powerdot, S.A",Oeiras,38.725018,-9.213982
+VFX-00143,HRZ,"Powerdot, S.A",Vila Franca de Xira,38.977207,-8.985109
+VFX-00144,HRZ,"Powerdot, S.A",Vila Franca de Xira,38.977207,-8.985109
+VFX-00145,HRZ,"Powerdot, S.A",Vila Franca de Xira,38.977207,-8.985109
