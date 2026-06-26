@@ -1,15 +1,5 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ABF-00188,EDP,EDP Comercial,Albufeira,37.09424,-8.25034
-CDN-00022,HRZ,"Powerdot, S.A",Condeixa-a-Nova,40.12263,-8.502941
-CSC-00341,TRK,WOWPLUG,Cascais,38.70242,-9.4221
-FNC-00076,HRZ,"Powerdot, S.A",Funchal,32.64772,-16.90306
-LSB-01174,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75998,-9.19844
-LSB-01175,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75998,-9.19844
-LSB-01176,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75998,-9.19844
-LSB-01177,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75998,-9.19844
-LSB-01178,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75998,-9.19844
-LSB-80055,GLP,Galp Power OPC,Lisboa,38.76457,-9.171567
-OER-00240,HRZ,"Powerdot, S.A",Oeiras,38.725018,-9.213982
-VFX-00143,HRZ,"Powerdot, S.A",Vila Franca de Xira,38.977207,-8.985109
-VFX-00144,HRZ,"Powerdot, S.A",Vila Franca de Xira,38.977207,-8.985109
-VFX-00145,HRZ,"Powerdot, S.A",Vila Franca de Xira,38.977207,-8.985109
+MGL-00022,EDP,EDP Comercial,Mangualde,40.60825,-7.761759
+MGL-00023,EDP,EDP Comercial,Mangualde,40.60825,-7.761759
+MTS-00202,ATL,"Atlante Infra Portugal, S.A",Matosinhos,41.174686,-8.687362
+PSR-00021,ATL,"Atlante Infra Portugal, S.A",Ponte de Sôr,39.267857,-8.013283
