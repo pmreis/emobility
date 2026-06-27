@@ -1,5 +1,9 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-MGL-00022,EDP,EDP Comercial,Mangualde,40.60825,-7.761759
-MGL-00023,EDP,EDP Comercial,Mangualde,40.60825,-7.761759
-MTS-00202,ATL,"Atlante Infra Portugal, S.A",Matosinhos,41.174686,-8.687362
-PSR-00021,ATL,"Atlante Infra Portugal, S.A",Ponte de Sôr,39.267857,-8.013283
+ALM-00133,MOT,Mota-Engil Renewing,Almada,38.665,-9.162
+CHV-00031,MOT,Mota-Engil Renewing,Chaves,41.745686,-7.4687886
+CHV-00032,MOT,Mota-Engil Renewing,Chaves,41.742695,-7.4811063
+PRT-00367,ATL,"Atlante Infra Portugal, S.A",Porto,41.152966,-8.622607
+STR-00074,ECI,ECOINSIDE,Santarém,39.23556,-8.7
+STR-00075,ECI,ECOINSIDE,Santarém,39.23556,-8.7
+STR-00076,ECI,ECOINSIDE,Santarém,39.23556,-8.7
+STR-00077,ECI,ECOINSIDE,Santarém,39.23556,-8.7
