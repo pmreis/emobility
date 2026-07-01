@@ -1,13 +1,13 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,225134
+EDP,EDP Comercial,225178
 GLP,Galp Power OPC,178919
-HRZ,"Powerdot, S.A",142930
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",115690
-ATL,"Atlante Infra Portugal, S.A",63442
+HRZ,"Powerdot, S.A",142788
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",115190
+ATL,"Atlante Infra Portugal, S.A",63824
 IOY,IONITY GmbH,33250
 TRK,WOWPLUG,32275
 REP,REPSOL PORTUGUESA LDA,26048
-HLX,"Helexia II Energy Services, Lda.",22398
+HLX,"Helexia II Energy Services, Lda.",22508
 PRI,"Prio.E Mobility Solutions, Lda",22176
 GLG,Galpgeste,22110
 MOT,Mota-Engil Renewing,16566
@@ -16,7 +16,7 @@ MAK,Maksu,11026
 MLT,Mobiletric,10605
 DTE,"DTE, Instalacoes Especiais",8972
 ENB,"Enable Mobility Solutions, S.A.",8450
-IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8266
+IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8178
 REM,MOTA-ENGIL REMO CHARGING S.A,5300
 ITV,Instavolt Portugal Lda.,4422
 EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4250
@@ -33,11 +33,11 @@ LCG,"Loulé Concelho Global, EM",1791
 KLS,"Kilometer Low Cost II Serviços, SA",1770
 LOG,uCharge,1453
 EMA,"EMACOM - Telecomunicações da Madeira, Unipessoal, Lda",1422
-ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",1388
 CAP,"Capwatt Services, S.A.",1364
 VEI,Veimonte Lda,1122
 PLG,"e-Plug, Lda",1110
 HEX,"HEXAGONAL OCEAN, LDA",1091
+ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",838
 LUZ,"LUSIADAENERGIA, S.A.",650
 CIR,"Circuitos Energy Solutions, Lda.",604
 ALF,Alfa Energia,586
