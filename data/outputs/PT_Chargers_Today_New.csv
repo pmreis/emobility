@@ -1,2 +1,47 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-LRS-00239,ATL,"Atlante Infra Portugal, S.A",Loures,38.7932,-9.138313
+AGD-00028,DTE,"DTE, Instalacoes Especiais",Águeda,40.56954,-8.367206
+AGD-00032,DTE,"DTE, Instalacoes Especiais",Águeda,40.60808,-8.46223
+AGD-00042,DTE,"DTE, Instalacoes Especiais",Águeda,40.536354,-8.470663
+ALM-00112,MOT,Mota-Engil Renewing,Almada,38.662632,-9.19966
+CHV-00033,HRZ,"Powerdot, S.A",Chaves,41.761818,-7.4875364
+CHV-00034,HRZ,"Powerdot, S.A",Chaves,41.761818,-7.4875364
+CSC-00492,TRK,WOWPLUG,Cascais,38.728798,-9.449033
+CSC-00531,TRK,WOWPLUG,Cascais,38.699184,-9.338291
+CSC-00559,TRK,WOWPLUG,Cascais,38.704643,-9.392036
+EPS-00041,ZUN,"Grupo Easycharger, SL",Esposende,41.56857,-8.78836
+EPS-00042,ZUN,"Grupo Easycharger, SL",Esposende,41.56857,-8.78836
+FIG-00056,TRK,WOWPLUG,Figueira da Foz,40.15594,-8.865811
+FIG-00062,TRK,WOWPLUG,Figueira da Foz,40.165306,-8.866557
+FNC-00083,HRZ,"Powerdot, S.A",Funchal,32.64793,-16.914137
+FNC-00084,HRZ,"Powerdot, S.A",Funchal,32.64793,-16.914137
+GDL-00066,EDP,EDP Comercial,Grândola,38.167233,-8.492235
+GDL-00068,EDP,EDP Comercial,Grândola,38.167183,-8.492221
+GDL-00069,EDP,EDP Comercial,Grândola,38.167156,-8.492186
+GDL-00070,EDP,EDP Comercial,Grândola,38.16727,-8.492381
+LAG-00004,SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,"Lagoa, Azores",37.745304,-25.5793
+LSB-00716,EDP,EDP Comercial,Lisboa,38.70768,-9.148907
+LSB-00717,EDP,EDP Comercial,Lisboa,38.70768,-9.148907
+LSB-01194,TRK,WOWPLUG,Lisboa,38.77074,-9.16026
+LSB-01213,TRK,WOWPLUG,Lisboa,38.7681,-9.15812
+LSB-01217,TRK,WOWPLUG,Lisboa,38.7628,-9.17128
+LSB-01306,KLS,"Kilometer Low Cost II Serviços, SA",Lisboa,38.728413,-9.1485
+LSB-01307,KLS,"Kilometer Low Cost II Serviços, SA",Lisboa,38.728413,-9.1485
+LSB-01308,KLS,"Kilometer Low Cost II Serviços, SA",Lisboa,38.728413,-9.1485
+LSB-01309,KLS,"Kilometer Low Cost II Serviços, SA",Lisboa,38.728413,-9.1485
+LSB-01310,KLS,"Kilometer Low Cost II Serviços, SA",Lisboa,38.728413,-9.1485
+LSB-01312,KLS,"Kilometer Low Cost II Serviços, SA",Lisboa,38.728413,-9.1485
+LSB-01314,KLS,"Kilometer Low Cost II Serviços, SA",Lisboa,38.728413,-9.1485
+LSB-01328,KLS,"Kilometer Low Cost II Serviços, SA",Lisboa,38.728413,-9.1485
+MNC-00017,HLX,"Helexia II Energy Services, Lda.",Monção,42.06025,-8.511081
+MTJ-00109,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Montijo,38.682785,-8.605827
+MTJ-00110,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Montijo,38.682785,-8.605827
+MTS-00196,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Matosinhos,41.200863,-8.695034
+OER-00294,GLP,Galp Power OPC,Oeiras,38.69155,-9.305247
+OER-00295,GLP,Galp Power OPC,Oeiras,38.700012,-9.231345
+PFR-00028,HRZ,"Powerdot, S.A",Paços de Ferreira,41.27232,-8.387771
+PRT-00362,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Porto,41.16304,-8.630104
+PRT-00363,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Porto,41.16304,-8.630104
+SNT-00233,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Sintra,38.77184,-9.346801
+SXL-00090,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Seixal,38.63939,-9.150164
+SXL-00091,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Seixal,38.63939,-9.150164
+SXL-00092,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Seixal,38.63939,-9.150164
