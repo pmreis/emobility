@@ -1,26 +1,26 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,229436
+EDP,EDP Comercial,229524
 GLP,Galp Power OPC,180383
 HRZ,"Powerdot, S.A",144012
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",118350
-ATL,"Atlante Infra Portugal, S.A",64184
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",119950
+ATL,"Atlante Infra Portugal, S.A",64354
 IOY,IONITY GmbH,33250
-TRK,WOWPLUG,32627
-REP,REPSOL PORTUGUESA LDA,25905
+TRK,WOWPLUG,33067
+REP,REPSOL PORTUGUESA LDA,26048
 HLX,"Helexia II Energy Services, Lda.",23508
 PRI,"Prio.E Mobility Solutions, Lda",22176
 GLG,Galpgeste,22110
-MOT,Mota-Engil Renewing,16666
+MOT,Mota-Engil Renewing,16754
 CPS,Cepsa Portuguesa Petroleos,13700
 MAK,Maksu,11026
 MLT,Mobiletric,10605
 DTE,"DTE, Instalacoes Especiais",9104
 ENB,"Enable Mobility Solutions, S.A.",8450
-IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8222
+IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8310
+VIA,"Via Verde Transição Energética, S.A.",6994
 REM,MOTA-ENGIL REMO CHARGING S.A,5300
 ITV,Instavolt Portugal Lda.,4422
 EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4250
-VIA,"Via Verde Transição Energética, S.A.",4194
 ECI,ECOINSIDE,3764
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3227
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
@@ -86,5 +86,6 @@ PAR,Parinox Energia,52
 ZND,"Grupo Easycharger, SL",46
 FRI,"Distrifrio Supermercados, Lda",44
 MEO,"MEO Energia - Comercialização de Energia, SA",44
+PQT,"Parques Tejo, E.M.",44
 WEN,WENEA SERVICES SPAIN S.L.,29
 PAC,"PACORP, LDA",7
