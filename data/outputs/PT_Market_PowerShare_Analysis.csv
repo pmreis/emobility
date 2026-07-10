@@ -1,12 +1,12 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,232900
-GLP,Galp Power OPC,180600
+EDP,EDP Comercial,233168
+GLP,Galp Power OPC,180658
 HRZ,"Powerdot, S.A",144012
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",118050
-ATL,"Atlante Infra Portugal, S.A",64554
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",123650
+ATL,"Atlante Infra Portugal, S.A",64604
 IOY,IONITY GmbH,33250
 TRK,WOWPLUG,33067
-REP,REPSOL PORTUGUESA LDA,26334
+REP,REPSOL PORTUGUESA LDA,26620
 HLX,"Helexia II Energy Services, Lda.",23508
 PRI,"Prio.E Mobility Solutions, Lda",22176
 GLG,Galpgeste,22110
@@ -14,10 +14,10 @@ MOT,Mota-Engil Renewing,16954
 CPS,Cepsa Portuguesa Petroleos,14300
 MAK,Maksu,11026
 MLT,Mobiletric,10605
+VIA,"Via Verde Transição Energética, S.A.",9457
 DTE,"DTE, Instalacoes Especiais",9104
 ENB,"Enable Mobility Solutions, S.A.",8450
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8310
-VIA,"Via Verde Transição Energética, S.A.",6994
 REM,MOTA-ENGIL REMO CHARGING S.A,5300
 ITV,Instavolt Portugal Lda.,4422
 EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4250
