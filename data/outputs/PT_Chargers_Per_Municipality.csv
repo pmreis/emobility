@@ -1,6 +1,6 @@
 City,Qty
-Lisboa,1019
-Cascais,466
+Lisboa,1020
+Cascais,467
 Porto,265
 Oeiras,185
 Vila Nova de Gaia,178
@@ -15,7 +15,7 @@ Vila Franca de Xira,116
 Albufeira,112
 Coimbra,110
 Leiria,106
-Montijo,104
+Montijo,105
 Almada,100
 Viseu,99
 Moita,85
@@ -30,11 +30,11 @@ Amadora,65
 Grândola,62
 Faro,60
 Maia,60
-Évora,59
+Évora,60
 Beja,58
 Funchal,57
 Palmela,57
-Viana do Castelo,56
+Viana do Castelo,57
 Santarém,55
 Ovar,54
 Covilhã,50
@@ -46,11 +46,11 @@ Valongo,43
 Vila Nova de Famalicão,43
 Guarda,42
 Mafra,42
+Alcobaça,41
 São João da Madeira,41
 Tomar,41
 Olhão,40
 Mealhada,39
-Alcobaça,38
 Santo Tirso,38
 Vila Real,37
 Esposende,36
@@ -66,31 +66,31 @@ Silves,32
 Ílhavo,31
 Barcelos,30
 Ourém,30
+Cantanhede,29
 "Lagoa, Faro",29
-Cantanhede,28
+Pombal,29
 Fundão,28
-Pombal,28
 Alcácer do Sal,27
 Chaves,27
+Felgueiras,27
 Amarante,26
-Felgueiras,26
 Lamego,26
+Ponte de Lima,26
 Sesimbra,26
 Anadia,25
-Ponte de Lima,25
 Torres Novas,25
 Albergaria-a-Velha,24
 Caminha,24
 Azambuja,23
 Estarreja,23
+Paços de Ferreira,23
 Tavira,23
 Trofa,23
 Lousada,22
-Paços de Ferreira,22
 Peniche,22
+Bragança,21
 Ponta Delgada,21
 Alenquer,20
-Bragança,20
 Fafe,20
 Abrantes,19
 Lourinhã,19
@@ -109,6 +109,7 @@ Oliveira de Azeméis,16
 Ribeira Grande,16
 Mangualde,15
 Santiago do Cacém,15
+Seia,15
 Arruda dos Vinhos,14
 Benavente,14
 Machico,14
@@ -116,16 +117,15 @@ Marco de Canaveses,14
 Peso da Régua,14
 Porto de Mós,14
 Salvaterra de Magos,14
-Seia,14
 Vale de Cambra,14
 Angra do Heroísmo,13
 Castro Marim,13
+Porto Santo,13
 Vendas Novas,13
 Vila do Bispo,13
 Condeixa-a-Nova,12
 Mirandela,12
 Ponte de Sôr,12
-Porto Santo,12
 Sines,12
 Vila Real de Santo António,12
 Arcos de Valdevez,11
@@ -198,6 +198,7 @@ Castro Verde,5
 Celorico de Basto,5
 "Lagoa, Azores",5
 Macedo de Cavaleiros,5
+Serpa,5
 São João da Pesqueira,5
 Valpaços,5
 Vila Nova da Barquinha,5
@@ -212,6 +213,7 @@ Campo Maior,4
 Câmara de Lobos,4
 Ferreira do Zêzere,4
 Gouveia,4
+Mogadouro,4
 Monchique,4
 Mondim de Basto,4
 Montalegre,4
@@ -224,7 +226,6 @@ Redondo,4
 Resende,4
 Santa Cruz da Graciosa,4
 Sernancelhe,4
-Serpa,4
 Sever do Vouga,4
 Soure,4
 Sátão,4
@@ -243,7 +244,7 @@ Castelo de Vide,3
 Crato,3
 Figueiró dos Vinhos,3
 Góis,3
-Mogadouro,3
+Mora,3
 Mortágua,3
 Mourão,3
 Pedrógão Grande,3
@@ -270,7 +271,6 @@ Ferreira do Alentejo,2
 Figueira de Castelo Rodrigo,2
 Freixo de Espada à Cinta,2
 Marvão,2
-Mora,2
 Murça,2
 Mértola,2
 Mêda,2
