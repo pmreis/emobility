@@ -1,9 +1,7 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ABT-00039,IOY,IONITY GmbH,Abrantes,39.48243,-8.186966
-ALM-00163,EDP,EDP Comercial,Almada,38.6702,-9.23543
-ALM-00170,EDP,EDP Comercial,Almada,38.626755,-9.19988
-ALM-00171,EDP,EDP Comercial,Almada,38.626747,-9.199846
-ALM-00188,EDP,EDP Comercial,Almada,38.638542,-9.230452
-CSC-00574,EDP,EDP Comercial,Cascais,38.72937,-9.416018
-CVD-00006,ATL,"Atlante Infra Portugal, S.A",Castelo de Vide,39.405163,-7.44424
-FAR-00099,ATL,"Atlante Infra Portugal, S.A",Faro,37.02555,-7.92478
+AVR-00108,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Aveiro,40.623516,-8.650138
+BCL-00051,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Barcelos,41.53231,-8.625513
+CHV-00028,MOT,Mota-Engil Renewing,Chaves,41.740383,-7.4688635
+MTS-00197,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Matosinhos,41.17723,-8.682159
+SSB-00038,ATL,"Atlante Infra Portugal, S.A",Sesimbra,38.489475,-9.105955
+SSB-00039,ATL,"Atlante Infra Portugal, S.A",Sesimbra,38.489475,-9.105955
