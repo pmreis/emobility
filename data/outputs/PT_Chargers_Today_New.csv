@@ -1,4 +1,6 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ODV-00060,ATL,"Atlante Infra Portugal, S.A",Odivelas,38.78403,-9.184697
-OER-00298,EVI,EVIO - Electrical Mobility,Oeiras,38.70743,-9.303714
-OER-00299,EVI,EVIO - Electrical Mobility,Oeiras,38.707283,-9.303767
+LSB-01153,MAK,Maksu,Lisboa,38.755196,-9.14
+SMG-00018,GLP,Galp Power OPC,Salvaterra de Magos,39.05362,-8.66813
+SMG-00019,GLP,Galp Power OPC,Salvaterra de Magos,39.05362,-8.66813
+SMG-00020,GLP,Galp Power OPC,Salvaterra de Magos,39.05367,-8.66944
+SMG-00021,GLP,Galp Power OPC,Salvaterra de Magos,39.05367,-8.66944
