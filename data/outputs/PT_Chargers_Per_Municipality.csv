@@ -1,6 +1,6 @@
 City,Qty
-Lisboa,1021
-Cascais,466
+Lisboa,1026
+Cascais,470
 Porto,265
 Oeiras,184
 Vila Nova de Gaia,178
@@ -14,14 +14,14 @@ Guimarães,121
 Vila Franca de Xira,117
 Albufeira,112
 Coimbra,110
+Leiria,108
 Almada,107
-Leiria,107
 Montijo,101
 Viseu,99
 Moita,86
 Santa Maria da Feira,79
 Torres Vedras,79
-Setúbal,74
+Setúbal,77
 Seixal,70
 Aveiro,67
 Portimão,67
@@ -40,7 +40,7 @@ Ovar,54
 Covilhã,50
 Penafiel,50
 Castelo Branco,49
-Figueira da Foz,47
+Figueira da Foz,48
 Gondomar,44
 Valongo,43
 Vila Nova de Famalicão,43
@@ -63,9 +63,9 @@ Paredes,32
 Póvoa de Varzim,32
 Silves,32
 Barcelos,31
+Ourém,31
 Águeda,31
 Ílhavo,31
-Ourém,30
 Cantanhede,29
 "Lagoa, Faro",29
 Pombal,29
@@ -158,6 +158,7 @@ Alter do Chão,8
 Celorico da Beira,8
 Horta,8
 Miranda do Corvo,8
+Oliveira de Frades,8
 Ourique,8
 Penacova,8
 Praia da Vitória,8
@@ -173,7 +174,6 @@ Chamusca,7
 Coruche,7
 Manteigas,7
 Mira,7
-Oliveira de Frades,7
 Vila Nova de Cerveira,7
 Vila Velha de Ródão,7
 Almeirim,6
@@ -182,6 +182,7 @@ Carregal do Sal,6
 Golegã,6
 Penalva do Castelo,6
 Sabugal,6
+Serpa,6
 São Brás de Alportel,6
 São Vicente,6
 Torre de Moncorvo,6
@@ -198,7 +199,6 @@ Castro Verde,5
 Celorico de Basto,5
 "Lagoa, Azores",5
 Macedo de Cavaleiros,5
-Serpa,5
 São João da Pesqueira,5
 Valpaços,5
 Vila Nova da Barquinha,5
