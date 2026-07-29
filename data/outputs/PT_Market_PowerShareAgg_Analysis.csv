@@ -1,6 +1,6 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,237616
-GRG,Grupo Galp (GLP+GLG+MLT),214517
+EDP,EDP Comercial,237446
+GRG,Grupo Galp (GLP+GLG+MLT),214143
 HRZ,"Powerdot, S.A",145124
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",125030
 ATL,"Atlante Infra Portugal, S.A",66114
@@ -9,11 +9,11 @@ TRK,WOWPLUG,33595
 REP,REPSOL PORTUGUESA LDA,26748
 HLX,"Helexia II Energy Services, Lda.",23974
 PRI,"Prio.E Mobility Solutions, Lda",22176
-MOT,Mota-Engil Renewing,17188
+MOT,Mota-Engil Renewing,17136
 CPS,Cepsa Portuguesa Petroleos,14300
 MAK,Maksu,11180
-VIA,"Via Verde Transição Energética, S.A.",9369
 DTE,"DTE, Instalacoes Especiais",9148
+VIA,"Via Verde Transição Energética, S.A.",9031
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8486
 ENB,"Enable Mobility Solutions, S.A.",8450
 REM,MOTA-ENGIL REMO CHARGING S.A,5300
@@ -25,8 +25,8 @@ SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
 EVI,EVIO - Electrical Mobility,2339
 ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",2198
 EVC,"EVCE POWER, LDA. / MOBISMART",2032
+KLS,"Kilometer Low Cost II Serviços, SA",1968
 EVP,"EVpower, Charging Solutions Lda",1949
-KLS,"Kilometer Low Cost II Serviços, SA",1946
 FAC,FactorENERGIA,1936
 LCG,"Loulé Concelho Global, EM",1835
 NRG,"NRG - Sistemas de Energia Renováveis, Lda.",1818
