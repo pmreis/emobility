@@ -1,9 +1,9 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,237446
-GRG,Grupo Galp (GLP+GLG+MLT),214143
-HRZ,"Powerdot, S.A",145124
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",125030
-ATL,"Atlante Infra Portugal, S.A",66114
+EDP,EDP Comercial,236858
+GRG,Grupo Galp (GLP+GLG+MLT),214187
+HRZ,"Powerdot, S.A",144959
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",125100
+ATL,"Atlante Infra Portugal, S.A",66144
 IOY,IONITY GmbH,36000
 TRK,WOWPLUG,33595
 REP,REPSOL PORTUGUESA LDA,26748
@@ -57,6 +57,7 @@ PRP,"PROPEL - PRODUTOS DE PETRÓLEO, LDA",286
 SDB,SodiBraga - Supermercados Lda,284
 GRC,"Grcapp, Unipessoal Lda",276
 GLD,Gold Energy,269
+CGG,Cargga Inteligente,264
 PTE,"PETROTERMICA ENERGIA, S.A.",240
 BLU,"Bluecharge, Lda",220
 EGR,"Green Evolut, LDA",220
@@ -64,7 +65,6 @@ MOA,"MOBI A - Mobilidade e Ambiente, Lda",220
 GSF,"GASFOMENTO - Sistemas e Instalações de Gás, S.A.",219
 MOB,MOBIE,216
 IMG,"Image4all - Eficiência Energética, Comunicação e Imagem",187
-CGG,Cargga Inteligente,176
 NEU,"Neureifen - Electric Mobility, Lda",176
 EZC,"EZ - CHARG3, Lda",165
 BRI,Brightcity S.A.,164
