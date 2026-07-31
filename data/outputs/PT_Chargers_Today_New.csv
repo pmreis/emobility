@@ -1,7 +1,3 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ABF-00169,EDP,EDP Comercial,Albufeira,37.09161,-8.239073
-ABF-00190,EDP,EDP Comercial,Albufeira,37.088375,-8.31902
-ABF-00191,EDP,EDP Comercial,Albufeira,37.09127,-8.318711
-ABF-00192,EDP,EDP Comercial,Albufeira,37.12708,-8.302097
-MTA-00101,ATL,"Atlante Infra Portugal, S.A",Moita,38.649605,-8.998231
-PTM-00088,GLP,Galp Power OPC,Portimão,37.139103,-8.54605
+ALB-00026,GLP,Galp Power OPC,Albergaria-a-Velha,40.75436,-8.485935
+CSC-00571,GLP,Galp Power OPC,Cascais,38.71973,-9.44139

@@ -1,5 +1,4 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-CSC-00197,EDP,EDP Comercial,Cascais,38.72907,-9.41682
-CSC-00198,EDP,EDP Comercial,Cascais,38.724846,-9.42521
-TVD-00014,HRZ,"Powerdot, S.A",Torres Vedras,39.096313,-9.255224
-LSB-00952,HRZ,"Powerdot, S.A",Lisboa,38.75943,-9.170161
+CSC-00015,MLT,Mobiletric,Cascais,38.699524,-9.422944
+LRS-00134,EDP,EDP Comercial,Loures,38.8154,-9.1587
+LSB-00201,MLT,Mobiletric,Lisboa,38.70522,-9.174446
