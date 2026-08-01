@@ -5,7 +5,7 @@ Porto,265
 Oeiras,184
 Vila Nova de Gaia,178
 Loulé,170
-Sintra,159
+Sintra,158
 Braga,130
 Matosinhos,129
 Barreiro,127
@@ -28,19 +28,19 @@ Aveiro,67
 Vila do Conde,66
 Amadora,65
 Faro,62
-Grândola,62
-Maia,60
 Évora,60
 Viana do Castelo,59
+Grândola,58
 Beja,57
 Funchal,57
 Palmela,57
 Santarém,55
-Ovar,54
+Maia,53
 Covilhã,50
 Penafiel,50
 Castelo Branco,49
 Figueira da Foz,48
+Ovar,48
 Gondomar,44
 Valongo,43
 Vila Nova de Famalicão,43
@@ -53,21 +53,21 @@ Olhão,40
 Mealhada,39
 Santo Tirso,38
 Vila Real,37
-Nazaré,36
 Esposende,35
-Odivelas,35
 Alcochete,33
-Caldas da Rainha,33
 Lagos,33
+Odivelas,32
 Paredes,32
 Póvoa de Varzim,32
 Silves,32
 Barcelos,31
-Ourém,31
+Caldas da Rainha,31
+Nazaré,31
 Águeda,31
 Ílhavo,31
 Cantanhede,29
 "Lagoa, Faro",29
+Ourém,29
 Pombal,29
 Chaves,28
 Fundão,28
@@ -105,7 +105,6 @@ Tondela,17
 Vila Verde,17
 Aljustrel,16
 Estremoz,16
-Mangualde,16
 Oliveira de Azeméis,16
 Ribeira Grande,16
 Santiago do Cacém,15
@@ -113,6 +112,7 @@ Seia,15
 Arruda dos Vinhos,14
 Benavente,14
 Machico,14
+Mangualde,14
 Marco de Canaveses,14
 Peso da Régua,14
 Porto de Mós,14
