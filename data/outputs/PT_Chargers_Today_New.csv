@@ -1,3 +1,7 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-BGC-00027,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Bragança,41.81784,-6.754681
-VFR-00104,GLP,Galp Power OPC,Santa Maria da Feira,40.8852,-8.550903
+CPV-00006,GLP,Galp Power OPC,Castelo de Paiva,41.04505,-8.265172
+ETR-00030,EDP,EDP Comercial,Estarreja,40.755447,-8.535376
+ETR-00031,EDP,EDP Comercial,Estarreja,40.755447,-8.53537
+ETR-00032,EDP,EDP Comercial,Estarreja,40.755447,-8.53537
+PRT-00372,EPK,Telpark,Porto,41.1625,-8.666419
+VFL-00006,GLP,Galp Power OPC,Vila Flor,41.30867,-7.155921

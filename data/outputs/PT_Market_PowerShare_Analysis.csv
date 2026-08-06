@@ -1,9 +1,9 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,237110
-GLP,Galp Power OPC,183276
+EDP,EDP Comercial,239510
+GLP,Galp Power OPC,183600
 HRZ,"Powerdot, S.A",146225
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",127120
-ATL,"Atlante Infra Portugal, S.A",66394
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",127500
+ATL,"Atlante Infra Portugal, S.A",64924
 IOY,IONITY GmbH,36000
 TRK,WOWPLUG,33595
 REP,REPSOL PORTUGUESA LDA,26748
@@ -57,7 +57,6 @@ SFF,"Superfafe- supermercados,lda",324
 FRR,"FRONTROW, LDA",316
 PRP,"PROPEL - PRODUTOS DE PETRÓLEO, LDA",286
 SDB,SodiBraga - Supermercados Lda,284
-GRC,"Grcapp, Unipessoal Lda",276
 GLD,Gold Energy,269
 CGG,Cargga Inteligente,264
 PTE,"PETROTERMICA ENERGIA, S.A.",240
@@ -88,4 +87,6 @@ FRI,"Distrifrio Supermercados, Lda",44
 MEO,"MEO Energia - Comercialização de Energia, SA",44
 PQT,"Parques Tejo, E.M.",44
 WEN,WENEA SERVICES SPAIN S.L.,29
+EPK,Telpark,22
+GRC,"Grcapp, Unipessoal Lda",14
 PAC,"PACORP, LDA",7
