@@ -1,20 +1,20 @@
 OperatorAbb,OperatorName,Total Power (kW)
 EDP,EDP Comercial,239510
 GRG,Grupo Galp (GLP+GLG+MLT),215012
-HRZ,"Powerdot, S.A",146225
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",127500
+HRZ,"Powerdot, S.A",146625
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",130700
 ATL,"Atlante Infra Portugal, S.A",64924
 IOY,IONITY GmbH,36000
 TRK,WOWPLUG,33595
-REP,REPSOL PORTUGUESA LDA,26748
-HLX,"Helexia II Energy Services, Lda.",23974
+REP,REPSOL PORTUGUESA LDA,26727
+HLX,"Helexia II Energy Services, Lda.",23930
 PRI,"Prio.E Mobility Solutions, Lda",22176
 MOT,Mota-Engil Renewing,17136
 CPS,Cepsa Portuguesa Petroleos,14300
 MAK,Maksu,11180
 DTE,"DTE, Instalacoes Especiais",9148
 VIA,"Via Verde Transição Energética, S.A.",9031
-IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8760
+IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8716
 ENB,"Enable Mobility Solutions, S.A.",8450
 REM,MOTA-ENGIL REMO CHARGING S.A,5300
 ITV,Instavolt Portugal Lda.,4422
@@ -46,6 +46,7 @@ BEL,Bel Mobility,542
 IHM,iHome Lda,504
 VIS,VISACASA - SERVIÇOS DE ASSISTÊNCIA E MANUTENÇÃO GLOBAL S.A.,460
 CEV,CEVE - Cooperativa Eléctrica do Vale D’Este C.R.L.,428
+EPK,Telpark,418
 SGM,"Superguimarães - Supermercados,lda",384
 GRN,"GREEN CHARGE - MOBILIDADE ELÉTRICA, LDA",374
 CSC,Cascais Próxima,352
@@ -85,6 +86,5 @@ FRI,"Distrifrio Supermercados, Lda",44
 MEO,"MEO Energia - Comercialização de Energia, SA",44
 PQT,"Parques Tejo, E.M.",44
 WEN,WENEA SERVICES SPAIN S.L.,29
-EPK,Telpark,22
 GRC,"Grcapp, Unipessoal Lda",14
 PAC,"PACORP, LDA",7

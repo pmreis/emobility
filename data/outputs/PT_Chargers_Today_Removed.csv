@@ -1,14 +1,4 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ACH-00013,ATL,"Atlante Infra Portugal, S.A",Alcochete,38.75172,-8.9451
-ALM-00075,ATL,"Atlante Infra Portugal, S.A",Almada,38.64836,-9.153869
-BGC-00016,ATL,"Atlante Infra Portugal, S.A",Bragança,41.788105,-6.780908
-BNV-00010,ATL,"Atlante Infra Portugal, S.A",Benavente,38.920513,-8.880332
-BRG-00043,GRC,"Grcapp, Unipessoal Lda",Braga,41.543133,-8.440223
-BRG-00044,GRC,"Grcapp, Unipessoal Lda",Braga,41.54303,-8.439685
-CVD-00005,ATL,"Atlante Infra Portugal, S.A",Castelo de Vide,39.405163,-7.44424
-FAF-00010,ATL,"Atlante Infra Portugal, S.A",Fafe,41.445663,-8.165417
-FAR-00040,ATL,"Atlante Infra Portugal, S.A",Faro,37.02681,-7.94673
-FAR-00041,ATL,"Atlante Infra Portugal, S.A",Faro,37.02542,-7.92476
-LNH-00009,ATL,"Atlante Infra Portugal, S.A",Lourinhã,39.25035,-9.312552
-LSB-00666,ATL,"Atlante Infra Portugal, S.A",Lisboa,38.757015,-9.141099
-PTM-00057,ATL,"Atlante Infra Portugal, S.A",Portimão,37.1344,-8.537374
+LRA-00097,HLX,"Helexia II Energy Services, Lda.",Leiria,39.754044,-8.801398
+PNF-00007,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Penafiel,41.199287,-8.311008
+PNF-00008,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Penafiel,41.199127,-8.3114605
