@@ -1,14 +1,14 @@
 OperatorAbb,OperatorName,Total Power (kW)
 EDP,EDP Comercial,239510
-GLP,Galp Power OPC,183600
-HRZ,"Powerdot, S.A",146625
+GLP,Galp Power OPC,183540
+HRZ,"Powerdot, S.A",146735
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",130700
 ATL,"Atlante Infra Portugal, S.A",64924
 IOY,IONITY GmbH,36000
 TRK,WOWPLUG,33595
 REP,REPSOL PORTUGUESA LDA,26727
 HLX,"Helexia II Energy Services, Lda.",23930
-PRI,"Prio.E Mobility Solutions, Lda",22176
+PRI,"Prio.E Mobility Solutions, Lda",22196
 GLG,Galpgeste,21302
 MOT,Mota-Engil Renewing,17136
 CPS,Cepsa Portuguesa Petroleos,14300
@@ -39,7 +39,7 @@ CAP,"Capwatt Services, S.A.",1364
 PLG,"e-Plug, Lda",1154
 VEI,Veimonte Lda,1122
 HEX,"HEXAGONAL OCEAN, LDA",1091
-LUZ,"LUSIADAENERGIA, S.A.",694
+LUZ,"LUSIADAENERGIA, S.A.",716
 CIR,"Circuitos Energy Solutions, Lda.",604
 ALF,Alfa Energia,586
 GEN,Generation Journey Lda,572
@@ -47,8 +47,8 @@ HGP,"High Green Power, Unipessoal Lda.",555
 BEL,Bel Mobility,542
 IHM,iHome Lda,504
 VIS,VISACASA - SERVIÇOS DE ASSISTÊNCIA E MANUTENÇÃO GLOBAL S.A.,460
+EPK,Telpark,440
 CEV,CEVE - Cooperativa Eléctrica do Vale D’Este C.R.L.,428
-EPK,Telpark,418
 SGM,"Superguimarães - Supermercados,lda",384
 GRN,"GREEN CHARGE - MOBILIDADE ELÉTRICA, LDA",374
 CSC,Cascais Próxima,352
