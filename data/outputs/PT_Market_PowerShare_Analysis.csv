@@ -1,12 +1,12 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,239510
+EDP,EDP Comercial,239713
 GLP,Galp Power OPC,183540
 HRZ,"Powerdot, S.A",146735
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",130700
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",127500
 ATL,"Atlante Infra Portugal, S.A",64924
 IOY,IONITY GmbH,36000
 TRK,WOWPLUG,33595
-REP,REPSOL PORTUGUESA LDA,26727
+REP,REPSOL PORTUGUESA LDA,27527
 HLX,"Helexia II Energy Services, Lda.",23930
 PRI,"Prio.E Mobility Solutions, Lda",22196
 GLG,Galpgeste,21302
@@ -50,10 +50,11 @@ VIS,VISACASA - SERVIÇOS DE ASSISTÊNCIA E MANUTENÇÃO GLOBAL S.A.,460
 EPK,Telpark,440
 CEV,CEVE - Cooperativa Eléctrica do Vale D’Este C.R.L.,428
 SGM,"Superguimarães - Supermercados,lda",384
+CME,CME,376
 GRN,"GREEN CHARGE - MOBILIDADE ELÉTRICA, LDA",374
+MOB,MOBIE,359
 CSC,Cascais Próxima,352
 EVA,"EVAZ Energy, LDA",350
-CME,CME,332
 SFF,"Superfafe- supermercados,lda",324
 FRR,"FRONTROW, LDA",316
 PRP,"PROPEL - PRODUTOS DE PETRÓLEO, LDA",286
@@ -65,7 +66,6 @@ BLU,"Bluecharge, Lda",220
 EGR,"Green Evolut, LDA",220
 MOA,"MOBI A - Mobilidade e Ambiente, Lda",220
 GSF,"GASFOMENTO - Sistemas e Instalações de Gás, S.A.",219
-MOB,MOBIE,216
 IMG,"Image4all - Eficiência Energética, Comunicação e Imagem",187
 NEU,"Neureifen - Electric Mobility, Lda",176
 EZC,"EZ - CHARG3, Lda",165
