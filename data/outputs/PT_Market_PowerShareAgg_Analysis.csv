@@ -1,20 +1,20 @@
 OperatorAbb,OperatorName,Total Power (kW)
 EDP,EDP Comercial,239713
 GRG,Grupo Galp (GLP+GLG+MLT),214952
-HRZ,"Powerdot, S.A",146735
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",127500
-ATL,"Atlante Infra Portugal, S.A",64924
+HRZ,"Powerdot, S.A",146955
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",117520
+ATL,"Atlante Infra Portugal, S.A",64914
 IOY,IONITY GmbH,36000
 TRK,WOWPLUG,33595
-REP,REPSOL PORTUGUESA LDA,27527
+REP,REPSOL PORTUGUESA LDA,27227
 HLX,"Helexia II Energy Services, Lda.",23930
 PRI,"Prio.E Mobility Solutions, Lda",22196
 MOT,Mota-Engil Renewing,17136
 CPS,Cepsa Portuguesa Petroleos,14300
-MAK,Maksu,11180
+MAK,Maksu,10762
 DTE,"DTE, Instalacoes Especiais",9148
 VIA,"Via Verde Transição Energética, S.A.",9031
-IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8716
+IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8760
 ENB,"Enable Mobility Solutions, S.A.",8450
 REM,MOTA-ENGIL REMO CHARGING S.A,5300
 ITV,Instavolt Portugal Lda.,4422
@@ -24,8 +24,8 @@ MOO,Siva - Sociedade de Importação de Veículos Automóveis,3227
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
 EVI,EVIO - Electrical Mobility,2339
 ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",2198
+KLS,"Kilometer Low Cost II Serviços, SA",2034
 EVC,"EVCE POWER, LDA. / MOBISMART",2032
-KLS,"Kilometer Low Cost II Serviços, SA",1968
 EVP,"EVpower, Charging Solutions Lda",1949
 FAC,FactorENERGIA,1936
 LCG,"Loulé Concelho Global, EM",1835
