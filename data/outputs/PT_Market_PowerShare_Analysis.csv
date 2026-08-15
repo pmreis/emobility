@@ -1,7 +1,7 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,240224
+EDP,EDP Comercial,240704
 GLP,Galp Power OPC,183662
-HRZ,"Powerdot, S.A",146955
+HRZ,"Powerdot, S.A",147755
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",136900
 ATL,"Atlante Infra Portugal, S.A",64914
 IOY,IONITY GmbH,36000
@@ -13,19 +13,19 @@ GLG,Galpgeste,21302
 MOT,Mota-Engil Renewing,17180
 CPS,Cepsa Portuguesa Petroleos,14300
 MAK,Maksu,10762
-MLT,Mobiletric,10109
-DTE,"DTE, Instalacoes Especiais",9148
+MLT,Mobiletric,10252
+DTE,"DTE, Instalacoes Especiais",9290
 VIA,"Via Verde Transição Energética, S.A.",9031
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8804
 ENB,"Enable Mobility Solutions, S.A.",8450
 REM,MOTA-ENGIL REMO CHARGING S.A,5300
 ITV,Instavolt Portugal Lda.,4422
-EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4294
+EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4338
 ECI,ECOINSIDE,3764
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3227
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
-EVI,EVIO - Electrical Mobility,2339
 ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",2198
+EVI,EVIO - Electrical Mobility,2099
 KLS,"Kilometer Low Cost II Serviços, SA",2034
 EVC,"EVCE POWER, LDA. / MOBISMART",2032
 EVP,"EVpower, Charging Solutions Lda",1949
@@ -52,7 +52,6 @@ CEV,CEVE - Cooperativa Eléctrica do Vale D’Este C.R.L.,428
 SGM,"Superguimarães - Supermercados,lda",384
 CME,CME,376
 GRN,"GREEN CHARGE - MOBILIDADE ELÉTRICA, LDA",374
-MOB,MOBIE,359
 CSC,Cascais Próxima,352
 EVA,"EVAZ Energy, LDA",350
 SFF,"Superfafe- supermercados,lda",324
@@ -66,6 +65,7 @@ BLU,"Bluecharge, Lda",220
 EGR,"Green Evolut, LDA",220
 MOA,"MOBI A - Mobilidade e Ambiente, Lda",220
 GSF,"GASFOMENTO - Sistemas e Instalações de Gás, S.A.",219
+MOB,MOBIE,216
 IMG,"Image4all - Eficiência Energética, Comunicação e Imagem",187
 NEU,"Neureifen - Electric Mobility, Lda",176
 EZC,"EZ - CHARG3, Lda",165
