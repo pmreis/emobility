@@ -1,31 +1,31 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,225111
+EDP,EDP Comercial,240890
 GRG,Grupo Galp (GLP+GLG+MLT),215239
 HRZ,"Powerdot, S.A",147755
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",136900
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",140350
 ATL,"Atlante Infra Portugal, S.A",64914
 IOY,IONITY GmbH,36000
-TRK,WOWPLUG,33595
+TRK,WOWPLUG,33639
 REP,REPSOL PORTUGUESA LDA,27227
 HLX,"Helexia II Energy Services, Lda.",23930
 PRI,"Prio.E Mobility Solutions, Lda",22196
 MOT,Mota-Engil Renewing,18780
-CPS,Cepsa Portuguesa Petroleos,14300
+CPS,Cepsa Portuguesa Petroleos,14450
 MAK,Maksu,10762
 DTE,"DTE, Instalacoes Especiais",9290
-VIA,"Via Verde Transição Energética, S.A.",9031
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8804
 ENB,"Enable Mobility Solutions, S.A.",8450
 REM,MOTA-ENGIL REMO CHARGING S.A,5300
 ITV,Instavolt Portugal Lda.,4422
 EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4338
+VIA,"Via Verde Transição Energética, S.A.",4106
 ECI,ECOINSIDE,3764
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3227
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
+EVI,EVIO - Electrical Mobility,2339
 ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",2198
-KLS,"Kilometer Low Cost II Serviços, SA",2034
+KLS,"Kilometer Low Cost II Serviços, SA",2056
 EVC,"EVCE POWER, LDA. / MOBISMART",2032
-EVI,EVIO - Electrical Mobility,1979
 EVP,"EVpower, Charging Solutions Lda",1949
 FAC,FactorENERGIA,1936
 LCG,"Loulé Concelho Global, EM",1835
@@ -37,6 +37,7 @@ CAP,"Capwatt Services, S.A.",1364
 PLG,"e-Plug, Lda",1154
 VEI,Veimonte Lda,1122
 HEX,"HEXAGONAL OCEAN, LDA",1091
+EPK,Telpark,824
 LUZ,"LUSIADAENERGIA, S.A.",716
 CIR,"Circuitos Energy Solutions, Lda.",604
 ALF,Alfa Energia,586
@@ -45,7 +46,6 @@ HGP,"High Green Power, Unipessoal Lda.",555
 BEL,Bel Mobility,542
 IHM,iHome Lda,504
 VIS,VISACASA - SERVIÇOS DE ASSISTÊNCIA E MANUTENÇÃO GLOBAL S.A.,460
-EPK,Telpark,440
 CEV,CEVE - Cooperativa Eléctrica do Vale D’Este C.R.L.,428
 SGM,"Superguimarães - Supermercados,lda",384
 CME,CME,376
