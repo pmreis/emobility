@@ -1,6 +1,9 @@
 name: Tariffs
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     - cron:  '30 13,14,15 * * *'
