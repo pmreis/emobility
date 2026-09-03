@@ -1,9 +1,9 @@
 OperatorAbb,OperatorName,Total Power (kW)
-EDP,EDP Comercial,245292
-GLP,Galp Power OPC,184304
-HRZ,"Powerdot, S.A",148357
+EDP,EDP Comercial,245248
+GLP,Galp Power OPC,184426
+HRZ,"Powerdot, S.A",148242
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",137290
-ATL,"Atlante Infra Portugal, S.A",65144
+ATL,"Atlante Infra Portugal, S.A",65684
 IOY,IONITY GmbH,39100
 TRK,WOWPLUG,34299
 REP,REPSOL PORTUGUESA LDA,27376
@@ -15,8 +15,8 @@ CPS,Cepsa Portuguesa Petroleos,14450
 MAK,Maksu,10762
 MLT,Mobiletric,10395
 ZUN,"Grupo Easycharger, SL",9622
-DTE,"DTE, Instalacoes Especiais",9422
-IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8802
+DTE,"DTE, Instalacoes Especiais",9554
+IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8982
 ENB,"Enable Mobility Solutions, S.A.",8690
 REM,MOTA-ENGIL REMO CHARGING S.A,6100
 ITV,Instavolt Portugal Lda.,4422
@@ -34,9 +34,9 @@ FAC,FactorENERGIA,1936
 LCG,"Loulé Concelho Global, EM",1835
 NRG,"NRG - Sistemas de Energia Renováveis, Lda.",1818
 EMA,"EMACOM - Telecomunicações da Madeira, Unipessoal, Lda",1422
-LOG,uCharge,1409
 CAP,"Capwatt Services, S.A.",1364
 PLG,"e-Plug, Lda",1154
+LOG,uCharge,1141
 VEI,Veimonte Lda,1122
 HEX,"HEXAGONAL OCEAN, LDA",1091
 EPK,Telpark,824
