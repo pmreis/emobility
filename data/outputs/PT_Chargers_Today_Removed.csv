@@ -1,9 +1,1 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-LGA-00026,LOG,uCharge,"Lagoa, Faro",37.126087,-8.452793
-LGA-00027,LOG,uCharge,"Lagoa, Faro",37.126087,-8.452793
-PTG-00008,HRZ,"Powerdot, S.A",Portalegre,39.278294,-7.432645
-PTG-00009,HRZ,"Powerdot, S.A",Portalegre,39.278294,-7.432645
-VRL-00011,LOG,uCharge,Vila Real,41.70282,-7.514103
-VRL-90004,EDP,EDP Comercial,Vila Real,41.29415,-7.735333
-LLE-00215,LOG,uCharge,Loulé,37.09272,-8.039529
-LLE-00216,LOG,uCharge,Loulé,37.09272,-8.039529
