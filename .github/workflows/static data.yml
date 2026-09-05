@@ -48,9 +48,7 @@ jobs:
 
     - name: Run main Python script
       if: ${{ env.SKIP_REMAINING != 'true' }}
-      run: | 
-        python ./src/parseDatex.py
-        python ./src/charts.py
+      run: python ./src/parseDatex.py
 
     - name: Commit and push if it changed
       run: |
