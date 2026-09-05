@@ -1,5 +1,4 @@
 [![Static Data](https://github.com/pmreis/emobility/actions/workflows/static%20data.yml/badge.svg)](https://github.com/pmreis/emobility/actions/workflows/static%20data.yml)
-[![Charts](https://github.com/pmreis/emobility/actions/workflows/charts.yml/badge.svg)](https://github.com/pmreis/emobility/actions/workflows/charts.yml)
 
 # eMobility @ Europe
 
