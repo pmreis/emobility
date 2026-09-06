@@ -3,7 +3,7 @@ name: Tariffs
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '*/30 13-16 * * *'
+    - cron:  '*/23 13-16 * * *'
 
 jobs:
   scheduled:
