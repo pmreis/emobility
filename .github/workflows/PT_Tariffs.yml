@@ -1,12 +1,12 @@
-name: Tariffs
+name: PT Tariffs
 
 on:
-  workflow_dispatch:
   schedule:
     - cron:  '*/23 13-16 * * *'
+  workflow_dispatch:
 
 jobs:
-  scheduled:
+  main_job:
     runs-on: ubuntu-latest
     permissions:
       contents: write

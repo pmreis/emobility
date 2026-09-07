@@ -1,15 +1,15 @@
-name: Charts
+name: PT Chart
 
 on:
   push:
     branches:
       - main
-  workflow_dispatch:
   schedule:
     - cron:  '23,53 4-9 * * *'
+  workflow_dispatch:
 
 jobs:
-  scheduled:
+  main_job:
     runs-on: ubuntu-latest
     permissions:
       contents: write
