@@ -7,11 +7,11 @@ ATL,"Atlante Infra Portugal, S.A",65684
 IOY,IONITY GmbH,39100
 TRK,WOWPLUG,34299
 REP,REPSOL PORTUGUESA LDA,30223
-HLX,"Helexia II Energy Services, Lda.",24073
+HLX,"Helexia II Energy Services, Lda.",24313
 PRI,"Prio.E Mobility Solutions, Lda",22196
 MOT,Mota-Engil Renewing,19260
 CPS,Cepsa Portuguesa Petroleos,14450
-MAK,Maksu,10762
+MAK,Maksu,10388
 ZUN,"Grupo Easycharger, SL",9622
 DTE,"DTE, Instalacoes Especiais",9554
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",8982
@@ -20,10 +20,10 @@ REM,MOTA-ENGIL REMO CHARGING S.A,6100
 ITV,Instavolt Portugal Lda.,4422
 EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4338
 VIA,"Via Verde Transição Energética, S.A.",4106
-ECI,ECOINSIDE,3896
+ECI,ECOINSIDE,3940
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3377
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
-EVI,EVIO - Electrical Mobility,2339
+EVI,EVIO - Electrical Mobility,2391
 ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",2198
 KLS,"Kilometer Low Cost II Serviços, SA",2078
 EVC,"EVCE POWER, LDA. / MOBISMART",2032
@@ -88,3 +88,4 @@ PQT,"Parques Tejo, E.M.",44
 WEN,WENEA SERVICES SPAIN S.L.,29
 GRC,"Grcapp, Unipessoal Lda",14
 PAC,"PACORP, LDA",7
+BBG,Morenergy,0
