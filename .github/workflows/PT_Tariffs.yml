@@ -2,7 +2,7 @@ name: PT Tariffs
 
 on:
   schedule:
-    - cron:  '*/23 13-16 * * *'
+    - cron:  '23 */6 * * *'
   workflow_dispatch:
 
 jobs:
