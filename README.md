@@ -1,5 +1,3 @@
-[![Static Data](https://github.com/pmreis/emobility/actions/workflows/static%20data.yml/badge.svg)](https://github.com/pmreis/emobility/actions/workflows/static%20data.yml)
-
 # eMobility @ Europe
 
 A repository containing a wide range of information related with electric mobility in Europe, with a focus on Portugal.
