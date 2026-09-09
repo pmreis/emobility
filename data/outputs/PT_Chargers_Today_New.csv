@@ -1,7 +1,7 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ACN-00018,ECI,ECOINSIDE,Alcanena,39.518124,-8.688703
-BBG-VVRPUB1,BBG,Morenergy,Vila Verde,41.671753,-8.502869
-BTC-00002,HLX,"Helexia II Energy Services, Lda.",Boticas,41.691074,-7.665816
-MTS-00211,EVI,EVIO - Electrical Mobility,Matosinhos,41.179867,-8.690583
-MTS-00212,EVI,EVIO - Electrical Mobility,Matosinhos,41.179867,-8.690583
-MTS-00213,EVI,EVIO - Electrical Mobility,Matosinhos,41.179867,-8.690583
+BBG-CBRPUB1,BBG,Morenergy,Coimbra,40.216904,-8.407325
+BGC-00029,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Bragança,41.81673,-6.7558656
+LSB-01338,MAK,Maksu,Lisboa,38.739956,-9.137624
+LSB-01339,MAK,Maksu,Lisboa,38.739956,-9.137624
+LSB-01456,EPK,Telpark,Lisboa,38.73056,-9.149897
+SPS-00019,HLX,"Helexia II Energy Services, Lda.",São Pedro do Sul,40.767,-8.14713
