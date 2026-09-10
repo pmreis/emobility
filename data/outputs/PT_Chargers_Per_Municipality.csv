@@ -2,11 +2,11 @@ City,Qty
 Lisboa,1043
 Cascais,477
 Porto,247
-Oeiras,182
+Oeiras,186
 Vila Nova de Gaia,177
 Loulé,169
 Sintra,161
-Matosinhos,137
+Matosinhos,138
 Loures,131
 Braga,129
 Barreiro,127
@@ -38,19 +38,19 @@ Funchal,57
 Palmela,57
 Santarém,55
 Covilhã,51
-Castelo Branco,49
+Castelo Branco,50
 Figueira da Foz,49
 Penafiel,49
+Guarda,46
 Gondomar,44
-Guarda,43
 Valongo,43
 Vila Nova de Famalicão,43
 Alcobaça,42
 Mafra,42
 Olhão,42
+Mealhada,41
 São João da Madeira,41
 Tomar,41
-Mealhada,40
 Caldas da Rainha,39
 Santo Tirso,38
 Vila Real,37
@@ -59,13 +59,13 @@ Odivelas,36
 Esposende,35
 Águeda,34
 Lagos,33
+Ourém,33
 Alcochete,32
 Paredes,32
 Póvoa de Varzim,32
 Silves,32
 Ílhavo,32
 Barcelos,31
-Ourém,31
 Sesimbra,30
 Cantanhede,29
 Pombal,29
@@ -127,6 +127,7 @@ Alcanena,12
 Almeida,12
 Condeixa-a-Nova,12
 Mirandela,12
+Montemor-o-Novo,12
 Ponte de Sôr,12
 Sines,12
 Vila Real de Santo António,12
@@ -134,7 +135,6 @@ Arcos de Valdevez,11
 Batalha,11
 Bombarral,11
 Espinho,11
-Montemor-o-Novo,11
 Rio Maior,11
 Santa Comba Dão,11
 São Pedro do Sul,11
@@ -195,6 +195,7 @@ Aljezur,5
 Alvaiázere,5
 Ansião,5
 Arouca,5
+Belmonte,5
 Cartaxo,5
 Castro Verde,5
 Celorico de Basto,5
@@ -226,6 +227,7 @@ Ponte da Barca,4
 Porto Moniz,4
 Redondo,4
 Resende,4
+Ribeira de Pena,4
 Santa Cruz da Graciosa,4
 Sernancelhe,4
 Sever do Vouga,4
@@ -240,7 +242,6 @@ Alcoutim,3
 Alijó,3
 Alpiarça,3
 Avis,3
-Belmonte,3
 Borba,3
 Carrazeda de Ansiães,3
 Castelo de Vide,3
@@ -254,7 +255,6 @@ Pedrógão Grande,3
 Penela,3
 Povoação,3
 Ribeira Brava,3
-Ribeira de Pena,3
 Santa Marta de Penaguião,3
 Santana,3
 Sobral de Monte Agraço,3
@@ -288,11 +288,14 @@ Velas,2
 Vidigueira,2
 Vila de Rei,2
 Alandroal,1
+Alcacer do Sal,1
+Almancil,1
 Arronches,1
 Barrancos,1
 Corvo,1
 Fornos de Algodres,1
 Fronteira,1
+Fátima,1
 Gavião,1
 Lajes das Flores,1
 Lajes do Pico,1
