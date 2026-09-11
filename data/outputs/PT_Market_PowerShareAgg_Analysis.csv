@@ -1,13 +1,13 @@
 OperatorAbb,OperatorName,Total Power (kW)
 EDP,EDP Comercial,245292
 GRG,Grupo Galp (GLP+GLG+MLT),216491
-HRZ,"Powerdot, S.A",148326
+HRZ,"Powerdot, S.A",148376
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",141850
-ATL,"Atlante Infra Portugal, S.A",66884
+ATL,"Atlante Infra Portugal, S.A",68084
 TSL,Tesla,46400
 IOY,IONITY GmbH,39100
 TRK,WOWPLUG,34299
-REP,REPSOL PORTUGUESA LDA,30223
+REP,REPSOL PORTUGUESA LDA,30203
 HLX,"Helexia II Energy Services, Lda.",24357
 PRI,"Prio.E Mobility Solutions, Lda",22196
 MOT,Mota-Engil Renewing,19260
@@ -20,6 +20,7 @@ ENB,"Enable Mobility Solutions, S.A.",8690
 REM,MOTA-ENGIL REMO CHARGING S.A,6100
 ITV,Instavolt Portugal Lda.,4422
 EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4338
+VIA,"Via Verde Transição Energética, S.A.",4106
 ECI,ECOINSIDE,3940
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3377
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
@@ -86,7 +87,6 @@ ZND,"Grupo Easycharger, SL",46
 FRI,"Distrifrio Supermercados, Lda",44
 MEO,"MEO Energia - Comercialização de Energia, SA",44
 PQT,"Parques Tejo, E.M.",44
-VIA,"Via Verde Transição Energética, S.A.",44
 WEN,WENEA SERVICES SPAIN S.L.,29
 GRC,"Grcapp, Unipessoal Lda",14
 PAC,"PACORP, LDA",7
