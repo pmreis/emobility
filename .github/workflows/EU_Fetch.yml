@@ -2,7 +2,7 @@ name: EU Fetch
 
 on:
   schedule:
-    - cron:  '23 7 * * 3,6'
+    - cron:  '23 3 * * 3,6'
   workflow_dispatch:
 
 jobs:
