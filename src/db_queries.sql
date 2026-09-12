@@ -379,3 +379,9 @@ and c.OperatorAbb = 'FCT'
 and c.ChargerId = 'CDN-00008'
 group by c.ChargerId
 order by count(p.PlugId) desc;
+
+
+select *
+from Chargers c
+where abs(c.Lat - 37.150528) < 0.03
+    and abs(c.Lon - -8.364667) < 0.03
