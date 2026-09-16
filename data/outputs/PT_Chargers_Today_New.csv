@@ -1,8 +1,6 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-CBC-00021,MOT,Mota-Engil Renewing,Cabeceiras de Basto,41.479416,-7.954476
-PTG-00036,HRZ,"Powerdot, S.A",Portalegre,39.278294,-7.432645
-SRP-00009,KLS,"Kilometer Low Cost II Serviços, SA",Serpa,37.941395,-7.604636
-SRP-00010,KLS,"Kilometer Low Cost II Serviços, SA",Serpa,37.941395,-7.604636
-VFX-00139,EDP,EDP Comercial,Vila Franca de Xira,38.863865,-9.065385
-VFX-00140,EDP,EDP Comercial,Vila Franca de Xira,38.86371,-9.065348
-VFX-00151,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Vila Franca de Xira,38.986004,-8.967168
+GMR-00168,PRI,"Prio.E Mobility Solutions, Lda",Guimarães,41.458515,-8.295017
+PRT-00374,EPK,Telpark,Porto,41.15739,-8.626829
+PRT-00376,EPK,Telpark,Porto,41.150284,-8.626958
+PRT-00377,EPK,Telpark,Porto,41.147404,-8.6088705
+VNG-00264,EPK,Telpark,Vila Nova de Gaia,41.1387,-8.609908
