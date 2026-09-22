@@ -115,6 +115,9 @@ def parse_datex(datexInMemory):
                     plug_id = refillId
 
             connector = refill_point.find('.//ns6:connector', ns)
+            if connector is None:
+                continue
+
             plug_design = connector.find('.//ns6:connectorType', ns).text
             voltage = int(float(connector.find('.//ns6:voltage', ns).text))
             current = int(float(connector.find('.//ns6:maximumCurrent', ns).text))
