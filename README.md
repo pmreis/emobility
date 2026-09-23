@@ -17,12 +17,12 @@ The goal is to track the evolution of sustainable mobility milestones on each Eu
 1. [The European Green Deal](#the-european-green-deal)
 2. [The Fit for 55 package](#the-fit-for-55-package)
 3. [AFIR - Alternative Fuels Infrastructure Regulation](#afir---alternative-fuels-infrastructure-regulation)
-5. [Portuguese Law](#portuguese-legal-framework-for-electric-mobility)
-6. [National Access Points (NAP)](#national-access-points-nap)
+4. [Portuguese Law](#portuguese-legal-framework-for-electric-mobility)
+5. [National Access Points (NAP)](#national-access-points-nap)
     1. [Norway - Nobil](#norway---nobil)
     2. [Portugal -Mobi.e](#portugal---mobie)
-7. [Possible barriers for eMobility in Portugal](#possible-barriers-for-emobility-in-portugal)
-8. [DATEX II Documentation](#datex-ii-documentation)
+6. [Possible barriers for eMobility in Portugal](#possible-barriers-for-emobility-in-portugal)
+7. [DATEX II Documentation](#datex-ii-documentation)
 
 > NOTE: Work in Progress. Join the cause!
 
