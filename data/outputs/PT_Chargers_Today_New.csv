@@ -1,5 +1,25 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-CSC-00575,VIA,"Via Verde Transição Energética, S.A.",Cascais,38.708897,-9.337255
-CTB-00074,REP,REPSOL PORTUGUESA LDA,Castelo Branco,39.85731,-7.458951
-CTB-00076,REP,REPSOL PORTUGUESA LDA,Castelo Branco,39.85731,-7.458951
-PTM-00087,GLP,Galp Power OPC,Portimão,37.139103,-8.54605
+BMT-00008,DTE,"DTE, Instalacoes Especiais",Belmonte,40.36003,-7.349228
+CSC-00572,ATL,"Atlante Infra Portugal, S.A",Cascais,38.705086,-9.323967
+FAR-00106,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Faro,37.030483,-7.9470973
+FAR-HOTEL-OCCIDENTAL-FARO-C01,HGP,"High Green Power, Unipessoal Lda.",Faro,37.0167,-7.934549
+FAR-HOTEL-OCCIDENTAL-FARO-C02,HGP,"High Green Power, Unipessoal Lda.",Faro,37.016674,-7.93461
+FAR-HOTEL-OCCIDENTAL-FARO-C03,HGP,"High Green Power, Unipessoal Lda.",Faro,37.016636,-7.934684
+LLE-HOTEL-DONA-FILIPA-C01,HGP,"High Green Power, Unipessoal Lda.",Almancil - Loulé,37.050327,-8.063946
+LLE-HOTEL-DONA-FILIPA-C02,HGP,"High Green Power, Unipessoal Lda.",Almancil - Loulé,37.050316,-8.063974
+LLE-HOTEL-DONA-FILIPA-C03,HGP,"High Green Power, Unipessoal Lda.",Almancil - Loulé,37.050304,-8.064006
+LRA-HOTEL-EUROSOL-C01,HGP,"High Green Power, Unipessoal Lda.",Leiria,39.739475,-8.809838
+LRA-HOTEL-EUROSOL-C02,HGP,"High Green Power, Unipessoal Lda.",Leiria,39.739487,-8.809763
+MCN-HOTEL-CASAL_SILVA-C01,HGP,"High Green Power, Unipessoal Lda.",Magrelos,41.097218,-8.219627
+MCN-HOTEL-CASAL_SILVA-C02,HGP,"High Green Power, Unipessoal Lda.",Magrelos,41.09714,-8.219633
+MTS-00201,REP,REPSOL PORTUGUESA LDA,Matosinhos,41.205856,-8.621156
+PTM-00089,CPS,Cepsa Portuguesa Petroleos,Portimão,37.150322,-8.539875
+PTM-OCEANO-ATLANTICO-APT-C01,HGP,"High Green Power, Unipessoal Lda.",Portimão,37.125732,-8.547697
+PTM-OCEANO-ATLANTICO-APT-C02,HGP,"High Green Power, Unipessoal Lda.",Portimão,37.125687,-8.547689
+SXL-00095,HRZ,"Powerdot, S.A",Seixal,38.639164,-9.161884
+VNG-00260,HRZ,"Powerdot, S.A",Vila Nova de Gaia,41.1274,-8.628471
+VNG-00261,HRZ,"Powerdot, S.A",Vila Nova de Gaia,41.1274,-8.628471
+VNG-00262,HRZ,"Powerdot, S.A",Vila Nova de Gaia,41.1274,-8.628471
+VRS-HOTEL-MONTE-REI-C01,HGP,"High Green Power, Unipessoal Lda.",Vila Nova de Cacela,37.208103,-7.551082
+VRS-HOTEL-ROBINSON-C01,HGP,"High Green Power, Unipessoal Lda.",Vila Nova de Cacela,37.15713,-7.567123
+VRS-HOTEL-ROBINSON-C02,HGP,"High Green Power, Unipessoal Lda.",Vila Nova de Cacela,37.15714,-7.56715
