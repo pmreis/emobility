@@ -17,11 +17,12 @@ The goal is to track the evolution of sustainable mobility milestones on each Eu
 1. [The European Green Deal](#the-european-green-deal)
 2. [The Fit for 55 package](#the-fit-for-55-package)
 3. [AFIR - Alternative Fuels Infrastructure Regulation](#afir---alternative-fuels-infrastructure-regulation)
-4. [Portuguese Law](#portuguese-law)
-5. [National Access Points (NAP)](#national-access-points-nap)
+5. [Portuguese Law](#portuguese-law)
+6. [National Access Points (NAP)](#national-access-points-nap)
     1. [Norway - Nobil](#norway---nobil)
     2. [Portugal -Mobi.e](#portugal---mobie)
 7. [Possible barriers for eMobility in Portugal](#possible-barriers-for-emobility-in-portugal)
+8. [DATEX II Documentation](#datex-ii-documentation)
 
 > NOTE: Work in Progress. Join the cause!
 
@@ -220,3 +221,8 @@ AVERE has taken note of the preliminary report of the Estudo concorrência e mo
 ### SE - Sweden
 ### SI - Slovenia
 ### SK - Slovakia
+
+## DATEX II Documentation
+
+- [Official Documentation](https://docs.datex2.eu/)
+- [Energy Infrastructure Diagrams](https://docs.datex2.eu/levels/mastering/energy/)
