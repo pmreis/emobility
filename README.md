@@ -19,8 +19,8 @@ The goal is to track the evolution of sustainable mobility milestones on each Eu
 3. [AFIR - Alternative Fuels Infrastructure Regulation](#afir---alternative-fuels-infrastructure-regulation)
 4. [Portuguese Law](#portuguese-legal-framework-for-electric-mobility)
 5. [National Access Points (NAP)](#national-access-points-nap)
-    1. [Norway - Nobil](#norway---nobil)
-    2. [Portugal -Mobi.e](#portugal---mobie)
+    1. [Norway - Nobil](#no---norway)
+    2. [Portugal -Mobi.e](#pt---portugal)
 6. [Possible barriers for eMobility in Portugal](#possible-barriers-for-emobility-in-portugal)
 7. [DATEX II Documentation](#datex-ii-documentation)
 
