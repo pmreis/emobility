@@ -385,3 +385,24 @@ select *
 from Chargers c
 where abs(c.Lat - 37.150528) < 0.03
     and abs(c.Lon - -8.364667) < 0.03
+
+with
+cs1 as (
+    select *
+    from Chargers
+),
+cs2 as (
+    select *
+    from Chargers
+)
+select
+    cs1.ChargerId as 'Id1', cs1.Lat || ',' || cs1.Lon 'geo1', cs1.Active
+    , cs2.ChargerId as 'Id2', cs2.Lat || ',' || cs2.Lon 'geo2', cs2.Active
+from cs1
+join cs2 on abs(cs1.Lat - cs2.Lat) < 0.0001
+    and abs(cs1.Lon - cs2.Lon) < 0.0001
+    and cs1.ChargerId <> cs2.ChargerId
+where
+    cs1.Active = 'Yay' and cs2.Active = 'Nay'
+    and substr(cs2.ChargerId, 5, 1) = '9'
+order by cs1.ChargerId;
