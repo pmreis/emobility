@@ -409,10 +409,12 @@ select
     cs1.ChargerId as 'Id1', cs1.Lat || ',' || cs1.Lon 'geo1', cs1.Active
     , cs2.ChargerId as 'Id2', cs2.Lat || ',' || cs2.Lon 'geo2', cs2.Active
 from cs1
-join cs2 on abs(cs1.Lat - cs2.Lat) < 0.0001
-    and abs(cs1.Lon - cs2.Lon) < 0.0001
+join cs2 on cs1.Lat = cs2.Lat and cs1.Lon = cs2.Lon
+    --cs2 on abs(cs1.Lat - cs2.Lat) < 0.0001
+    --and abs(cs1.Lon - cs2.Lon) < 0.0001
     and cs1.ChargerId <> cs2.ChargerId
-where
-    cs1.Active = 'Yay' and cs2.Active = 'Nay'
-    and substr(cs2.ChargerId, 5, 1) = '9'
-order by cs1.ChargerId;
+where 1=1
+    and cs1.Active = 'Yay' and cs2.Active = 'Nay'
+    and cast(substr(cs1.ChargerId, 5, 5) as integer) > cast(substr(cs2.ChargerId, 5, 5) as integer)
+    and cs2.ChargerId not like 'MOBI%'
+order by cs2.ChargerId;
