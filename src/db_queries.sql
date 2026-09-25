@@ -34,6 +34,16 @@ where PlugId in (
 )
 
 
+select c.ChargerId, count(p.PlugId) plugCount
+from Chargers c
+left join Plugs p on p.ChargerId = c.ChargerId
+where 1=1
+    and c.Active = 'Yay'
+group by c.ChargerId
+having plugCount = 0
+order by c.ChargerId;
+
+
 with cte as (
     select OperatorAbb, count(1) qnt
     from Chargers
