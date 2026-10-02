@@ -1,5 +1,5 @@
 OperatorAbb,OperatorName,Total Power (kW)
-GRG,Grupo Galp (GLP+GLG+MLT),214577
+GRG,Grupo Galp (GLP+GLG+MLT),214801
 EDP,EDP Comercial,155741
 HRZ,"Powerdot, S.A",154828
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",144150
@@ -21,6 +21,7 @@ REM,MOTA-ENGIL REMO CHARGING S.A,6100
 EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4338
 VIA,"Via Verde Transição Energética, S.A.",4106
 ECI,ECOINSIDE,3940
+EPK,Telpark,3560
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3223
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
 EVI,EVIO - Electrical Mobility,2376
@@ -29,7 +30,6 @@ KLS,"Kilometer Low Cost II Serviços, SA",2166
 EVC,"EVCE POWER, LDA. / MOBISMART",2032
 EVP,"EVpower, Charging Solutions Lda",1949
 FAC,FactorENERGIA,1936
-EPK,Telpark,1844
 LCG,"Loulé Concelho Global, EM",1835
 NRG,"NRG - Sistemas de Energia Renováveis, Lda.",1818
 EMA,"EMACOM - Telecomunicações da Madeira, Unipessoal, Lda",1422
