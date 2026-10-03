@@ -1,15 +1,15 @@
 OperatorAbb,OperatorName,Total Power (kW)
-GLP,Galp Power OPC,183817
-EDP,EDP Comercial,155741
+GLP,Galp Power OPC,183997
+EDP,EDP Comercial,156265
 HRZ,"Powerdot, S.A",154828
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",144150
-ATL,"Atlante Infra Portugal, S.A",67807
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",144550
+ATL,"Atlante Infra Portugal, S.A",65975
 TSL,Tesla,46400
 IOY,IONITY GmbH,39100
 TRK,WOWPLUG,35003
 REP,REPSOL PORTUGUESA LDA,28174
 HLX,"Helexia II Energy Services, Lda.",24857
-PRI,"Prio.E Mobility Solutions, Lda",22316
+PRI,"Prio.E Mobility Solutions, Lda",22512
 GLG,Galpgeste,21302
 MOT,Mota-Engil Renewing,19434
 CPS,Cepsa Portuguesa Petroleos,15650
@@ -18,16 +18,16 @@ DTE,"DTE, Instalacoes Especiais",9799
 MLT,Mobiletric,9682
 ZUN,"Grupo Easycharger, SL",9622
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",9102
-ENB,"Enable Mobility Solutions, S.A.",8690
+ENB,"Enable Mobility Solutions, S.A.",8810
 REM,MOTA-ENGIL REMO CHARGING S.A,6100
 EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4338
 VIA,"Via Verde Transição Energética, S.A.",4106
 ECI,ECOINSIDE,3940
-EPK,Telpark,3560
+EPK,Telpark,3692
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3223
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
 EVI,EVIO - Electrical Mobility,2376
-ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",2264
+ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",2214
 KLS,"Kilometer Low Cost II Serviços, SA",2166
 EVC,"EVCE POWER, LDA. / MOBISMART",2032
 EVP,"EVpower, Charging Solutions Lda",1949
