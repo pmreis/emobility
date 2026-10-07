@@ -469,20 +469,35 @@ def generate_output_csvs(conn):
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
 
-    # Output Chargers as CSV
+    # Output Active Chargers as CSV
     data = pd.read_sql_query('''
         select ChargerId,
             OperatorAbb,
             City,
             InsertedDate,
-            Active,
             Lat,
             Lon
         from Chargers
-        where Country = 'PT'
+        where Country = 'PT' and Active = 'Yay'
         order by ChargerId;
     ''', conn)
-    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers.csv')
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Active.csv')
+    data.to_csv(filepath, sep=",", index=None, mode="w")
+
+
+    # Output Inactive Chargers as CSV
+    data = pd.read_sql_query('''
+        select ChargerId,
+            OperatorAbb,
+            City,
+            InsertedDate,
+            Lat,
+            Lon
+        from Chargers
+        where Country = 'PT' and Active = 'Nay'
+        order by ChargerId;
+    ''', conn)
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Inactive.csv')
     data.to_csv(filepath, sep=",", index=None, mode="w")
 
 
