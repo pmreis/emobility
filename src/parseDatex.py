@@ -8,6 +8,12 @@ import gzip
 
 projRootPath = Path(__file__).resolve().parent.parent
 
+def noneToStrNull(s):
+    if s is None:
+        return "Null"
+    else:
+        return s
+
 # Connect to SQLite DB and return connection
 def connect_db(db_name):
     dbpath = osp.normpath(f'{projRootPath}/data/{db_name}')
@@ -48,8 +54,8 @@ def parse_datex(datexInMemory):
             site_id = site_id.split('-', 1)[1] # Splits by dash, only once and gets the 2nd array value of the split. The first index of the array is 0.
 
         # Charger Location
-        city = site.find('.//ns2:city/ns:values/ns:value[@lang="pt-pt"]', ns).text.strip()
-        country = site.find('.//ns2:countryCode', ns).text.strip()
+        city = noneToStrNull(site.find('.//ns2:city/ns:values/ns:value[@lang="pt-pt"]', ns).text).strip()
+        country = noneToStrNull(site.find('.//ns2:countryCode', ns).text).strip()
         insertedDate = dt.today().strftime('%Y-%m-%d')
 
         latitude = float(site.find('.//ns3:latitude', ns).text.strip())
@@ -68,15 +74,28 @@ def parse_datex(datexInMemory):
                 operator_abb = refillId.split('*')[1][:3]
 
         operator_elem = site.find('.//ns4:operator', ns)
-        operator_other_abb = operator_elem.find('.//ns4:nationalOrganisationNumber', ns).text.strip()
-        operator_name = operator_elem.find('.//ns4:name/ns:values/ns:value[@lang="pt-pt"]', ns).text.strip()
-        operator_tin = (
-            vat.text.replace(' ', '').strip()
-            if (vat := operator_elem.find('.//ns4:vatIdentificationNumber', ns)) is not None
-            else ''
-        )
-        operator_phone = operator_elem.find('.//ns4:telephoneNumber', ns).text.replace(' ', '').strip()
+        if operator_elem is not None:
+            operator_other_abb = operator_elem.find('.//ns4:nationalOrganisationNumber', ns).text.strip()
+            operator_name = operator_elem.find('.//ns4:name/ns:values/ns:value[@lang="pt-pt"]', ns).text.strip()
+            operator_tin = (
+                vat.text.replace(' ', '').strip()
+                if (vat := operator_elem.find('.//ns4:vatIdentificationNumber', ns)) is not None
+                else ''
+            )
+            operator_phone = operator_elem.find('.//ns4:telephoneNumber', ns).text.replace(' ', '').strip()
 
+            operator = {
+                'OperatorAbb': operator_abb,
+                'OperatorOtherAbb': operator_other_abb,
+                'OperatorName': operator_name,
+                'CountryIso': country,
+                'Tin': operator_tin,
+                'Phone': operator_phone
+            }
+
+            data['operators'].append(operator)
+
+        # Charger Block
         charger = {
             'ChargerId': site_id,
             'Country': country,
@@ -89,19 +108,10 @@ def parse_datex(datexInMemory):
 
         charger['Data'] = f'{charger['ChargerId']}{charger['Country']}{charger['OperatorAbb']}{charger['City']}{charger['Lat']}{charger['Lon']}'
 
-        operator = {
-            'OperatorAbb': operator_abb,
-            'OperatorOtherAbb': operator_other_abb,
-            'OperatorName': operator_name,
-            'CountryIso': country,
-            'Tin': operator_tin,
-            'Phone': operator_phone
-        }
-
-        data['operators'].append(operator)
         data['chargers'].append(charger)
 
-        # Parse Charger Plugs data
+
+        # Connectors / Plugs
         for refill_point in site.findall('.//ns6:refillPoint', ns):
             plug_element = refill_point.find('.//ns4:externalIdentifier', ns)
             if plug_element is not None:
