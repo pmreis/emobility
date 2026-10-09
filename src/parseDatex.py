@@ -45,7 +45,8 @@ def parse_datex(datexInMemory):
     data = {
         'operators': [],
         'chargers': [],
-        'plugs': []
+        'plugs': [],
+        'errors': []
     }
 
     for site in root.findall('.//ns6:energyInfrastructureSite', ns):
@@ -55,7 +56,13 @@ def parse_datex(datexInMemory):
 
         # Charger Location
         city = noneToStrNull(site.find('.//ns2:city/ns:values/ns:value[@lang="pt-pt"]', ns).text).strip()
+        if city == "Null":
+            data['errors'].append(f'Charger {site_id} has no City')
+
         country = noneToStrNull(site.find('.//ns2:countryCode', ns).text).strip()
+        if city == "Null":
+            data['errors'].append(f'Charger {site_id} has no Country')
+
         insertedDate = dt.today().strftime('%Y-%m-%d')
 
         latitude = float(site.find('.//ns3:latitude', ns).text.strip())
@@ -94,6 +101,8 @@ def parse_datex(datexInMemory):
             }
 
             data['operators'].append(operator)
+        else:
+            data['errors'].append(f'Charger {site_id} has no OPC')
 
         # Charger Block
         charger = {
@@ -126,6 +135,7 @@ def parse_datex(datexInMemory):
 
             connector = refill_point.find('.//ns6:connector', ns)
             if connector is None:
+                data['errors'].append(f'Charger {site_id} has no Connector on RefillPoint {refill_point.get('id')}')
                 continue
 
             plug_design = connector.find('.//ns6:connectorType', ns).text
@@ -147,6 +157,12 @@ def parse_datex(datexInMemory):
     data['operators'].sort(key=lambda r: r['OperatorAbb'])
     data['chargers'].sort(key=lambda r: r['ChargerId'])
     data['plugs'].sort(key=lambda r: (r['ChargerId'], r['PlugId']))
+
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Errors.csv')
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write("Error, ErrorDate\n")
+        for line in data['errors']:
+            f.write(line + "," + insertedDate + "\n")
 
     return data
 
@@ -187,7 +203,7 @@ def tmp_chargers_deltas(conn, data):
         ''', (charger['ChargerId'],))
 
     # Output Removed Delta
-    data = pd.read_sql_query('''
+    query = pd.read_sql_query('''
         select c.ChargerId,
             c.OperatorAbb,
             o.OperatorName,
@@ -204,7 +220,7 @@ def tmp_chargers_deltas(conn, data):
             );
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Today_Removed.csv')
-    data.to_csv(filepath, sep=",", index=None, mode="w")
+    query.to_csv(filepath, sep=",", index=None, mode="w")
 
     cursor.execute('''
         update Chargers
@@ -216,7 +232,7 @@ def tmp_chargers_deltas(conn, data):
     ''')
 
     # Output Readded Delta
-    data = pd.read_sql_query('''
+    query = pd.read_sql_query('''
         select c.ChargerId,
             c.OperatorAbb,
             o.OperatorName,
@@ -233,7 +249,7 @@ def tmp_chargers_deltas(conn, data):
             );
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Today_Readded.csv')
-    data.to_csv(filepath, sep=",", index=None, mode="w")
+    query.to_csv(filepath, sep=",", index=None, mode="w")
 
     cursor.execute('''
         update Chargers
@@ -319,7 +335,7 @@ def insert_plugs(conn, data):
 # Generate CSVs
 def generate_output_csvs(conn):
 
-    data = pd.read_sql_query('''
+    query = pd.read_sql_query('''
         with
         countAllChargers as (
             select count(1) total
@@ -352,10 +368,10 @@ def generate_output_csvs(conn):
         from cte2;
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Market_Share_Analysis.csv')
-    data.to_csv(filepath, sep=",", index=None, mode="w")
+    query.to_csv(filepath, sep=",", index=None, mode="w")
 
     # Output Market Share data aggregating Galp OPCs
-    data = pd.read_sql_query('''
+    query = pd.read_sql_query('''
         with
         countAllChargers as (
             select count(1) total
@@ -407,11 +423,11 @@ def generate_output_csvs(conn):
         from cte2;
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Market_ShareAgg_Analysis.csv')
-    data.to_csv(filepath, sep=",", index=None, mode="w")
+    query.to_csv(filepath, sep=",", index=None, mode="w")
 
 
     # Output installed power per Operator as CSV
-    data = pd.read_sql_query('''
+    query = pd.read_sql_query('''
         select o.OperatorAbb, o.OperatorName, sum(p.MaxPower)/1000 'Total Power (kW)'
         from Plugs p
         join Chargers c on c.ChargerId = p.ChargerId
@@ -422,11 +438,11 @@ def generate_output_csvs(conn):
         order by sum(p.MaxPower) desc;
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Market_PowerShare_Analysis.csv')
-    data.to_csv(filepath, sep=",", index=None, mode="w")
+    query.to_csv(filepath, sep=",", index=None, mode="w")
 
 
     # Output installed power per Operator aggregating Galp OPCs as CSV
-    data = pd.read_sql_query('''
+    query = pd.read_sql_query('''
         with
         galpGroupData as (
             select 'GRG' OperatorAbb, 'Grupo Galp (GLP+GLG+MLT)' OperatorName, sum(p.MaxPower)/1000 total
@@ -455,22 +471,22 @@ def generate_output_csvs(conn):
         order by total desc;
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Market_PowerShareAgg_Analysis.csv')
-    data.to_csv(filepath, sep=",", index=None, mode="w")
+    query.to_csv(filepath, sep=",", index=None, mode="w")
 
 
     # Output Operators as CSV
-    data = pd.read_sql_query('''
+    query = pd.read_sql_query('''
         select *
         from Operators
         where CountryIso = 'PT'
         order by OperatorAbb;
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Operators.csv')
-    data.to_csv(filepath, sep=",", index=None, mode="w")
+    query.to_csv(filepath, sep=",", index=None, mode="w")
 
 
     # Output Active Chargers as CSV
-    data = pd.read_sql_query('''
+    query = pd.read_sql_query('''
         select ChargerId,
             OperatorAbb,
             City,
@@ -482,11 +498,11 @@ def generate_output_csvs(conn):
         order by ChargerId;
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Active.csv')
-    data.to_csv(filepath, sep=",", index=None, mode="w")
+    query.to_csv(filepath, sep=",", index=None, mode="w")
 
 
     # Output Inactive Chargers as CSV
-    data = pd.read_sql_query('''
+    query = pd.read_sql_query('''
         select ChargerId,
             OperatorAbb,
             City,
@@ -498,11 +514,11 @@ def generate_output_csvs(conn):
         order by ChargerId;
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Inactive.csv')
-    data.to_csv(filepath, sep=",", index=None, mode="w")
+    query.to_csv(filepath, sep=",", index=None, mode="w")
 
 
     # Output Today's New Chargers as CSV
-    data = pd.read_sql_query('''
+    query = pd.read_sql_query('''
         select c.ChargerId,
             c.OperatorAbb,
             o.OperatorName,
@@ -516,11 +532,11 @@ def generate_output_csvs(conn):
         order by ChargerId;
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Today_New.csv')
-    data.to_csv(filepath, sep=",", index=None, mode="w")
+    query.to_csv(filepath, sep=",", index=None, mode="w")
 
 
     # Output Chargers per Municipality
-    data = pd.read_sql_query('''
+    query = pd.read_sql_query('''
         select City, count(1) Qty
         from Chargers
         where Country = 'PT'
@@ -530,11 +546,11 @@ def generate_output_csvs(conn):
     ''', conn)
 
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Per_Municipality.csv')
-    data.to_csv(filepath, sep=",", index=None, mode="w")
+    query.to_csv(filepath, sep=",", index=None, mode="w")
 
 
     # Output Chargers per District
-    data = pd.read_sql_query('''
+    query = pd.read_sql_query('''
         select d.Distrito, count(1) Qty
         from Chargers c
         join Concelhos cc on cc.Alias = c.City
@@ -545,11 +561,11 @@ def generate_output_csvs(conn):
         order by Qty desc, d.Distrito asc;
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Chargers_Per_District.csv')
-    data.to_csv(filepath, sep=",", index=None, mode="w")
+    query.to_csv(filepath, sep=",", index=None, mode="w")
 
 
     # Output Plugs Pt1
-    data = pd.read_sql_query('''
+    query = pd.read_sql_query('''
         select p.ChargerId, p.PlugId, p.MaxPower
         from Plugs p
         where p.PlugDesign != 'chademo'
@@ -557,11 +573,11 @@ def generate_output_csvs(conn):
         order by p.ChargerId, p.PlugId
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Plugs_NonChademo_1.csv')
-    data.to_csv(filepath, sep=",", index=None, mode="w")
+    query.to_csv(filepath, sep=",", index=None, mode="w")
 
 
     # Output Plugs Pt2
-    data = pd.read_sql_query('''
+    query = pd.read_sql_query('''
         select p.ChargerId, p.PlugId, p.MaxPower
         from Plugs p
         where p.PlugDesign != 'chademo'
@@ -570,7 +586,7 @@ def generate_output_csvs(conn):
 
     ''', conn)
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Plugs_NonChademo_2.csv')
-    data.to_csv(filepath, sep=",", index=None, mode="w")
+    query.to_csv(filepath, sep=",", index=None, mode="w")
 
 def main():
     db_name = 'data.db'
