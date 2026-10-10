@@ -1,13 +1,7 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ABF-00206,EDP,EDP Comercial,Albufeira,37.08779,-8.315728
-AMD-00123,ATL,"Atlante Infra Portugal, S.A",Amadora,38.75029,-9.22949
-CHV-00035,HLX,"Helexia II Energy Services, Lda.",Chaves,41.771748,-7.4730325
-CLD-00049,HLX,"Helexia II Energy Services, Lda.",Caldas da Rainha,39.424767,-9.160629
-GDL-00075,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Grândola,38.282017,-8.705861
-GDL-00076,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Grândola,38.282017,-8.705861
-GDL-00077,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Grândola,38.282017,-8.705861
-OAZ-00026,HLX,"Helexia II Energy Services, Lda.",Oliveira de Azeméis,40.83687,-8.476421
-PTL-00040,HLX,"Helexia II Energy Services, Lda.",Ponte de Lima,41.78327,-8.579732
-SJM-00056,EDP,EDP Comercial,São João da Madeira,40.892918,-8.493312
-SJM-00057,EDP,EDP Comercial,São João da Madeira,40.892918,-8.493312
-SPS-00015,HLX,"Helexia II Energy Services, Lda.",São Pedro do Sul,40.738766,-8.08671
+CVL-00063,EDP,EDP Comercial,Covilhã,40.2664,-7.504305
+CVL-00064,EDP,EDP Comercial,Covilhã,40.26709,-7.504324
+PTM-00086,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Portimão,37.156483,-8.553781
+STB-00130,HRZ,"Powerdot, S.A",Setúbal,38.540287,-8.86986
+TMR-00051,ATL,"Atlante Infra Portugal, S.A",Tomar,39.611523,-8.395394
+TMR-00052,ATL,"Atlante Infra Portugal, S.A",Tomar,39.611523,-8.395394
