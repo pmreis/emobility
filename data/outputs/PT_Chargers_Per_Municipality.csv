@@ -2,13 +2,13 @@ City,Qty
 Lisboa,1029
 Cascais,485
 Porto,236
-Oeiras,192
+Oeiras,195
 Vila Nova de Gaia,186
 Loulé,172
 Sintra,168
 Matosinhos,155
 Braga,139
-Loures,134
+Loures,139
 Barreiro,131
 Guimarães,124
 Leiria,124
@@ -30,10 +30,10 @@ Maia,71
 Vila do Conde,69
 Grândola,65
 Viana do Castelo,64
+Funchal,63
 Évora,63
 Beja,62
 Aveiro,61
-Funchal,59
 Null,59
 Ovar,58
 Santarém,58
@@ -57,10 +57,11 @@ Paredes,40
 Vila Real,40
 Odivelas,38
 Santo Tirso,38
+Esposende,37
 Nazaré,36
 Póvoa de Varzim,36
-Esposende,35
 Lagos,35
+Barcelos,34
 Pombal,34
 Águeda,34
 Alcochete,33
@@ -69,7 +70,6 @@ Sesimbra,33
 Torres Novas,33
 Silves,32
 Ílhavo,32
-Barcelos,31
 Cantanhede,31
 Chaves,31
 Felgueiras,30
@@ -97,6 +97,7 @@ Alenquer,20
 Oliveira de Azeméis,20
 Estremoz,19
 Santa Cruz,19
+Tondela,19
 Trofa,19
 Vila Verde,19
 Óbidos,19
@@ -106,7 +107,6 @@ Oliveira do Bairro,18
 Oliveira do Hospital,18
 Arruda dos Vinhos,17
 Seia,17
-Tondela,17
 Machico,16
 Mangualde,16
 Portalegre,16
@@ -131,12 +131,12 @@ Vila Real de Santo António,13
 Vila Viçosa,13
 Vila do Bispo,13
 Almeida,12
+Bombarral,12
 Condeixa-a-Nova,12
 Elvas,12
 Lousã,12
 São Pedro do Sul,12
 Batalha,11
-Bombarral,11
 Espinho,11
 Melgaço,11
 Mirandela,11
@@ -152,6 +152,7 @@ Nelas,10
 Odemira,10
 Reguengos de Monsaraz,10
 Tábua,10
+Valença,10
 Vila Pouca de Aguiar,10
 Entroncamento,9
 Miranda do Douro,9
@@ -174,7 +175,6 @@ Serpa,8
 Sátão,8
 São Vicente,8
 Vagos,8
-Valença,8
 Vizela,8
 Baião,7
 Chamusca,7
@@ -247,6 +247,7 @@ Alcoutim,3
 Alges,3
 Almancil - Loulé,3
 Alpiarça,3
+Alverca,3
 Avintes,3
 Avis,3
 Borba,3
@@ -264,6 +265,7 @@ Góis,3
 Ilhavo,3
 Massamá,3
 Mem Martins,3
+Montelavar,3
 Mora,3
 Moura,3
 Mértola,3
@@ -288,18 +290,21 @@ Vimioso,3
 Vinhais,3
 Alfragide,2
 Alfândega da Fé,2
+Alhos Vedros,2
 Aroeira,2
 Boticas,2
 Bucelas,2
 Cacém,2
 Cadaval,2
 "Calheta, Azores",2
+Cancela,2
 Castanheira de Pêra,2
 Castro Daire,2
 Charneca de Caparica,2
 Constância,2
 Cuba,2
 Estoril,2
+Estreito,2
 Figueira de Castelo Rodrigo,2
 Freixo de Espada à Cinta,2
 Grijó,2
