@@ -1,35 +1,7 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-CNT-0278PL0001,CNT,"Modelo Continente Hipermercados, S.A.",Alhos Vedros,38.65522,-9.033358
-CNT-0278PR0002,CNT,"Modelo Continente Hipermercados, S.A.",Alhos Vedros,38.65522,-9.033358
-CNT-0281PL0001,CNT,"Modelo Continente Hipermercados, S.A.",Esposende,41.530605,-8.760682
-CNT-0281PR0002,CNT,"Modelo Continente Hipermercados, S.A.",Esposende,41.532604,-8.755419
-CNT-0289PL0001,CNT,"Modelo Continente Hipermercados, S.A.",Alverca,38.890903,-9.041636
-CNT-0289PR0002,CNT,"Modelo Continente Hipermercados, S.A.",Alverca,38.890903,-9.041636
-CNT-0289PR0003,CNT,"Modelo Continente Hipermercados, S.A.",Alverca,38.890903,-9.041636
-CNT-0375PL0001,CNT,"Modelo Continente Hipermercados, S.A.",Bombarral,39.263046,-9.152149
-CNT-0461PR0001,CNT,"Modelo Continente Hipermercados, S.A.",Loures,38.818535,-9.174046
-CNT-0461PR0002,CNT,"Modelo Continente Hipermercados, S.A.",Loures,38.818535,-9.174046
-CNT-0461PR0003,CNT,"Modelo Continente Hipermercados, S.A.",Loures,38.818535,-9.174046
-CNT-0461PR0005,CNT,"Modelo Continente Hipermercados, S.A.",Loures,38.81857,-9.173809
-CNT-0461PR0006,CNT,"Modelo Continente Hipermercados, S.A.",Loures,38.81857,-9.173809
-CNT-0842PL0001,CNT,"Modelo Continente Hipermercados, S.A.",Cancela,32.647938,-16.857866
-CNT-0842PR0002,CNT,"Modelo Continente Hipermercados, S.A.",Cancela,32.647938,-16.857866
-CNT-0845PL0001,CNT,"Modelo Continente Hipermercados, S.A.",Funchal,32.66031,-16.919516
-CNT-0845PR0002,CNT,"Modelo Continente Hipermercados, S.A.",Funchal,32.66031,-16.919516
-CNT-1057PL0001,CNT,"Modelo Continente Hipermercados, S.A.",Montelavar,38.864418,-9.326603
-CNT-1057PR0002,CNT,"Modelo Continente Hipermercados, S.A.",Montelavar,38.864414,-9.32659
-CNT-1057PR0003,CNT,"Modelo Continente Hipermercados, S.A.",Montelavar,38.86442,-9.326619
-CNT-1393PL0001,CNT,"Modelo Continente Hipermercados, S.A.",Barcelos,41.530056,-8.641595
-CNT-1393PR0002,CNT,"Modelo Continente Hipermercados, S.A.",Barcelos,41.530106,-8.641638
-CNT-1393PR0003,CNT,"Modelo Continente Hipermercados, S.A.",Barcelos,41.530106,-8.641638
-CNT-1493PL0001,CNT,"Modelo Continente Hipermercados, S.A.",Funchal,32.639492,-16.946856
-CNT-1493PR0003,CNT,"Modelo Continente Hipermercados, S.A.",Funchal,32.639492,-16.946856
-CNT-2087PL0001,CNT,"Modelo Continente Hipermercados, S.A.",Estreito,32.669834,-16.976645
-CNT-2087PR0002,CNT,"Modelo Continente Hipermercados, S.A.",Estreito,32.669834,-16.976645
-CNT-2403PL0001,CNT,"Modelo Continente Hipermercados, S.A.",Tondela,40.52595,-8.085546
-CNT-2403PR0002,CNT,"Modelo Continente Hipermercados, S.A.",Tondela,40.52595,-8.085546
-CNT-3212PL0001,CNT,"Modelo Continente Hipermercados, S.A.",Valença,42.024178,-8.646609
-CNT-3212PR0003,CNT,"Modelo Continente Hipermercados, S.A.",Valença,42.024178,-8.646609
-CNT-5767PL0001,CNT,"Modelo Continente Hipermercados, S.A.",Oeiras,38.696793,-9.325687
-CNT-5767PR0002,CNT,"Modelo Continente Hipermercados, S.A.",Oeiras,38.69684,-9.325313
-CNT-5767PR0003,CNT,"Modelo Continente Hipermercados, S.A.",Oeiras,38.696815,-9.325741
+ABF-00189,EDP,EDP Comercial,Albufeira,37.09433,-8.249543
+CNT-3191PR0002,CNT,"Modelo Continente Hipermercados, S.A.",Vila Real de Santo Antonio,37.19164,-7.429763
+LSB-01483,KLS,"Kilometer Low Cost II Serviços, SA",Lisboa,38.753696,-9.188788
+MTJ-00136,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Montijo,38.707146,-8.944461
+MTJ-00137,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Montijo,38.707146,-8.944461
+SEI-00019,ATL,"Atlante Infra Portugal, S.A",Seia,40.426964,-7.713494
