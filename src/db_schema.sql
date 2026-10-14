@@ -46,3 +46,10 @@ create table Concelhos (
     Alias varchar(50) null,
     foreign key(Distrito) references Distritos(Id)
 );
+
+create table ParseErrors (
+    ChargerId varchar(36) not null,
+    Error varchar(250) not null,
+    LoggeddDate date not null,
+    primary key (ChargerId, Error)
+);

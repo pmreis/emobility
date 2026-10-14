@@ -14,6 +14,14 @@ def noneToStrNull(s):
     else:
         return s
 
+def logError(data, chargerId, error):
+    errorLog = {
+        'ChargerId': chargerId,
+        'Error': error,
+        'LoggeddDate': dt.today().strftime('%Y-%m-%d')
+    }
+    data['errors'].append(errorLog)
+
 # Connect to SQLite DB and return connection
 def connect_db(db_name):
     dbpath = osp.normpath(f'{projRootPath}/data/{db_name}')
@@ -49,6 +57,8 @@ def parse_datex(datexInMemory):
         'errors': []
     }
 
+    insertedDate = dt.today().strftime('%Y-%m-%d')
+
     for site in root.findall('.//ns6:energyInfrastructureSite', ns):
         site_id = site.get('id')
         if site_id.count('-') >= 2:
@@ -57,13 +67,13 @@ def parse_datex(datexInMemory):
         # Charger Location
         city = noneToStrNull(site.find('.//ns2:city/ns:values/ns:value[@lang="pt-pt"]', ns).text).strip()
         if city == "Null":
-            data['errors'].append(f'Charger {site_id} has no City')
+            logError(data, site_id, 'City is missing')
+            #data['errors'].append(f'Charger {site_id} has no City')
 
         country = noneToStrNull(site.find('.//ns2:countryCode', ns).text).strip()
         if city == "Null":
-            data['errors'].append(f'Charger {site_id} has no Country')
-
-        insertedDate = dt.today().strftime('%Y-%m-%d')
+            logError(data, site_id, 'Country is missing')
+            #data['errors'].append(f'Charger {site_id} has no Country')
 
         latitude = float(site.find('.//ns3:latitude', ns).text.strip())
         longitude = float(site.find('.//ns3:longitude', ns).text.strip())
@@ -102,7 +112,8 @@ def parse_datex(datexInMemory):
 
             data['operators'].append(operator)
         else:
-            data['errors'].append(f'Charger {site_id} has no OPC')
+            logError(data, site_id, 'OPC is missing')
+            #data['errors'].append(f'Charger {site_id} has no OPC')
 
         # Charger Block
         charger = {
@@ -135,7 +146,8 @@ def parse_datex(datexInMemory):
 
             connector = refill_point.find('.//ns6:connector', ns)
             if connector is None:
-                data['errors'].append(f'Charger {site_id} has no Connector on RefillPoint {refill_point.get('id')}')
+                logError(data, site_id, f'Connector is missing on RefillPoint {refill_point.get('id')}')
+                #data['errors'].append(f'Charger {site_id} has no Connector on RefillPoint {refill_point.get('id')}')
                 continue
 
             plug_design = connector.find('.//ns6:connectorType', ns).text
@@ -157,13 +169,13 @@ def parse_datex(datexInMemory):
     data['operators'].sort(key=lambda r: r['OperatorAbb'])
     data['chargers'].sort(key=lambda r: r['ChargerId'])
     data['plugs'].sort(key=lambda r: (r['ChargerId'], r['PlugId']))
+    data['errors'].sort(key=lambda r: (r['ChargerId'], r['Error']))
 
-    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Errors.csv')
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.write("Error, ErrorDate\n")
-        for line in data['errors']:
-            f.write(line + "," + insertedDate + "\n")
-
+    # filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Errors.csv')
+    # with open(filepath, "w", encoding="utf-8") as f:
+    #     f.write("Error, ErrorDate\n")
+    #     for line in data['errors']:
+    #         f.write(line + "," + insertedDate + "\n")
     return data
 
 
@@ -182,6 +194,21 @@ def insert_operators(conn, data):
             operator['CountryIso'],
             operator['Tin'],
             operator['Phone']
+        ))
+
+    conn.commit()
+
+def insert_errors(conn, data):
+    cursor = conn.cursor()
+
+    for error in data['errors']:
+        cursor.execute('''
+            insert or ignore into ParseErrors (ChargerId, Error, LoggeddDate)
+            values (?, ?, ?);
+        ''', (
+            error['ChargerId'],
+            error['Error'],
+            error['LoggeddDate']
         ))
 
     conn.commit()
@@ -588,6 +615,18 @@ def generate_output_csvs(conn):
     filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Plugs_NonChademo_2.csv')
     query.to_csv(filepath, sep=",", index=None, mode="w")
 
+
+    # Output Errors
+    query = pd.read_sql_query('''
+        select *
+        from ParseErrors
+        order by ChargerId, Error
+
+    ''', conn)
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Errors.csv')
+    query.to_csv(filepath, sep=",", index=None, mode="w")
+
+
 def main():
     db_name = 'data.db'
     xml_file = 'PT_NAP_Static.xml'
@@ -599,6 +638,7 @@ def main():
     insert_or_update_chargers(conn, data)
     tmp_chargers_deltas(conn, data)
     insert_plugs(conn, data)
+    insert_errors(conn, data)
     generate_output_csvs(conn)
 
     conn.execute("VACUUM")
