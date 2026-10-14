@@ -68,12 +68,10 @@ def parse_datex(datexInMemory):
         city = noneToStrNull(site.find('.//ns2:city/ns:values/ns:value[@lang="pt-pt"]', ns).text).strip()
         if city == "Null":
             logError(data, site_id, 'City is missing')
-            #data['errors'].append(f'Charger {site_id} has no City')
 
         country = noneToStrNull(site.find('.//ns2:countryCode', ns).text).strip()
         if city == "Null":
             logError(data, site_id, 'Country is missing')
-            #data['errors'].append(f'Charger {site_id} has no Country')
 
         latitude = float(site.find('.//ns3:latitude', ns).text.strip())
         longitude = float(site.find('.//ns3:longitude', ns).text.strip())
@@ -113,7 +111,6 @@ def parse_datex(datexInMemory):
             data['operators'].append(operator)
         else:
             logError(data, site_id, 'OPC is missing')
-            #data['errors'].append(f'Charger {site_id} has no OPC')
 
         # Charger Block
         charger = {
@@ -147,7 +144,6 @@ def parse_datex(datexInMemory):
             connector = refill_point.find('.//ns6:connector', ns)
             if connector is None:
                 logError(data, site_id, f'Connector is missing on RefillPoint {refill_point.get('id')}')
-                #data['errors'].append(f'Charger {site_id} has no Connector on RefillPoint {refill_point.get('id')}')
                 continue
 
             plug_design = connector.find('.//ns6:connectorType', ns).text
@@ -171,11 +167,6 @@ def parse_datex(datexInMemory):
     data['plugs'].sort(key=lambda r: (r['ChargerId'], r['PlugId']))
     data['errors'].sort(key=lambda r: (r['ChargerId'], r['Error']))
 
-    # filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Errors.csv')
-    # with open(filepath, "w", encoding="utf-8") as f:
-    #     f.write("Error, ErrorDate\n")
-    #     for line in data['errors']:
-    #         f.write(line + "," + insertedDate + "\n")
     return data
 
 
