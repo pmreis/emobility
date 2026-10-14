@@ -50,6 +50,6 @@ create table Concelhos (
 create table ParseErrors (
     ChargerId varchar(36) not null,
     Error varchar(250) not null,
-    LoggeddDate date not null,
+    LoggedDate date not null,
     primary key (ChargerId, Error)
 );

@@ -18,7 +18,7 @@ def logError(data, chargerId, error):
     errorLog = {
         'ChargerId': chargerId,
         'Error': error,
-        'LoggeddDate': dt.today().strftime('%Y-%m-%d')
+        'LoggedDate': dt.today().strftime('%Y-%m-%d')
     }
     data['errors'].append(errorLog)
 
@@ -194,12 +194,12 @@ def insert_errors(conn, data):
 
     for error in data['errors']:
         cursor.execute('''
-            insert or ignore into ParseErrors (ChargerId, Error, LoggeddDate)
+            insert or ignore into ParseErrors (ChargerId, Error, LoggedDate)
             values (?, ?, ?);
         ''', (
             error['ChargerId'],
             error['Error'],
-            error['LoggeddDate']
+            error['LoggedDate']
         ))
 
     conn.commit()
