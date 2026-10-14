@@ -1,7 +1,7 @@
 OperatorAbb,OperatorName,Total Power (kW)
-GRG,Grupo Galp (GLP+GLG+MLT),214937
-EDP,EDP Comercial,157954
-HRZ,"Powerdot, S.A",155040
+GRG,Grupo Galp (GLP+GLG+MLT),214508
+EDP,EDP Comercial,158126
+HRZ,"Powerdot, S.A",155090
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",146150
 CNT,"Modelo Continente Hipermercados, S.A.",70876
 ATL,"Atlante Infra Portugal, S.A",66825
@@ -11,23 +11,23 @@ TRK,WOWPLUG,35003
 REP,REPSOL PORTUGUESA LDA,28174
 HLX,"Helexia II Energy Services, Lda.",25684
 PRI,"Prio.E Mobility Solutions, Lda",22482
-MOT,Mota-Engil Renewing,19234
+MOT,Mota-Engil Renewing,19024
 CPS,Cepsa Portuguesa Petroleos,15650
 DTE,"DTE, Instalacoes Especiais",9799
 ZUN,"Grupo Easycharger, SL",9622
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",9430
 ENB,"Enable Mobility Solutions, S.A.",8810
-MAK,Maksu,8168
-EPK,Telpark,7976
+EPK,Telpark,8108
 REM,MOTA-ENGIL REMO CHARGING S.A,6100
 EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4338
 VIA,"Via Verde Transição Energética, S.A.",4106
 ECI,ECOINSIDE,4082
+MAK,Maksu,3762
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3223
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
 EVI,EVIO - Electrical Mobility,2365
 ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",2214
-KLS,"Kilometer Low Cost II Serviços, SA",2181
+KLS,"Kilometer Low Cost II Serviços, SA",2173
 EVC,"EVCE POWER, LDA. / MOBISMART",2032
 EVP,"EVpower, Charging Solutions Lda",1949
 FAC,FactorENERGIA,1936

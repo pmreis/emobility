@@ -1,7 +1,3 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ABF-00189,EDP,EDP Comercial,Albufeira,37.09433,-8.249543
-CNT-3191PR0002,CNT,"Modelo Continente Hipermercados, S.A.",Vila Real de Santo Antonio,37.19164,-7.429763
-LSB-01483,KLS,"Kilometer Low Cost II Serviços, SA",Lisboa,38.753696,-9.188788
-MTJ-00136,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Montijo,38.707146,-8.944461
-MTJ-00137,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Montijo,38.707146,-8.944461
-SEI-00019,ATL,"Atlante Infra Portugal, S.A",Seia,40.426964,-7.713494
+LSB-01484,EPK,Telpark,Lisboa,38.715626,-9.154681
+VNG-00257,MOT,Mota-Engil Renewing,Vila Nova de Gaia,41.069313,-8.576649
