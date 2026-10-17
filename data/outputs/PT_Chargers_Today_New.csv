@@ -1,9 +1,5 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-AMD-00125,EPK,Telpark,Amadora,38.758057,-9.234557
-CSC-00577,EPK,Telpark,Cascais,38.70081,-9.418897
-LSB-01489,EPK,Telpark,Lisboa,38.721153,-9.14052
-LSB-01491,EPK,Telpark,Lisboa,38.7596,-9.094374
-LSB-01492,EPK,Telpark,Lisboa,38.711246,-9.124532
-LSB-01493,EPK,Telpark,Lisboa,38.70722,-9.1463585
-LSB-01494,EPK,Telpark,Lisboa,38.706787,-9.1678915
-STR-00078,REP,REPSOL PORTUGUESA LDA,Santarém,39.24768,-8.693014
+AMT-00044,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Amarante,41.28354,-8.087088
+FLG-00037,HRZ,"Powerdot, S.A",Felgueiras,41.353954,-8.193953
+LSB-01453,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.71706,-9.165666
+STB-00127,HRZ,"Powerdot, S.A",Setúbal,38.537437,-8.85821
