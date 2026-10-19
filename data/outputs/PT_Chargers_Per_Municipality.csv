@@ -21,7 +21,7 @@ Montijo,103
 Moita,92
 Amadora,91
 Torres Vedras,84
-Santa Maria da Feira,81
+Santa Maria da Feira,82
 Setúbal,81
 Portimão,76
 Faro,74
@@ -36,9 +36,9 @@ Beja,62
 Aveiro,61
 Santarém,59
 Ovar,58
+Null,56
 Palmela,55
 Castelo Branco,54
-Null,54
 Covilhã,53
 Figueira da Foz,52
 Gondomar,52
@@ -46,15 +46,15 @@ Penafiel,52
 Guarda,51
 Mafra,50
 São João da Madeira,47
-Valongo,45
+Valongo,46
 Vila Nova de Famalicão,45
-Caldas da Rainha,42
+Caldas da Rainha,43
 Mealhada,42
 Olhão,42
 Tomar,42
+Vila Real,41
 Alcobaça,40
 Paredes,40
-Vila Real,40
 Odivelas,38
 Santo Tirso,38
 Esposende,37
@@ -84,11 +84,11 @@ Marinha Grande,26
 Albergaria-a-Velha,25
 Lousada,25
 Paços de Ferreira,25
+Bragança,24
 Caminha,24
 Anadia,23
 Azambuja,23
 Tavira,23
-Bragança,22
 Peniche,22
 Fafe,21
 Ponta Delgada,21
@@ -103,18 +103,18 @@ Vila Verde,19
 Óbidos,19
 Aljustrel,18
 Lourinhã,18
+Mangualde,18
 Oliveira do Bairro,18
 Oliveira do Hospital,18
+Portalegre,18
 Seia,18
 Arruda dos Vinhos,17
-Mangualde,17
 Machico,16
-Portalegre,16
+Marco de Canaveses,16
 Ribeira Grande,16
 Benavente,15
 Santiago do Cacém,15
 Alcanena,14
-Marco de Canaveses,14
 Montemor-o-Novo,14
 Peso da Régua,14
 Porto de Mós,14
@@ -157,6 +157,7 @@ Cabeceiras de Basto,9
 Entroncamento,9
 Miranda do Douro,9
 Moimenta da Beira,9
+Oliveira de Frades,9
 Proença-a-Nova,9
 Sertã,9
 Almeirim,8
@@ -166,7 +167,6 @@ Coruche,8
 Horta,8
 Mira,8
 Miranda do Corvo,8
-Oliveira de Frades,8
 Ourique,8
 Penacova,8
 Praia da Vitória,8
@@ -288,6 +288,7 @@ Vila Cova da Lixa,3
 Vila Nova de Cacela,3
 Vimioso,3
 Vinhais,3
+Alcacer do Sal,2
 Alfragide,2
 Alfândega da Fé,2
 Alhos Vedros,2
@@ -307,12 +308,14 @@ Estoril,2
 Estreito,2
 Figueira de Castelo Rodrigo,2
 Freixo de Espada à Cinta,2
+Gafanha da Nazaré,2
 Grijó,2
 Guia,2
 Lavra,2
 Magrelos,2
 Malveira,2
 Marvão,2
+Montemor-O-Velho,2
 Mozelos,2
 Murça,2
 Mêda,2
@@ -327,6 +330,7 @@ Pinhal Novo,2
 Pinhel,2
 Régua,2
 Sardoal,2
+São Bartolomeu Messines,2
 São Félix da Marinha,2
 Tabuaço,2
 Trancoso,2
@@ -335,7 +339,6 @@ Velas,2
 Vidigueira,2
 Vila de Rei,2
 Alandroal,1
-Alcacer do Sal,1
 Alcains,1
 Algueirão-Mem Martins,1
 Almancil,1
@@ -343,13 +346,13 @@ Arronches,1
 Barrancos,1
 Canas de Senhorim,1
 Carvalhos,1
+Cesar,1
 Colares,1
 Condeixa-A-Nova,1
 Corvo,1
 Delães,1
 Fornos de Algodres,1
 Fronteira,1
-Gafanha da Nazaré,1
 Gavião,1
 Lajes das Flores,1
 Lajes do Pico,1
@@ -371,7 +374,7 @@ Pousada de Saramagos,1
 Póvoa de Santa Iria,1
 Sabrosa,1
 Santa Cruz das Flores,1
-São Bartolomeu Messines,1
+Santa Mari a da Feira,1
 São Pedro da Cova,1
 São Roque do Pico,1
 Vila Nova de Poiares,1
