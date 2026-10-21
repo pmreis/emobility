@@ -1,8 +1,8 @@
 OperatorAbb,OperatorName,Total Power (kW)
 GLP,Galp Power OPC,183997
-EDP,EDP Comercial,158170
+EDP,EDP Comercial,158353
 HRZ,"Powerdot, S.A",156554
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",147450
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",148450
 CNT,"Modelo Continente Hipermercados, S.A.",73356
 ATL,"Atlante Infra Portugal, S.A",67385
 TSL,Tesla,46400
@@ -11,18 +11,18 @@ TRK,WOWPLUG,35003
 REP,REPSOL PORTUGUESA LDA,28317
 HLX,"Helexia II Energy Services, Lda.",25684
 PRI,"Prio.E Mobility Solutions, Lda",22482
+MOT,Mota-Engil Renewing,22464
 GLG,Galpgeste,20873
-MOT,Mota-Engil Renewing,19264
 CPS,Cepsa Portuguesa Petroleos,16250
-EPK,Telpark,10578
+EPK,Telpark,10710
 DTE,"DTE, Instalacoes Especiais",9799
 MLT,Mobiletric,9682
 ZUN,"Grupo Easycharger, SL",9622
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",9474
+VIA,"Via Verde Transição Energética, S.A.",9031
 ENB,"Enable Mobility Solutions, S.A.",8810
 REM,MOTA-ENGIL REMO CHARGING S.A,6100
 EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4382
-VIA,"Via Verde Transição Energética, S.A.",4106
 ECI,ECOINSIDE,4082
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3223
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
@@ -40,7 +40,7 @@ HEX,"HEXAGONAL OCEAN, LDA",1157
 PLG,"e-Plug, Lda",1154
 LOG,uCharge,1141
 VEI,Veimonte Lda,1122
-MAK,Maksu,1050
+MAK,Maksu,1110
 HGP,"High Green Power, Unipessoal Lda.",852
 LUZ,"LUSIADAENERGIA, S.A.",716
 CIR,"Circuitos Energy Solutions, Lda.",604

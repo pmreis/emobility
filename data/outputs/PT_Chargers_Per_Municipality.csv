@@ -1,5 +1,5 @@
 City,Qty
-Lisboa,862
+Lisboa,864
 Cascais,477
 Porto,236
 Oeiras,195
@@ -10,9 +10,9 @@ Matosinhos,155
 Braga,139
 Loures,139
 Barreiro,131
+Leiria,125
 Albufeira,124
 Guimarães,124
-Leiria,124
 Vila Franca de Xira,122
 Coimbra,115
 Almada,111
@@ -22,9 +22,9 @@ Moita,92
 Amadora,91
 Torres Vedras,84
 Santa Maria da Feira,82
+Faro,81
 Setúbal,81
 Portimão,76
-Faro,74
 Seixal,74
 Maia,71
 Vila do Conde,69
@@ -34,7 +34,7 @@ Funchal,63
 Évora,63
 Beja,62
 Aveiro,61
-Santarém,59
+Santarém,60
 Ovar,58
 Null,56
 Palmela,55
@@ -84,6 +84,7 @@ Marinha Grande,26
 Albergaria-a-Velha,25
 Lousada,25
 Paços de Ferreira,25
+Trofa,25
 Bragança,24
 Caminha,24
 Anadia,23
@@ -99,7 +100,6 @@ Estremoz,19
 Mangualde,19
 Santa Cruz,19
 Tondela,19
-Trofa,19
 Vila Verde,19
 Óbidos,19
 Aljustrel,18
@@ -162,6 +162,7 @@ Proença-a-Nova,9
 Sertã,9
 Almeirim,8
 Alter do Chão,8
+Carregal do Sal,8
 Celorico da Beira,8
 Coruche,8
 Horta,8
@@ -185,7 +186,6 @@ Vila Velha de Ródão,7
 Amares,6
 Arganil,6
 Belmonte,6
-Carregal do Sal,6
 Câmara de Lobos,6
 Golegã,6
 Murtosa,6
