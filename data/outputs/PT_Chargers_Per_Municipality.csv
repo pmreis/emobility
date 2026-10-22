@@ -1,10 +1,10 @@
 City,Qty
-Lisboa,864
+Lisboa,863
 Cascais,477
 Porto,236
 Oeiras,195
 Vila Nova de Gaia,187
-Loulé,172
+Loulé,173
 Sintra,168
 Matosinhos,155
 Braga,139
@@ -15,14 +15,14 @@ Albufeira,124
 Guimarães,124
 Vila Franca de Xira,122
 Coimbra,115
-Almada,111
+Almada,112
 Viseu,108
 Montijo,104
 Moita,92
 Amadora,91
-Torres Vedras,84
+Torres Vedras,85
+Faro,82
 Santa Maria da Feira,82
-Faro,81
 Setúbal,81
 Portimão,76
 Seixal,74
@@ -37,12 +37,12 @@ Aveiro,61
 Santarém,60
 Ovar,58
 Null,56
+Castelo Branco,55
 Palmela,55
-Castelo Branco,54
 Covilhã,53
-Figueira da Foz,52
 Gondomar,52
 Penafiel,52
+Figueira da Foz,51
 Guarda,51
 Mafra,50
 São João da Madeira,47
@@ -55,8 +55,8 @@ Tomar,42
 Vila Real,42
 Alcobaça,40
 Paredes,40
+Santo Tirso,40
 Odivelas,38
-Santo Tirso,38
 Esposende,37
 Nazaré,36
 Póvoa de Varzim,36
@@ -109,8 +109,8 @@ Oliveira do Hospital,18
 Portalegre,18
 Seia,18
 Arruda dos Vinhos,17
+Marco de Canaveses,17
 Machico,16
-Marco de Canaveses,16
 Ribeira Grande,16
 Benavente,15
 Santiago do Cacém,15
@@ -228,6 +228,7 @@ Monchique,4
 Mondim de Basto,4
 Montalegre,4
 Mortágua,4
+Moura,4
 Oleiros,4
 Ponte da Barca,4
 Porto Moniz,4
@@ -267,7 +268,6 @@ Massamá,3
 Mem Martins,3
 Montelavar,3
 Mora,3
-Moura,3
 Mértola,3
 Ourem,3
 Pedrógão Grande,3
@@ -312,7 +312,6 @@ Gafanha da Nazaré,2
 Grijó,2
 Guia,2
 Lavra,2
-Magrelos,2
 Malveira,2
 Marvão,2
 Montemor-O-Velho,2
@@ -357,6 +356,7 @@ Gavião,1
 Lajes das Flores,1
 Lajes do Pico,1
 Madalena,1
+Magrelos,1
 Marinhais,1
 Marrazes,1
 Massama,1
