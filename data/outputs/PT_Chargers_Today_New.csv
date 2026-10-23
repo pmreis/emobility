@@ -1,7 +1,3 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ALM-00113,MOT,Mota-Engil Renewing,Almada,38.683983,-9.150287
-CTB-00087,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Castelo Branco,39.831074,-7.495706
-FAR-00110,MOT,Mota-Engil Renewing,Faro,37.027733,-7.943616
-STS-00056,GLP,Galp Power OPC,Santo Tirso,41.342552,-8.478196
-STS-00059,GLP,Galp Power OPC,Santo Tirso,41.342552,-8.478196
-TVD-00081,MOT,Mota-Engil Renewing,Torres Vedras,39.11306,-9.36109
+CBR-00164,GLP,Galp Power OPC,Coimbra,40.251137,-8.44202
+LSB-01548,EPK,Telpark,Lisboa,38.723225,-9.152106

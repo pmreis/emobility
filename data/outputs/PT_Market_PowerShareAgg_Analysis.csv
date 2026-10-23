@@ -1,5 +1,5 @@
 OperatorAbb,OperatorName,Total Power (kW)
-GRG,Grupo Galp (GLP+GLG+MLT),214912
+GRG,Grupo Galp (GLP+GLG+MLT),215112
 EDP,EDP Comercial,158419
 HRZ,"Powerdot, S.A",156554
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",148450
@@ -13,7 +13,7 @@ HLX,"Helexia II Energy Services, Lda.",25684
 MOT,Mota-Engil Renewing,23604
 PRI,"Prio.E Mobility Solutions, Lda",22482
 CPS,Cepsa Portuguesa Petroleos,16250
-EPK,Telpark,10710
+EPK,Telpark,11000
 DTE,"DTE, Instalacoes Especiais",9799
 ZUN,"Grupo Easycharger, SL",9622
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",9474
@@ -39,7 +39,7 @@ PLG,"e-Plug, Lda",1154
 LOG,uCharge,1141
 VEI,Veimonte Lda,1122
 MAK,Maksu,1110
-HGP,"High Green Power, Unipessoal Lda.",852
+HGP,"High Green Power, Unipessoal Lda.",841
 LUZ,"LUSIADAENERGIA, S.A.",716
 CIR,"Circuitos Energy Solutions, Lda.",604
 ALF,Alfa Energia,586

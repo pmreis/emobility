@@ -1,10 +1,10 @@
 City,Qty
-Lisboa,863
+Lisboa,864
 Cascais,477
 Porto,236
 Oeiras,195
 Vila Nova de Gaia,187
-Loulé,173
+Loulé,176
 Sintra,168
 Matosinhos,155
 Braga,139
@@ -14,7 +14,7 @@ Leiria,125
 Albufeira,124
 Guimarães,124
 Vila Franca de Xira,122
-Coimbra,115
+Coimbra,116
 Almada,112
 Viseu,108
 Montijo,104
@@ -104,14 +104,15 @@ Vila Verde,19
 Óbidos,19
 Aljustrel,18
 Lourinhã,18
+Marco de Canaveses,18
 Oliveira do Bairro,18
 Oliveira do Hospital,18
 Portalegre,18
 Seia,18
 Arruda dos Vinhos,17
-Marco de Canaveses,17
 Machico,16
 Ribeira Grande,16
+Vila Real de Santo António,16
 Benavente,15
 Santiago do Cacém,15
 Alcanena,14
@@ -127,7 +128,6 @@ Porto Santo,13
 Rio Maior,13
 Sines,13
 Vendas Novas,13
-Vila Real de Santo António,13
 Vila Viçosa,13
 Vila do Bispo,13
 Almeida,12
@@ -246,7 +246,6 @@ Vila do Porto,4
 Aguiar da Beira,3
 Alcoutim,3
 Alges,3
-Almancil - Loulé,3
 Alpiarça,3
 Alverca,3
 Avintes,3
@@ -285,7 +284,6 @@ São Mamede de Infesta,3
 Vialonga,3
 Vieira do Minho,3
 Vila Cova da Lixa,3
-Vila Nova de Cacela,3
 Vimioso,3
 Vinhais,3
 Alcacer do Sal,2
@@ -356,7 +354,6 @@ Gavião,1
 Lajes das Flores,1
 Lajes do Pico,1
 Madalena,1
-Magrelos,1
 Marinhais,1
 Marrazes,1
 Massama,1
