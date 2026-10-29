@@ -1,6 +1,6 @@
 City,Qty
-Lisboa,864
-Cascais,477
+Lisboa,868
+Cascais,478
 Porto,236
 Oeiras,195
 Vila Nova de Gaia,187
@@ -15,7 +15,7 @@ Albufeira,124
 Guimarães,124
 Vila Franca de Xira,122
 Coimbra,116
-Almada,112
+Almada,114
 Viseu,112
 Montijo,104
 Amadora,91
@@ -26,13 +26,13 @@ Santa Maria da Feira,82
 Setúbal,81
 Portimão,76
 Seixal,74
-Maia,71
+Maia,72
 Vila do Conde,69
+Beja,65
 Grândola,65
 Viana do Castelo,64
 Funchal,63
 Évora,63
-Beja,62
 Aveiro,61
 Santarém,60
 Ovar,58
@@ -50,17 +50,17 @@ Valongo,46
 Vila Nova de Famalicão,45
 Caldas da Rainha,44
 Mealhada,42
-Olhão,42
 Tomar,42
 Vila Real,42
 Alcobaça,40
+Olhão,40
 Paredes,40
 Odivelas,38
 Santo Tirso,38
 Esposende,37
+Lagos,36
 Nazaré,36
 Póvoa de Varzim,36
-Lagos,35
 Barcelos,34
 Pombal,34
 Torres Novas,34
@@ -119,13 +119,13 @@ Alcanena,14
 Montemor-o-Novo,14
 Peso da Régua,14
 Porto de Mós,14
+Rio Maior,14
 Salvaterra de Magos,14
 Vale de Cambra,14
 Angra do Heroísmo,13
 Arcos de Valdevez,13
 Castro Marim,13
 Porto Santo,13
-Rio Maior,13
 Sines,13
 São Pedro do Sul,13
 Vendas Novas,13
@@ -209,6 +209,7 @@ Celorico de Basto,5
 Ferreira do Zêzere,5
 "Lagoa, Azores",5
 Macedo de Cavaleiros,5
+Montalegre,5
 São João da Pesqueira,5
 Tarouca,5
 Valpaços,5
@@ -226,7 +227,6 @@ Leça da Palmeira,4
 Mogadouro,4
 Monchique,4
 Mondim de Basto,4
-Montalegre,4
 Mortágua,4
 Moura,4
 Oleiros,4
