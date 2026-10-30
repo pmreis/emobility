@@ -1,6 +1,6 @@
 OperatorAbb,OperatorName,Total Power (kW)
-GLP,Galp Power OPC,184937
-EDP,EDP Comercial,158507
+GLP,Galp Power OPC,185385
+EDP,EDP Comercial,159039
 HRZ,"Powerdot, S.A",157074
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",150360
 CNT,"Modelo Continente Hipermercados, S.A.",72878
@@ -26,8 +26,8 @@ EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.
 ECI,ECOINSIDE,4082
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3223
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
+ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",2386
 EVI,EVIO - Electrical Mobility,2365
-ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",2214
 KLS,"Kilometer Low Cost II Serviços, SA",2173
 EVC,"EVCE POWER, LDA. / MOBISMART",2040
 EVP,"EVpower, Charging Solutions Lda",1949
