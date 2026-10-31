@@ -1,4 +1,8 @@
 ChargerId,Error,LoggedDate
+CNT-00010,Connector is missing on RefillPoint CNT-00010-03,2026-10-31
+CNT-00011,Connector is missing on RefillPoint CNT-00011-01,2026-10-31
+CNT-00011,Connector is missing on RefillPoint CNT-00011-02,2026-10-31
+CNT-00011,Connector is missing on RefillPoint CNT-00011-03,2026-10-31
 CNT-0001PL0001,OPC is missing,2026-10-14
 CNT-0001PL0002,OPC is missing,2026-10-14
 CNT-0001PL0003,OPC is missing,2026-10-14
@@ -216,6 +220,15 @@ CNT-ON03PL0025,City is missing,2026-10-14
 CNT-ON03PL0025,Country is missing,2026-10-14
 CNT-ON03PR0027,City is missing,2026-10-14
 CNT-ON03PR0027,Country is missing,2026-10-14
+ETR-00011,Connector is missing on RefillPoint ETR-00011-01,2026-10-31
+ETR-00011,Connector is missing on RefillPoint ETR-00011-02,2026-10-31
+ETR-00011,Connector is missing on RefillPoint ETR-00011-03,2026-10-31
+ETR-00018,Connector is missing on RefillPoint ETR-00018-01,2026-10-31
+ETR-00018,Connector is missing on RefillPoint ETR-00018-02,2026-10-31
+ETR-00019,Connector is missing on RefillPoint ETR-00019-01,2026-10-31
+ETR-00019,Connector is missing on RefillPoint ETR-00019-02,2026-10-31
+ETR-00020,Connector is missing on RefillPoint ETR-00020-01,2026-10-31
+ETR-00020,Connector is missing on RefillPoint ETR-00020-02,2026-10-31
 LSB-01117,Connector is missing on RefillPoint PT-EDP-ELSB-01117-2,2026-10-14
 MOBI-BRG-00047,Connector is missing on RefillPoint MOBI-BRG-00047-01,2026-10-14
 MOBI-BRG-00047,Connector is missing on RefillPoint MOBI-BRG-00047-02,2026-10-14
@@ -224,3 +237,7 @@ OVR-00035,Connector is missing on RefillPoint 65,2026-10-14
 PLM-00059,Connector is missing on RefillPoint PT-EDP-EPLM-00059-1,2026-10-14
 PLM-00059,Connector is missing on RefillPoint PT-EDP-EPLM-00059-2,2026-10-14
 PLM-00059,Connector is missing on RefillPoint PT-EDP-EPLM-00059-3,2026-10-14
+STR-00022,Connector is missing on RefillPoint STR-00022-01,2026-10-31
+VNG-00072,Connector is missing on RefillPoint VNG-00072-01,2026-10-31
+VNG-00072,Connector is missing on RefillPoint VNG-00072-02,2026-10-31
+VNG-00072,Connector is missing on RefillPoint VNG-00072-03,2026-10-31
