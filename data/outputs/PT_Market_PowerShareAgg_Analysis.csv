@@ -1,14 +1,14 @@
 OperatorAbb,OperatorName,Total Power (kW)
-GRG,Grupo Galp (GLP+GLG+MLT),216132
+GRG,Grupo Galp (GLP+GLG+MLT),215860
 EDP,EDP Comercial,157865
-HRZ,"Powerdot, S.A",157104
+HRZ,"Powerdot, S.A",157674
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",150360
-CNT,"Modelo Continente Hipermercados, S.A.",72790
-ATL,"Atlante Infra Portugal, S.A",67385
+CNT,"Modelo Continente Hipermercados, S.A.",73290
+ATL,"Atlante Infra Portugal, S.A",67395
 TSL,Tesla,46400
 IOY,IONITY GmbH,39100
 TRK,WOWPLUG,35355
-REP,REPSOL PORTUGUESA LDA,28147
+REP,REPSOL PORTUGUESA LDA,28137
 HLX,"Helexia II Energy Services, Lda.",26228
 MOT,Mota-Engil Renewing,25148
 PRI,"Prio.E Mobility Solutions, Lda",22782
@@ -24,8 +24,8 @@ EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.
 ECI,ECOINSIDE,4082
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3223
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
-ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",2386
 EVI,EVIO - Electrical Mobility,2365
+ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",2336
 KLS,"Kilometer Low Cost II Serviços, SA",2173
 EVC,"EVCE POWER, LDA. / MOBISMART",2040
 EVP,"EVpower, Charging Solutions Lda",1949
