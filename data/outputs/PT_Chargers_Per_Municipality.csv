@@ -9,8 +9,8 @@ Sintra,168
 Matosinhos,152
 Loures,142
 Braga,139
-Barreiro,131
-Leiria,127
+Barreiro,132
+Leiria,128
 Albufeira,124
 Guimarães,124
 Vila Franca de Xira,122
@@ -24,7 +24,7 @@ Torres Vedras,87
 Faro,82
 Santa Maria da Feira,82
 Setúbal,81
-Portimão,76
+Portimão,77
 Seixal,74
 Maia,72
 Vila do Conde,69
@@ -35,11 +35,11 @@ Viana do Castelo,64
 Aveiro,62
 Funchal,61
 Santarém,60
-Ovar,58
+Ovar,59
 Palmela,57
 Null,56
 Castelo Branco,55
-Covilhã,53
+Covilhã,54
 Gondomar,52
 Mafra,52
 Figueira da Foz,51
@@ -63,11 +63,11 @@ Nazaré,36
 Póvoa de Varzim,36
 Barcelos,34
 Pombal,34
+Sesimbra,34
 Torres Novas,34
 Águeda,34
 Alcochete,33
 Ourém,33
-Sesimbra,33
 Silves,32
 Cantanhede,31
 Chaves,31
@@ -99,7 +99,6 @@ Oliveira de Azeméis,20
 Estremoz,19
 Mangualde,19
 Santa Cruz,19
-Tondela,19
 Vila Verde,19
 Óbidos,19
 Aljustrel,18
@@ -109,6 +108,7 @@ Oliveira do Bairro,18
 Oliveira do Hospital,18
 Portalegre,18
 Seia,18
+Tondela,18
 Arruda dos Vinhos,17
 Vila Real de Santo António,17
 Machico,16
