@@ -1,2 +1,8 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-PLM-00086,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Palmela,38.57697,-9.023194
+MTJ-00006,MOT,Mota-Engil Renewing,Montijo,38.695812,-8.9426775
+MTJ-00007,MOT,Mota-Engil Renewing,Montijo,38.695824,-8.942662
+LSB-01461,KLS,"Kilometer Low Cost II Serviços, SA",Lisboa,38.753696,-9.188788
+CNT-0004PL0001,CNT,"Modelo Continente Hipermercados, S.A.",Vila Nova de Gaia,41.118385,-8.620547
+CNT-0004PL0003,CNT,"Modelo Continente Hipermercados, S.A.",Vila Nova de Gaia,41.118385,-8.620547
+LSB-01483,KLS,"Kilometer Low Cost II Serviços, SA",Lisboa,38.753696,-9.188788
+LSB-01555,KLS,"Kilometer Low Cost II Serviços, SA",Lisboa,38.753696,-9.188788
