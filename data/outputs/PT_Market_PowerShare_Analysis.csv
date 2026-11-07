@@ -1,7 +1,7 @@
 OperatorAbb,OperatorName,Total Power (kW)
 GLP,Galp Power OPC,185517
-EDP,EDP Comercial,157955
-HRZ,"Powerdot, S.A",157373
+EDP,EDP Comercial,157885
+HRZ,"Powerdot, S.A",157473
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",151960
 CNT,"Modelo Continente Hipermercados, S.A.",73202
 ATL,"Atlante Infra Portugal, S.A",67435
@@ -14,7 +14,7 @@ MOT,Mota-Engil Renewing,25060
 PRI,"Prio.E Mobility Solutions, Lda",22782
 CPS,Cepsa Portuguesa Petroleos,21250
 GLG,Galpgeste,20661
-EPK,Telpark,12792
+EPK,Telpark,12858
 DTE,"DTE, Instalacoes Especiais",9799
 MLT,Mobiletric,9682
 ZUN,"Grupo Easycharger, SL",9622
@@ -29,7 +29,7 @@ SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
 EVI,EVIO - Electrical Mobility,2365
 ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",2336
 KLS,"Kilometer Low Cost II Serviços, SA",2144
-EVC,"EVCE POWER, LDA. / MOBISMART",2040
+EVC,"EVCE POWER, LDA. / MOBISMART",2128
 EVP,"EVpower, Charging Solutions Lda",1949
 FAC,FactorENERGIA,1936
 LCG,"Loulé Concelho Global, EM",1835
