@@ -175,7 +175,7 @@ where p.ChargerId is null;
 
 with recursive
     dates(InsertedDate) as (
-        values(date('now', '-30 days'))
+        values(date('now', '-29 days'))
         union all
         select date(InsertedDate, '+1 day')
         from dates
@@ -188,7 +188,7 @@ with recursive
     chargersCount as (
         select c.InsertedDate, Count(c.ChargerId) as Qnt
         from Chargers c
-        where c.InsertedDate >= DATETIME('now', '-30 days')
+        where c.InsertedDate >= date('now', '-29 days')
         group by c.InsertedDate
     ),
     dataUnion as (
