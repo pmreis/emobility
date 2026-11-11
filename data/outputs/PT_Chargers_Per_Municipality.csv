@@ -1,12 +1,12 @@
 City,Qty
-Lisboa,865
+Lisboa,866
 Cascais,479
-Porto,236
+Porto,238
 Oeiras,195
-Vila Nova de Gaia,190
+Vila Nova de Gaia,189
 Loulé,178
-Sintra,168
-Matosinhos,152
+Sintra,169
+Matosinhos,161
 Loures,142
 Braga,139
 Barreiro,132
@@ -16,9 +16,9 @@ Guimarães,124
 Vila Franca de Xira,122
 Coimbra,117
 Almada,114
-Viseu,112
+Viseu,110
 Montijo,102
-Amadora,93
+Amadora,94
 Moita,91
 Torres Vedras,87
 Faro,82
@@ -36,7 +36,7 @@ Aveiro,62
 Funchal,61
 Santarém,60
 Ovar,59
-Palmela,59
+Palmela,58
 Null,56
 Castelo Branco,55
 Covilhã,54
@@ -143,6 +143,7 @@ Melgaço,11
 Mirandela,11
 Monção,11
 Ponte de Sôr,11
+Póvoa de Lanhoso,11
 Santa Comba Dão,11
 Terras de Bouro,11
 Cinfães,10
@@ -171,7 +172,6 @@ Mira,8
 Ourique,8
 Penacova,8
 Praia da Vitória,8
-Póvoa de Lanhoso,8
 Serpa,8
 Sátão,8
 São Vicente,8
@@ -221,6 +221,7 @@ Alvito,4
 Armamar,4
 Arraiolos,4
 "Calheta, Madeira",4
+Camarate,4
 Campo Maior,4
 Gouveia,4
 Leça da Palmeira,4
@@ -251,7 +252,6 @@ Alverca,3
 Avintes,3
 Avis,3
 Borba,3
-Camarate,3
 Carrazeda de Ansiães,3
 Castelo de Vide,3
 Crato,3
@@ -354,6 +354,7 @@ Fronteira,1
 Gavião,1
 Lajes das Flores,1
 Lajes do Pico,1
+Laranjeiro,1
 Madalena,1
 Marinhais,1
 Marrazes,1
@@ -372,6 +373,7 @@ Póvoa de Santa Iria,1
 Sabrosa,1
 Santa Cruz das Flores,1
 Santa Mari a da Feira,1
+São Martinho do Porto,1
 São Pedro da Cova,1
 São Roque do Pico,1
 Vila Nova de Poiares,1

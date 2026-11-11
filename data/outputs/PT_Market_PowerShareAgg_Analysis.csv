@@ -1,22 +1,22 @@
 OperatorAbb,OperatorName,Total Power (kW)
-GRG,Grupo Galp (GLP+GLG+MLT),215860
-EDP,EDP Comercial,157885
-HRZ,"Powerdot, S.A",157473
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",151960
-CNT,"Modelo Continente Hipermercados, S.A.",73202
+GRG,Grupo Galp (GLP+GLG+MLT),216220
+EDP,EDP Comercial,157993
+HRZ,"Powerdot, S.A",156972
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",150660
+CNT,"Modelo Continente Hipermercados, S.A.",75766
 ATL,"Atlante Infra Portugal, S.A",67435
-TSL,Tesla,46400
+TSL,Tesla,44400
 IOY,IONITY GmbH,39100
 TRK,WOWPLUG,35355
-REP,REPSOL PORTUGUESA LDA,28351
+REP,REPSOL PORTUGUESA LDA,28421
 HLX,"Helexia II Energy Services, Lda.",26228
 MOT,Mota-Engil Renewing,25060
 PRI,"Prio.E Mobility Solutions, Lda",22782
 CPS,Cepsa Portuguesa Petroleos,21250
 EPK,Telpark,12858
 DTE,"DTE, Instalacoes Especiais",9799
+IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",9767
 ZUN,"Grupo Easycharger, SL",9622
-IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",9518
 VIA,"Via Verde Transição Energética, S.A.",9031
 ENB,"Enable Mobility Solutions, S.A.",8810
 REM,MOTA-ENGIL REMO CHARGING S.A,6100
@@ -32,7 +32,7 @@ EVP,"EVpower, Charging Solutions Lda",1949
 FAC,FactorENERGIA,1936
 LCG,"Loulé Concelho Global, EM",1835
 NRG,"NRG - Sistemas de Energia Renováveis, Lda.",1818
-EMA,"EMACOM - Telecomunicações da Madeira, Unipessoal, Lda",1422
+EMA,"EMACOM - Telecomunicações da Madeira, Unipessoal, Lda",1472
 CAP,"Capwatt Services, S.A.",1364
 HEX,"HEXAGONAL OCEAN, LDA",1157
 PLG,"e-Plug, Lda",1154
@@ -61,11 +61,11 @@ GLD,Gold Energy,269
 CGG,Cargga Inteligente,264
 PTE,"PETROTERMICA ENERGIA, S.A.",240
 PAR,Parinox Energia,238
+MOB,MOBIE,223
 BLU,"Bluecharge, Lda",220
 EGR,"Green Evolut, LDA",220
 MOA,"MOBI A - Mobilidade e Ambiente, Lda",220
 GSF,"GASFOMENTO - Sistemas e Instalações de Gás, S.A.",219
-MOB,MOBIE,216
 IMG,"Image4all - Eficiência Energética, Comunicação e Imagem",187
 NEU,"Neureifen - Electric Mobility, Lda",176
 EZC,"EZ - CHARG3, Lda",165
