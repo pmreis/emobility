@@ -1,21 +1,5 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-AMD-00124,GLP,Galp Power OPC,Amadora,38.76417,-9.21223
-CNT-0001PR0035,CNT,"Modelo Continente Hipermercados, S.A.",Matosinhos,41.182693,-8.658268
-CNT-0001PR0036,CNT,"Modelo Continente Hipermercados, S.A.",Matosinhos,41.182693,-8.658268
-CNT-0001PR0037,CNT,"Modelo Continente Hipermercados, S.A.",Matosinhos,41.182693,-8.658268
-CNT-0001PR0038,CNT,"Modelo Continente Hipermercados, S.A.",Matosinhos,41.182693,-8.658268
-CNT-0001PR0039,CNT,"Modelo Continente Hipermercados, S.A.",Matosinhos,41.182693,-8.658268
-CNT-0001PR0040,CNT,"Modelo Continente Hipermercados, S.A.",Matosinhos,41.182693,-8.658268
-CNT-0001PR0041,CNT,"Modelo Continente Hipermercados, S.A.",Matosinhos,41.182693,-8.658268
-CNT-0001PR0042,CNT,"Modelo Continente Hipermercados, S.A.",Matosinhos,41.182693,-8.658268
-CNT-0001PR0043,CNT,"Modelo Continente Hipermercados, S.A.",Matosinhos,41.182693,-8.658268
-CNT-0335PR0001,CNT,"Modelo Continente Hipermercados, S.A.",Laranjeiro,38.65345,-9.151589
-CNT-1504PR0003,CNT,"Modelo Continente Hipermercados, S.A.",Porto,41.170807,-8.635348
-CNT-1504PR0004,CNT,"Modelo Continente Hipermercados, S.A.",Porto,41.170807,-8.635348
-CNT-3341PL0002,CNT,"Modelo Continente Hipermercados, S.A.",Póvoa de Lanhoso,41.571808,-8.268637
-CNT-3341PR0003,CNT,"Modelo Continente Hipermercados, S.A.",Póvoa de Lanhoso,41.571808,-8.268637
-CNT-3341PR0004,CNT,"Modelo Continente Hipermercados, S.A.",Póvoa de Lanhoso,41.571808,-8.268637
-CNT-3589PR0004,CNT,"Modelo Continente Hipermercados, S.A.",Camarate,38.79899,-9.137457
-CNT-6874PR0001,CNT,"Modelo Continente Hipermercados, S.A.",São Martinho do Porto,39.50286,-9.128509
-MOBI-LSB-02327,MOB,MOBIE,Lisboa,38.75993,-9.19568
-SNT-00241,GLP,Galp Power OPC,Sintra,38.78764,-9.341383
+CLD-00047,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Caldas da Rainha,39.412674,-9.13563
+EPS-00043,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Esposende,41.529606,-8.772776
+FAR-00107,IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",Faro,37.03416,-7.931979
+VFX-00159,FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",Vila Franca de Xira,39.001034,-8.954863
