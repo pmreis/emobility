@@ -1,12 +1,2 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-CBR-00160,HRZ,"Powerdot, S.A",Coimbra,40.227257,-8.529386
-CNT-1504PR0005,CNT,"Modelo Continente Hipermercados, S.A.",Porto,41.170807,-8.635348
-CVL-00060,DTE,"DTE, Instalacoes Especiais",Covilhã,40.147575,-7.681953
-LSB-01549,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75736,-9.155045
-LSB-01550,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75736,-9.155045
-LSB-01551,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75736,-9.155045
-LSB-01552,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75736,-9.155045
-LSB-01553,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75736,-9.155045
-LSB-01554,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.75736,-9.155045
-MAI-00112,HRZ,"Powerdot, S.A",Maia,41.2495,-8.66534
-MOBI-CSC-00188,VIA,"Via Verde Transição Energética, S.A.",Cascais,38.708897,-9.337255
+CSC-00576,GLP,Galp Power OPC,Cascais,38.710968,-9.446366
