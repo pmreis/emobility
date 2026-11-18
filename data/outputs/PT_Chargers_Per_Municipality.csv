@@ -1,6 +1,6 @@
 City,Qty
-Lisboa,872
-Cascais,481
+Lisboa,881
+Cascais,483
 Porto,239
 Oeiras,195
 Vila Nova de Gaia,189
@@ -16,8 +16,8 @@ Albufeira,125
 Guimarães,124
 Coimbra,118
 Almada,114
-Viseu,110
-Montijo,102
+Viseu,111
+Montijo,103
 Amadora,94
 Moita,91
 Torres Vedras,87
@@ -36,20 +36,20 @@ Aveiro,62
 Funchal,61
 Santarém,60
 Ovar,59
-Palmela,58
+Palmela,59
 Null,56
 Castelo Branco,55
 Covilhã,55
+Penafiel,53
 Gondomar,52
 Mafra,52
 Figueira da Foz,51
 Guarda,51
-Penafiel,51
-São João da Madeira,47
-Valongo,47
+São João da Madeira,46
+Valongo,46
 Caldas da Rainha,45
 Vila Nova de Famalicão,45
-Vila Real,43
+Vila Real,45
 Mealhada,42
 Tomar,42
 Alcobaça,40
@@ -85,10 +85,10 @@ Marinha Grande,26
 Albergaria-a-Velha,25
 Paços de Ferreira,25
 Trofa,25
+Anadia,24
 Bragança,24
 Caminha,24
 Tavira,24
-Anadia,23
 Azambuja,23
 Peniche,22
 Fafe,21
@@ -98,6 +98,7 @@ Alenquer,20
 Oliveira de Azeméis,20
 Estremoz,19
 Mangualde,19
+Portalegre,19
 Santa Cruz,19
 Vila Verde,19
 Óbidos,19
@@ -106,7 +107,6 @@ Lourinhã,18
 Marco de Canaveses,18
 Oliveira do Bairro,18
 Oliveira do Hospital,18
-Portalegre,18
 Seia,18
 Tondela,18
 Arruda dos Vinhos,17
@@ -114,27 +114,27 @@ Vila Real de Santo António,17
 Machico,16
 Ribeira Grande,16
 Benavente,15
+Salvaterra de Magos,15
 Santiago do Cacém,15
 Alcanena,14
 Montemor-o-Novo,14
 Peso da Régua,14
 Porto de Mós,14
 Rio Maior,14
-Salvaterra de Magos,14
 Vale de Cambra,14
+Almeida,13
 Angra do Heroísmo,13
 Arcos de Valdevez,13
 Castro Marim,13
+Elvas,13
 Porto Santo,13
 Sines,13
 São Pedro do Sul,13
 Vendas Novas,13
 Vila Viçosa,13
 Vila do Bispo,13
-Almeida,12
 Bombarral,12
 Condeixa-a-Nova,12
-Elvas,12
 Lousã,12
 Vila Pouca de Aguiar,12
 Batalha,11
@@ -200,6 +200,7 @@ Viana do Alentejo,6
 Vila Franca do Campo,6
 Vila Nova de Foz Côa,6
 Vila Nova de Paiva,6
+Alijó,5
 Aljezur,5
 Alvaiázere,5
 Ansião,5
@@ -216,7 +217,6 @@ Tarouca,5
 Valpaços,5
 Vila Nova da Barquinha,5
 Vouzela,5
-Alijó,4
 Alvito,4
 Armamar,4
 Arraiolos,4
@@ -340,6 +340,7 @@ Alandroal,1
 Alcains,1
 Algueirão-Mem Martins,1
 Almancil,1
+Arroja,1
 Arronches,1
 Barrancos,1
 Canas de Senhorim,1
