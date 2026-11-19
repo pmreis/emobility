@@ -1,25 +1,14 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ALD-00017,HRZ,"Powerdot, S.A",Almeida,40.607395,-6.8267803
-ALJ-00006,KLS,"Kilometer Low Cost II Serviços, SA",Alijó,41.30825,-7.468383
-AND-00032,HRZ,"Powerdot, S.A",Anadia,40.40389,-8.453471
-CNT-0271PR0002,CNT,"Modelo Continente Hipermercados, S.A.",Arroja,38.79251,-9.195757
-CSC-00552,TRK,WOWPLUG,Cascais,38.71959,-9.40841
-CSC-00567,TRK,WOWPLUG,Cascais,38.70998,-9.3762
-ELV-00024,HRZ,"Powerdot, S.A",Elvas,38.880238,-7.145181
-LSB-00967,TRK,WOWPLUG,Lisboa,38.724834,-9.116227
-LSB-01157,HRZ,"Powerdot, S.A",Lisboa,38.788578,-9.127488
-LSB-01211,TRK,WOWPLUG,Lisboa,38.76741,-9.15563
-LSB-01393,TRK,WOWPLUG,Lisboa,38.73929,-9.11279
-LSB-01399,TRK,WOWPLUG,Lisboa,38.74447,-9.11307
-LSB-01400,TRK,WOWPLUG,Lisboa,38.75516,-9.12565
-LSB-01416,TRK,WOWPLUG,Lisboa,38.76591,-9.12433
-LSB-01418,TRK,WOWPLUG,Lisboa,38.78098,-9.12154
-LSB-01420,TRK,WOWPLUG,Lisboa,38.77466,-9.11403
-MTJ-00141,MOT,Mota-Engil Renewing,Montijo,38.695827,-8.94264
-PLM-00084,HRZ,"Powerdot, S.A",Palmela,38.58126,-8.684618
-PNF-00059,HRZ,"Powerdot, S.A",Penafiel,41.211,-8.270583
-PTG-00035,HRZ,"Powerdot, S.A",Portalegre,39.283123,-7.4312525
-SMG-00022,HRZ,"Powerdot, S.A",Salvaterra de Magos,39.026066,-8.785418
-VIS-00130,HRZ,"Powerdot, S.A",Viseu,40.634747,-7.84307
-VRL-00066,REP,REPSOL PORTUGUESA LDA,Vila Real,41.30255,-7.741119
-VRL-00067,REP,REPSOL PORTUGUESA LDA,Vila Real,41.305454,-7.723231
+ALR-00012,EDP,EDP Comercial,Almeirim,39.196144,-8.617255
+BBG-PTLPUB5,BBG,Morenergy,Ponte de Lima,41.771362,-8.61085
+LRA-00214,HRZ,"Powerdot, S.A",Leiria,39.739887,-8.818589
+LSB-01452,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.734505,-9.112709
+LSB-01495,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.745617,-9.162399
+LSB-01496,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.745617,-9.162399
+LSB-01497,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.745617,-9.162399
+LSB-01500,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.745617,-9.162399
+VFX-00165,PAR,Parinox Energia,Vila Franca de Xira,38.908314,-9.027698
+VLG-00063,CPS,Cepsa Portuguesa Petroleos,Valongo,41.18386,-8.485038
+VRS-00020,GLP,Galp Power OPC,Vila Real de Santo António,37.190407,-7.41947
+VRS-00027,GLP,Galp Power OPC,Vila Real de Santo António,37.17384,-7.533881
+VRS-00030,GLP,Galp Power OPC,Vila Real de Santo António,37.182644,-7.448751

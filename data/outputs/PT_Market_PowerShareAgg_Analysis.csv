@@ -1,10 +1,10 @@
 OperatorAbb,OperatorName,Total Power (kW)
-GRG,Grupo Galp (GLP+GLG+MLT),216696
+GRG,Grupo Galp (GLP+GLG+MLT),217416
 FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",164860
-HRZ,"Powerdot, S.A",162669
-EDP,EDP Comercial,159093
+HRZ,"Powerdot, S.A",163959
+EDP,EDP Comercial,160155
 CNT,"Modelo Continente Hipermercados, S.A.",75946
-ATL,"Atlante Infra Portugal, S.A",67425
+ATL,"Atlante Infra Portugal, S.A",67385
 TSL,Tesla,46400
 IOY,IONITY GmbH,39100
 TRK,WOWPLUG,35795
@@ -12,7 +12,7 @@ REP,REPSOL PORTUGUESA LDA,31472
 HLX,"Helexia II Energy Services, Lda.",26428
 MOT,Mota-Engil Renewing,25180
 PRI,"Prio.E Mobility Solutions, Lda",22782
-CPS,Cepsa Portuguesa Petroleos,21250
+CPS,Cepsa Portuguesa Petroleos,21850
 EPK,Telpark,12858
 DTE,"DTE, Instalacoes Especiais",9931
 IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",9899
@@ -20,7 +20,7 @@ ZUP,"Grupo Easycharger, SL",9622
 VIA,"Via Verde Transição Energética, S.A.",9075
 ENB,"Enable Mobility Solutions, S.A.",8810
 REM,MOTA-ENGIL REMO CHARGING S.A,6100
-EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4500
+EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4632
 ECI,ECOINSIDE,4170
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3223
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
@@ -58,9 +58,9 @@ FRR,"FRONTROW, LDA",316
 PRP,"PROPEL - PRODUTOS DE PETRÓLEO, LDA",286
 SDB,SodiBraga - Supermercados Lda,284
 GLD,Gold Energy,269
+PAR,Parinox Energia,268
 CGG,Cargga Inteligente,264
 PTE,"PETROTERMICA ENERGIA, S.A.",240
-PAR,Parinox Energia,238
 MOB,MOBIE,223
 BLU,"Bluecharge, Lda",220
 EGR,"Green Evolut, LDA",220
@@ -76,12 +76,12 @@ SAR,"Superareosa Supermercados, Lda",142
 KPM,"KPM Serviços de Engenheria, Unip Lda",122
 EPO,EPOCH,110
 SLX,SOLX,102
+BBG,Morenergy,88
 CON,"ConectaMais, Lda",88
 EMT,"Emobtec - Tec. Mobilidade Elétrica, unipessoal Lda",88
 INT,"Bluint - Engenharia e Tecnologias Integradas, Unipessoal, Lda",88
 SLV,Silver Ridge - Asset Management,84
 AUC,Auchan Retail Portugal S.A,66
-BBG,Morenergy,66
 SCR,Município de Santa Cruz,66
 ZND,"Grupo Easycharger, SL",46
 FRI,"Distrifrio Supermercados, Lda",44
