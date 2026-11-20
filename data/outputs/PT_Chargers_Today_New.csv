@@ -1,14 +1,7 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ALR-00012,EDP,EDP Comercial,Almeirim,39.196144,-8.617255
-BBG-PTLPUB5,BBG,Morenergy,Ponte de Lima,41.771362,-8.61085
-LRA-00214,HRZ,"Powerdot, S.A",Leiria,39.739887,-8.818589
-LSB-01452,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.734505,-9.112709
-LSB-01495,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.745617,-9.162399
-LSB-01496,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.745617,-9.162399
-LSB-01497,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.745617,-9.162399
-LSB-01500,EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",Lisboa,38.745617,-9.162399
-VFX-00165,PAR,Parinox Energia,Vila Franca de Xira,38.908314,-9.027698
-VLG-00063,CPS,Cepsa Portuguesa Petroleos,Valongo,41.18386,-8.485038
-VRS-00020,GLP,Galp Power OPC,Vila Real de Santo António,37.190407,-7.41947
-VRS-00027,GLP,Galp Power OPC,Vila Real de Santo António,37.17384,-7.533881
-VRS-00030,GLP,Galp Power OPC,Vila Real de Santo António,37.182644,-7.448751
+ACN-00015,ECI,ECOINSIDE,Alcanena,39.51299,-8.686945
+CBR-00175,ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",Coimbra,40.214046,-8.433277
+CNT-0217PL0002,CNT,"Modelo Continente Hipermercados, S.A.",Évora,38.57214,-7.902174
+VNH-00004,TRK,WOWPLUG,Vinhais,41.832306,-7.008472
+VRS-00019,GLP,Galp Power OPC,Vila Real de Santo António,37.19083,-7.41738
+VRS-00029,GLP,Galp Power OPC,Vila Real de Santo António,37.179066,-7.456408
