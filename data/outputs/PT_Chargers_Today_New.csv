@@ -1,7 +1,10 @@
 ChargerId,OperatorAbb,OperatorName,City,Lat,Lon
-ACN-00015,ECI,ECOINSIDE,Alcanena,39.51299,-8.686945
-CBR-00175,ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",Coimbra,40.214046,-8.433277
-CNT-0217PL0002,CNT,"Modelo Continente Hipermercados, S.A.",Évora,38.57214,-7.902174
-VNH-00004,TRK,WOWPLUG,Vinhais,41.832306,-7.008472
-VRS-00019,GLP,Galp Power OPC,Vila Real de Santo António,37.19083,-7.41738
-VRS-00029,GLP,Galp Power OPC,Vila Real de Santo António,37.179066,-7.456408
+ALM-00110,MOT,Mota-Engil Renewing,Almada,38.599102,-9.177988
+PNI-00023,GLP,Galp Power OPC,Peniche,39.36012,-9.380437
+PNI-00028,GLP,Galp Power OPC,Peniche,39.36171,-9.389025
+PNI-00029,GLP,Galp Power OPC,Peniche,39.36171,-9.389025
+VRS-00021,GLP,Galp Power OPC,Vila Real de Santo António,37.19195,-7.421324
+VRS-00022,GLP,Galp Power OPC,Vila Real de Santo António,37.1929,-7.419536
+VRS-00023,GLP,Galp Power OPC,Vila Real de Santo António,37.19393,-7.42035
+VRS-00026,GLP,Galp Power OPC,Vila Real de Santo António,37.194084,-7.426086
+VRS-00031,GLP,Galp Power OPC,Vila Real de Santo António,37.182964,-7.445883
