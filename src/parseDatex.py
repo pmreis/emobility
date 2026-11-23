@@ -100,6 +100,7 @@ def parse_datex(datexInMemory, default_country):
 
         country = element_text(site.find('.//ns2:countryCode', ns))
         if country is None:
+            logError(data, site_id, 'Country is missing')
             country = default_country
 
         latitude = float(site.find('.//ns3:latitude', ns).text.strip())
@@ -193,11 +194,26 @@ def parse_datex(datexInMemory, default_country):
             voltage_text = element_text(connector.find('.//ns6:voltage', ns))
             current_text = element_text(connector.find('.//ns6:maximumCurrent', ns))
             max_power_text = element_text(connector.find('.//ns6:maxPowerAtSocket', ns))
+            refill_id = refill_point.get('id')
 
             # Defaults match db_schema.sql when ES (or others) omit electrical fields
-            voltage = int(float(voltage_text)) if voltage_text is not None else 400
-            current = int(float(current_text)) if current_text is not None else 16
-            max_power = int(float(max_power_text)) if max_power_text is not None else 11000
+            if voltage_text is None:
+                logError(data, site_id, f'Voltage is missing on RefillPoint {refill_id}')
+                voltage = 400
+            else:
+                voltage = int(float(voltage_text))
+
+            if current_text is None:
+                logError(data, site_id, f'Current is missing on RefillPoint {refill_id}')
+                current = 16
+            else:
+                current = int(float(current_text))
+
+            if max_power_text is None:
+                logError(data, site_id, f'MaxPower is missing on RefillPoint {refill_id}')
+                max_power = 11000
+            else:
+                max_power = int(float(max_power_text))
 
             plug = {
                 'PlugId': plug_id,
