@@ -19,9 +19,7 @@ The goal is to track the evolution of sustainable mobility milestones on each Eu
 3. [AFIR - Alternative Fuels Infrastructure Regulation](#afir---alternative-fuels-infrastructure-regulation)
 4. [Portuguese Law](#portuguese-legal-framework-for-electric-mobility)
 5. [National Access Points (NAP)](#national-access-points-nap)
-    1. [Norway - Nobil](#no---norway)
-    2. [Portugal -Mobi.e](#pt---portugal)
-6. [Possible barriers for eMobility in Portugal](#possible-barriers-for-emobility-in-portugal)
+6. [Notes on Portugal](#notes-on-portugal)
 7. [DATEX II Documentation](#datex-ii-documentation)
 
 > NOTE: Work in Progress. Join the cause!
@@ -302,83 +300,6 @@ Country notes below track **AFIR Art. 20 style access** for public EV charging d
  ![PT_Deployed](data/outputs/PT_Last30DayDeployedChargers.png)
 * Chart data source = IMT / Mobi.e
 
-#### Notes on Mobi.e :
-During the transition period (until December 31, 2026), Mobi.e will provide data to the official National Access Point (IMT).
-
-Mobi.e's reach and responsibilities extend beyond a NAP, namely it is responsible for activation and financial flows of the charging infrastructure. Mobi.e is a monopoly established by law, as recognized by the national energy regulator ERSE and also a mandatory roaming platform.
-
- | ![mobie=monopoly](legal/ERSE_Mobie_Monopoly.png) |
- |:--:|
- | *image source: https://www.erse.pt/en/eletric-mobility/functioning/* |
-
- The monopoly status of Mobi.e can also be verified in the official report on page 180 of the PDF.
-- [ERSE Annual Report 2020, copy](legal/ERSE_relatorio_ce_2020_pt.pdf)
-- [ERSE Annual Report 2020, online](https://www.erse.pt/media/3cdpftgs/relat%C3%B3rio_ce-2020_pt.pdf)
-- Info: https://mobie.pt/en/mobienetwork/finding-charging-points
-- Docs: https://www.mobie.pt/en/mobility/technical-rules-procedures
-
-
-#### Possible barriers for eMobility in Portugal
-
-Portugal set its legal framework for electric mobility in 2010 with Decree-Law 39/2010, creating the RJME and the MOBI.E-based, centrally managed model with defined market roles and incentives, which structured how charging operators and service providers interacted and how a public pilot network would be deployed. Over the years the RJME was amended but kept that centralized architecture as the backbone of the system.
-
-Although initially praised, the Portuguese model later became a source of frustration for EV users, revealed several areas needing urgent improvement, and above all failed to comply with AFIR. This lead some entities to report on the issues or barriers of the Portuguese model, which can still be found below.
-
-#### Autoridade da Concorrência (AdC)
-
-The Portuguese Competition Authority – Autoridade da Concorrência (AdC) carried out an analysis of the competition conditions in the electric vehicle recharging sector, which resulted in the identification of barriers that could jeopardise the development and expansion of an electric vehicle recharging network with adequate, efficient, and competitive coverage.
-
- ![AdC](legal/AdC_Barriers_Recommendations.jpg)
-
-**Sources**:
-- [Main Page EN](https://www.concorrencia.pt/en/public-consultations/public-consultation-study-competition-and-electric-vehicle-recharging-portugal)
-- [Main Page PT](https://www.concorrencia.pt/pt/consultas-publicas/consulta-publica-ao-estudo-concorrencia-e-mobilidade-eletrica-em-portugal)
-- Complete report on study (Portuguese Only): [AdC Report](legal/Adc_Report.pdf)
-- One Pager PT: [AdC One Pager PT, v2](legal/AdC_One_Pager_PT.pdf)
-- One Pager EN: [AdC One Pager EN, v1](legal/AdC_One_Pager_EN.pdf)
-
-#### Public consultation on the Study into Competition and Electric Vehicle Recharging in Portugal
-
-This was the AdC's most participated public consultation, which illustrates the high level of interest in this sector. Alongside the opinion of the sector's regulator - ERSE - the AdC received 183 contributions from public entities, individual consumers, consumer associations, operators and associations of companies in the electric mobility sector, entities in the electricity sector and entities from other sectors.
-
-| Num |         Entity        |   PDF
-|-----|-----------------------|-----------
-|  1  | AMME                  | [pdf](legal/AdC%20Contribs/Contributo%20Amme.pdf)
-|  2  | ANMP                  | [pdf](legal/AdC%20Contribs/Contributo%20ANMP.pdf)
-|  3  | APOCME                | [pdf](legal/AdC%20Contribs/contributo%20Apocme.pdf)
-|  4  | APREN                 | [pdf](legal/AdC%20Contribs/Contributo%20Apren.pdf)
-|  5  | ASFAC                 | [pdf](legal/AdC%20Contribs/Contributo%20ASFAC.pdf.pdf)
-|  6  | AVERE                 | [pdf](legal/AdC%20Contribs/Contributo%20Avere.pdf.pdf)
-|  7  | CM Odivelas           | [pdf](legal/AdC%20Contribs/Contributo%20CM%20Odivelas.pdf)
-|  8  | DECO                  | [pdf](legal/AdC%20Contribs/Contributo%20DECO.pdf)
-|  9  | DGC                   | [pdf](legal/AdC%20Contribs/Contributo%20DGC.pdf)
-|  10 | EDP                   | [pdf](legal/AdC%20Contribs/Contributo%20Edp.pdf)
-|  11 | Elergone energia      | [pdf](legal/AdC%20Contribs/Contributo%20Elergone%20energia.pdf)
-|  12 | EMEL                  | [pdf](legal/AdC%20Contribs/Contributo%20Emel.pdf)
-|  13 | Endesa                | [pdf](legal/AdC%20Contribs/Contributo%20Endesa.pdf)
-|  14 | ENSE                  | [pdf](legal/AdC%20Contribs/Contributo%20Ense.pdf)
-|  15 | E-Redes               | [pdf](legal/AdC%20Contribs/Contributo%20E-Redes.pdf)
-|  16 | EVIO                  | [pdf](legal/AdC%20Contribs/Contributo%20Evio.pdf)
-|  17 | Galp                  | [pdf](legal/AdC%20Contribs/Contributo%20Galp.pdf)
-|  18 | Helexia               | [pdf](legal/AdC%20Contribs/Contributo%20Helexia.pdf)
-|  19 | Iberdrola- BP Pulse   | [pdf](legal/AdC%20Contribs/Contributo%20Iberdrola-%20BP%20Pulse.pdf)
-|  20 | Iberdrola             | [pdf](legal/AdC%20Contribs/Contributo%20Iberdrola.pdf)
-|  21 | IMT                   | [pdf](legal/AdC%20Contribs/Contributo%20IMT.pdf)
-|  22 | miio                  | [pdf](legal/AdC%20Contribs/Contributo%20miio.pdf)
-|  23 | MOBI.E                | [pdf](legal/AdC%20Contribs/Contributo%20Mobi.E.pdf)
-|  24 | Renewing              | [pdf](legal/AdC%20Contribs/Contributo%20Renewing.pdf)
-|  25 | Tesla                 | [pdf](legal/AdC%20Contribs/Contributo%20Tesla.pdf)
-|  26 | UVE                   | [pdf](legal/AdC%20Contribs/Contributo%20UVE.pdf)
-|  27 | ERSE                  | [pdf](legal/AdC%20Contribs/Parecer%20ERSE.pdf)
-
-
-#### AVERE
-
-AVERE has taken note of the preliminary report of the Estudo concorrência e mobilidade elétrica em Portugal and wish to express our agreement with the intention of the recommendations made to the Portuguese government to make fundamental changes to the Portuguese recharging network, to improve the current system in benefit of BEV users.
-
-- [Blog Page](https://www.avere.org/blogpages/policy-details/2024/03/05/AVEREs-Reaction-Letter-to-the-Report-on-Recharging-Network-Published-by-the-Portuguese-Competition-Authority) * Now unavailable due to site restructuring, check it in the [Internet Archive](https://web.archive.org/web/20240422192745/https://www.avere.org/blogpages/policy-details/2024/03/05/AVEREs-Reaction-Letter-to-the-Report-on-Recharging-Network-Published-by-the-Portuguese-Competition-Authority)
-- Reaction Letter: [AVERE's Reaction Letter](legal/AVERE_Reaction_Letter_AdC.pdf)
-
 ### RO - Romania
 
 - Portal fragments: https://data.gov.ro (e.g. PNRR-financed stations by municipality)
@@ -414,6 +335,84 @@ AVERE has taken note of the preliminary report of the Estudo concorrência e mo
 - Operator feed lists / health: [OpenStreetMap UK EV open-data list](https://wiki.openstreetmap.org/wiki/EV_charge_points_in_the_United_Kingdom), [ChargerStatus feed health](https://www.chargerstatus.com/feed-health/)
 - Official statistics (aggregated, not a raw station dump): DfT EV charging statistics (often via Zapmap)
 - Finding: **no single open national DATEX/XML source** like PT/ES; UK is a **federated OCPI open-data** landscape after NCR closure
+
+## Notes on Portugal
+
+### Notes on Mobi.e
+
+During the transition period (until December 31, 2026), Mobi.e will provide data to the official National Access Point (IMT).
+
+Mobi.e's reach and responsibilities extend beyond a NAP, namely it is responsible for activation and financial flows of the charging infrastructure. Mobi.e is a monopoly established by law, as recognized by the national energy regulator ERSE and also a mandatory roaming platform.
+
+ | ![mobie=monopoly](legal/ERSE_Mobie_Monopoly.png) |
+ |:--:|
+ | *image source: https://www.erse.pt/en/eletric-mobility/functioning/* |
+
+ The monopoly status of Mobi.e can also be verified in the official report on page 180 of the PDF.
+- [ERSE Annual Report 2020, copy](legal/ERSE_relatorio_ce_2020_pt.pdf)
+- [ERSE Annual Report 2020, online](https://www.erse.pt/media/3cdpftgs/relat%C3%B3rio_ce-2020_pt.pdf)
+- Info: https://mobie.pt/en/mobienetwork/finding-charging-points
+- Docs: https://www.mobie.pt/en/mobility/technical-rules-procedures
+
+### Possible barriers for eMobility in Portugal
+
+Portugal set its legal framework for electric mobility in 2010 with Decree-Law 39/2010, creating the RJME and the MOBI.E-based, centrally managed model with defined market roles and incentives, which structured how charging operators and service providers interacted and how a public pilot network would be deployed. Over the years the RJME was amended but kept that centralized architecture as the backbone of the system.
+
+Although initially praised, the Portuguese model later became a source of frustration for EV users, revealed several areas needing urgent improvement, and above all failed to comply with AFIR. This lead some entities to report on the issues or barriers of the Portuguese model, which can still be found below.
+
+### Autoridade da Concorrência (AdC)
+
+The Portuguese Competition Authority – Autoridade da Concorrência (AdC) carried out an analysis of the competition conditions in the electric vehicle recharging sector, which resulted in the identification of barriers that could jeopardise the development and expansion of an electric vehicle recharging network with adequate, efficient, and competitive coverage.
+
+ ![AdC](legal/AdC_Barriers_Recommendations.jpg)
+
+**Sources**:
+- [Main Page EN](https://www.concorrencia.pt/en/public-consultations/public-consultation-study-competition-and-electric-vehicle-recharging-portugal)
+- [Main Page PT](https://www.concorrencia.pt/pt/consultas-publicas/consulta-publica-ao-estudo-concorrencia-e-mobilidade-eletrica-em-portugal)
+- Complete report on study (Portuguese Only): [AdC Report](legal/Adc_Report.pdf)
+- One Pager PT: [AdC One Pager PT, v2](legal/AdC_One_Pager_PT.pdf)
+- One Pager EN: [AdC One Pager EN, v1](legal/AdC_One_Pager_EN.pdf)
+
+### Public consultation on the Study into Competition and Electric Vehicle Recharging in Portugal
+
+This was the AdC's most participated public consultation, which illustrates the high level of interest in this sector. Alongside the opinion of the sector's regulator - ERSE - the AdC received 183 contributions from public entities, individual consumers, consumer associations, operators and associations of companies in the electric mobility sector, entities in the electricity sector and entities from other sectors.
+
+| Num |         Entity        |   PDF
+|-----|-----------------------|-----------
+|  1  | AMME                  | [pdf](legal/AdC%20Contribs/Contributo%20Amme.pdf)
+|  2  | ANMP                  | [pdf](legal/AdC%20Contribs/Contributo%20ANMP.pdf)
+|  3  | APOCME                | [pdf](legal/AdC%20Contribs/contributo%20Apocme.pdf)
+|  4  | APREN                 | [pdf](legal/AdC%20Contribs/Contributo%20Apren.pdf)
+|  5  | ASFAC                 | [pdf](legal/AdC%20Contribs/Contributo%20ASFAC.pdf.pdf)
+|  6  | AVERE                 | [pdf](legal/AdC%20Contribs/Contributo%20Avere.pdf.pdf)
+|  7  | CM Odivelas           | [pdf](legal/AdC%20Contribs/Contributo%20CM%20Odivelas.pdf)
+|  8  | DECO                  | [pdf](legal/AdC%20Contribs/Contributo%20DECO.pdf)
+|  9  | DGC                   | [pdf](legal/AdC%20Contribs/Contributo%20DGC.pdf)
+|  10 | EDP                   | [pdf](legal/AdC%20Contribs/Contributo%20Edp.pdf)
+|  11 | Elergone energia      | [pdf](legal/AdC%20Contribs/Contributo%20Elergone%20energia.pdf)
+|  12 | EMEL                  | [pdf](legal/AdC%20Contribs/Contributo%20Emel.pdf)
+|  13 | Endesa                | [pdf](legal/AdC%20Contribs/Contributo%20Endesa.pdf)
+|  14 | ENSE                  | [pdf](legal/AdC%20Contribs/Contributo%20Ense.pdf)
+|  15 | E-Redes               | [pdf](legal/AdC%20Contribs/Contributo%20E-Redes.pdf)
+|  16 | EVIO                  | [pdf](legal/AdC%20Contribs/Contributo%20Evio.pdf)
+|  17 | Galp                  | [pdf](legal/AdC%20Contribs/Contributo%20Galp.pdf)
+|  18 | Helexia               | [pdf](legal/AdC%20Contribs/Contributo%20Helexia.pdf)
+|  19 | Iberdrola- BP Pulse   | [pdf](legal/AdC%20Contribs/Contributo%20Iberdrola-%20BP%20Pulse.pdf)
+|  20 | Iberdrola             | [pdf](legal/AdC%20Contribs/Contributo%20Iberdrola.pdf)
+|  21 | IMT                   | [pdf](legal/AdC%20Contribs/Contributo%20IMT.pdf)
+|  22 | miio                  | [pdf](legal/AdC%20Contribs/Contributo%20miio.pdf)
+|  23 | MOBI.E                | [pdf](legal/AdC%20Contribs/Contributo%20Mobi.E.pdf)
+|  24 | Renewing              | [pdf](legal/AdC%20Contribs/Contributo%20Renewing.pdf)
+|  25 | Tesla                 | [pdf](legal/AdC%20Contribs/Contributo%20Tesla.pdf)
+|  26 | UVE                   | [pdf](legal/AdC%20Contribs/Contributo%20UVE.pdf)
+|  27 | ERSE                  | [pdf](legal/AdC%20Contribs/Parecer%20ERSE.pdf)
+
+### AVERE
+
+AVERE has taken note of the preliminary report of the Estudo concorrência e mobilidade elétrica em Portugal and wish to express our agreement with the intention of the recommendations made to the Portuguese government to make fundamental changes to the Portuguese recharging network, to improve the current system in benefit of BEV users.
+
+- [Blog Page](https://www.avere.org/blogpages/policy-details/2024/03/05/AVEREs-Reaction-Letter-to-the-Report-on-Recharging-Network-Published-by-the-Portuguese-Competition-Authority) * Now unavailable due to site restructuring, check it in the [Internet Archive](https://web.archive.org/web/20240422192745/https://www.avere.org/blogpages/policy-details/2024/03/05/AVEREs-Reaction-Letter-to-the-Report-on-Recharging-Network-Published-by-the-Portuguese-Competition-Authority)
+- Reaction Letter: [AVERE's Reaction Letter](legal/AVERE_Reaction_Letter_AdC.pdf)
 
 ## DATEX II Documentation
 
