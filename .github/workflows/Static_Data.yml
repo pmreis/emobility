@@ -1,4 +1,4 @@
-name: PT Static Data
+name: Static Data
 
 on:
   push:

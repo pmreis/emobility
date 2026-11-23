@@ -1,4 +1,4 @@
-name: PT Chart
+name: Charts
 
 on:
   push:
