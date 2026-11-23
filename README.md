@@ -110,6 +110,11 @@ https://napcore.eu/description-naps/national-access-point/
 - Info: https://nap.dgt.es/dataset/puntos-de-recarga-electrica-para-vehiculos
 - Map of fast chargers (greater than 43 kW): https://www.mapareve.es/mapa-puntos-recarga
 
+#### Deployed chargers in the last 30 days
+
+ ![ES_Deployed](data/outputs/ES_Last30DayDeployedChargers.png)
+* Chart data source = DGT NAP
+
 ### FI - Finland
 ### FR - France
 ### HR - Croatia
