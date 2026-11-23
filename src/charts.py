@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 
 projRootPath = Path(__file__).resolve().parent.parent
 
+COUNTRIES = ['PT', 'ES']
+
 # Connect to SQLite DB and return connection
 def connect_db(db_name):
     dbpath = osp.normpath(f'{projRootPath}/data/{db_name}')
@@ -15,7 +17,7 @@ def connect_db(db_name):
     return conn
 
 # Generate Charts
-def generate_charts(conn):
+def generate_charts(conn, country):
     data = pd.read_sql_query('''
     with recursive
         dates(InsertedDate) as (
@@ -32,7 +34,8 @@ def generate_charts(conn):
         chargersCount as (
             select c.InsertedDate, Count(c.ChargerId) as Qnt
             from Chargers c
-            where c.InsertedDate >= date('now', '-29 days')
+            where c.Country = :country
+                and c.InsertedDate >= date('now', '-29 days')
             group by c.InsertedDate
         ),
         dataUnion as (
@@ -46,7 +49,7 @@ def generate_charts(conn):
     from dataUnion
     group by InsertedDate
     order by InsertedDate;
-    ''', conn)
+    ''', conn, params={'country': country})
 
     # Create theme, figure and axes
     plt.style.use('dark_background')
@@ -66,7 +69,7 @@ def generate_charts(conn):
 
     average_y = np.mean(data['Qnt'])
     plt.axhline(y=average_y, color='r', linestyle='--', label=f'Average Y: {average_y:.1f}')
-    ax.set_title('Deployed chargers in the last 30 days', color='white')
+    ax.set_title(f'{country} — Deployed chargers in the last 30 days', color='white')
     ax.set_xlabel('Date', color='white')
     ax.set_ylabel('Number of deployed chargers', color='white')
     ax.grid(True, color='gray', linestyle='--', alpha=0.5)
@@ -74,14 +77,16 @@ def generate_charts(conn):
     plt.xticks(fontsize=7, ha='center')
     plt.legend()
 
-    filepath = osp.normpath(f'{projRootPath}/data/outputs/PT_Last30DayDeployedChargers.png')
+    filepath = osp.normpath(f'{projRootPath}/data/outputs/{country}_Last30DayDeployedChargers.png')
     plt.savefig(filepath, dpi=300, bbox_inches='tight')
+    plt.close(fig)
 
 def main():
     db_name = 'data.db'
 
     conn = connect_db(db_name)
-    generate_charts(conn)
+    for country in COUNTRIES:
+        generate_charts(conn, country)
 
     conn.close()
 
