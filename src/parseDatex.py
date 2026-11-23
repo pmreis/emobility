@@ -65,7 +65,7 @@ def parse_datex(datexInMemory):
             site_id = site_id.split('-', 1)[1] # Splits by dash, only once and gets the 2nd array value of the split. The first index of the array is 0.
 
         # Charger Location
-        city = noneToStrNull(site.find('.//ns2:city/ns:values/ns:value[@lang="pt-pt"]', ns).text).strip()
+        city = noneToStrNull(site.find('.//ns2:city/ns:values/ns:value', ns).text).strip()
         if city == "Null":
             logError(data, site_id, 'City is missing')
 
@@ -91,7 +91,7 @@ def parse_datex(datexInMemory):
         operator_elem = site.find('.//ns4:operator', ns)
         if operator_elem is not None:
             operator_other_abb = operator_elem.find('.//ns4:nationalOrganisationNumber', ns).text.strip()
-            operator_name = operator_elem.find('.//ns4:name/ns:values/ns:value[@lang="pt-pt"]', ns).text.strip()
+            operator_name = operator_elem.find('.//ns4:name/ns:values/ns:value', ns).text.strip()
             operator_tin = (
                 vat.text.replace(' ', '').strip()
                 if (vat := operator_elem.find('.//ns4:vatIdentificationNumber', ns)) is not None
