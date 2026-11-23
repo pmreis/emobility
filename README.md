@@ -98,6 +98,7 @@ https://napcore.eu/description-naps/national-access-point/
 ### AT - Austria
 ### BE - Belgium
 ### BG - Bulgaria
+### CH - Switzerland
 ### CY - Cyprus
 ### CZ - Czechia
 ### DE - Germany
@@ -221,6 +222,7 @@ AVERE has taken note of the preliminary report of the Estudo concorrência e mo
 ### SE - Sweden
 ### SI - Slovenia
 ### SK - Slovakia
+### UK - United Kingdom
 
 ## DATEX II Documentation
 
