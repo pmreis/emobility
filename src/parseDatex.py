@@ -417,7 +417,7 @@ def generate_output_csvs(conn, country):
                 count(c.OperatorAbb) as 'Qty'
             from Operators o
             left join Chargers c on c.OperatorAbb = o.OperatorAbb
-                and o.CountryIso = :country
+                and c.Country = :country
                 and c.Active = 'Yay'
             group by o.OperatorAbb
             order by Qty desc
@@ -454,7 +454,7 @@ def generate_output_csvs(conn, country):
                 from Chargers c
                 join Operators o on o.OperatorAbb = c.OperatorAbb
                 where c.OperatorAbb in ('GLP', 'GLG', 'MLT')
-                    and o.CountryIso = :country
+                    and c.Country = :country
                     and c.Active = 'Yay'
             ),
             allDataExpectGalp as (
@@ -464,7 +464,7 @@ def generate_output_csvs(conn, country):
                     count(c.OperatorAbb) as 'Qty'
                 from Operators o
                 left join Chargers c on c.OperatorAbb = o.OperatorAbb
-                    and o.CountryIso = :country
+                    and c.Country = :country
                     and c.Active = 'Yay'
                 where o.OperatorAbb not in ('GLP', 'GLG', 'MLT')
                 group by o.OperatorAbb
@@ -497,7 +497,7 @@ def generate_output_csvs(conn, country):
         from Plugs p
         join Chargers c on c.ChargerId = p.ChargerId
         join Operators o on o.OperatorAbb = c.OperatorAbb
-        where o.CountryIso = :country
+        where c.Country = :country
             and c.Active = 'Yay'
         group by o.OperatorAbb, o.OperatorName
         order by sum(p.MaxPower) desc;
@@ -514,7 +514,7 @@ def generate_output_csvs(conn, country):
                 join Chargers c on c.ChargerId = p.ChargerId
                 join Operators o on o.OperatorAbb = c.OperatorAbb
                 where o.OperatorAbb in ('GLP', 'GLG', 'MLT')
-                    and o.CountryIso = :country
+                    and c.Country = :country
                     and c.Active = 'Yay'
             ),
             allDataExpectGalp as (
@@ -523,7 +523,7 @@ def generate_output_csvs(conn, country):
                 join Chargers c on c.ChargerId = p.ChargerId
                 join Operators o on o.OperatorAbb = c.OperatorAbb
                 where o.OperatorAbb not in ('GLP', 'GLG', 'MLT')
-                    and o.CountryIso = :country
+                    and c.Country = :country
                     and c.Active = 'Yay'
                 group by o.OperatorAbb, o.OperatorName
             )
