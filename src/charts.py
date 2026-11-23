@@ -34,7 +34,7 @@ def generate_charts(conn, country):
         chargersCount as (
             select c.InsertedDate, Count(c.ChargerId) as Qnt
             from Chargers c
-            where c.Country = :country
+            where c.CountryIso = :country
                 and c.InsertedDate >= date('now', '-29 days')
             group by c.InsertedDate
         ),

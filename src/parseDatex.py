@@ -154,7 +154,7 @@ def parse_datex(datexInMemory, default_country):
         # Charger Block
         charger = {
             'ChargerId': site_id,
-            'Country': country,
+            'CountryIso': country,
             'OperatorAbb': operator_abb,
             'City': city,
             'InsertedDate': insertedDate,
@@ -162,7 +162,7 @@ def parse_datex(datexInMemory, default_country):
             'Lon': longitude
         }
 
-        charger['Data'] = f'{charger['ChargerId']}{charger['Country']}{charger['OperatorAbb']}{charger['City']}{charger['Lat']}{charger['Lon']}'
+        charger['Data'] = f'{charger['ChargerId']}{charger['CountryIso']}{charger['OperatorAbb']}{charger['City']}{charger['Lat']}{charger['Lon']}'
 
         data['chargers'].append(charger)
 
@@ -210,7 +210,7 @@ def parse_datex(datexInMemory, default_country):
 
             data['plugs'].append(plug)
 
-    data['operators'].sort(key=lambda r: r['OperatorAbb'])
+    data['operators'].sort(key=lambda r: (r['CountryIso'], r['OperatorAbb']))
     data['chargers'].sort(key=lambda r: r['ChargerId'])
     data['plugs'].sort(key=lambda r: (r['ChargerId'], r['PlugId']))
     data['errors'].sort(key=lambda r: (r['ChargerId'], r['Error']))
@@ -278,7 +278,8 @@ def tmp_chargers_deltas(conn, data, country):
             c.Lon
         from Chargers c
         join Operators o on o.OperatorAbb = c.OperatorAbb
-        where c.Country = :country
+            and o.CountryIso = c.CountryIso
+        where c.CountryIso = :country
             and c.Active = 'Yay'
             and c.ChargerId not in (
                 select ChargerId
@@ -290,7 +291,7 @@ def tmp_chargers_deltas(conn, data, country):
     cursor.execute('''
         update Chargers
         set Active = 'Nay'
-        where Country = ?
+        where CountryIso = ?
             and ChargerId not in (
                 select ChargerId
                 from TempChargers
@@ -307,7 +308,8 @@ def tmp_chargers_deltas(conn, data, country):
             c.Lon
         from Chargers c
         join Operators o on o.OperatorAbb = c.OperatorAbb
-        where c.Country = :country
+            and o.CountryIso = c.CountryIso
+        where c.CountryIso = :country
             and c.Active = 'Nay'
             and c.ChargerId in (
                 select ChargerId
@@ -319,7 +321,7 @@ def tmp_chargers_deltas(conn, data, country):
     cursor.execute('''
         update Chargers
         set Active = 'Yay'
-        where Country = ?
+        where CountryIso = ?
             and ChargerId in (
                 select ChargerId
                 from TempChargers
@@ -341,15 +343,15 @@ def insert_or_update_chargers(conn, data):
 
     for charger in data['chargers']:
         chargerId = charger['ChargerId']
-        cursor.execute('select concat(ChargerId, Country, OperatorAbb, City, Lat, Lon) from Chargers where ChargerId = ?;', (chargerId,))
+        cursor.execute('select concat(ChargerId, CountryIso, OperatorAbb, City, Lat, Lon) from Chargers where ChargerId = ?;', (chargerId,))
         row = cursor.fetchone()
         if(row is None):
             cursor.execute('''
-                insert or ignore into Chargers (ChargerId, Country, OperatorAbb, City, InsertedDate, Lat, Lon)
+                insert or ignore into Chargers (ChargerId, CountryIso, OperatorAbb, City, InsertedDate, Lat, Lon)
                 values (?, ?, ?, ?, ?, ?, ?);
             ''', (
                 charger['ChargerId'],
-                charger['Country'],
+                charger['CountryIso'],
                 charger['OperatorAbb'],
                 charger['City'],
                 charger['InsertedDate'],
@@ -365,10 +367,10 @@ def insert_or_update_chargers(conn, data):
             if(existingChargerData != charger['Data']):
                 cursor.execute('''
                     update Chargers
-                    set Country = ?, OperatorAbb = ?, City = ?, Lat = ?, Lon = ?
+                    set CountryIso = ?, OperatorAbb = ?, City = ?, Lat = ?, Lon = ?
                     where ChargerId = ?;
                 ''', (
-                    charger['Country'],
+                    charger['CountryIso'],
                     charger['OperatorAbb'],
                     charger['City'],
                     charger['Lat'],
@@ -407,7 +409,7 @@ def generate_output_csvs(conn, country):
         countAllChargers as (
             select count(1) total
             from Chargers
-            where Country = :country
+            where CountryIso = :country
                 and Active = 'Yay'
         ),
         cte1 as (
@@ -416,10 +418,11 @@ def generate_output_csvs(conn, country):
                 o.OperatorName,
                 count(c.OperatorAbb) as 'Qty'
             from Operators o
-            left join Chargers c on c.OperatorAbb = o.OperatorAbb
-                and c.Country = :country
+            join Chargers c on c.OperatorAbb = o.OperatorAbb
+                and c.CountryIso = o.CountryIso
+                and c.CountryIso = :country
                 and c.Active = 'Yay'
-            group by o.OperatorAbb
+            group by o.OperatorAbb, o.OperatorName
             order by Qty desc
         ),
         cte2 as (
@@ -443,7 +446,7 @@ def generate_output_csvs(conn, country):
             countAllChargers as (
                 select count(1) total
                 from Chargers
-                where Country = :country
+                where CountryIso = :country
                     and Active = 'Yay'
             ),
             galpGroupData as (
@@ -453,8 +456,9 @@ def generate_output_csvs(conn, country):
                     count(c.ChargerId) as 'Qty'
                 from Chargers c
                 join Operators o on o.OperatorAbb = c.OperatorAbb
+                    and o.CountryIso = c.CountryIso
                 where c.OperatorAbb in ('GLP', 'GLG', 'MLT')
-                    and c.Country = :country
+                    and c.CountryIso = :country
                     and c.Active = 'Yay'
             ),
             allDataExpectGalp as (
@@ -463,11 +467,12 @@ def generate_output_csvs(conn, country):
                     o.OperatorName,
                     count(c.OperatorAbb) as 'Qty'
                 from Operators o
-                left join Chargers c on c.OperatorAbb = o.OperatorAbb
-                    and c.Country = :country
+                join Chargers c on c.OperatorAbb = o.OperatorAbb
+                    and c.CountryIso = o.CountryIso
+                    and c.CountryIso = :country
                     and c.Active = 'Yay'
                 where o.OperatorAbb not in ('GLP', 'GLG', 'MLT')
-                group by o.OperatorAbb
+                group by o.OperatorAbb, o.OperatorName
             ),
             allData as (
                 select OperatorAbb, OperatorName, Qty
@@ -497,7 +502,8 @@ def generate_output_csvs(conn, country):
         from Plugs p
         join Chargers c on c.ChargerId = p.ChargerId
         join Operators o on o.OperatorAbb = c.OperatorAbb
-        where c.Country = :country
+            and o.CountryIso = c.CountryIso
+        where c.CountryIso = :country
             and c.Active = 'Yay'
         group by o.OperatorAbb, o.OperatorName
         order by sum(p.MaxPower) desc;
@@ -513,8 +519,9 @@ def generate_output_csvs(conn, country):
                 from Plugs p
                 join Chargers c on c.ChargerId = p.ChargerId
                 join Operators o on o.OperatorAbb = c.OperatorAbb
+                    and o.CountryIso = c.CountryIso
                 where o.OperatorAbb in ('GLP', 'GLG', 'MLT')
-                    and c.Country = :country
+                    and c.CountryIso = :country
                     and c.Active = 'Yay'
             ),
             allDataExpectGalp as (
@@ -522,8 +529,9 @@ def generate_output_csvs(conn, country):
                 from Plugs p
                 join Chargers c on c.ChargerId = p.ChargerId
                 join Operators o on o.OperatorAbb = c.OperatorAbb
+                    and o.CountryIso = c.CountryIso
                 where o.OperatorAbb not in ('GLP', 'GLG', 'MLT')
-                    and c.Country = :country
+                    and c.CountryIso = :country
                     and c.Active = 'Yay'
                 group by o.OperatorAbb, o.OperatorName
             )
@@ -554,7 +562,7 @@ def generate_output_csvs(conn, country):
             Lat,
             Lon
         from Chargers
-        where Country = :country and Active = 'Yay'
+        where CountryIso = :country and Active = 'Yay'
         order by ChargerId;
     ''', conn, params=params)
     query.to_csv(output_csv_path(country, 'Chargers_Active'), sep=",", index=None, mode="w")
@@ -568,7 +576,7 @@ def generate_output_csvs(conn, country):
             Lat,
             Lon
         from Chargers
-        where Country = :country and Active = 'Nay'
+        where CountryIso = :country and Active = 'Nay'
         order by ChargerId;
     ''', conn, params=params)
     query.to_csv(output_csv_path(country, 'Chargers_Inactive'), sep=",", index=None, mode="w")
@@ -583,8 +591,9 @@ def generate_output_csvs(conn, country):
             c.Lon
         from Chargers c
         join Operators o on o.OperatorAbb = c.OperatorAbb
+            and o.CountryIso = c.CountryIso
         where c.InsertedDate = date('now')
-            and c.Country = :country
+            and c.CountryIso = :country
         order by ChargerId;
     ''', conn, params=params)
     query.to_csv(output_csv_path(country, 'Chargers_Today_New'), sep=",", index=None, mode="w")
@@ -593,7 +602,7 @@ def generate_output_csvs(conn, country):
     query = pd.read_sql_query('''
         select City, count(1) Qty
         from Chargers
-        where Country = :country
+        where CountryIso = :country
             and Active = 'Yay'
         group by City
         order by Qty desc, City asc;
@@ -607,7 +616,7 @@ def generate_output_csvs(conn, country):
             from Chargers c
             join Concelhos cc on cc.Alias = c.City
             join Distritos d on d.Id = cc.Distrito
-            where c.Country = :country
+            where c.CountryIso = :country
                 and Active = 'Yay'
             group by d.Id
             order by Qty desc, d.Distrito asc;
@@ -619,7 +628,7 @@ def generate_output_csvs(conn, country):
         select p.ChargerId, p.PlugId, p.MaxPower
         from Plugs p
         join Chargers c on c.ChargerId = p.ChargerId
-        where c.Country = :country
+        where c.CountryIso = :country
             and p.PlugDesign != 'chademo'
             and substr(p.ChargerId, 1, 1) <= 'L'
         order by p.ChargerId, p.PlugId
@@ -631,7 +640,7 @@ def generate_output_csvs(conn, country):
         select p.ChargerId, p.PlugId, p.MaxPower
         from Plugs p
         join Chargers c on c.ChargerId = p.ChargerId
-        where c.Country = :country
+        where c.CountryIso = :country
             and p.PlugDesign != 'chademo'
             and substr(p.ChargerId, 1, 1) > 'L'
         order by p.ChargerId, p.PlugId
@@ -643,7 +652,7 @@ def generate_output_csvs(conn, country):
         select e.*
         from ParseErrors e
         join Chargers c on c.ChargerId = e.ChargerId
-        where c.Country = :country
+        where c.CountryIso = :country
         order by e.ChargerId, e.Error
     ''', conn, params=params)
     query.to_csv(output_csv_path(country, 'Errors'), sep=",", index=None, mode="w")
@@ -669,3 +678,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

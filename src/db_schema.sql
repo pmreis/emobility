@@ -1,22 +1,23 @@
 create table Operators (
-    OperatorAbb char(3) primary key,
+    OperatorAbb char(3) not null,
     OperatorOtherAbb varchar(10) null,
     OperatorName varchar(50) not null,
     CountryIso char(2) not null,
     Tin varchar(20) null, -- Tax Identification Number
-    Phone varchar(20) null
+    Phone varchar(20) null,
+    primary key (CountryIso, OperatorAbb)
 );
 
 create table Chargers (
     ChargerId varchar(36) primary key,
-    Country char(2) not null,
+    CountryIso char(2) not null,
     OperatorAbb char(3) not null,
     City varchar(100) not null,
     InsertedDate date not null,
     Status varchar(20) not null default 'Present',
     Lat float not null,
     Lon float not null,
-    foreign key(OperatorAbb) references Operators(OperatorAbb)
+    foreign key (CountryIso, OperatorAbb) references Operators(CountryIso, OperatorAbb)
 );
 
 create table Plugs (

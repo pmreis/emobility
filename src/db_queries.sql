@@ -89,7 +89,7 @@ with
 countAllChargers as (
     select count(1) total
     from Chargers
-    where Country = 'PT'
+    where CountryIso = 'PT'
         and Status = 'Present'
 ),
 cte1 as (
@@ -302,7 +302,7 @@ with
 countAllChargers as (
     select count(1) total
     from Chargers
-    where Country = 'PT'
+    where CountryIso = 'PT'
         and Status = 'Present'
 ),
 galpGroupData as (
