@@ -95,12 +95,58 @@ https://napcore.eu/description-naps/national-access-point/
 
 Country notes below track **AFIR Art. 20 style access** for public EV charging data: preferably **DATEX II**, **no account / no contract**, usable cross-border. Sources cross-checked with NAPCORE and [evnapdata.eu/naps](https://evnapdata.eu/naps) (Nov 2026).
 
-| Access bar used here | Meaning |
-|----------------------|---------|
-| Open DATEX II | Public DATEX II XML/API, no login |
-| Open other format | Public national data, not DATEX II |
-| Registration / key | Free or paid gate before data |
-| Contract / unclear | Formal process or no usable feed found |
+### Static data rating scale (0–10)
+
+| Score | Meaning |
+|------:|---------|
+| 0 | No data published |
+| 1 | Data published but spread between multiple sources (sites), like CPOs. No DATEX II format |
+| 2 | Data published on a single site, but spread between multiple API calls or files. No DATEX II format |
+| 3 | Data published on a single site, in a single file / endpoint but no DATEX II format available |
+| 4 | Data published but requires contract |
+| 5 | Data published but requires account creation |
+| 6 | Data published in a single endpoint / file in XML similar to DATEX II, but not fully DATEX II compliant |
+| 7 | Data published in a single endpoint / file in fully DATEX II compliant format |
+| 8 | Data published in fully compliant DATEX II but misses required infrastructure data, like voltage, current or connectors on RefillPoints |
+| 9 | Data published in fully compliant DATEX II but values are incorrect (coordinates, voltage, power or current) |
+| 10 | All data is correct and in the correct format |
+
+### Static data ratings
+
+| Country | Rating | Description |
+|:-------:|:-------|:------------|
+| AT | ⭐⭐⭐⭐⭐☆☆☆☆☆ (5) | Data published but requires account creation |
+| BE | ⭐☆☆☆☆☆☆☆☆☆ (1) | Data published but spread between multiple sources (sites), like CPOs. No DATEX II format |
+| BG | ☆☆☆☆☆☆☆☆☆☆ (0) | No data published |
+| CH | ⭐⭐⭐☆☆☆☆☆☆☆ (3) | Data published on a single site, in a single file / endpoint but no DATEX II format available |
+| CY | ⭐⭐⭐⭐⭐⭐☆☆☆☆ (6) | Data published in a single endpoint / file in XML similar to DATEX II, but not fully DATEX II compliant |
+| CZ | ⭐⭐⭐☆☆☆☆☆☆☆ (3) | Data published on a single site, in a single file / endpoint but no DATEX II format available |
+| DE | ⭐⭐☆☆☆☆☆☆☆☆ (2) | Data published on a single site, but spread between multiple API calls or files. No DATEX II format |
+| DK | ⭐⭐⭐⭐⭐☆☆☆☆☆ (5) | Data published but requires account creation |
+| EE | ☆☆☆☆☆☆☆☆☆☆ (0) | No data published |
+| EL | ⭐⭐⭐☆☆☆☆☆☆☆ (3) | Data published on a single site, in a single file / endpoint but no DATEX II format available |
+| ES | ⭐⭐⭐⭐⭐⭐⭐⭐☆☆ (8) | Data published in fully compliant DATEX II but misses required infrastructure data, like voltage, current or connectors on RefillPoints |
+| FI | ⭐⭐☆☆☆☆☆☆☆☆ (2) | Data published on a single site, but spread between multiple API calls or files. No DATEX II format |
+| FR | ⭐⭐⭐☆☆☆☆☆☆☆ (3) | Data published on a single site, in a single file / endpoint but no DATEX II format available |
+| HR | ⭐☆☆☆☆☆☆☆☆☆ (1) | Data published but spread between multiple sources (sites), like CPOs. No DATEX II format |
+| HU | ⭐⭐⭐⭐⭐☆☆☆☆☆ (5) | Data published but requires account creation |
+| IE | ⭐☆☆☆☆☆☆☆☆☆ (1) | Data published but spread between multiple sources (sites), like CPOs. No DATEX II format |
+| IS | ☆☆☆☆☆☆☆☆☆☆ (0) | No data published |
+| IT | ⭐⭐⭐⭐☆☆☆☆☆☆ (4) | Data published but requires contract |
+| LI | ☆☆☆☆☆☆☆☆☆☆ (0) | No data published |
+| LT | ⭐⭐☆☆☆☆☆☆☆☆ (2) | Data published on a single site, but spread between multiple API calls or files. No DATEX II format |
+| LU | ⭐⭐⭐⭐⭐☆☆☆☆☆ (5) | Data published but requires account creation |
+| LV | ⭐⭐⭐⭐⭐☆☆☆☆☆ (5) | Data published but requires account creation |
+| MT | ☆☆☆☆☆☆☆☆☆☆ (0) | No data published |
+| NL | ⭐⭐☆☆☆☆☆☆☆☆ (2) | Data published on a single site, but spread between multiple API calls or files. No DATEX II format |
+| NO | ⭐⭐⭐⭐⭐☆☆☆☆☆ (5) | Data published but requires account creation |
+| PL | ⭐⭐⭐⭐☆☆☆☆☆☆ (4) | Data published but requires contract |
+| PT | ⭐⭐⭐⭐⭐⭐⭐⭐☆☆ (8) | Data published in fully compliant DATEX II but misses required infrastructure data, like voltage, current or connectors on RefillPoints |
+| RO | ⭐☆☆☆☆☆☆☆☆☆ (1) | Data published but spread between multiple sources (sites), like CPOs. No DATEX II format |
+| SE | ⭐⭐⭐⭐⭐☆☆☆☆☆ (5) | Data published but requires account creation |
+| SI | ⭐⭐⭐⭐⭐☆☆☆☆☆ (5) | Data published but requires account creation |
+| SK | ☆☆☆☆☆☆☆☆☆☆ (0) | No data published |
+| UK | ⭐☆☆☆☆☆☆☆☆☆ (1) | Data published but spread between multiple sources (sites), like CPOs. No DATEX II format |
 
 ### AT - Austria
 
@@ -164,7 +210,7 @@ Country notes below track **AFIR Art. 20 style access** for public EV charging d
 - Format / access: no clear public EV charging DATEX/open feed found
 - Finding: not usable yet
 
-### EL - Greece
+### GR - Greece
 
 - NAP: https://nap.gov.gr
 - EV source: Ministry electromobility registry (electrokinisi.yme.gov.gr), OCPI JSON (zipped)
