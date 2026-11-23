@@ -95,20 +95,92 @@ In August 2025, Portugal overhauled the RJME via Decree-Law 93/2025 to align wit
 
 https://napcore.eu/description-naps/national-access-point/
 
+Country notes below track **AFIR Art. 20 style access** for public EV charging data: preferably **DATEX II**, **no account / no contract**, usable cross-border. Sources cross-checked with NAPCORE and [evnapdata.eu/naps](https://evnapdata.eu/naps) (Nov 2026).
+
+| Access bar used here | Meaning |
+|----------------------|---------|
+| Open DATEX II | Public DATEX II XML/API, no login |
+| Open other format | Public national data, not DATEX II |
+| Registration / key | Free or paid gate before data |
+| Contract / unclear | Formal process or no usable feed found |
+
 ### AT - Austria
+
+- NAP: https://mobilitydata.gv.at
+- Format: E-Control Ladestellenverzeichnis (XLSX), not DATEX II
+- Access: API with **free account**
+- Finding: national register exists; not open DATEX II without registration
+
 ### BE - Belgium
+
+- NAP: https://transportdata.be
+- Format: mix (OCPI / DATEX II / AFIR Energy Infrastructure) per provider
+- Access: **API key or token** per provider (partial network coverage)
+- Finding: DATEX II appears for some CPOs, but not a single open national dump
+
 ### BG - Bulgaria
+
+- NAP: https://sipbg.gov.bg/bgnap
+- Format / access: no EV charging feed found on the NAP (public transport focus)
+- Finding: not usable for AFIR charging observability yet
+
 ### CH - Switzerland
+
+- NAP / open data: https://opentransportdata.swiss
+- Format: SFOE charging data (OICP JSON), not DATEX II
+- Access: open download
+- Finding: open non-DATEX; EEA/NAPCORE-adjacent, not EU AFIR-bound the same way
+
 ### CY - Cyprus
+
+- NAP: https://traffic4cyprus.org.cy/en/dataset/electricvehiclecharges
+- Static DATEX-like XML: https://fixcyprus.cy/gnosis/open/api/nap/datasets/electric_vehicle_chargers/
+- Format: labelled DATEX II; custom `chargingPoint` profile (not full EnergyInfrastructureSite/refillPoint like PT/ES)
+- Access: **open download, no account**
+- Finding: public, but **very small** (~171 points / ~0.4 MB) and schema-incomplete vs PT/ES
+
 ### CZ - Czechia
+
+- Traffic NAP: https://registr.dopravniinfo.cz
+- EV source: Ministry of Industry and Trade (MPO) statutory registry (XLSX); link changes per release
+- Access: open download
+- Finding: open spreadsheet register, not DATEX II via NAP
+
 ### DE - Germany
+
+- NAP: https://mobilithek.info
+- Format: Bundesnetzagentur / NOW national registry (CSV tables), not DATEX II
+- Access: open CDN download (cloud fetches sometimes blocked)
+- Finding: large open non-DATEX national dataset
+
 ### DK - Denmark
+
+- NAP: https://nap.vd.dk (Dataudveksleren)
+- Format: DATEX II v3 / AFIR Energy Infrastructure (per CPO)
+- Access: **NAP registration / login** required to discover/use endpoints; partial CPO coverage
+- Finding: DATEX II exists, but gated — fails the no-account bar
+
 ### EE - Estonia
+
+- NAP: https://peatus.ee
+- Format / access: no clear public EV charging DATEX/open feed found
+- Finding: not usable yet
+
 ### EL - Greece
+
+- NAP: https://nap.gov.gr
+- EV source: Ministry electromobility registry (electrokinisi.yme.gov.gr), OCPI JSON (zipped)
+- Access: open download
+- Finding: open non-DATEX (via ministry registry, not a DATEX NAP dump)
+
 ### ES - Spain
 
-- Info: https://nap.dgt.es/dataset/puntos-de-recarga-electrica-para-vehiculos
+- NAP info: https://nap.dgt.es/dataset/puntos-de-recarga-electrica-para-vehiculos
+- Static DATEX II: https://nap.dgt.es/datex2/v3/miterd/EnergyInfrastructureTablePublication/electrolineras.xml
 - Map of fast chargers (greater than 43 kW): https://www.mapareve.es/mapa-puntos-recarga
+- Format: DATEX II v3 EnergyInfrastructureTablePublication
+- Access: **open download, no account**
+- Finding: meets the open DATEX II bar used in this repo
 
 #### Deployed chargers in the last 30 days
 
@@ -116,30 +188,114 @@ https://napcore.eu/description-naps/national-access-point/
 * Chart data source = DGT NAP
 
 ### FI - Finland
+
+- NAP: https://finap.fi
+- Format: Fintraffic Digitraffic AFIR charging API (GeoJSON)
+- Access: open API
+- Finding: open non-DATEX national API
+
 ### FR - France
+
+- NAP: https://transport.data.gouv.fr
+- Static IRVE: https://transport.data.gouv.fr/datasets/base-nationale-des-points-de-recharge-pour-vehicules-electriques-en-france-irve
+- Format: national IRVE **CSV** schemas (statique / dynamique) — **no public DATEX II XML** equivalent to PT/ES
+- Access: open download
+- Finding: strong open national data, wrong format for DATEX-only pipelines until FR publishes DATEX II (EU DATEX obligation from 14 Apr 2026)
+
 ### HR - Croatia
+
+- NAP: https://promet-info.hr
+- EV source: city/open-data fragments (e.g. Zagreb); NAP itself has little charging coverage
+- Access: open downloads where present
+- Finding: partial / not a national DATEX charging feed
+
 ### HU - Hungary
+
+- NAP: https://napportal.kozut.hu
+- Format: DATEX II 3.3 (subscribed datasets, e.g. CPO aggregates)
+- Access: **account + per-dataset subscription**
+- Finding: DATEX II gated
+
 ### IE - Ireland
+
+- Portal: https://data.gov.ie
+- Format: operator/council datasets (CSV / GeoJSON), fragmented
+- Access: open downloads
+- Finding: partial open non-DATEX coverage
+
 ### IS - Iceland
+
+- NAPCORE list includes IS; no solid open national DATEX EV dump identified here yet
+- Finding: TBD / not confirmed open DATEX II
+
 ### IT - Italy
+
+- NAP / PUN: https://cciss.it (Piattaforma Unica Nazionale)
+- Format: expected DATEX II; access **login / formal contract**
+- Finding: not publicly scrapable
+
 ### LI - Liechtenstein
+
+- Listed in this repo for EEA completeness; not highlighted on the NAPCORE NAP table used above
+- Finding: TBD
+
 ### LT - Lithuania
+
+- Source: https://ev.vialietuva.lt
+- Format: OCPI 2.3 JSON API
+- Access: open paginated API
+- Finding: open non-DATEX
+
 ### LU - Luxembourg
+
+- Portal: https://data.public.lu
+- Format: Chargy feed (KML)
+- Access: API key published in catalog
+- Finding: open-ish non-DATEX (key in catalog)
+
 ### LV - Latvia
+
+- NAP: https://transportdata.gov.lv
+- Format: DATEX II v3.4 (Eco-Movement dataset on NAP)
+- Access: **account + dataset key**
+- Finding: DATEX II gated
+
 ### MT - Malta
+
+- Geoservices / informal map exports; no solid official NAP DATEX charging feed
+- Finding: weak / third-party style coverage
+
 ### NL - Netherlands
+
+- NAP / NDW: https://ntm.ndw.nu
+- Format: NDW GeoJSON + OCPI tariffs
+- Access: open download
+- Finding: open non-DATEX
+
 ### NO - Norway
 
 - Info: https://info.nobil.no/api
 - Doc: https://info.nobil.no/images/API-dokumentasjon/API_NOBIL_Documentation_v3_20240603.pdf
+- Format: NOBIL API v3 JSON (not DATEX II)
+- Access: free API key
+- Finding: mature open-ish non-DATEX register; NAPCORE-associated, not EU AFIR-bound the same way
 
 ### PL - Poland
 
+- NAP: https://kpd.gddkia.gov.pl
+- Format: DATEX II v3.5 (AFI profile) web service
+- Access: **formal contract**
+- Finding: DATEX II not publicly open
+
 ### PT - Portugal
 
-- Static Data: https://nap-portugal.imt-ip.pt/nap/multimodalsupplydetail/148
+- Static Data (IMT NAP detail): https://nap-portugal.imt-ip.pt/nap/multimodalsupplydetail/148
 - Dynamic Data: https://nap-portugal.imt-ip.pt/nap/multimodalsupplydetail/149
+- Static DATEX II feed used here: https://pgm.mobie.pt/integration/nap/evChargingInfra
 - Mobi.e's chargers map: https://mobie.pt/en/charging/findachargingstation
+- Format: DATEX II v3
+- Access: **open API/download, no account**
+- Finding: meets the open DATEX II bar used in this repo
 
 #### Deployed chargers in the last 30 days
 
@@ -224,10 +380,40 @@ AVERE has taken note of the preliminary report of the Estudo concorrência e mo
 - Reaction Letter: [AVERE's Reaction Letter](legal/AVERE_Reaction_Letter_AdC.pdf)
 
 ### RO - Romania
+
+- Portal fragments: https://data.gov.ro (e.g. PNRR-financed stations by municipality)
+- Format: XLSX aggregates
+- Access: open download
+- Finding: partial open non-DATEX; not a full national DATEX NAP dump
+
 ### SE - Sweden
+
+- NAP: https://trafficdata.se
+- Format: NOBIL API v3 JSON
+- Access: free API key
+- Finding: open-ish non-DATEX (same NOBIL family as NO)
+
 ### SI - Slovenia
+
+- NAP: https://nap.si
+- Format: DATEX II v3.6 / TPEG EMI (EV charging)
+- Access: **account registration**
+- Finding: DATEX II gated
+
 ### SK - Slovakia
+
+- NAP: https://ndsas.sk
+- Format / access: no usable public EV charging DATEX/open feed found
+- Finding: not usable yet
+
 ### UK - United Kingdom
+
+- Listed on NAPCORE NAP table; **not EU AFIR-bound** (post-Brexit). Domestic rules: [Public Charge Point Regulations 2023](https://www.legislation.gov.uk/uksi/2023/1168/contents/made)
+- **Former national dump:** [National Chargepoint Registry (NCR)](https://www.gov.uk/guidance/find-and-use-data-on-public-electric-vehicle-chargepoints) — CSV/JSON/XML + API, **no login** — **decommissioned 28 Nov 2024**. Archive on request via `consumerofferconsult@ozev.gov.uk`
+- **Current model:** no government replacement aggregate open dataset. Each public CPO must publish **reference + availability** data free of charge in a machine-readable form aligned with **OCPI** (no T&Cs barrier). Feeds are **per operator**, not one national DATEX/NAP XML
+- Operator feed lists / health: [OpenStreetMap UK EV open-data list](https://wiki.openstreetmap.org/wiki/EV_charge_points_in_the_United_Kingdom), [ChargerStatus feed health](https://www.chargerstatus.com/feed-health/)
+- Official statistics (aggregated, not a raw station dump): DfT EV charging statistics (often via Zapmap)
+- Finding: **no single open national DATEX/XML source** like PT/ES; UK is a **federated OCPI open-data** landscape after NCR closure
 
 ## DATEX II Documentation
 
