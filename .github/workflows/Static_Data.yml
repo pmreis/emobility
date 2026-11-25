@@ -32,6 +32,7 @@ jobs:
       run: |
         curl -k -f https://pgm.mobie.pt/integration/nap/evChargingInfra | gzip > ./data/sources/PT_NAP_Static.xml.gz
         curl -k -f https://nap.dgt.es/datex2/v3/miterd/EnergyInfrastructureTablePublication/electrolineras.xml | gzip > ./data/sources/ES_NAP_Static.xml.gz
+        curl -k -f https://afir.digitraffic.fi/api/charging-network/v1/locations/datex2-3.6/all | gzip > ./data/sources/FI_NAP_Static.json.gz
 
     - name: Commit and push if the source data has changed
       run: |
