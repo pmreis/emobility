@@ -8,13 +8,20 @@ import matplotlib.pyplot as plt
 
 projRootPath = Path(__file__).resolve().parent.parent
 
-COUNTRIES = ['PT', 'ES']
-
 # Connect to SQLite DB and return connection
 def connect_db(db_name):
     dbpath = osp.normpath(f'{projRootPath}/data/{db_name}')
     conn = sqlite3.connect(dbpath)
+    conn.execute('pragma foreign_keys = ON')
     return conn
+
+def load_countries(conn):
+    return [
+        r[0]
+        for r in conn.execute(
+            'select CountryIso from Countries order by CountryIso'
+        ).fetchall()
+    ]
 
 # Generate Charts
 def generate_charts(conn, country):
@@ -85,7 +92,7 @@ def main():
     db_name = 'data.db'
 
     conn = connect_db(db_name)
-    for country in COUNTRIES:
+    for country in load_countries(conn):
         generate_charts(conn, country)
 
     conn.close()

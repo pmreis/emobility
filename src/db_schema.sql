@@ -1,3 +1,9 @@
+create table Countries (
+    CountryIso char(2) primary key,
+    CountryName varchar(50) not null,
+    DatexFormat varchar(10) not null  -- 'XML' or 'JSON' (DATEX II encoding)
+);
+
 create table Operators (
     OperatorAbb char(3) not null,
     OperatorOtherAbb varchar(10) null,
@@ -5,7 +11,8 @@ create table Operators (
     CountryIso char(2) not null,
     Tin varchar(20) null, -- Tax Identification Number
     Phone varchar(20) null,
-    primary key (CountryIso, OperatorAbb)
+    primary key (CountryIso, OperatorAbb),
+    foreign key (CountryIso) references Countries(CountryIso)
 );
 
 create table Chargers (

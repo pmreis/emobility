@@ -8,8 +8,6 @@ import gzip
 
 projRootPath = Path(__file__).resolve().parent.parent
 
-COUNTRIES = ['PT', 'ES']
-
 def noneToStrNull(s):
     if s is None:
         return "Null"
@@ -52,7 +50,21 @@ def extract_city(site, ns):
 def connect_db(db_name):
     dbpath = osp.normpath(f'{projRootPath}/data/{db_name}')
     conn = sqlite3.connect(dbpath)
+    conn.execute('pragma foreign_keys = ON')
     return conn
+
+def load_countries(conn):
+    rows = conn.execute(
+        'select CountryIso, CountryName, DatexFormat from Countries order by CountryIso'
+    ).fetchall()
+    return [
+        {'CountryIso': r[0], 'CountryName': r[1], 'DatexFormat': r[2]}
+        for r in rows
+    ]
+
+def static_source_name(country_iso, datex_format):
+    ext = 'json' if datex_format.upper() == 'JSON' else 'xml'
+    return f'{country_iso}_NAP_Static.{ext}'
 
 # Decompress gz file and obtain the Datex II content into memory
 def decompress_datex(xml_file):
@@ -678,9 +690,16 @@ def main():
     db_name = 'data.db'
     conn = connect_db(db_name)
 
-    for country in COUNTRIES:
-        xml_file = f'{country}_NAP_Static.xml'
-        datex = decompress_datex(xml_file)
+    for country_row in load_countries(conn):
+        country = country_row['CountryIso']
+        datex_format = country_row['DatexFormat']
+        source_name = static_source_name(country, datex_format)
+
+        if datex_format.upper() != 'XML':
+            print(f'Skipping {country}: DatexFormat={datex_format} not implemented yet ({source_name})')
+            continue
+
+        datex = decompress_datex(source_name)
         data = parse_datex(datex, country)
         insert_operators(conn, data)
         insert_or_update_chargers(conn, data)
