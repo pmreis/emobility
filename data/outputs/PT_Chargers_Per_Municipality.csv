@@ -1,5 +1,5 @@
 City,Qty
-Lisboa,880
+Lisboa,888
 Cascais,483
 Porto,239
 Oeiras,195
@@ -9,40 +9,40 @@ Sintra,169
 Matosinhos,160
 Loures,143
 Braga,139
-Vila Franca de Xira,135
+Vila Franca de Xira,134
 Leiria,126
 Albufeira,125
 Barreiro,124
 Guimarães,124
-Almada,115
+Almada,117
 Coimbra,114
 Viseu,111
-Montijo,103
+Montijo,104
 Amadora,94
 Moita,91
 Torres Vedras,87
 Faro,83
 Santa Maria da Feira,82
-Setúbal,81
+Setúbal,80
 Seixal,74
 Maia,73
 Portimão,71
 Vila do Conde,69
+Grândola,67
+Aveiro,66
 Beja,65
-Grândola,65
-Viana do Castelo,64
+Viana do Castelo,65
 Évora,64
-Aveiro,62
 Funchal,61
 Santarém,60
 Ovar,59
 Palmela,59
 Null,57
 Castelo Branco,55
+Figueira da Foz,53
+Mafra,53
 Penafiel,53
 Gondomar,52
-Mafra,52
-Figueira da Foz,51
 Guarda,51
 Covilhã,49
 Valongo,47
@@ -50,7 +50,7 @@ São João da Madeira,46
 Caldas da Rainha,45
 Vila Nova de Famalicão,45
 Vila Real,45
-Mealhada,42
+Mealhada,44
 Tomar,42
 Alcobaça,40
 Olhão,40
@@ -59,21 +59,21 @@ Torres Novas,39
 Esposende,38
 Odivelas,38
 Santo Tirso,38
+Ourém,37
 Lagos,36
 Nazaré,36
-Ourém,35
+Pombal,36
 Barcelos,34
-Pombal,34
 Águeda,34
 Alcochete,33
 Silves,32
 Cantanhede,31
 Chaves,31
 Felgueiras,31
-Ponte de Lima,31
 Póvoa de Varzim,31
 Ílhavo,31
 Fundão,30
+Ponte de Lima,30
 Alcácer do Sal,28
 Amarante,28
 Estarreja,28
@@ -92,7 +92,7 @@ Bragança,24
 Caminha,24
 Tavira,24
 Azambuja,23
-Fafe,21
+Fafe,23
 Ponta Delgada,21
 Abrantes,20
 Alenquer,20
@@ -127,6 +127,7 @@ Angra do Heroísmo,13
 Arcos de Valdevez,13
 Castro Marim,13
 Elvas,13
+Lousã,13
 Porto Santo,13
 Sines,13
 São Pedro do Sul,13
@@ -135,7 +136,6 @@ Vila Viçosa,13
 Vila do Bispo,13
 Bombarral,12
 Condeixa-a-Nova,12
-Lousã,12
 Vila Pouca de Aguiar,12
 Batalha,11
 Espinho,11
@@ -152,6 +152,7 @@ Montemor-o-Velho,10
 Nelas,10
 Reguengos de Monsaraz,10
 Tábua,10
+Vagos,10
 Valença,10
 Almeirim,9
 Cabeceiras de Basto,9
@@ -175,7 +176,6 @@ Praia da Vitória,8
 Serpa,8
 Sátão,8
 São Vicente,8
-Vagos,8
 Vizela,8
 Baião,7
 Chamusca,7

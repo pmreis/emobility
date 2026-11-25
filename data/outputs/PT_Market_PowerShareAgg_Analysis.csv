@@ -1,27 +1,27 @@
 OperatorAbb,OperatorName,Total Power (kW)
-GRG,Grupo Galp (GLP+GLG+MLT),218052
-FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",164860
-HRZ,"Powerdot, S.A",163959
-EDP,EDP Comercial,160455
+GRG,Grupo Galp (GLP+GLG+MLT),217953
+FCT,"CHARGING TOGETHER, UNIPESSOAL LDA",169970
+HRZ,"Powerdot, S.A",168015
+EDP,EDP Comercial,160705
 CNT,"Modelo Continente Hipermercados, S.A.",76398
-ATL,"Atlante Infra Portugal, S.A",67385
+ATL,"Atlante Infra Portugal, S.A",69785
 TSL,Tesla,46400
 IOY,IONITY GmbH,39100
-TRK,WOWPLUG,35839
+TRK,WOWPLUG,36191
 REP,REPSOL PORTUGUESA LDA,31472
+MOT,Mota-Engil Renewing,26500
 HLX,"Helexia II Energy Services, Lda.",26428
-MOT,Mota-Engil Renewing,25480
 PRI,"Prio.E Mobility Solutions, Lda",22782
 CPS,Cepsa Portuguesa Petroleos,21850
-EPK,Telpark,12858
+EPK,Telpark,12978
+IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",10119
 DTE,"DTE, Instalacoes Especiais",9931
-IBD,"Iberdrola Clientes Portugal, Unipessoal, Lda",9899
 ZUP,"Grupo Easycharger, SL",9622
 VIA,"Via Verde Transição Energética, S.A.",9075
 ENB,"Enable Mobility Solutions, S.A.",8810
 REM,MOTA-ENGIL REMO CHARGING S.A,6100
 EML,"EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",4632
-ECI,ECOINSIDE,4214
+ECI,ECOINSIDE,4498
 MOO,Siva - Sociedade de Importação de Veículos Automóveis,3223
 SEG,SEGMA - Serviços de Engenharia Gestão e Manutenção Lda,2941
 ACC,"ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",2358
@@ -34,10 +34,10 @@ LCG,"Loulé Concelho Global, EM",1835
 NRG,"NRG - Sistemas de Energia Renováveis, Lda.",1818
 EMA,"EMACOM - Telecomunicações da Madeira, Unipessoal, Lda",1472
 CAP,"Capwatt Services, S.A.",1364
-HEX,"HEXAGONAL OCEAN, LDA",1157
 PLG,"e-Plug, Lda",1154
 LOG,uCharge,1141
 VEI,Veimonte Lda,1122
+HEX,"HEXAGONAL OCEAN, LDA",1092
 HGP,"High Green Power, Unipessoal Lda.",808
 LUZ,"LUSIADAENERGIA, S.A.",738
 CIR,"Circuitos Energy Solutions, Lda.",604
