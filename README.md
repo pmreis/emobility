@@ -126,7 +126,7 @@ Country notes below track **AFIR Art. 20 style access** for public EV charging d
 | EE | ☆☆☆☆☆☆☆☆☆☆ (0) | No data published |
 | EL | ⭐⭐⭐☆☆☆☆☆☆☆ (3) | Data published on a single site, in a single file / endpoint but no DATEX II format available |
 | ES | ⭐⭐⭐⭐⭐⭐⭐⭐☆☆ (8) | Data published in fully compliant DATEX II but misses required infrastructure data, like voltage, current or connectors on RefillPoints |
-| FI | ⭐⭐☆☆☆☆☆☆☆☆ (2) | Data published on a single site, but spread between multiple API calls or files. No DATEX II format |
+| FI | ⭐⭐⭐⭐⭐⭐⭐⭐⭐☆ (9) | Data published in fully compliant DATEX II but values are incorrect (coordinates, voltage, power or current) |
 | FR | ⭐⭐⭐☆☆☆☆☆☆☆ (3) | Data published on a single site, in a single file / endpoint but no DATEX II format available |
 | HR | ⭐☆☆☆☆☆☆☆☆☆ (1) | Data published but spread between multiple sources (sites), like CPOs. No DATEX II format |
 | HU | ⭐⭐⭐⭐⭐☆☆☆☆☆ (5) | Data published but requires account creation |
@@ -233,10 +233,13 @@ Country notes below track **AFIR Art. 20 style access** for public EV charging d
 
 ### FI - Finland
 
-- NAP: https://finap.fi
-- Format: Fintraffic Digitraffic AFIR charging API (GeoJSON)
-- Access: open API
-- Finding: open non-DATEX national API
+- NAP / catalogue: https://finap.fi · https://catalog.digitraffic.fi
+- Docs: https://www.digitraffic.fi/en/road-traffic/afir/
+- Static DATEX II (JSON, Energy Infrastructure 3.6): https://afir.digitraffic.fi/api/charging-network/v1/locations/datex2-3.6/all
+- Also: GeoJSON locations, DATEX status, tariffs; optional `Digitraffic-User` header for higher rate limits (no API key)
+- Format: DATEX II v3.6 **JSON** (`egiEnergyInfrastructureTablePublication` → site → station → refillPoint → connector with voltage / maximumCurrent / maxPowerAtSocket)
+- Access: **open API/download, no account** (CC BY 4.0)
+- Finding (Nov 2026 probe): open national DATEX II snapshot (~3.9k sites / ~22k connectors). Schema matches Energy Infrastructure; electrical fields are present, but some CPOs publish **zero/odd voltage or current** (and occasional connector-type mismatches), so not a clean 10
 
 ### FR - France
 
