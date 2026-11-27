@@ -1,7 +1,7 @@
 City,Qty
-Madrid,602
-Barcelona,582
-Sevilla,207
+Madrid,606
+Barcelona,585
+Sevilla,209
 Palma,173
 València,168
 Murcia,127
@@ -30,8 +30,8 @@ Cartagena,47
 Marratxí,45
 Antequera,43
 "Hospitalet de Llobregat, L'",43
+Marbella,43
 Lleida,42
-Marbella,42
 Santa Cruz de Tenerife,42
 Santander,42
 Albacete,41
@@ -345,6 +345,7 @@ Illescas,7
 Lepe,7
 Llíria,7
 Manacor,7
+Manises,7
 Mazarrón,7
 "Mercadal, Es",7
 Molins de Rei,7
@@ -410,7 +411,6 @@ Gata de Gorgos,6
 Guardamar del Segura,6
 Leioa,6
 Mairena del Aljarafe,6
-Manises,6
 Medina del Campo,6
 "Migjorn Gran, Es",6
 Montblanc,6
